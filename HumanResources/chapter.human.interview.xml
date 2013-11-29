@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- $Id: chapter.human.interview.xml 639 2013-07-17 07:15:48Z netkiller $ -->
+<chapter id="recruitment">
+	<title>人才招聘</title>
+	<section>
+		<title>面试流程</title>
+		<para>简历筛选 -> 电话面试 -> 面试(face to face) -> 确定录用</para>
+		<para>注意：没有笔试这项，没有必要，可以放在面谈中，作为互动的一部分。</para>
+		<orderedlist>
+			<listitem>
+				<para>不要盲目给应聘者打电话通知他过来面试，HR部门首先应对简历做初步筛选，然后把简历email给技术部门负责人。</para>
+			</listitem>
+			<listitem>
+				<para>技术这边对简历进行审核，然后通知HR部门确认电话面试时间，并了解对方基本情况。</para>
+			</listitem>
+			<listitem>
+				<para>配合HR部门做好电话面试，了解应聘者的技术水平，能力，是否可是胜任该职位。如果OK通知面谈时间，地点，并发一封正式Email邀请函。
+				</para>
+			</listitem>
+			<listitem>
+				<para>面谈</para>
+			</listitem>
+			<listitem>
+				<para>后面工作交给HR部门负责</para>
+			</listitem>
+		</orderedlist>
+		<para>面谈注意事项：要给应聘者一个好印象，一定记得送上一杯水。</para>
+	</section>
+
+<section id="interview">
+	<title>面试题</title>
+	<para>关于面试题目</para>
+	<para>面试题目重点是对问题解决能力，和思路，方法，并没有正确答案。</para>
+	<para>解决问题的能力更重要。</para>
+	<screen>
+
+	</screen>
+	<section id="network">
+		<title>Network Engineer</title>
+		<section>
+			<title>Junior</title>
+			<screen>
+WAN/LAN：
+- ADSL: PPPoE
+- WiFi Router
+- Cisco Switch 29xx, 35xx, 75xx; Router 28xx; VLAN
+- IP Address A/B/C and netmask; Mac Address
+- Route table
+- Gateway / Proxy
+- DHCP Wins DNS
+- Firewall
+
+Hardware:
+- DDR I,II,III
+- PCI-E
+- USB / 1394
+- IDE  版本，支持多少个设备，带宽
+- STAT 版本，支持多少个设备，带宽
+- Scsi 版本，支持多少个设备，带宽
+- RAID Adapter 版载与实体卡的不同，引导过程，什么是hotswap，故障排除，怎样创建RAID 0,1,5,10,50 它们之间不同
+- BIOS,SCSI,RAID 固件升级
+
+Operation System:
+- Window
+  * 远程桌面链接数限制
+  * IIS 服务器
+  * Exchange 配置
+- Linux
+
+Network Application：
+- Active Directory
+- HTTP/HTTPS，FTP，SMTP，POP，IMAP，NNTP
+- SNMP 协议
+- DNS 配置
+- DHCP 配置
+
+Security
+- System Security
+- Network Security
+
+Phone System
+- Call Center
+- 座席
+
+机房管理
+- 规范
+- 流程
+
+模拟题：
+- 校园网的组建
+- IP冲突解决方案
+			</screen>
+		</section>
+		<section>
+			<title>Senior Network Engineer</title>
+			<qandaset>
+				<title>Route</title>
+				<qandaentry>
+					<question>
+						<para>NAT</para>
+					</question>
+				</qandaentry>
+			</qandaset>
+			<qandaset>
+				<title>Firewall</title>
+				<qandaentry>
+					<question>
+						<para></para>
+					</question>
+				</qandaentry>
+			</qandaset>
+			<qandaset>
+				<title>Switch</title>
+				<qandaentry>
+					<question>
+						<para>VLAN</para>
+					</question>
+				</qandaentry>
+			</qandaset>
+		</section>
+	</section>
+	<section id="system">
+		<title>System Engineer</title>
+		<section>
+			<title>Junior</title>
+			<para>情景模拟题</para>
+			<qandaset>
+				<title>服务器与硬件设备</title>
+				<qandaentry>
+					<question>
+						<para>raid原理</para>
+						<screen>
+- 简述 RAID 0，1，5，6，10，50？
+- RAID 0，1，5，6 允许损害几块硬盘？
+- RAID 10，50 允许损害几块硬盘？
+- 什么Hotspare盘？
+- 怎么更换损坏的硬盘？
+						</screen>
+						<para>重点是 RAID10允许允许损坏几块硬盘？</para>
+					</question>
+				</qandaentry>
+			</qandaset>
+			<qandaset>
+				<title>操作系统</title>
+				<qandaentry>
+					<question>
+						<para>Linux 基本知识</para>
+						<screen>
+- Linux 在什么情况下需要重新启动，什么情况不需要重新启动？
+  修改IP地址需要重启服务器吗？
+  修改DNS地址需要重启服务器吗？
+  安装了新软件或者更改了配置文件需要重启服务器吗？
+  怎样不重新启动系统，并且使配置文件生效？
+- HUP 信号的作用是什么？
+						</screen>
+					</question>
+
+				</qandaentry>
+			</qandaset>
+			<qandaset>
+				<title>服务器</title>
+				<qandaentry>
+					<question>
+						<para>FTP Server 基本知识</para>
+						<screen>
+- 当使用系统帐号作为登录用户时，怎样将用户限制在指定的文件夹中，作为根目录？
+- 虚拟用户的原理？
+- 什么是chroot?
+						</screen>
+					</question>
+
+				</qandaentry>
+				<qandaentry>
+					<question>
+						<para>WEB Server 基本知识</para>
+						<screen>
+- 如何查看占用80端口的进程 lsof -i:80
+- prefork 与 worker 原理和区别是什么？
+- 虚拟主机原理？
+- HTTP状态码 2xx, 3xx, 4xx, 5xx ,404，301
+						</screen>
+					</question>
+				</qandaentry>
+			</qandaset>
+		</section>
+		<section>
+			<title>Senior</title>
+			<qandaset>
+				<title></title>
+				<qandaentry>
+					<question>
+						<para>Linux 基础</para>
+						<screen>
+						<![CDATA[
+Directory & File
+- cp,mv,rm,cat
+- vim, emacs
+
+Monitor
+- top, ps, vmstat, free
+
+Permission
+- User and Group Adminstrator
+- Owner and Access permissions
+
+Partition & File System
+- EXT3,EXT4, XFS,ZFS,JFS,Btrfs
+- label,format,repair, fdisk
+- mount, umount
+
+Network
+- interface, ip address, netmask, gateway
+- ifconfig, ip, route, netstat, ping, nslookup, dig, tcpdump
+- iptables, tc
+
+Service
+- inetd, xinetd
+- init level rc.local, rc.d, rcX.d
+
+Application
+- Apache, PHP, MySQL, Resin, Tomcat, Jboss
+- Samba, Vsftpd, proftpd, pureftpd
+- openvpn, openssl, openssh
+
+Shell
+- awk, sed, grep, find,
+- Bash,Tcsh,Ksh,Zsh
+- Lists of Commands
+  * ;, &, &&, ||
+- Pipelines
+  * | , |&
+- Redirections Standard Input/Output and Standard Error
+  * >, >>, <, <<, 2>&1
+- Special Parameters  * @ # ? - $ ! 0 -
+
+Python or Perl
+- argv,argc,
+- threading, fork
+- analyze access.log
+			  			]]>
+						</screen>
+					</question>
+				</qandaentry>
+				<qandaentry>
+					<question>
+						<para>Linux 优化</para>
+						<screen>
+- Linux 默认同时能打开多少个文件？
+- Linux 默认同时能开启多少个TCP链接？
+- 配置超过10000个链接数的服务器，Linux怎样优化？
+						</screen>
+					</question>
+				</qandaentry>
+				<qandaentry>
+					<question>
+						<para>Web Server 优化</para>
+						<screen>
+- Apache 默认链接数是多少？
+- 怎样修改默认链接数？
+						</screen>
+					</question>
+				</qandaentry>
+				<qandaentry>
+					<question>
+						<para>数据库</para>
+						<screen>
+- 出现锁表情况怎么处理？
+						</screen>
+					</question>
+				</qandaentry>
+				<qandaentry>
+					<question>
+						<para>如果你的网站上面的数据内容，被别人抓取。</para>
+						<screen>
+- 怎样快速找到抓取的IP地址？
+- 还应该做那些处理能避免再次发生？
+						</screen>
+					</question>
+				</qandaentry>
+			</qandaset>
+
+		</section>
+	</section>
+
+	<section id="software">
+		<title>Software Engineer</title>
+		<section>
+			<title>Junior Software Engineer</title>
+			<qandaset>
+				<title>HTML 与 Javascript</title>
+				<qandaentry>
+					<question>
+						<para>怎样实现表单数据保存？</para>
+						<para>例如：开发一个用户注册程序，当用户进入你的网站注册用户，填写了一部分用户信息，之后因各种原因用户没有进行下去，或离开注册页面，或关闭浏览器。甚至关闭电脑 。</para>
+						<para>需求：无论何时用户再次打开你的网站，再次进入注册页面后，应该将之前用户填写的资料显示在表单内，用户只需要做没有完成的那部分工作即可。</para>
+					</question>
+				</qandaentry>
+			</qandaset>
+			<qandaset>
+				<title>编程语言</title>
+				<qandaentry>
+					<question>
+						<para>Ajax 如何跨域请求？</para>
+					</question>
+				</qandaentry>
+				<qandaentry>
+					<question>
+						<para>什么是SSO? Cookie 如何跨域请求？</para>
+					</question>
+				</qandaentry>
+				<qandaentry>
+					<question>
+						<para>HTTP协议面试题,请介绍下面HTTP头作用.</para>
+						<screen>
+- location
+- smaxage / max-age
+- ETAG
+						</screen>
+					</question>
+				</qandaentry>
+			</qandaset>
+		</section>
+		<section>
+			<title>Senior</title>
+			<qandaset>
+				<qandaentry>
+					<question>
+						<para>面向对象试题?</para>
+						<para>编写一个求和程序</para>
+						<screen>
+s = new Sum();
+s.add(10).add(5).add(6)
+						</screen>
+						<para>s.add(10).add(5).add(6)......add(3) 可以无限的写下去</para>
+						<screen>
+obj = new Object()
+obj.a()
+obj.b()
+obj.c()
+...
+...
+obj.z()
+
+obj.a().b().c() ... z()
+						</screen>
+						<para>与上面类似</para>
+					</question>
+					<answer>
+						<para>这是 一个简单的  OOP 面试题，在做多年的面试经验中，发现很多人不知道怎样实现上面的问题</para>
+					</answer>
+				</qandaentry>
+				<qandaentry>
+					<question>
+						<para>编写一个文件copy的程序?</para>
+						<para>要求复制一个文件，或者一个目录，目录下面可能包含文件和目录，目录深度未知。你所写的程序要考虑程序的，通用型，健壮性，稳定性，性能等等</para>
+					</question>
+					<answer>
+						<para>这里没有准确的答案，这个问题主要考虑应聘者，对于这样一个简单的程序，他能考虑的深度与广度.</para>
+						<orderedlist>
+							<listitem><para>复制文件或目录是否保留原有的权限与日期等信息</para></listitem>
+							<listitem><para>目的目录或文件如果存在怎么处理，是覆盖还是增量复制，分别怎么实现</para></listitem>
+							<listitem><para>怎样保证复制后，两边100%正确，没有丢失文件或者文件不一致</para></listitem>
+							<listitem><para>复制过程中如果原文件被改动怎么办</para></listitem>
+							<listitem><para>如果权限不足怎么处理</para></listitem>
+							<listitem><para>对于大文件怎么处理，对于GB/TB/PB级别怎么处理</para></listitem>
+						</orderedlist>
+						<para>.</para>
+					</answer>
+				</qandaentry>
+				<qandaentry>
+					<question>
+						<para>写一个读TXT文件显示其内容程序你会考虑哪些细节?</para>
+					</question>
+					<answer>
+						<para>这个问题与上一个问题类似, 如果应聘者立即给出这样的答案，他根本不合格。</para>
+						<screen>
+f = open(path/filename)
+while s = f.read() {
+	print s
+}
+f.close()
+						</screen>
+						<para>如果他考虑问题的能涉及下面列出的几个选项，他写出的程序你绝对可以放心。</para>
+						<screen>
+
+考虑过目录不存怎么处理吗?
+考虑过目录权限不够吗?
+考虑过文件不存怎么处理吗?
+考虑过文件权限不够吗?
+考虑过目录深度吗?
+考虑过目录,文件中存在特殊字符吗?
+考虑过文档大小1M, 100M , 500M , 1G , 10G 远远超过你的内存空间,怎么处理吗?
+考虑TXT文件换行符(LF,CR,CRLF)吗?
+考虑编码问题吗?
+						</screen>
+					</answer>
+				</qandaentry>
+				<qandaentry>
+					<question>
+						<para>SNS 社交网络，怎样解决朋友关系？</para>
+						<graphic  format="png" fileref="../images/interview/sns-people.png" srccredit="neo" />
+						<para>例如：你有一个朋友，他有他的朋友，你可能认识他的朋友，他朋友的朋友可能认识你。</para>
+						<orderedlist>
+							<listitem><para>怎样查询出你朋友的朋友</para></listitem>
+							<listitem><para>怎样显示你是怎么认识，你朋友的朋友, 例如： 我 - 小王  - 小李 - 小张</para></listitem>
+							<listitem><para>显示朋友关系图</para></listitem>
+						</orderedlist>
+					</question>
+					<answer>
+						<para></para>
+					</answer>
+				</qandaentry>
+				<qandaentry>
+					<question>
+						<para>设计一个电商的商品数据库？</para>
+						<orderedlist>
+							<listitem><para>商品分类，可以无限层次，可能瞬间查出某一个品类下的所有商品</para></listitem>
+							<listitem><para>每个品类的商品都有不同的产品属性，且很多属性可能公用，例如：颜色，重量</para></listitem>
+							<listitem><para>要求可以检索商品，可以通过属性，分类，价格等等搜索</para></listitem>
+						</orderedlist>
+					</question>
+					<answer>
+						<para>这里有两个</para>
+					</answer>
+				</qandaentry>
+				<qandaentry>
+					<question>
+						<para>谈谈对缓存的认识？</para>
+						<para>从用户打开浏览器到返回数据都会经过那些缓存，怎么控制这些缓存</para>
+					</question>
+					<answer>
+						<para>这个问题主要是网站性能优化方面所用到的技术</para>
+						<screen>
+						</screen>
+					</answer>
+				</qandaentry>
+			</qandaset>
+
+		</section>
+
+	</section>
+	<section>
+		<title>Database Adminstrator</title>
+		<para>我认为DBA应该是高于 SA 的，所有这里的问题没有关于数据库的安装配置的问题。</para>
+		<section>
+			<title>Senior DBA</title>
+			<qandaset>
+				<qandaentry>
+					<question>索引问题？</question>
+						<literallayout>
+- 临时表需要建索引吗？
+- 在什么情况下将使用索引
+- 在什么情况下将使用不索引
+- 在什么情况查询结果能被缓存
+- 在什么情况查询结果不能被缓存
+						</literallayout>
+				</qandaentry>
+			</qandaset>
+		</section>
+	</section>
+</section>
+
+</chapter>

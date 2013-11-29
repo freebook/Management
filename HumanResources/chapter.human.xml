@@ -1,0 +1,55 @@
+<part id="index"><?dbhtml dir="hr"?>
+	<title>人力资源管理</title>
+	<subtitle>Human Resources</subtitle>
+<chapter id="organizational">
+	<title>组织架构</title>
+
+	<graphic fileref="images/.jpg" />
+	<para>
+		<graphic fileref="images/bg7nyt_jasperreports_demo.jpg" />
+	</para>
+
+</chapter>
+
+<chapter>
+	<title>员工手册</title>
+    <section>
+		<title>企业文化</title>
+	</section>
+    <section>
+		<title>组织架构图</title>
+	</section>
+    <section>
+		<title>企业制度</title>
+	</section>
+    <section>
+		<title>办事流程</title>
+        <para>报销流程</para>
+        <para>外出/出差流程</para>
+	</section>
+    <section>
+		<title>电脑操作手册</title>
+	    <section>
+		    <title>电脑开启与初始化步骤</title>
+		    <para>开启电脑后，怎样登录到域中</para>
+	    </section>
+	    <section>
+		    <title>邮箱配置步骤</title>
+		    <para>POP3 地址</para>
+		    <para>SMTP 地址</para>
+	    </section>
+	    <section>
+		    <title>资源位置</title>
+	    </section>
+		<section>
+			<title>常用软件</title>
+		</section>
+	</section>
+	<section>
+		<title>通讯录</title>
+	</section>
+</chapter>
+
+	&chapter.human.interview.xml;
+	&chapter.human.handover.xml;
+</part>

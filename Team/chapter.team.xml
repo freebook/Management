@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- $Id: chapter.coding.xml 584 2013-05-15 05:13:17Z netkiller $ -->
+<chapter id="coding">
+	<title>编码风格</title>
+	<screen>
+动力低，水平低：这个情境很简单。它表示员工没有处在合适的岗位上，或者不知道如何在公司里起到有效的作用。这时公司和员工差不多就该分道扬镳了。
+动力高，水平低：这是员工被聘用或者升职之后最常见的情境。这时他们往往充满激情，但却不了解公司情况，公司文化或者不清楚具体的工作内容。这种情境下最佳的管理方法是微观管理（Micromanagement），将员工的动力转化为技能，从而使员工的工作更加高效并感到被重视。具体来说，这时管理者需要时常关心员工的工作进度，不断取得他们的反馈。如此，员工学习周期变短，了解自己每天工作的效果。几周之内，他们就会学到很多，变得更加高效。
+动力低，水平高：换句话说，快被榨干了。员工已经为公司尽心尽力工作了很久，而管理者这时面临的最大风险是员工跳槽。面对这样“累感不爱”的员工，管理者最好是给他们几周的时间“透透气”，允许他们自己喜欢或独立负责的项目，找回原来的激情和动力。
+动力高，水平高：这无疑是员工最好的状态，而此时最好的管理方法就是无为而治。
+	</screen>
+	<section id="coding.file">
+		<title>php 文件</title>
+		<section>
+			<title>格式与 编码</title>
+			<para>使用 UNIX 风格换行, 请在你的编辑器内调整</para>
+			<screen>
+UNIX (LF或"\n")
+MAC OS (CR 或"\r")
+Windows CRLF \r\n
+			</screen>
+			<para>源码文件使用 UTF-8</para>
+			<para>有些IDE环境 UTF-8 BOM</para>
+		</section>
+		<section>
+			<title>循环嵌套</title>
+			<para>if, while, for, foreach, do ... loop, switch... 等的嵌套必须小于等于3层</para>
+			<para>如下面的例子，可读性极差。</para>
+			<screen>
+if (xxx){
+	if (xxx){
+		if(xxx){
+			if(xxx){
+				if(xxx){
+
+				}
+			}
+		}
+		if(xxx){
+			if(xxx){
+			}
+		}
+	}
+	if (xxx){
+		if(xxx){
+			if(xxx){
+			}
+		}
+		if(xxx){
+			if(xxx){
+			}
+		}
+	}
+}
+			</screen>
+			<para>加以改造</para>
+			<screen>
+func aaa(p){
+	if(p){
+		if(xxx){
+		}
+	}
+}
+func bbb(b){
+	if(b){
+		if(xxx){
+			if(xxx){
+
+			}
+		}
+	}
+}
+
+if(xxx){
+	aaa(xxx)
+}
+if(b){
+	bbb(b)
+}			</screen>
+		</section>
+		<section>
+			<title>取出行尾的空格以及多余的换行符</title>
+			<para>一个空格占用一个字节,换行符Window是两个字节\r\n, Unix与Mac占用一个字节</para>
+		</section>
+		<section>
+			<title>php 标签</title>
+			<para>禁止这样使用</para>
+			<screen>
+			<![CDATA[
+<?
+...
+?>
+			]]>
+			</screen>
+			<para>正确的使用方法</para>
+			<screen>
+			<![CDATA[
+<?php
+...
+
+or
+
+<?php
+...
+?>
+			]]>
+			</screen>
+		</section>
+
+		<section>
+			<title>头部注释</title>
+			<screen>
+			<![CDATA[
+<?php
+/**
+ * Project Name
+ *
+ * @author     $Author: netkiller $
+ * @copyright  Copyright (c) 2012 Company
+ * @version    $Id: chapter.coding.xml 584 2013-05-15 05:13:17Z netkiller $
+ */
+
+<?php
+/**
+ * Project Name
+ *
+ * @author     $Author: netkiller $
+ * @license    GNU General Public License 2.0
+ * @version    $Id: chapter.coding.xml 584 2013-05-15 05:13:17Z netkiller $
+ */
+			]]>
+			</screen>
+		</section>
+	</section>
+	<section id="coding.string">
+		<title>String</title>
+		<para>双引号要处理字符串转义，性能上不如单引号，如果你不需要转义字符串，或者字符串中不含原转译字符，建议你使用单引号</para>
+		<screen>
+print("string")
+		</screen>
+		<para>每次输出会检索特殊字符串如： \r, \n, \t, \0xFF 等等</para>
+		<screen>
+print('string')
+		</screen>
+	</section>
+	<section id="coding.db">
+		<title>Database</title>
+		<para>使用pdo_mysql替代mysql</para>
+		<para>错误的写法，通过字符串链接拼接sql语句极容易出现注入漏洞</para>
+		<screen>
+$sql = "select * from table where id=".$id;
+$sql = "select * from table where id='".$id."'";
+$sql = "INSERT INTO fruit(name, colour) VALUES ('".$name."', '".$colour."')";
+		</screen>
+		<para>正确的写法</para>
+		<screen>
+$sql = "select * from table where id=?";
+$sql = "INSERT INTO fruit(name, colour) VALUES (?, ?)";
+		</screen>
+		<screen>
+		<![CDATA[
+$sql = <<<____SQL
+     CREATE TABLE IF NOT EXISTS `ticket_hist` (
+       `tid` int(11) NOT NULL,
+       `trqform` varchar(40) NOT NULL,
+       `trsform` varchar(40) NOT NULL,
+       `tgen` datetime NOT NULL,
+       `tterm` datetime,
+       `tstatus` tinyint(1) NOT NULL
+     ) ENGINE=ARCHIVE COMMENT='ticket archive';
+____SQL;
+		]]>
+		</screen>
+
+		<section>
+			<title>结果集使用注意事项</title>
+			<para>返回数据库查询结果有几种形式</para>
+			<para>数组形式</para>
+			<screen>
+			<![CDATA[
+Array
+(
+    [0] => banana
+    [1] => yellow
+)
+
+Array
+(
+    [NAME] => banana
+    [COLOUR] => yellow
+)
+			]]>
+			</screen>
+			<para>对象形式</para>
+			<screen>
+Object
+(
+	Obj->NAME
+	Obj->COLOUR
+)
+			</screen>
+			<para>正确的使用方式</para>
+			<screen>
+print($row[name])
+print($row->name)
+			</screen>
+			<para>错误的使用使方式</para>
+			<screen>
+print($row[0])
+			</screen>
+			<para>避免使用 "*"查询，一会影响性能，二增加带宽开销</para>
+			<screen>
+$sql = "select * from tab where status=0 limit 1";
+			</screen>
+			<para>如果程序使用$row[1]读取结果，有可能当数据库结构改变，增加字段，字段顺序发生变化，输出数据都会出错</para>
+		</section>
+		<section>
+			<title>索引</title>
+			<para>下面的例子，不会使用索引</para>
+			<screen>
+$sql = "select id, name, created from tab where id != 100";
+			</screen>
+			<screen>
+EXPLAIN select * from members where id != '1010';			索引失效
+EXPLAIN select count(*) from members where id != '1010';	索引有效
+			</screen>
+		</section>
+		<section>
+			<title>缓存</title>
+			<screen>
+
+			</screen>
+			<para>下面的例子，数据不会缓存查询结果</para>
+			<screen>
+$sql = "select id, name, created from tab where created=now()";
+			</screen>
+		</section>
+	</section>
+</chapter>

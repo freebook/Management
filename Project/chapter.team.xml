@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- $Id: chapter.team.xml 580 2013-05-07 10:08:48Z netkiller $ -->
+<chapter id="teamwork">
+	<title>Team Work</title>
+
+	<section>
+		<title>团队建设</title>
+	</section>
+
+	<section>
+		<title>团队沟通</title>
+		<para>沟通方式有很多，沟通工具有很多，那种更适合你呢？经验告诉我们IRC, 新闻组，邮件列表最高效。</para>
+		<itemizedlist>
+			<listitem><para>IRC</para></listitem>
+			<listitem>邮件列表 Mailing list / Usenet 新闻组</listitem>
+			<listitem>即时通信 Skype | MSN</listitem>
+			<listitem>...</listitem>
+		</itemizedlist>
+	</section>
+</chapter>

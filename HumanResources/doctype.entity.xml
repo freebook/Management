@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ENTITY chapter.human.xml 				SYSTEM "chapter.human.xml">
+<!ENTITY chapter.human.interview.xml	SYSTEM "chapter.human.interview.xml">
+<!ENTITY chapter.human.handover.xml 	SYSTEM "chapter.human.handover.xml">

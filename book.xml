@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE subject SYSTEM "/usr/share/xml/docbook/schema/dtd/5.0/docbook.dtd"
+	[
+	<!ENTITY book.info.author.xml		SYSTEM "../common/book.info.author.xml">
+	<!ENTITY book.info.legalnotice.xml	SYSTEM "../common/book.info.legalnotice.xml">
+	<!ENTITY book.info.abstract.xml		SYSTEM "../common/book.info.abstract.xml">
+    <!ENTITY book.preface.xml           SYSTEM "../common/book.preface.xml">
+	<!ENTITY preface.about.me.xml       SYSTEM "../common/about.me.xml">
+	<!ENTITY book.dedication.xml       	SYSTEM "../common/book.dedication.xml">
+	<!ENTITY book.appendix.xml		    SYSTEM "book.appendix.xml">
+
+	<!ENTITY part.itsm.xml 				SYSTEM "part.itsm.xml">
+	<!ENTITY chapter.itsm.xml 			SYSTEM "ITSM/chapter.itsm.xml">
+	<!ENTITY chapter.practice.xml 		SYSTEM "ITSM/chapter.practice.xml">
+
+	<!ENTITY part.project.xml 			SYSTEM "part.project.xml">
+	<!ENTITY part.engineering.xml		SYSTEM "part.engineering.xml">
+
+	<!ENTITY part.sqa.xml 				SYSTEM "part.sqa.xml">
+	<!ENTITY chapter.sqa.xml 			SYSTEM "chapter.sqa.xml">
+
+	<!ENTITY % hr.doctype.entity.xml 	SYSTEM "HumanResources/doctype.entity.xml">
+	%hr.doctype.entity.xml;
+
+	<!ENTITY % project.doctype.entity.xml 	SYSTEM "Project/doctype.entity.xml">
+	%project.doctype.entity.xml;
+
+	<!ENTITY % se.doctype.entity.xml 	SYSTEM "SoftwareEngineering/doctype.entity.xml">
+	%se.doctype.entity.xml;
+
+	<!ENTITY % graphics.doctype.entity.xml 	SYSTEM "Graphics/doctype.entity.xml">
+	%graphics.doctype.entity.xml;
+
+] >
+
+<!--
+	<!ENTITY book.dedication 	SYSTEM "book.dedication.xml">
+	<!ENTITY book.preface 		SYSTEM "book.preface.xml">
+	<!ENTITY book.appendix 		SYSTEM "book.appendix.xml">
+	<!ENTITY book.glossary 		SYSTEM "book.glossary.xml">
+	<!ENTITY book.history 		SYSTEM "book.history.xml">
+-->
+
+<book>
+	<info>
+		<title>Netkiller Management 手札</title>
+		<subtitle></subtitle>
+
+		&book.info.author.xml;
+
+		<copyright>
+			<year>2010</year>
+			<year>2011</year>
+			<year>2012</year>
+			<year>2013</year>
+			<holder>netkiller</holder>
+		</copyright>
+
+        &book.info.legalnotice.xml;
+
+		<abstract>
+			<para></para>
+		</abstract>
+
+        &book.info.abstract.xml;
+	</info>
+
+	&book.dedication.xml;
+    &book.preface.xml;
+	&chapter.human.xml;
+    &part.project.xml;
+
+    <!--
+    &part.engineering.xml;
+    &part.itsm.xml;
+    &part.sqa.xml;    
+    &part.graphics.xml;    
+	&chapter.position.xml;
+	-->
+
+</book>

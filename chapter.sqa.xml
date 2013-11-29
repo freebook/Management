@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- $Author: netkiller $ -->
+<!-- $Id: chapter.sqa.xml 495 2012-11-23 02:50:46Z netkiller $ -->
+<!--
+<chapter id="sqa">
+	<title></title>
+</chapter>
+
+<chapter id="sqa">
+	<title></title>
+</chapter>
+
+<chapter id="scm">
+	<title>SCM (Software Configuration Management)</title>
+
+</chapter>
+
+ -->
+<chapter id="scm">
+	<title>SCM (Software Configuration Management)</title>
+
+</chapter>
