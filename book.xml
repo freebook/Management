@@ -19,8 +19,8 @@
 	<!ENTITY part.sqa.xml 				SYSTEM "part.sqa.xml">
 	<!ENTITY chapter.sqa.xml 			SYSTEM "chapter.sqa.xml">
 
-	<!ENTITY % hr.doctype.entity.xml 	SYSTEM "HumanResources/doctype.entity.xml">
-	%hr.doctype.entity.xml;
+	<!ENTITY % doctype.entity.xml 	SYSTEM "doctype.entity.xml">
+	%doctype.entity.xml;
 
 	<!ENTITY % project.doctype.entity.xml 	SYSTEM "Project/doctype.entity.xml">
 	%project.doctype.entity.xml;
@@ -68,15 +68,7 @@
 
 	&book.dedication.xml;
     &book.preface.xml;
-	&chapter.human.xml;
+	&chapter.hr.xml;
     &part.project.xml;
 
-    <!--
-    &part.engineering.xml;
-    &part.itsm.xml;
-    &part.sqa.xml;    
-    &part.graphics.xml;    
-	&chapter.position.xml;
-	-->
-
-</book>
+ </book>
