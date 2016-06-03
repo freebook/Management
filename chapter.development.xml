@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter id="development">
+	<title>持续改进</title>
+
+
+	<section id="standard">
+		<title>标准</title>
+		<section>
+			<title>XHTML/HTML</title>
+		</section>
+		<section>
+			<title>CSS</title>
+		</section>
+		<section>
+			<title>Script</title>
+		</section>
+	</section>
+	<section id="performance">
+		<title>性能</title>
+
+	</section>
+	<section id="performance">
+		<title>安全</title>
+		<section>
+			<title>Interface</title>
+			<graphic fileref="../images/development/interface.png" />
+		</section>
+		<section>
+			<title>SQL注入</title>
+		</section>
+	</section>
+</chapter>

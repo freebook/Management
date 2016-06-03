@@ -9,9 +9,11 @@
 	<!ENTITY book.dedication.xml       	SYSTEM "../common/book.dedication.xml">
 	<!ENTITY book.appendix.xml		    SYSTEM "book.appendix.xml">
 
+<!--
 	<!ENTITY part.itsm.xml 				SYSTEM "part.itsm.xml">
 	<!ENTITY chapter.itsm.xml 			SYSTEM "ITSM/chapter.itsm.xml">
 	<!ENTITY chapter.practice.xml 		SYSTEM "ITSM/chapter.practice.xml">
+-->
 
 	<!ENTITY part.project.xml 			SYSTEM "part.project.xml">
 	<!ENTITY part.engineering.xml		SYSTEM "part.engineering.xml">
@@ -19,15 +21,36 @@
 	<!ENTITY part.sqa.xml 				SYSTEM "part.sqa.xml">
 	<!ENTITY chapter.sqa.xml 			SYSTEM "chapter.sqa.xml">
 
+	<!ENTITY chapter.terminal.xml 		SYSTEM "chapter.terminal.xml">
+	<!ENTITY chapter.reference.xml		SYSTEM "chapter.reference.xml">
+	
+	<!ENTITY % dev.doctype.entity.xml 	SYSTEM "Development/doctype.entity.xml">
+	%dev.doctype.entity.xml;
+	<!ENTITY part.development.xml		SYSTEM "part.development.xml">
+	
+	<!ENTITY % ops.doctype.entity.xml 	SYSTEM "Operations/doctype.entity.xml">
+	%ops.doctype.entity.xml;
+	<!ENTITY part.operations.xml		SYSTEM "part.operations.xml">
+
+	<!ENTITY part.devops.xml					SYSTEM "part.devops.xml">
+	<!ENTITY chapter.devops.xml					SYSTEM "chapter.devops.xml">
+	<!ENTITY devops.environment.xml				SYSTEM "chapter.environment.xml">
+	<!ENTITY devops.development.xml				SYSTEM "chapter.development.xml">
+	<!ENTITY devops.automation.xml				SYSTEM "chapter.automation.xml">
+	<!ENTITY devops.automation.deployment.xml 	SYSTEM "chapter.automation.deployment.xml">
+	<!ENTITY chapter.automation.utility.xml		SYSTEM "chapter.automation.utility.xml">
+
 	<!ENTITY % doctype.entity.xml 	SYSTEM "doctype.entity.xml">
 	%doctype.entity.xml;
 
 	<!ENTITY % project.doctype.entity.xml 	SYSTEM "Project/doctype.entity.xml">
 	%project.doctype.entity.xml;
 
+	<!--
 	<!ENTITY % se.doctype.entity.xml 	SYSTEM "SoftwareEngineering/doctype.entity.xml">
 	%se.doctype.entity.xml;
-
+	-->
+	
 	<!ENTITY % graphics.doctype.entity.xml 	SYSTEM "Graphics/doctype.entity.xml">
 	%graphics.doctype.entity.xml;
 
@@ -44,16 +67,12 @@
 <book>
 	<info>
 		<title>Netkiller Management 手札</title>
-		<subtitle></subtitle>
+		<subtitle>Development, Test &amp; Operations</subtitle>
 
 		&book.info.author.xml;
 
 		<copyright>
-			<year>2010</year>
-			<year>2011</year>
-			<year>2012</year>
-			<year>2013</year>
-			<year>2014</year>
+			<year>2010-2016</year>
 			<holder>netkiller</holder>
 		</copyright>
 
@@ -68,7 +87,12 @@
 
 	&book.dedication.xml;
     &book.preface.xml;
-	&chapter.hr.xml;
+	
     &part.project.xml;
+    
+    &part.devops.xml;
+	&part.development.xml;
+	&part.operations.xml;
+	&chapter.hr.xml;
 
  </book>

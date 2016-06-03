@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!ENTITY chapter.project.xml 	SYSTEM "chapter.project.xml">
 <!ENTITY chapter.team.xml 		SYSTEM "chapter.team.xml">
 <!ENTITY chapter.position.xml	SYSTEM "chapter.position.xml">

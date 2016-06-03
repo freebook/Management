@@ -16,8 +16,8 @@ html:
 	@find ${HTML_DIR} -type f -iname "*.html" -exec rm -rf {} \;
 	@rsync -au ../common/docbook.css $(HTML_DIR)/
 	@$(XSLTPROC) -o $(HTML_DIR)/ $(DSSSL) $(PROJECT_DIR)/book.xml
-	@$(shell test -d $(HTML_DIR)/images && find $(HTML)/images/ -type f -exec rm -rf {} \;)
-	@$(shell test -d images && rsync -au --exclude=.svn $(PROJECT_DIR)/images $(HTML_DIR)/)
+	@$(shell test -d $(HTML_DIR)/images && find $(HTML_DIR)/images/ -type f -exec rm -rf {} \;)
+	@$(shell test -d images && rsync -au $(PROJECT_DIR)/images $(HTML_DIR)/)
 
 htmlhelp:
 	@rm -rf $(HTMLHELP_DIR) && mkdir -p $(HTMLHELP_DIR)
@@ -31,6 +31,12 @@ rpm:
 	rpmbuild -ba --sign ../Miscellaneous/package/package.spec --define "book $(DOCBOOK)"
 	rpm -qpi ~/rpmbuild/RPMS/x86_64/netkiller-$(DOCBOOK)-*.x86_64.rpm
 	rpm -qpl ~/rpmbuild/RPMS/x86_64/netkiller-$(DOCBOOK)-*.x86_64.rpm
+
+article:
+	DSSSL=../docbook-xsl/article.xsl
+	DATE=$(shell date --iso-8601)
+	$(XSLTPROC) $(DSSSL) article.xml > $(PUBLIC_HTML)/journal/devops.html
+	$(shell test -d images && rsync -auv images $(PREFIX)/)
 
 clean:
 	rm -rf $(HTML)

@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- $Id: chapter.development.xml 584 2013-05-15 05:13:17Z netkiller $ -->
+<chapter id="development">
+	<title>软件工程 (Software Engineering)</title>
+	<graphic format="png" fileref="../images/workflow/Trac Project Management.png"		srccredit="neo" />
+	<graphic format="png" fileref="../images/workflow/Development Environment.png"		srccredit="neo" />
+	<graphic format="png" fileref="../images/workflow/Development Flow.png"		srccredit="neo" />
+	<section id="license">
+		<title>Open Source and License</title>
+		<para>GPL 你可以免费使用，但修改后必须开源。</para>
+		<para>GPLv3 你可以免费使用，但修改后必须开源，不允许加入闭源商业代码。</para>
+		<para>BSD 你可以免费使用，修改后可不开源，基本上你可以我所欲为。</para>
+		<para>Linux 中有许多BSD代码，但BSD却不能移植Linux 代码到BSD中，这是因为GPL License。</para>
+		<para>http://www.apache.org/licenses/</para>
+	</section>
+</chapter>
+
+<chapter>
+	<title>Trac 项目管理</title>
+	<orderedlist>
+		<title>Trac 初始化步骤</title>
+		<listitem>首先进入Admin，初始化TRAC</listitem>
+		<listitem>使用Wiki创建项目页</listitem>
+		<listitem>创建Milestones</listitem>
+		<listitem>创建Ticket</listitem>
+	</orderedlist>
+	<section>
+		<title>Administration</title>
+		<section>
+			<title>General</title>
+			<para>安装后首先分配权限</para>
+			<procedure>
+				<title>Permissions 设置 </title>
+				<step>
+					<para>我习惯于 创建一个  developer 组和 adminstrator 组</para>
+					<para>然后创建用户隶属于 developer 组</para>
+				</step>
+				<step>
+					<para>创建用户隶属于developer组</para>
+				</step>
+			</procedure>
+		</section>
+		<section>
+			<title>Ticket System</title>
+			<procedure>
+				<title>Ticket System 设置</title>
+				<step>
+					<para>设置 Components</para>
+					<para>例如电商项目，这里可以设置，注册登录，用户中心，购物车，物流配送等等</para>
+				</step>
+				<step>
+					<para>设置 Milestones</para>
+					<para><![CDATA[ Roadmap->Milestone->Add new milestone ]]></para>
+					<para>我一般是一个月一个里程碑</para>
+				</step>
+				<step>
+					<para>设置 Priorities</para>
+					<para>我一般设置为：</para>
+					<para>新特性（优先）, 不限期, 立即执行, 当日完成, 本周完成, 本月完成</para>
+				</step>
+				<step>
+					<para>Resolutions</para>
+					<para>任务完成, 无效BUG, 重复, 待测试, 待发布</para>
+				</step>
+				<step>
+					<para>Severities</para>
+					<para>严重错误, 次要错误, 文字错误, 不合理</para>
+				</step>
+				<step>
+					<para>Ticket Types</para>
+					<orderedlist>
+						<title>Ticket Types 初始化</title>
+						<listitem>开发</listitem>
+						<listitem>测试</listitem>
+						<listitem>运维</listitem>
+						<listitem>设计</listitem>
+						<listitem>需求</listitem>
+						<listitem>事件</listitem>
+						<listitem><para>BUG</para></listitem>
+					</orderedlist>
+
+				</step>
+				<step>
+					<para>Versions</para>
+					<para>不多说了 1.0， 1。1 或者  1.0.1</para>
+				</step>
+			</procedure>
+		</section>
+		<section>
+			<title>Version Control</title>
+			<para>Repositories</para>
+			<para>默认支持 Subversion, 创建一个仓库记得不要忘记创建下面三个目录  1.branches, 2.tags, 3.trunk</para>
+			<screen>
+			<![CDATA[
+trunk			主干
+branches		在下面再创建两个目录development,testing
+tags			当项目Release 后会在此处打一个标记
+			]]>
+			</screen>
+			<para>Git 不需要这三个目录，我习惯上会创建几个分支</para>
+			<screen>
+master			主干
+development		开发分支
+testing			测试分支
+			</screen>
+			<para>关于版本库项目目录，我习惯与使用该项目对应的域名作为项目目录</para>
+			<screen>
+/example.com
+/example.com/www.exampe.com
+/example.com/images.exampe.com
+/example.com/user.exampe.com
+/example.com/admin.exampe.com
+			</screen>
+		</section>
+
+	</section>
+
+	<section>
+		<title>Wiki</title>
+		<procedure>
+			<title>Wiki 使用方法</title>
+			<step>
+				<para>项目成员页，里面要包含所有项目程序的联系方式</para>
+				<screen>
+|name|telephone|cellphone|ext|im|email|
+|Neo|13122993040||||
+				</screen>
+			</step>
+			<step>
+				<para>需求页面</para>
+				<screen>
+				</screen>
+			</step>
+		</procedure>
+	</section>
+	<section>
+		<title>Timeline</title>
+		<para>可以看到每时每刻的项目变化，包括Wiki, Ticket, 以及代码提交</para>
+	</section>
+	<section>
+		<title>Roadmap</title>
+		<para>Roadmap 中的里程碑页，也可以加以利用，我喜欢将一个里程碑分解为多个Ticket 然后在该页面体现，包括整体上的工作安排等等，使用表格来安排Ticket日程，一定程度上弥补了TRAC没有甘特图的不足，</para>
+	</section>
+	<section>
+		<title>Ticket</title>
+		<procedure>
+			<title>Ticket 使用方法</title>
+			<step>
+				<para>New Ticket</para>
+				<para>新建Ticket, Ticket 可以理解为任务。 </para>
+			</step>
+			<step>
+				<para>将Ticket 分配给团队成员</para>
+				<para>受到Ticket后，一定要更改Ticket 为 accept ， 这时在View Tickets 中将会看到该Ticket已经分配，</para>
+			</step>
+			<step>
+				<para>编码过程</para>
+				<para>这里有一个特别的规定，提交代码（包括Subversion与Git）注释中必须这样写：</para>
+				<screen>
+svn ci -m "Ticket #123 - xxxxxxxxxxxxxxxxxxx"
+git commit -a -m "Ticket #123 - xxxxxxxxxxxxxxxxxxx"
+				</screen>
+				<para>格式：Ticket #123 - 你的注释</para>
+				<para>这样写的好处是，在Timeline 中可以直接点击 Ticket 编号直接进入Ticket</para>
+				<screen>
+				<![CDATA[
+10:54 AM Ticket #462 (添加一个支付方式) reopened by neo
+
+4:51 PM Changeset in admin.example.com [01a0c4] by neo <neo.chan@example.com>
+Ticket #452 - 用户登录日志
+				]]>
+				</screen>
+			</step>
+			<step>
+				<para>Add Comment</para>
+				<para>回复Ticket，上面提交后悔产生一个Subversion版本号，按照下面格式写，然后提交 </para>
+				<screen>
+Changesets: r1, [1] or changeset:1
+				</screen>
+				<para>这样就可以实现，进入Ticket即可看到做了哪些代码提交与改动，一目了然。</para>
+				<para>Git 写法</para>
+				<screen>
+[changeset:af212a]
+[changeset:7a03c65500c4b96859a27bf5be2901e4ec42afdd]
+				</screen>
+				<para>如果 Repositories 中有多个项目写法如下</para>
+				<screen>
+[changeset:af212a/www.example.com]
+				</screen>
+			</step>
+		</procedure>
+	</section>
+</chapter>
+
+	<chapter id="project.dir">
+		<title>Project directory</title>
+		<para>一种很蠢目录规划：</para>
+		<screen>
+project
+project/library
+project/log
+project/tmp
+project/...
+		</screen>
+		<para>目录规划原则，临时文件分离，日志分离，配置文件分离;这样有利于在负载均衡环境中克隆节点。</para>
+		<itemizedlist>
+			<listitem>
+				<para>项目目录/workspace/project</para>
+			</listitem>
+			<listitem>
+				<para>临时目录 /workspace/tmp/</para>
+			</listitem>
+			<listitem>
+				<para>日志 目录/workspace/log/</para>
+			</listitem>
+			<listitem>
+				<para>配置文件/workspace/conf</para>
+			</listitem>
+
+		</itemizedlist>
+	</chapter>
+
+	<chapter id="svn.repos">
+		<title>版本控制及如何运作</title>
+		<section>
+			<title>版本库布局</title>
+			<orderedlist>
+				<title>版本库布局</title>
+				<listitem>trunk</listitem>
+				<listitem>branches</listitem>
+				<listitem>tags</listitem>
+				<listitem>releases</listitem>
+			</orderedlist>
+			<para>多项目版本库布局</para>
+			<screen>
+			<![CDATA[
+		 	                   /-> branches
+		       .---> project 2 ---> trunk
+		      / 	           \-> tags
+		     /
+		    /					/-> branches
+repositories -------> project 1 ---> trunk
+			\ 					\-> tags
+			 \
+			  \ 			   /-> branches
+			   `---> project 3 ---> trunk
+				               \-> tags
+				]]>
+			</screen>
+		</section>
+		<section>
+			<title>策略</title>
+<!--
+		<para>软件开发过程中主干与分支运作的三种常用策略</para>
+		<orderedlist>
+			<listitem>
+				在主干上开发，分支做发布，发布好以后那个分支有BUG（主干可能也是有的），在分支上修改BUG。然后合并到主干。分支的发布
+				继续进行。这个一般适用于客户化软件工程的。
+			</listitem>
+			<listitem>
+				主干一直保持一个最新的稳定版本，任何时候都可以提供一个应急的发布版本，保证随时能提供稳定的发布版本。而所有的新功
+				能、新技术实验全放在分支上去做开发，进行新技术的验证实验。等分支相对稳定以后，再合并到主干上形成稳定的发布版本。此
+				时就要更新主干，进行主干版本的升级。很多开源软件基本采取这种策略。
+			</listitem>
+			<listitem>
+				3、还有一种就是这两者的混合，结合两者的优点，即保证随时可以有稳定的版本发布，又能保证客户化的版本分支开发功能及其客
+				户化版本的维护。
+			</listitem>
+		</orderedlist>
+ -->
+			<para>trunk 主干，作为主干你要保证他的代码是可运行的。</para>
+			<para>branches
+				分支，代码来自主干，可以有很多分支，分支用于多个团队同步开发，最终要将代码合并到主干。例如：branches/member,
+				branches/blog, branches/shop 分别来自不同的团队</para>
+			<para>tags 一般用于做快照，一旦建立永不更改</para>
+			<para>releases 发行本版，代码来自主干， 与tags功能一样，命名更直观。例如每个月为一个周期，发布一次代码
+				releases/v1.0, releases/1.5</para>
+			<screen>
+			<![CDATA[
+                          .-----------------------------------------------------------------------> cart r100 ---> ...
+                         /		                                                                          ^
+                        .----------------------> blog r3 ---> r4 ... ... r(10) ---> r(n) ---> r(...) --->/---> ...
+                       /		                   ^                        \                           /
+               .-> branches r1  ---> member r2 ---/---------> r4 ... r(10) --\----> r(14) ---> r(...)--/---> ...
+              /                       ^          /                \           \         \             /
+repositories ----> trunk    r1  -----/----------/--------------> r(11) ---> r(12) ---> r(15) ---> r(...) ---> ...
+              \	                                                                \         \          \
+               `-> tags     r1  ------------------------------------------> v1.0.0 r(13)   \          \
+                       \                                                                               \
+                        `--------------------------------------------------------------> v1.0.1 (r16)   \
+                         `--------------------------------------------------------------------------> v1.0.2 r(n)
+			]]>
+			</screen>
+			<para></para>
+			<screen>
+			<![CDATA[
+                                                                            .> unstable 2.1.1
+                          		                                           / \
+                                              unstable 1.1           unstable 2.1     unstable 3.1
+                        		                  ^ \                     ^ \         / \
+               .-> branches ---> unstable 1.0 ---/   \   unstable 2.0 ---/   \   unstable 3.0    unstable---> ...
+              /                      ^                \            ^          \      ^    \          ^
+repositories ----> trunk    --------/-----------------> stable ---/-----> stable ---/---> stable ---/-> stable ---> ...
+              \	                                       \                     \              \
+               `-> tags     ----------------------------> stable 1.0          \              \
+                       \                                                       \              \
+                        `-------------------------------------------------------> stable 2.0   \
+                         `-------------------------------------------------------------------> stable 3.0
+			]]>
+			</screen>
+			<para>怎样访问版本库</para>
+			<para>
+				<graphic fileref="../images/workflow/subversion.png" />
+			</para>
+			<para>美工、页面人员采用WebDav访问Subversion。Photoshop,Dreamwaver
+				软件对WebDav有很好地支持，他们不需要学习如何使用Subversion。</para>
+			<para>开发者通过Svn客户端访问代码库，既可以使用开发IDE集成工具也可以使用单独工具。像TortoiseSVN等等。</para>
+
+		</section>
+		<section>
+			<title>nightly version</title>
+			<para>每天晚上做一个快照</para>
+		</section>
+		<section>
+			<title>rc1,rc2,rc4</title>
+		</section>
+		<section>
+			<title>怎样写注释信息</title>
+			<section>
+				<title>Fixed Bug</title>
+				<screen>
+svn ci -m "- Fixed bug #53412 (your comment)"
+				</screen>
+			</section>
+			<section>
+				<title>Implemented</title>
+				<screen>
+svn ci -m "- Implemented FR #53271, FR #52410 (Building multiple XXXX binary)"
+				</screen>
+			</section>
+			<section>
+				<title>Add</title>
+				<screen>
+svn ci -m "- Add Feature #534 (your message)"
+				</screen>
+			</section>
+		</section>
+	</chapter>
+
+	<chapter>
+		<title>任务分配原则</title>
+
+	</chapter>
+	<chapter>
+		<title>项目运作</title>
+		<para><graphic  format="png" fileref="。。/。。/images/workflow.png" srccredit="neo" /></para>
+	</chapter>
+	<chapter>
+		<title>收集需求</title>
+		<para><graphic  format="png" fileref="。。/。。/images/workflow_1.png" srccredit="neo" /></para>
+	</chapter>
+	<chapter>
+		<title>代码审查制度</title>
+		<para>Code Review</para>
+		<para>一对一代码审查可以提高程序质量.</para>
+		<screen>
+		<![CDATA[
+
+developer neo ---> coding ---> commit --->.
+                           /               \
+developer zen ---> review '                 \
+                                           --->  svn repos
+developer neo ---> review .                 /
+                           \               /
+developer zen ---> coding ---> commit --->`
+		]]>
+		</screen>
+		<section id="devops.code">
+			<title>Coding workflow</title>
+			<para><graphic  format="png" fileref=".。/../images/workflow/Development Flow.png" srccredit="neo" width=""/></para>
+		</section>
+	</chapter>
+	<chapter id="release_notes">
+		<title>Release Notes</title>
+		<para>Release Notes 撰写说明</para>
+		<para>当一个项目升级时，需要写一个文档纪录这次变动，内容包括，新增了什么，更改了什么，修复了什么，未解决得问题，改善了什么，忽略了什么</para>
+		<para>常用信息类型</para>
+		<screen>
+New
+Changed
+Fixed
+Unresolved
+Improved
+Ignore
+		</screen>
+		<example>
+			<title>Example - Release Notes</title>
+			<screen>
+NEW - xxxxxxxxxxxxx
+CHANGED - xxxxxxxxxxxxx
+FIXED - xxxxxxxxxxx
+UNRESOLVED - xxxxxxxxx
+IMPROVED - xxxxxxxxx
+			</screen>
+		</example>
+		<para>你也同样可以参考很多开源组织编写的Release Notes，例如apache, mysql, php 等等</para>
+	</chapter>
+	<chapter id="release">
+		<title>版本发行</title>
+		<para>每周一个发行版本</para>
+	</chapter>
+	<chapter>
+		<title>每周例会</title>
+		<para>任务进度跟踪</para>
+	</chapter>

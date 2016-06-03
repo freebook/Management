@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- $Id$ -->
+<part id="index"><?dbhtml dir="ops"?>
+	<title>运维篇(Operations)</title>
+	&chapter.itsm.xml;
+	&chapter.monitor.xml;
+	
+</part>
+	<!--
+	&chapter.operations.xml;
+	&chapter.platform.xml;
+ -->
+
+<!--
+
+
+<chapter id="command">
+	<title>H3C Command</title>
+	<section id="config">
+		<title>config</title>
+		<section>
+			<title>current-configuration</title>
+			<para>current-configuration</para>
+			<screen>
+			<![CDATA[
+
+
+			]]>
+			</screen>
+		</section>
+		<section id="saved-configuration">
+			<title>saved-configuration</title>
+			<para>saved-configuration</para>
+			<screen>
+			<![CDATA[
+
+
+			]]>
+			</screen>
+		</section>
+		<section id="save">
+			<title>保存配置</title>
+			<screen>
+			<![CDATA[
+
+			]]>
+			</screen>
+		</section>
+	</section>
+	<section id="boot-loader">
+		<title>boot-loader</title>
+		<screen>
+		<![CDATA[
+
+		]]>
+		</screen>
+	</section>
+
+	<section id="display">
+		<title>display</title>
+		<section>
+			<title>显示设备工作状态</title>
+			<screen>
+
+			</screen>
+		</section>
+		<section>
+			<title>接口相关信息</title>
+			<screen>
+			</screen>
+		</section>
+	</section>
+</chapter>
+ -->

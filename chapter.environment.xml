@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter id="environment">
+	<title>DevOps Environment</title>
+<!--
+	<para><graphic  format="png" fileref="/architect/images/backup/backup.png" srccredit="neo" width=""/></para>
+-->
+	<section id="devops.trac">
+		<title>Trac Project Management</title>
+		<para></para>
+		<para><graphic  format="png" fileref="../images/workflow/Trac Project Management.png" srccredit="neo" width=""/></para>
+	</section>
+	<section id="devops.environment">
+		<title>Development Environment</title>
+		<para></para>
+		<para><graphic  format="png" fileref="../images/workflow/Development Environment.png" srccredit="neo" width=""/></para>
+	</section>
+	<section id="devops.testing">
+		<title>Testing Environment</title>
+		<para></para>
+		<para><graphic  format="png" fileref="../images/workflow/Development Environment.png" srccredit="neo" width=""/></para>
+	</section>
+</chapter>

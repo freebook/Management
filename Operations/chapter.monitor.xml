@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- $Id$ -->
+<chapter id="monitor">
+	<title>监控</title>
+	<subtitle></subtitle>
+	<section id="type">
+		<title>监控方法</title>
+		<section id="">
+			<title>人工监控</title>
+		</section>
+		<section id="">
+			<title>机器监控</title>
+		</section>
+	</section>
+	<section id="network">
+		<title>网络监控</title>
+		<subtitle>网络监控我认为也可以叫做 3层监控 </subtitle>
+		<section>
+			<title>DNS解析監控</title>
+			<para>ns 记录监控</para>
+			<para>A 记录监控</para>
+			<para>MX 记录监控</para>
+			<para>主从DNS同步监控</para>
+			<screen>
+			</screen>
+		</section>
+		<section>
+			<title>IP地址監控</title>
+			<screen>
+			</screen>
+		</section>
+		<section>
+			<title>路由監控</title>
+			<screen>
+HSRP/VRRP 網関監控
+
+			</screen>
+		</section>
+		<section id="">
+			<title>流量監控</title>
+
+		</section>
+		<section id="">
+			<title>会话数监控</title>
+			<para>会话数是指NAT建立地址转换链数量，你要考虑你的网络是流量密集型，还是会话密集型。有时可能你的带宽并没有用完，但你的防火墙、路由器会话数已经用光，这样会导致网络出现断续情况，网速非常慢。所以会话数要纳入监控范围。</para>
+			<para>防火墙会话数监控</para>
+			<screen>
+
+			</screen>
+		</section>
+	</section>
+	<section>
+		<title>服务监控</title>
+		<subtitle>服务监控我认为也可以叫做 4层、7层监控 </subtitle>
+		<section id="port">
+			<title>端口监控</title>
+			<para>Telnet</para>
+			<screen>
+			<![CDATA[
+
+			]]>
+			</screen>
+		</section>
+		<section>
+			<title>URL 监控 </title>
+			<screen>
+
+			</screen>
+		</section>
+		<section id="login">
+			<title>TCP、UDP协议模拟监控</title>
+
+		</section>
+		<section>
+			<title>数据库监控</title>
+
+		</section>		
+	</section>
+	<section id="vlan">
+		<title>内容监控</title>
+		<subtitle>内容监控主要WEB应用监控 </subtitle>
+		<section>
+			<title>访问速度监控</title>
+			<screen>
+
+			</screen>
+			<para>浮动路由</para>
+			<screen>
+
+			</screen>
+		</section>
+		<section id="log">
+			<title>日志监控</title>
+
+		</section>
+	</section>
+<!--
+
+<screen>
+			<![CDATA[
+			]]>
+			</screen>
+		<screen>
+		<![CDATA[
+
+		]]>
+		</screen>
+	<section id="dhcp">
+		<title>DHCP</title>
+		<section id="dhcp.server">
+			<title>DHCP Server</title>
+			<para>S3600 SI 没有DHCP Server，只有EI版本提供，狗日的H3C(fuck h3c)</para>
+			<screen>
+			<![CDATA[
+
+			]]>
+			</screen>
+			<screen>
+			<![CDATA[
+
+			]]>
+			</screen>
+
+			<screen>
+			<![CDATA[
+			]]>
+			</screen>
+		</section>
+			<screen>
+			<![CDATA[
+
+			]]>
+			</screen>
+
+	</section>
+
+			<screen>
+			<![CDATA[
+
+			]]>
+			</screen>
+		<screen>
+		<![CDATA[
+
+		]]>
+		</screen>
+
+			<screen>
+
+			</screen>
+			<screen>
+
+
+			</screen>
+			<screen>
+
+			</screen>
+			<screen>
+
+			</screen>
+	<section id="routing">
+		<title>Routing</title>
+
+
+		
+		<section>
+			<title>策略路由</title>
+			<para>案例一</para>
+			<screen>
+
+			</screen>
+			<para>取消策略路由</para>
+			<screen>
+
+			</screen>
+			<para>这个案例是基于源的策略路由</para>
+			<para>案例二</para>
+			<screen>
+
+			</screen>
+			<para>案例二是一个基于目的的测略路由</para>
+		</section>
+
+	</section>
+			<section id="routing-table">
+				<title>routing-table</title>
+				<screen>
+				<![CDATA[
+
+				]]>
+				</screen>
+				<screen>
+
+				</screen>
+			</section>
+
+
+		<screen>
+		<![CDATA[
+
+		]]>
+		</screen>
+		<para></para>
+		<screen>
+
+		</screen>
+
+	<section id="example">
+		<title>Example</title>
+		<example>
+			<title>dhcp vlan rip</title>
+			<screen>
+			<![CDATA[
+
+			]]>
+			</screen>
+		</example>
+	</section>
+ -->
+</chapter>

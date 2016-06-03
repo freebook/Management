@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<part id="index"><?dbhtml dir="implement"?>
+	<title>DevOps 实施</title>
+	&chapter.devops.xml;
+	&devops.environment.xml;
+</part>
