@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<part id="index"><?dbhtml dir="project"?>
-	<title>项目管理 project management</title>
-	&chapter.project.xml;
-    <!-- &chapter.team.xml; -->
-</part>

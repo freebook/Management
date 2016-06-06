@@ -2,7 +2,7 @@
 <!-- $Id$ -->
 <part id="index"><?dbhtml dir="ops"?>
 	<title>运维篇(Operations)</title>
-	&chapter.itsm.xml;
+	
 	&chapter.monitor.xml;
 	
 </part>

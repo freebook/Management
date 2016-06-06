@@ -1,22 +1,410 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<para>按照章节顺序依次实施</para>
+<chapter>
+	<title>Gitlab 项目管理</title>
+	<para>实施DEVOPS首先我们要有一个项目管理工具。</para>
+	<para>我建议使用 Gitlab，早年我倾向使用Trac，但Trac项目一直处于半死不活状态，目前来看Trac 对于
+		Ticket管理强于Gitlab，但Gitlab发展的很快，我们可以看到最近的一次升级中Issue 加入了 Due date
+		选项。Gitlab已经有风投介入，企业化运作，良性发展，未来会超越Redmine等项目管理软件，成为主流。所以我在工具篇采用Gitlab，BTW
+		我没有使用 Redmine，我认为 Redmine 的发展方向更接近传统项目管理思维。
+	</para>
+	<para>软件项目管管理，我需要那些功能，Ticket/Issue管理、里程碑管理、内容管理Wiki、版本管理、合并分支、代码审查等等
+	</para>
+	<para>
+		关于Gitlib的安装配置请参考
+		<ulink url="http://www.netkiller.cn/project/project/gitlab/index.html" />
+	</para>
+
+
+	<section>
+		<title>创建用户</title>
+		<procedure>
+			<title>企业内部使用的 Gitlab 初始化</title>
+			<step>
+				<para>关闭在线用户注册</para>
+
+			</step>
+			<step>
+				<para>Step 3.</para>
+				<substeps>
+					<step>
+						<para>Substep a.</para>
+					</step>
+					<step>
+						<para>Substep b.</para>
+					</step>
+				</substeps>
+			</step>
+		</procedure>
+	</section>
+	<section>
+		<title>创建组与项目</title>
+		<procedure>
+			<title>Gitlab 初始化 - 创建组</title>
+			<step>
+				<para>点击 New Group 按钮新建一个组，我习惯每个域一个组，所以我使用 netkiller.cn 作为组名称
+				</para>
+				<graphic format="png" fileref="images/gitlab/group.png" width="" srccredit="neo" />
+			</step>
+			<step>
+				<para>输入 netkiller.cn 然后单击 Create group</para>
+				<graphic format="png" fileref="images/gitlab/group.new.png" width="" srccredit="neo" />
+			</step>
+			<step>
+				<para>组创建完毕</para>
+				<graphic format="png" fileref="images/gitlab/groups.png" width="" srccredit="neo" />
+			</step>
+		</procedure>
+		<para>创建组后接下来创建项目</para>
+		<procedure>
+			<title>Gitlab 初始化 - 创建项目</title>
+			<step>
+				<para>单击 New Project 创建项目</para>
+				<graphic format="png" fileref="images/gitlab/projects.png" width="" srccredit="neo" />
+			</step>
+			<step>
+				<para>输入 www.netkiller.cn 并点击 Create project 按钮创建项目</para>
+				<graphic format="png" fileref="images/gitlab/projects.new.png" width="" srccredit="neo" />
+			</step>
+			<step>
+				<para>项目创建完毕</para>
+				<graphic format="png" fileref="images/gitlab/projects.created.png" width="" srccredit="neo" />
+			</step>
+		</procedure>
+	</section>
+
+	<section>
+		<title>分支管理</title>
+		<para>起初我们应对并行开发在Subversion上创建分支，每个任务一个分支，每个Bug一个分支，完成任务或修复bug后合并到开发分支(development)内部测试，然后再进入测试分支(testing)提交给测试组，测试组完成测试，最后进入主干(trunk)。对于Subverion来说每一个分支都是一份拷贝，SVN版本库膨胀的非常快。
+		</para>
+		<para>Git 解决了Svn 先天不足的分支管理功能，分支在GIT类似快照，同时GIT还提供了 pull request 功能。
+		</para>
+		<para>我们怎样使用git 的分支功能呢？ 首先我们不再为每个任务创建一个分支，将任务分支放在用户自己的仓库下面，通过 pull
+			request 合并，同时合并过程顺便code review。
+		</para>
+
+		<para>testing: 用户测试组的测试分支，只能合并，不能提交代码。</para>
+		<para>development：开发组的分支，可以合并，可以接受pull request, 可以提交代码</para>
+
+		<procedure>
+			<title>Gitlab 分支应用 - 创建分支</title>
+			<step>
+				<para>首先，点击左侧 Commits 按钮，然后点击 Branches 按钮进入分支管理</para>
+				<graphic format="png" fileref="images/gitlab/branches.png" width="" srccredit="neo" />
+			</step>
+
+			<step>
+				<para>点击 New branch 创建分支</para>
+				<graphic format="png" fileref="images/gitlab/branches.new.png" width="" srccredit="neo" />
+				<para>在 Branch name 中输入分支名称，然后点击 Create branch 创建分支 </para>
+			</step>
+			<step>
+				<para>分支已经创建</para>
+				<graphic format="png" fileref="images/gitlab/branches.created.png" width="" srccredit="neo" />
+			</step>
+		</procedure>
+		<para>重复上面步骤，完成development分支的创建。</para>
+		<para>保护分支：锁定分支，只允允许合并，不允许提交</para>
+		<procedure>
+			<title>保护分支</title>
+			<step>
+
+				<para>master</para>
+				<para>testing</para>
+			</step>
+
+			<step>
+				<para>Step 2.</para>
+
+				<substeps>
+					<step>
+
+					</step>
+					<step>
+						<para>Substep b.</para>
+					</step>
+				</substeps>
+			</step>
+		</procedure>
+	</section>
+	<section>
+		<title>分支管理</title>
+	</section>
+</chapter>
+<chapter>
+	<title>升级流程</title>
+	<para>下面流程是自动化完成，这里分部讲解</para>
+	<procedure>
+		<title>升级操作流程</title>
+		<step>
+			<para>数据备份</para>
+			<para>通常绝大多数人，备份还采用 cp / tar / 以及稍微有点技术含量的rsync做差异备份 例如</para>
+			<screen>
+					<![CDATA[
+cp -r /www/example.com/www.example.com /backup/www.example.com-2016-05-23
+tar zcvf www.example.com-2016-05-23.tgz /www/example.com/www.example.com
+
+rsync -auzv /www/example.com/www.example.com /backup/www.example.com-2016-05-23
+					]]>
+			</screen>
+			<para>这种备份适合比较小的软件包，对于图片服务器什么的就比较耗时。我很早就开始尝试使用快照备份当时使用LVM，后来转为Btrfs文件系统，到2010的时候btrfs快照已经非常成熟.
+			</para>
+			<screen>
+					<![CDATA[
+[root@www.netkiller.cn www]# btrfs subvolume snapshot /www /www/backup_2016-05-23
+Create a snapshot of '/www' in '/www/backup_2016-05-23'
+					]]>
+			</screen>
+			<para>快照瞬间建立，使用下面命令查看快照</para>
+			<screen>
+					<![CDATA[
+[root@www.netkiller.cn www]# btrfs subvolume list /www
+ID 284 gen 18583 top level 5 path backup_2016-05-23
+					]]>
+			</screen>
+			<para>挂载快照</para>
+			<screen>
+					<![CDATA[
+[root@www.netkiller.cn www]# mount -t btrfs -o subvol=backup_2016-05-23 /dev/xvdb1 /mnt
+[root@www.netkiller.cn www]# ll /mnt/
+					]]>
+			</screen>
+			<para>
+				关于BTRFS详细使用方法，请参考
+				<ulink url="http://www.netkiller.cn/linux/index.html">《Netkiller Linux 手札》</ulink>
+			</para>
+		</step>
+		<step>
+			<para></para>
+
+			<para></para>
+		</step>
+		<step>
+			<para></para>
+
+		</step>
+		<step>
+			<para></para>
+			<substeps>
+				<step>
+					<para></para>
+				</step>
+				<step>
+					<para></para>
+				</step>
+			</substeps>
+		</step>
+		<step>
+			<para></para>
+		</step>
+	</procedure>
+
+</chapter>
+
+<chapter>
+	<title>Trac 项目管理</title>
+	<orderedlist>
+		<title>Trac 初始化步骤</title>
+		<listitem>首先进入Admin，初始化TRAC</listitem>
+		<listitem>使用Wiki创建项目页</listitem>
+		<listitem>创建Milestones</listitem>
+		<listitem>创建Ticket</listitem>
+	</orderedlist>
+	<section>
+		<title>Administration</title>
+		<section>
+			<title>General</title>
+			<para>安装后首先分配权限</para>
+			<procedure>
+				<title>Permissions 设置 </title>
+				<step>
+					<para>我习惯于 创建一个  developer 组和 adminstrator 组</para>
+					<para>然后创建用户隶属于 developer 组</para>
+				</step>
+				<step>
+					<para>创建用户隶属于developer组</para>
+				</step>
+			</procedure>
+		</section>
+		<section>
+			<title>Ticket System</title>
+			<procedure>
+				<title>Ticket System 设置</title>
+				<step>
+					<para>设置 Components</para>
+					<para>例如电商项目，这里可以设置，注册登录，用户中心，购物车，物流配送等等</para>
+				</step>
+				<step>
+					<para>设置 Milestones</para>
+					<para><![CDATA[ Roadmap->Milestone->Add new milestone ]]></para>
+					<para>我一般是一个月一个里程碑</para>
+				</step>
+				<step>
+					<para>设置 Priorities</para>
+					<para>我一般设置为：</para>
+					<para>新特性（优先）, 不限期, 立即执行, 当日完成, 本周完成, 本月完成</para>
+				</step>
+				<step>
+					<para>Resolutions</para>
+					<para>任务完成, 无效BUG, 重复, 待测试, 待发布</para>
+				</step>
+				<step>
+					<para>Severities</para>
+					<para>严重错误, 次要错误, 文字错误, 不合理</para>
+				</step>
+				<step>
+					<para>Ticket Types</para>
+					<orderedlist>
+						<title>Ticket Types 初始化</title>
+						<listitem>开发</listitem>
+						<listitem>测试</listitem>
+						<listitem>运维</listitem>
+						<listitem>设计</listitem>
+						<listitem>需求</listitem>
+						<listitem>事件</listitem>
+						<listitem><para>BUG</para></listitem>
+					</orderedlist>
+
+				</step>
+				<step>
+					<para>Versions</para>
+					<para>不多说了 1.0， 1。1 或者  1.0.1</para>
+				</step>
+			</procedure>
+		</section>
+		<section>
+			<title>Version Control</title>
+			<para>Repositories</para>
+			<para>默认支持 Subversion, 创建一个仓库记得不要忘记创建下面三个目录  1.branches, 2.tags, 3.trunk</para>
+			<screen>
+			<![CDATA[
+trunk			主干
+branches		在下面再创建两个目录development,testing
+tags			当项目Release 后会在此处打一个标记
+			]]>
+			</screen>
+			<para>Git 不需要这三个目录，我习惯上会创建几个分支</para>
+			<screen>
+master			主干
+development		开发分支
+testing			测试分支
+			</screen>
+			<para>关于版本库项目目录，我习惯与使用该项目对应的域名作为项目目录</para>
+			<screen>
+/example.com
+/example.com/www.exampe.com
+/example.com/images.exampe.com
+/example.com/user.exampe.com
+/example.com/admin.exampe.com
+			</screen>
+		</section>
+
+	</section>
+
+	<section>
+		<title>Wiki</title>
+		<procedure>
+			<title>Wiki 使用方法</title>
+			<step>
+				<para>项目成员页，里面要包含所有项目程序的联系方式</para>
+				<screen>
+|name|telephone|cellphone|ext|im|email|
+|Neo|13122993040||||
+				</screen>
+			</step>
+			<step>
+				<para>需求页面</para>
+				<screen>
+				</screen>
+			</step>
+		</procedure>
+	</section>
+	<section>
+		<title>Timeline</title>
+		<para>可以看到每时每刻的项目变化，包括Wiki, Ticket, 以及代码提交</para>
+	</section>
+	<section>
+		<title>Roadmap</title>
+		<para>Roadmap 中的里程碑页，也可以加以利用，我喜欢将一个里程碑分解为多个Ticket 然后在该页面体现，包括整体上的工作安排等等，使用表格来安排Ticket日程，一定程度上弥补了TRAC没有甘特图的不足，</para>
+	</section>
+	<section>
+		<title>Ticket</title>
+		<procedure>
+			<title>Ticket 使用方法</title>
+			<step>
+				<para>New Ticket</para>
+				<para>新建Ticket, Ticket 可以理解为任务。 </para>
+			</step>
+			<step>
+				<para>将Ticket 分配给团队成员</para>
+				<para>受到Ticket后，一定要更改Ticket 为 accept ， 这时在View Tickets 中将会看到该Ticket已经分配，</para>
+			</step>
+			<step>
+				<para>编码过程</para>
+				<para>这里有一个特别的规定，提交代码（包括Subversion与Git）注释中必须这样写：</para>
+				<screen>
+svn ci -m "Ticket #123 - xxxxxxxxxxxxxxxxxxx"
+git commit -a -m "Ticket #123 - xxxxxxxxxxxxxxxxxxx"
+				</screen>
+				<para>格式：Ticket #123 - 你的注释</para>
+				<para>这样写的好处是，在Timeline 中可以直接点击 Ticket 编号直接进入Ticket</para>
+				<screen>
+				<![CDATA[
+10:54 AM Ticket #462 (添加一个支付方式) reopened by neo
+
+4:51 PM Changeset in admin.example.com [01a0c4] by neo <neo.chan@example.com>
+Ticket #452 - 用户登录日志
+				]]>
+				</screen>
+			</step>
+			<step>
+				<para>Add Comment</para>
+				<para>回复Ticket，上面提交后悔产生一个Subversion版本号，按照下面格式写，然后提交 </para>
+				<screen>
+Changesets: r1, [1] or changeset:1
+				</screen>
+				<para>这样就可以实现，进入Ticket即可看到做了哪些代码提交与改动，一目了然。</para>
+				<para>Git 写法</para>
+				<screen>
+[changeset:af212a]
+[changeset:7a03c65500c4b96859a27bf5be2901e4ec42afdd]
+				</screen>
+				<para>如果 Repositories 中有多个项目写法如下</para>
+				<screen>
+[changeset:af212a/www.example.com]
+				</screen>
+			</step>
+		</procedure>
+	</section>
+</chapter>
+
+
 <chapter id="environment">
 	<title>DevOps Environment</title>
-<!--
-	<para><graphic  format="png" fileref="/architect/images/backup/backup.png" srccredit="neo" width=""/></para>
--->
+	<para>
+		<graphic format="png" fileref="/management/images/backup/backup.png" srccredit="neo" width="" />
+	</para>
 	<section id="devops.trac">
 		<title>Trac Project Management</title>
 		<para></para>
-		<para><graphic  format="png" fileref="../images/workflow/Trac Project Management.png" srccredit="neo" width=""/></para>
+		<para>
+			<graphic format="png" fileref="/management/images/workflow/Trac 
+	Project Management.png" srccredit="neo" width="" />
+		</para>
 	</section>
 	<section id="devops.environment">
 		<title>Development Environment</title>
 		<para></para>
-		<para><graphic  format="png" fileref="../images/workflow/Development Environment.png" srccredit="neo" width=""/></para>
+		<para>
+			<graphic format="png" fileref="/management/images/workflow/Development Environment.png" srccredit="neo" width="" />
+		</para>
 	</section>
 	<section id="devops.testing">
 		<title>Testing Environment</title>
 		<para></para>
-		<para><graphic  format="png" fileref="../images/workflow/Development Environment.png" srccredit="neo" width=""/></para>
+		<para>
+			<graphic format="png" fileref="/management/images/workflow/Development Environment.png" srccredit="neo" width="" />
+		</para>
 	</section>
 </chapter>
+<!-- <chapter id="implement"><?dbhtml dir="env"?> <title>实施篇</title> </chapter> -->

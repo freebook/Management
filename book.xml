@@ -14,8 +14,7 @@
 	<!ENTITY chapter.itsm.xml 			SYSTEM "ITSM/chapter.itsm.xml">
 	<!ENTITY chapter.practice.xml 		SYSTEM "ITSM/chapter.practice.xml">
 -->
-
-	<!ENTITY part.project.xml 			SYSTEM "part.project.xml">
+	
 	<!ENTITY part.engineering.xml		SYSTEM "part.engineering.xml">
 
 	<!ENTITY part.sqa.xml 				SYSTEM "part.sqa.xml">
@@ -34,7 +33,6 @@
 
 	<!ENTITY part.devops.xml					SYSTEM "part.devops.xml">
 	<!ENTITY chapter.devops.xml					SYSTEM "chapter.devops.xml">
-	<!ENTITY devops.environment.xml				SYSTEM "chapter.environment.xml">
 	<!ENTITY devops.development.xml				SYSTEM "chapter.development.xml">
 	<!ENTITY devops.automation.xml				SYSTEM "chapter.automation.xml">
 	<!ENTITY devops.automation.deployment.xml 	SYSTEM "chapter.automation.deployment.xml">
@@ -88,7 +86,7 @@
 	&book.dedication.xml;
     &book.preface.xml;
 	
-    &part.project.xml;
+    &part.mgmt.xml;
     
     &part.devops.xml;
 	&part.development.xml;
