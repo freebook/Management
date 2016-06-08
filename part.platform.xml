@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<part id="index"><?dbhtml dir="platform"?>
+	<title>平台篇</title>
+	<para>按照章节顺序依次实施</para>
+	&chapter.platform.gitlab.xml;
+	&chapter.environment.xml;
+</part>

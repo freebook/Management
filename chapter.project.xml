@@ -313,7 +313,7 @@
 		<title>变更管理(Change Management)</title>
 		<para></para>
 	</section>
-	<section id="hr">
+	<section id="integrated">
 		<title>集成管理</title>
 		<para>是指为确保项目各项工作能够有机地协调和配合所展开的综合性和全局性的项目管理工作和过程。它包括项目集成计划的制定，项目集成计划的实施，项目变动的总体控制等。
 		</para>
@@ -344,7 +344,7 @@
 		</section>
 	</section>
 
-	<section id="task">
+	<section id="risk">
 		<title>风险管理</title>
 		<para>涉及项目可能遇到各种不确定因素。它包括风险识别，风险量化，制订对策和风险控制等。</para>
 		<section id="task">
@@ -370,7 +370,7 @@
 			<title>代码审查</title>
 		</section>
 	</section>
-	<section id="task">
+	<section id="cost">
 		<title>成本管理</title>
 		<para>为了保证完成项目的实际成本、费用不超过预算成本、费用的管理过程。它包括资源的配置，成本、费用的预算以及费用的控制等项工作。
 		</para>
@@ -386,7 +386,7 @@
 			<para></para>
 		</section>
 	</section>
-	<section id="hr">
+	<section id="purchasing">
 		<title>采购管理</title>
 		<para>为了从项目实施组织之外获得所需资源或服务所采取的一系列管理措施。它包括采购计划，采购与征购，资源的选择以及合同的管理等项目工作。
 		</para>

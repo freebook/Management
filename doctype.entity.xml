@@ -1,12 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!ENTITY part.mgmt.xml 					SYSTEM "part.mgmt.xml">
 
+<!ENTITY part.platform.xml					SYSTEM "part.platform.xml">
+<!ENTITY chapter.platform.gitlab.xml		SYSTEM "chapter.platform.gitlab.xml">
+<!ENTITY chapter.devops.xml					SYSTEM "chapter.devops.xml">
+<!ENTITY devops.development.xml				SYSTEM "chapter.development.xml">
+<!ENTITY devops.automation.xml				SYSTEM "chapter.automation.xml">
+<!ENTITY devops.automation.deployment.xml 	SYSTEM "chapter.automation.deployment.xml">
+<!ENTITY chapter.automation.utility.xml		SYSTEM "chapter.automation.utility.xml">
+
+
 <!ENTITY chapter.hr.xml 				SYSTEM "chapter.hr.xml">
 <!ENTITY chapter.hr.interview.xml		SYSTEM "chapter.hr.interview.xml">
 <!ENTITY chapter.hr.handover.xml 		SYSTEM "chapter.hr.handover.xml">
 <!ENTITY chapter.position.xml		 	SYSTEM "chapter.position.xml">
 <!ENTITY chapter.organizational.xml	 	SYSTEM "chapter.organizational.xml">
+<!ENTITY chapter.environment.xml		SYSTEM "chapter.environment.xml">
 
 <!ENTITY chapter.project.xml 		SYSTEM "chapter.project.xml">
 <!ENTITY chapter.workflow.xml	 	SYSTEM "chapter.workflow.xml">
-<!ENTITY chapter.environment.xml		SYSTEM "chapter.environment.xml">

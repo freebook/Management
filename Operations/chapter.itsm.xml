@@ -2,6 +2,18 @@
 <!-- $Id: chapter.practice.xml 614 2013-06-10 10:10:09Z netkiller $ -->
 <chapter id="itsm">
 	<title>IT 服务管理</title>
+	<screen>
+(1)服务级别管理
+(2)可用性管理
+(3)能力管理
+(4)服务连续性管理
+(5)财务管理
+(6)事件管理
+(7)问题管理
+(8)变更管理
+(9)配置管理
+(10)发布管理	
+	</screen>
 	<section>
 		<title>组织架构</title>
 	</section>

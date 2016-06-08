@@ -439,25 +439,21 @@ f.close()
 		</section>
 
 	</section>
-	<section>
+	<!-- <section>
 		<title>Database Adminstrator</title>
-		<para>我认为DBA应该是高于 SA 的，所有这里的问题没有关于数据库的安装配置的问题。</para>
+		<para></para>
 		<section>
-			<title>Senior DBA</title>
+			<title></title>
 			<qandaset>
 				<qandaentry>
 					<question>索引问题？</question>
 						<literallayout>
-- 临时表需要建索引吗？
-- 在什么情况下将使用索引
-- 在什么情况下将使用不索引
-- 在什么情况查询结果能被缓存
-- 在什么情况查询结果不能被缓存
+
 						</literallayout>
 				</qandaentry>
 			</qandaset>
 		</section>
-	</section>
+	</section> -->
 </section>
 
 </chapter>

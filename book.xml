@@ -31,14 +31,7 @@
 	%ops.doctype.entity.xml;
 	<!ENTITY part.operations.xml		SYSTEM "part.operations.xml">
 
-	<!ENTITY part.devops.xml					SYSTEM "part.devops.xml">
-	<!ENTITY chapter.devops.xml					SYSTEM "chapter.devops.xml">
-	<!ENTITY devops.development.xml				SYSTEM "chapter.development.xml">
-	<!ENTITY devops.automation.xml				SYSTEM "chapter.automation.xml">
-	<!ENTITY devops.automation.deployment.xml 	SYSTEM "chapter.automation.deployment.xml">
-	<!ENTITY chapter.automation.utility.xml		SYSTEM "chapter.automation.utility.xml">
-
-	<!ENTITY % doctype.entity.xml 	SYSTEM "doctype.entity.xml">
+	<!ENTITY % doctype.entity.xml 		SYSTEM "doctype.entity.xml">
 	%doctype.entity.xml;
 
 	<!ENTITY % project.doctype.entity.xml 	SYSTEM "Project/doctype.entity.xml">
@@ -87,10 +80,11 @@
     &book.preface.xml;
 	
     &part.mgmt.xml;
+    &part.platform.xml;
     
-    &part.devops.xml;
+    <!-- &chapter.devops.xml; -->
 	&part.development.xml;
 	&part.operations.xml;
-	&chapter.hr.xml;
+	<!-- &chapter.hr.xml; -->
 
  </book>

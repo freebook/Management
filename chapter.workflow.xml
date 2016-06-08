@@ -2,7 +2,7 @@
 <!-- $Author: netkiller $ -->
 <!-- $Id: chapter.workflow.xml 594 2013-05-22 10:30:58Z netkiller $ -->
 
-<chapter id="workflow"><?dbhtml dir="workflow"?>
+<chapter id="workflow">
 	<title>流程篇</title>
 	<para>开发 -&gt; 测试 -&gt; 运维 贯穿始终。</para>
 	<para>几乎所有的技术企业都会重视技术规范，为此制定各种规范，并要求员工严格执行。同时员工会想出各种对策，就这样形成了潜规则。
