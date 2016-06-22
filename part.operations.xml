@@ -2,51 +2,122 @@
 <!-- $Id$ -->
 <part id="index"><?dbhtml dir="ops"?>
 	<title>运维篇(Operations)</title>
-	
-	&chapter.monitor.xml;
-	
-</part>
-	<!--
-	&chapter.operations.xml;
-	&chapter.platform.xml;
- -->
 
-<!--
+<chapter>
+	<title>备份流程</title>
+	<para>下面流程是自动化完成，这里分部讲解</para>
+	<procedure>
+		<title>升级操作流程</title>
+		<step>
+			<para>数据备份</para>
+			<para>通常绝大多数人，备份还采用 cp / tar / 以及稍微有点技术含量的rsync做差异备份 例如</para>
+			<screen>
+					<![CDATA[
+cp -r /www/example.com/www.example.com /backup/www.example.com-2016-05-23
+tar zcvf www.example.com-2016-05-23.tgz /www/example.com/www.example.com
 
+rsync -auzv /www/example.com/www.example.com /backup/www.example.com-2016-05-23
+					]]>
+			</screen>
+			<para>这种备份适合比较小的软件包，对于图片服务器什么的就比较耗时。我很早就开始尝试使用快照备份当时使用LVM，后来转为Btrfs文件系统，到2010的时候btrfs快照已经非常成熟.
+			</para>
+			<screen>
+					<![CDATA[
+[root@www.netkiller.cn www]# btrfs subvolume snapshot /www /www/backup_2016-05-23
+Create a snapshot of '/www' in '/www/backup_2016-05-23'
+					]]>
+			</screen>
+			<para>快照瞬间建立，使用下面命令查看快照</para>
+			<screen>
+					<![CDATA[
+[root@www.netkiller.cn www]# btrfs subvolume list /www
+ID 284 gen 18583 top level 5 path backup_2016-05-23
+					]]>
+			</screen>
+			<para>挂载快照</para>
+			<screen>
+					<![CDATA[
+[root@www.netkiller.cn www]# mount -t btrfs -o subvol=backup_2016-05-23 /dev/xvdb1 /mnt
+[root@www.netkiller.cn www]# ll /mnt/
+					]]>
+			</screen>
+			<para>
+				关于BTRFS详细使用方法，请参考
+				<ulink url="http://www.netkiller.cn/linux/index.html">《Netkiller Linux 手札》</ulink>
+			</para>
+		</step>
+		<step>
+			<para></para>
 
-<chapter id="command">
-	<title>H3C Command</title>
-	<section id="config">
-		<title>config</title>
+			<para></para>
+		</step>
+		<step>
+			<para></para>
+
+		</step>
+		<step>
+			<para></para>
+			<substeps>
+				<step>
+					<para></para>
+				</step>
+				<step>
+					<para></para>
+				</step>
+			</substeps>
+		</step>
+		<step>
+			<para></para>
+		</step>
+	</procedure>
+
+</chapter>
+
+<chapter id="logging">
+	<title>日志</title>
+	<section id="log1">
+		<title>日志卷挂载</title>
 		<section>
-			<title>current-configuration</title>
-			<para>current-configuration</para>
+			<title>子卷挂载</title>
+			<para>将 /srv/apache-tomcat/logs 日志目录挂载到 /www/logs 子卷</para>
 			<screen>
 			<![CDATA[
+[root@iZ62sreab5qZ ~]#  btrfs subvolume snapshot /www /www/logs
+Create a snapshot of '/www' in '/www/logs'
 
+UUID=6b2d5cbf-0b0f-42df-b697-7280671ea847 /srv/apache-tomcat/logs btrfs defaults,subvol=logs 1 1
 
 			]]>
 			</screen>
 		</section>
-		<section id="saved-configuration">
-			<title>saved-configuration</title>
-			<para>saved-configuration</para>
+		<section id="log2">
+			<title>使用过个子卷</title>
+			<para>挂载多个子卷</para>
 			<screen>
 			<![CDATA[
-
-
+[root@iZ62sreab5qZ ~]#  btrfs subvolume snapshot /www /www/logs
+Create a snapshot of '/www' in '/www/logs'
+[root@iZ62sreab5qZ ~]#  btrfs subvolume snapshot /www /www/logs/admin
+Create a snapshot of '/www' in '/www/logs/admin'
+[root@iZ62sreab5qZ ~]#  btrfs subvolume snapshot /www /www/logs/m
+Create a snapshot of '/www' in '/www/logs/m'
+[root@iZ62sreab5qZ ~]#  btrfs subvolume snapshot /www /www/logs/www
+Create a snapshot of '/www' in '/www/logs/www'
 			]]>
 			</screen>
 		</section>
-		<section id="save">
-			<title>保存配置</title>
+		<section id="fstab">
+			<title>/etc/fstab配置</title>
 			<screen>
 			<![CDATA[
-
+UUID=9936c1b9-44ea-46b7-ae7c-2486c4859116 /srv/apache-tomcat-www/logs btrfs defaults,subvol=logs/www 1 1
+UUID=9936c1b9-44ea-46b7-ae7c-2486c4859116 /srv/apache-tomcat-admin/logs btrfs defaults,subvol=logs/admin 1 1
+UUID=9936c1b9-44ea-46b7-ae7c-2486c4859116 /srv/apache-tomcat-m/logs btrfs defaults,subvol=logs/m 1 1
 			]]>
 			</screen>
 		</section>
 	</section>
+<!--	
 	<section id="boot-loader">
 		<title>boot-loader</title>
 		<screen>
@@ -70,5 +141,13 @@
 			</screen>
 		</section>
 	</section>
+-->	
 </chapter>
+
+	&chapter.monitor.xml;
+	
+</part>
+	<!--
+	&chapter.operations.xml;
+	&chapter.platform.xml;
  -->
