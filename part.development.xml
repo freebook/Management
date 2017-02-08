@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <part id="index"><?dbhtml dir="dev"?>
 	<title>开发篇(Development)</title>
+	&chapter.project.xml;
 	&chapter.development.xml;
 	&chapter.coding.xml;
 </part>

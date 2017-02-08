@@ -5,3 +5,5 @@
 <!ENTITY chapter.operations.xml		SYSTEM "chapter.operations.xml">
 <!ENTITY chapter.platform.xml		SYSTEM "chapter.platform.xml">
 <!ENTITY chapter.monitor.xml		SYSTEM "chapter.monitor.xml">
+<!ENTITY chapter.template.xml		SYSTEM "chapter.template.xml">
+<!ENTITY chapter.idc.move.xml		SYSTEM "chapter.idc.move.xml">

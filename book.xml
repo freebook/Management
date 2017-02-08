@@ -10,7 +10,7 @@
 	<!ENTITY book.appendix.xml		    SYSTEM "book.appendix.xml">
 
 <!--
-	<!ENTITY part.itsm.xml 				SYSTEM "part.itsm.xml">
+	
 	<!ENTITY chapter.itsm.xml 			SYSTEM "ITSM/chapter.itsm.xml">
 	<!ENTITY chapter.practice.xml 		SYSTEM "ITSM/chapter.practice.xml">
 -->
@@ -34,8 +34,9 @@
 	<!ENTITY % doctype.entity.xml 		SYSTEM "doctype.entity.xml">
 	%doctype.entity.xml;
 
-	<!ENTITY % project.doctype.entity.xml 	SYSTEM "Project/doctype.entity.xml">
-	%project.doctype.entity.xml;
+	<!ENTITY % devops.doctype.entity.xml 	SYSTEM "Devops/doctype.entity.xml">
+	%devops.doctype.entity.xml;
+	<!ENTITY part.devops.xml 				SYSTEM "part.devops.xml">
 
 	<!--
 	<!ENTITY % se.doctype.entity.xml 	SYSTEM "SoftwareEngineering/doctype.entity.xml">
@@ -63,7 +64,7 @@
 		&book.info.author.xml;
 
 		<copyright>
-			<year>2010-2016</year>
+			<year>2010-2017</year>
 			<holder>netkiller</holder>
 		</copyright>
 
@@ -79,11 +80,9 @@
 	&book.dedication.xml;
     &book.preface.xml;
 	
-    &part.mgmt.xml;
-    &part.platform.xml;
-    
-    <!-- &chapter.devops.xml; -->
+    &part.devops.xml;
 	&part.development.xml;
+	&part.sqa.xml;
 	&part.operations.xml;
 	<!-- &chapter.hr.xml; -->
 

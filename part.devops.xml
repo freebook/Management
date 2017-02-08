@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<part id="index"><?dbhtml dir="devops"?>
+	<title>DevOps 管理篇</title>
+    <!-- &chapter.team.xml; -->
+    &chapter.workflow.xml;
+    &chapter.devops.xml;
+</part>

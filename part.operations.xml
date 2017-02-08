@@ -2,6 +2,9 @@
 <!-- $Id$ -->
 <part id="index"><?dbhtml dir="ops"?>
 	<title>运维篇(Operations)</title>
+	&chapter.itsm.xml;
+	&chapter.idc.move.xml;
+	&chapter.template.xml;
 
 <chapter>
 	<title>备份流程</title>
