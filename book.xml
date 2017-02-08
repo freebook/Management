@@ -10,18 +10,21 @@
 	<!ENTITY book.appendix.xml		    SYSTEM "book.appendix.xml">
 
 <!--
+	<!ENTITY book.dedication 	SYSTEM "book.dedication.xml">
+	<!ENTITY book.preface 		SYSTEM "book.preface.xml">
+	<!ENTITY book.appendix 		SYSTEM "book.appendix.xml">
+	<!ENTITY book.glossary 		SYSTEM "book.glossary.xml">
+	<!ENTITY book.history 		SYSTEM "book.history.xml">
+-->
+
+<!--
 	
 	<!ENTITY chapter.itsm.xml 			SYSTEM "ITSM/chapter.itsm.xml">
 	<!ENTITY chapter.practice.xml 		SYSTEM "ITSM/chapter.practice.xml">
--->
-	
 	<!ENTITY part.engineering.xml		SYSTEM "part.engineering.xml">
-
-	<!ENTITY part.sqa.xml 				SYSTEM "part.sqa.xml">
-	<!ENTITY chapter.sqa.xml 			SYSTEM "chapter.sqa.xml">
-
 	<!ENTITY chapter.terminal.xml 		SYSTEM "chapter.terminal.xml">
 	<!ENTITY chapter.reference.xml		SYSTEM "chapter.reference.xml">
+-->
 	
 	<!ENTITY % dev.doctype.entity.xml 	SYSTEM "Development/doctype.entity.xml">
 	%dev.doctype.entity.xml;
@@ -38,23 +41,14 @@
 	%devops.doctype.entity.xml;
 	<!ENTITY part.devops.xml 				SYSTEM "part.devops.xml">
 
-	<!--
-	<!ENTITY % se.doctype.entity.xml 	SYSTEM "SoftwareEngineering/doctype.entity.xml">
-	%se.doctype.entity.xml;
-	-->
+	<!ENTITY % testing.doctype.entity.xml 	SYSTEM "Testing/doctype.entity.xml">
+	%testing.doctype.entity.xml;
+	<!ENTITY part.testing.xml 			SYSTEM "part.testing.xml">
 	
 	<!ENTITY % graphics.doctype.entity.xml 	SYSTEM "Graphics/doctype.entity.xml">
 	%graphics.doctype.entity.xml;
 
 ] >
-
-<!--
-	<!ENTITY book.dedication 	SYSTEM "book.dedication.xml">
-	<!ENTITY book.preface 		SYSTEM "book.preface.xml">
-	<!ENTITY book.appendix 		SYSTEM "book.appendix.xml">
-	<!ENTITY book.glossary 		SYSTEM "book.glossary.xml">
-	<!ENTITY book.history 		SYSTEM "book.history.xml">
--->
 
 <book>
 	<info>
@@ -74,7 +68,6 @@
 			<para></para>
 		</abstract>
 
-        &book.info.abstract.xml;
 	</info>
 
 	&book.dedication.xml;
@@ -82,8 +75,7 @@
 	
     &part.devops.xml;
 	&part.development.xml;
-	&part.sqa.xml;
+	&part.testing.xml;
 	&part.operations.xml;
-	<!-- &chapter.hr.xml; -->
-
+	&book.appendix.xml;
  </book>
