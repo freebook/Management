@@ -24,26 +24,26 @@
 	<!ENTITY part.engineering.xml		SYSTEM "part.engineering.xml">
 	<!ENTITY chapter.terminal.xml 		SYSTEM "chapter.terminal.xml">
 	<!ENTITY chapter.reference.xml		SYSTEM "chapter.reference.xml">
+	
+	<!ENTITY % doctype.entity.xml 		SYSTEM "doctype.entity.xml">
+	%doctype.entity.xml;
+	
 -->
+	<!ENTITY % mgmt.doctype.entity.xml 	SYSTEM "Mgmt/doctype.entity.xml">
+	%mgmt.doctype.entity.xml;
+	<!ENTITY part.mgmt.xml 				SYSTEM "part.mgmt.xml">
 	
 	<!ENTITY % dev.doctype.entity.xml 	SYSTEM "Development/doctype.entity.xml">
 	%dev.doctype.entity.xml;
 	<!ENTITY part.development.xml		SYSTEM "part.development.xml">
 	
-	<!ENTITY % ops.doctype.entity.xml 	SYSTEM "Operations/doctype.entity.xml">
-	%ops.doctype.entity.xml;
-	<!ENTITY part.operations.xml		SYSTEM "part.operations.xml">
-
-	<!ENTITY % doctype.entity.xml 		SYSTEM "doctype.entity.xml">
-	%doctype.entity.xml;
-
-	<!ENTITY % devops.doctype.entity.xml 	SYSTEM "Devops/doctype.entity.xml">
-	%devops.doctype.entity.xml;
-	<!ENTITY part.devops.xml 				SYSTEM "part.devops.xml">
-
 	<!ENTITY % testing.doctype.entity.xml 	SYSTEM "Testing/doctype.entity.xml">
 	%testing.doctype.entity.xml;
 	<!ENTITY part.testing.xml 			SYSTEM "part.testing.xml">
+		
+	<!ENTITY % ops.doctype.entity.xml 	SYSTEM "Operations/doctype.entity.xml">
+	%ops.doctype.entity.xml;
+	<!ENTITY part.operations.xml		SYSTEM "part.operations.xml">
 	
 	<!ENTITY % graphics.doctype.entity.xml 	SYSTEM "Graphics/doctype.entity.xml">
 	%graphics.doctype.entity.xml;
@@ -73,7 +73,7 @@
 	&book.dedication.xml;
     &book.preface.xml;
 	
-    &part.devops.xml;
+    &part.mgmt.xml;
 	&part.development.xml;
 	&part.testing.xml;
 	&part.operations.xml;
