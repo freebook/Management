@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Id$ -->
-<chapter id="monitor">
+<section id="monitor">
 	<title>监控</title>
 	<subtitle></subtitle>
 	<section id="type">
@@ -217,4 +217,4 @@ HSRP/VRRP 網関監控
 		</example>
 	</section>
  -->
-</chapter>
+</section>

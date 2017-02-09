@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Id: chapter.coding.xml 584 2013-05-15 05:13:17Z netkiller $ -->
-<chapter id="coding">
+<section id="coding">
 	<title>编码风格</title>
 	<screen>
 https://code.google.com/p/google-styleguide/
@@ -235,4 +235,4 @@ $sql = "select id, name, created from tab where created=now()";
 			</screen>
 		</section>
 	</section>
-</chapter>
+</section>

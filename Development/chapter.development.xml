@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- $Id: chapter.development.xml 584 2013-05-15 05:13:17Z netkiller $ -->
-<chapter id="development">
+<!-- $Id: section.development.xml 584 2013-05-15 05:13:17Z netkiller $ -->
+<section id="development">
 	<title>软件工程 (Software Engineering)</title>
 	<graphic format="png" fileref="../images/workflow/Trac Project Management.png"		srccredit="neo" />
 	<graphic format="png" fileref="../images/workflow/Development Environment.png"		srccredit="neo" />
@@ -13,10 +13,10 @@
 		<para>Linux 中有许多BSD代码，但BSD却不能移植Linux 代码到BSD中，这是因为GPL License。</para>
 		<para>http://www.apache.org/licenses/</para>
 	</section>
-</chapter>
+</section>
 
 
-	<chapter id="project.dir">
+	<section id="project.dir">
 		<title>Project directory</title>
 		<para>一种很蠢目录规划：</para>
 		<screen>
@@ -42,9 +42,9 @@ project/...
 			</listitem>
 
 		</itemizedlist>
-	</chapter>
+	</section>
 
-	<chapter id="svn.repos">
+	<section id="svn.repos">
 		<title>版本控制及如何运作</title>
 		<section>
 			<title>版本库布局</title>
@@ -169,21 +169,21 @@ svn ci -m "- Add Feature #534 (your message)"
 				</screen>
 			</section>
 		</section>
-	</chapter>
+	</section>
 
-	<chapter>
+	<section>
 		<title>任务分配原则</title>
 
-	</chapter>
-	<chapter>
+	</section>
+	<section>
 		<title>项目运作</title>
 		<para><graphic  format="png" fileref="。。/。。/images/workflow.png" srccredit="neo" /></para>
-	</chapter>
-	<chapter>
+	</section>
+	<section>
 		<title>收集需求</title>
 		<para><graphic  format="png" fileref="。。/。。/images/workflow_1.png" srccredit="neo" /></para>
-	</chapter>
-	<chapter>
+	</section>
+	<section>
 		<title>代码审查制度</title>
 		<para>Code Review</para>
 		<para>一对一代码审查可以提高程序质量.</para>
@@ -203,8 +203,8 @@ developer zen ---> coding ---> commit --->`
 			<title>Coding workflow</title>
 			<para><graphic  format="png" fileref=".。/../images/workflow/Development Flow.png" srccredit="neo" width=""/></para>
 		</section>
-	</chapter>
-	<chapter id="release_notes">
+	</section>
+	<section id="release_notes">
 		<title>Release Notes</title>
 		<para>Release Notes 撰写说明</para>
 		<para>当一个项目升级时，需要写一个文档纪录这次变动，内容包括，新增了什么，更改了什么，修复了什么，未解决得问题，改善了什么，忽略了什么</para>
@@ -228,12 +228,12 @@ IMPROVED - xxxxxxxxx
 			</screen>
 		</example>
 		<para>你也同样可以参考很多开源组织编写的Release Notes，例如apache, mysql, php 等等</para>
-	</chapter>
-	<chapter id="release">
+	</section>
+	<section id="release">
 		<title>版本发行</title>
 		<para>每周一个发行版本</para>
-	</chapter>
-	<chapter>
+	</section>
+	<section>
 		<title>每周例会</title>
 		<para>任务进度跟踪</para>
-	</chapter>
+	</section>

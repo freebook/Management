@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<part id="index"><?dbhtml dir="mgmt"?>
+<chapter id="index"><?dbhtml dir="mgmt"?>
 	<title>管理篇</title>
     <!-- &chapter.team.xml; -->
     &chapter.workflow.xml;
     &chapter.devops.xml;
     &chapter.platform.xml;
     <!-- &chapter.hr.xml; -->
-</part>
+</chapter>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<chapter id="move"><?dbhtml dir="idc"?>
+<section id="move"><?dbhtml dir="idc"?>
 	<title>机房迁移</title>
 	<subtitle></subtitle>
 	<chapterinfo>
@@ -102,4 +102,4 @@ ln -s /srv/php-7.0.0 /srv/php
 		<para>压力与性能测试</para>
 		<para>业务功能测试</para>
 	</section>
-</chapter>
+</section>

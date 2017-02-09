@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<chapter id="index"><?dbhtml dir="fishbone"?>
+<section id="index"><?dbhtml dir="fishbone"?>
 	<title>因果图在运维工作中的应用</title>
 	<chapterinfo>
 		<keywordset>
@@ -73,4 +73,4 @@
 		</section>		
 	</section>	
 	
-</chapter>
+</section>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<chapter>
+<section id="backup">
 	<title>备份流程</title>
 	<para>下面流程是自动化完成，这里分部讲解</para>
 	<procedure>
@@ -67,4 +67,4 @@ ID 284 gen 18583 top level 5 path backup_2016-05-23
 		</step>
 	</procedure>
 
-</chapter>
+</section>
