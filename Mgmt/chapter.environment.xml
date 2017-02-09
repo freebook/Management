@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<chapter id="index"><?dbhtml dir="trac"?>
+<section id="index"><?dbhtml dir="trac"?>
 	<title>Trac 项目管理</title>
 	<orderedlist>
 		<title>Trac 初始化步骤</title>
@@ -174,10 +174,10 @@ Changesets: r1, [1] or changeset:1
 			</step>
 		</procedure>
 	</section>
-</chapter>
+</section>
 
 
-<chapter id="environment">
+<section id="environment">
 	<title>DevOps Environment</title>
 	<para>
 		<graphic format="png" fileref="/management/images/backup/backup.png" srccredit="neo" width="" />
@@ -204,5 +204,5 @@ Changesets: r1, [1] or changeset:1
 			<graphic format="png" fileref="/management/images/workflow/Development Environment.png" srccredit="neo" width="" />
 		</para>
 	</section>
-</chapter>
+</section>
 <!-- <chapter id="implement"><?dbhtml dir="env"?> <title>实施篇</title> </chapter> -->

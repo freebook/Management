@@ -4,5 +4,6 @@
     <!-- &chapter.team.xml; -->
     &chapter.workflow.xml;
     &chapter.devops.xml;
+    &chapter.platform.xml;
     <!-- &chapter.hr.xml; -->
 </part>

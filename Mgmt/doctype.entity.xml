@@ -17,5 +17,5 @@
 <!ENTITY chapter.organizational.xml	 	SYSTEM "chapter.organizational.xml">
 <!ENTITY chapter.environment.xml		SYSTEM "chapter.environment.xml">
 
-
+<!ENTITY chapter.platform.xml		SYSTEM "chapter.platform.xml">
 <!ENTITY chapter.workflow.xml	 	SYSTEM "chapter.workflow.xml">

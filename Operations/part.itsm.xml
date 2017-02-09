@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<part id="index"><?dbhtml dir="itsm"?>
-	<title>ITSM (IT Service Management) IT服务管理</title>
-
-	&chapter.practice.xml;
-
-	&chapter.itsm.xml;
-
-</part>

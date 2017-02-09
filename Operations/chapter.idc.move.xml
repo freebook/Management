@@ -7,8 +7,6 @@
 			<keyword>www, web, apache, httpd, nginx</keyword>
 		</keywordset>
 	</chapterinfo>
-	<screen>
-	</screen>
 	<para>总结一下5年前的工作，在不写下来自己都快忘光了，工作关系现在已经不涉及运维这块的工作。</para>
 	<section id="topology">
 		<title>拓扑确立</title>
@@ -17,16 +15,57 @@
 		<para>接下来分配IP地址以及服务端口号</para>
 		<para>最后制定虚拟拓扑图，是各种服务间的关系图，由IP地址和端口组成，标住出他们之间的关系。</para>
 	</section>
+	<section id="storage">
+		<title>存储规划</title>
+		<para>什么东西放在什么地方，怎么规划空间等等。</para>
+		<section>
+			<title>RAID Disk Group 规划</title>
+			<para>根据不同用途使用不同的RAID，这主要跟IO密集都与数据安全性有关。</para>
+			<para>Virtual Disk 技术很有用，我使用这种技术两RAID划分为两个设备，一个用来安装操作系统，另一个用于数据存储，方便系统重做。</para>
+			<para>SSD 机械故障为零，整体故障率低于传统硬盘。我通常做RAID0用与负载均衡场景。</para>
+		</section>
+		<section>
+			<title>文件系统规划</title>
+			<para>我通常使用btrfs，LVM/EXT4已经过时。</para>
+			<para>/ 分区EXT4 安装操作系统，swap 分区不一定是内存2倍，因为现在的服务器都是8~16GB，OS很少能使用到交换分区，但是像Oracle这样强制交换分区为内存两倍。</para>
+			<para>其余所有空间分区格式化为btrfs mount 到 /srv 目录，在通过子卷(subvolume)分配给各个应用。</para>
+			<tip>子卷(subvolume) 有个特点是不能rm -rf 删除子卷的，也起到一定的安全性。</tip>
+		</section>
+		<section>
+			<title>目录规划</title>
+			<para>以Tomcat为例</para>
+			<para>Tomcat 的虚拟机功能基本没用，因为需要升级需要频繁启动，会影响其他业务，所以采用每个项目一个实例的方式。</para>
+			<screen>
+			<![CDATA[
+/srv/apache-tomcat/ 是Tomcat目录
+/srv/apache-tomcat/www.netkiller.cn 每个实例一个目录
+/srv/apache-tomcat/other.netkiller.cn
+			]]>
+			</screen>
+			<para>以PHP为例</para>
+			<screen>
+/srv/php-7.0.0
+ln -s /srv/php-7.0.0 /srv/php
+			</screen>
+			<para>通过 /srv/php 符号链接可以任意切换PHP版本</para>
+			<para>代码目录与服务器目录分开</para>
+			<screen>
+			<![CDATA[
+/www/netkiller.cn/www.netkiller.cn
+/www/netkiller.cn/other.netkiller.cn
+			]]>
+			</screen>
+		</section>		
+	</section>
 	<section id="device">
 		<title>设备上架</title>
 		<para>按照物理图谱图，对应机位安装设备，链接网线，整理机柜。</para>
 		<para>注意强弱电分离，以免强电磁场干扰弱电。以Dell系列服务器为例，电源通常在右边，网口在中间左边，这样电源走机会右侧理线架，网线走左侧理线架。</para>
 		<para>我通常每个机柜放两台千兆交换机，一台放在机柜最顶端，通过10GB万兆以太网链接至核心交换机，走核心业务数据；另一台放在机柜最底端，负责其他次要业务，例如远程控制口，数据库备份等等。</para>
 		<para>上电，接通电源，开机。观察机柜的电压/电流变化。</para>
-
 	</section>
 	<section id="os">
-		<title>软件安装</title>
+		<title>操作系统初始化</title>
 		<para>安装操作系统，系统裁剪，内核优化，时区设置，配置history格式（记录每条发出命令的时间点），TCP栈优化</para>
 		<para>安装自动化运维客户端，监控客户端</para>
 	</section>
@@ -37,7 +76,7 @@
 		<para>软件运行环境，例如Java，PHP, Node.js, Ruby, Python ......</para>
 		<para>安装数据库，配置复制策略，备份计划</para>
 	</section>
-	<section id="application">
+	<section id="deployment">
 		<title>部署应用程序</title>
 		<para>配置管理员通过虚拟拓扑提供的IP地址，端口号以及运维提供的账号密码配置应用程序。</para>
 		<para>然后部署应用程序到远程服务器</para>

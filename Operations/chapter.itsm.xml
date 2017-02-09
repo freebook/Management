@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Id: chapter.practice.xml 614 2013-06-10 10:10:09Z netkiller $ -->
 <chapter id="index"><?dbhtml dir="itsm"?>
-	<title>IT 服务管理</title>
+	<title>ITSM (IT Service Management) IT服务管理</title>
 	<screen>
 (1)服务级别管理
 (2)可用性管理

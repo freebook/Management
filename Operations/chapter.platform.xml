@@ -2,19 +2,6 @@
 <!-- $Id$ -->
 	<section id="user-interface">
 		<title>用户界面</title>
-		<screen>
-		<![CDATA[
-
-		]]>
-		</screen>
-		<section id="ap.console">
-			<title>Console</title>
-			<screen>
-			<![CDATA[
-
-			]]>
-			</screen>
-		</section>
 		<section id="ap.webui">
 			<title>启用HTTP</title>
 			<para>status</para>
