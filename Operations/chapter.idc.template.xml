@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- $Id$ -->
+<section id="template">
+	<title>安装模板</title>
+	<section>
+		<title>云主机初始化</title>
+		<screen>
+		<![CDATA[
+curl -s https://raw.githubusercontent.com/oscm/shell/master/cloud/aliyun/vdb.exp.sh | bash
+curl -s https://raw.githubusercontent.com/oscm/shell/master/cloud/aliyun/srv.sh | bash			
+		]]>
+		</screen>
+	</section>	
+	<section>
+		<title>CentOS 7 初始化</title>
+		<screen>
+		<![CDATA[
+curl -s https://raw.githubusercontent.com/oscm/shell/master/os/personalise.sh | bash
+curl -s https://raw.githubusercontent.com/oscm/shell/master/os/user/www.sh | bash
+		]]>
+		</screen>
+
+	</section>	
+	<section id="nginx">
+		<title>Nginx</title>
+		<para></para>
+		<screen>
+		<![CDATA[
+curl -s https://raw.githubusercontent.com/oscm/shell/master/cloud/aliyun/nginx.sh | bash
+curl -s https://raw.githubusercontent.com/oscm/shell/master/cloud/aliyun/ssi.sh | bash
+		]]>
+		</screen>		
+	</section>	
+	<section id="tomcat">
+		<title>Tomcat</title>
+		<para>8.5.11</para>
+		<screen>
+		<![CDATA[
+curl -s https://raw.githubusercontent.com/oscm/shell/master/web/tomcat/apache-tomcat.sh
+		]]>
+		</screen>
+		<para>systemctl 脚本</para>
+		<screen>
+		<![CDATA[
+curl -s https://raw.githubusercontent.com/oscm/shell/master/web/tomcat/systemctl.sh | bash
+		]]>
+		</screen>
+		<para>logrotate</para>
+		<screen>
+		<![CDATA[
+curl -s https://raw.githubusercontent.com/oscm/shell/master/web/tomcat/logrotate.d/compress | bash
+		]]>
+		</screen>
+	</section>
+	<section id="node.js">
+		<title>Node.js</title>
+		<para>fat</para>
+		<screen>
+		<![CDATA[
+
+yum update -y
+curl -s https://raw.githubusercontent.com/oscm/shell/master/lang/node.js/yum.sh | bash
+		]]>
+		</screen>
+		<para>PM2</para>
+		<screen>
+		<![CDATA[
+
+curl -s https://raw.githubusercontent.com/oscm/shell/master/lang/node.js/npm/pm2.sh | bash
+		]]>
+		</screen>
+	</section>	
+	<section>
+		<title>MongoDB</title>
+		<para>MongoDB 3.4</para>
+		<screen>
+		<![CDATA[
+curl -s https://raw.githubusercontent.com/oscm/shell/master/database/mongodb/mongodb-3.4/install.sh | bash
+		]]>
+		</screen>
+		<para>bind 0.0.0.0</para>
+		<screen>
+		<![CDATA[
+curl -s https://raw.githubusercontent.com/oscm/shell/master/database/mongodb/mongodb-3.4/net.bindIp.all.sh | bash
+		]]>
+		</screen>
+		<para>enable auth</para>
+		<screen>
+		<![CDATA[
+curl -s https://raw.githubusercontent.com/oscm/shell/master/database/mongodb/mongodb-3.4/security.authorization.enabled.sh | bash
+		]]>
+		</screen>
+		<para>Tools</para>
+		<screen>
+		<![CDATA[
+curl -s https://raw.githubusercontent.com/oscm/shell/master/database/mongodb/mongodb-3.4/mongodb-org-tools.sh | bash
+		]]>
+		</screen>
+	</section>
+<!-- 
+	<section id="ap.ipaddress">
+		<title>IP Address</title>
+		<screen>
+		<![CDATA[
+
+		]]>
+		</screen>
+		<para>查看 IP 地址</para>
+		<screen>
+		<![CDATA[
+
+		]]>
+		</screen>
+	</section>
+	<section id="ap.ssid">
+		<title>SSID</title>
+		<para>禁用WLAN-BSS1</para>
+		<screen>
+		<![CDATA[
+
+		]]>
+		</screen>
+
+
+		<para>应用模板</para>
+		<screen>
+
+		</screen>
+	</section>
+	<section id="ap.login">
+		<title>用户验证</title>
+		<para></para>
+		<section>
+			<title>Telnet</title>
+			<screen>
+			</screen>
+		</section>
+		<section>
+			<title>WEP</title>
+			<para>WEP 加密</para>
+			<screen>
+			<![CDATA[
+
+			]]>
+			</screen>
+			<literallayout>
+
+			</literallayout>
+		</section>
+		<section>
+			<title>WAP2</title>
+			<screen>
+
+			</screen>
+		</section>
+		<section>
+			<title>WAP2 cipher</title>
+			<screen>
+ 
+			</screen>
+		</section>
+		<section>
+			<title>Mac</title>
+			<screen>
+
+			</screen>
+		</section>
+	</section>
+	<section id="ap.wlan">
+		<title>WLAN</title>
+		<screen>
+
+		</screen>
+
+	</section>
+	-->
+
+</section>
+
+
+

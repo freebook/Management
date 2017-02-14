@@ -5,6 +5,7 @@
 	&chapter.itsm.xml;
 	&chapter.fishbone.xml;
 	&chapter.idc.move.xml;
+	&chapter.idc.template.xml;
 	&chapter.system.xml;
 	&chapter.monitor.xml;
 	&chapter.backup.xml;

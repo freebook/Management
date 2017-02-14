@@ -9,3 +9,4 @@
 <!ENTITY chapter.system.xml			SYSTEM "chapter.system.xml">
 <!ENTITY chapter.backup.xml			SYSTEM "chapter.backup.xml">
 <!ENTITY chapter.logging.xml		SYSTEM "chapter.logging.xml">
+<!ENTITY chapter.idc.template.xml	SYSTEM "chapter.idc.template.xml">

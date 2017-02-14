@@ -6,4 +6,5 @@
     &chapter.devops.xml;
     &chapter.platform.xml;
     <!-- &chapter.hr.xml; -->
+    &chapter.blackhole.xml;
 </chapter>
