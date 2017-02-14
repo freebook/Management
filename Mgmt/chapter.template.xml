@@ -1,5 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <chapter>
 	<title>招聘模板</title>
+	<section>
+		<title>Workflow</title>
 
+	</section>
+	<section>
+		<title>开发</title>
+
+	</section>
+	<section>
+		<title>测试</title>
+
+	</section>
+	<section>
+		<title>运维</title>
+
+	</section>
 </chapter>

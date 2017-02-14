@@ -4,7 +4,10 @@
     <!-- &chapter.team.xml; -->
     &chapter.workflow.xml;
     &chapter.devops.xml;
-    &chapter.platform.xml;
     <!-- &chapter.hr.xml; -->
+    &chapter.kick.xml;
     &chapter.blackhole.xml;
+    
+    &chapter.platform.xml;
+    
 </chapter>
