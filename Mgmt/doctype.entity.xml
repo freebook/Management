@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!ENTITY part.platform.xml					SYSTEM "part.platform.xml">
 <!ENTITY chapter.platform.gitlab.xml		SYSTEM "chapter.platform.gitlab.xml">
 <!ENTITY chapter.devops.xml					SYSTEM "chapter.devops.xml">
@@ -16,7 +15,9 @@
 <!ENTITY chapter.organizational.xml	 	SYSTEM "chapter.organizational.xml">
 <!ENTITY chapter.environment.xml		SYSTEM "chapter.environment.xml">
 
+<!ENTITY chapter.project.xml 		SYSTEM "chapter.project.xml">
 <!ENTITY chapter.platform.xml		SYSTEM "chapter.platform.xml">
 <!ENTITY chapter.workflow.xml	 	SYSTEM "chapter.workflow.xml">
 <!ENTITY chapter.blackhole.xml	 	SYSTEM "chapter.blackhole.xml">
 <!ENTITY chapter.kick.xml 			SYSTEM "chapter.kick.xml">
+<!ENTITY chapter.time.xml 			SYSTEM "chapter.time.xml">

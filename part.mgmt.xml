@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <chapter id="index"><?dbhtml dir="mgmt"?>
 	<title>管理篇</title>
+	&chapter.project.xml;
     <!-- &chapter.team.xml; -->
     &chapter.workflow.xml;
     &chapter.devops.xml;
     <!-- &chapter.hr.xml; -->
     &chapter.kick.xml;
     &chapter.blackhole.xml;
-    
+    &chapter.time.xml;
     &chapter.platform.xml;
     
 </chapter>
