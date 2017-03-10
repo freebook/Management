@@ -2,30 +2,7 @@
 <!-- $Id: chapter.human.interview.xml 639 2013-07-17 07:15:48Z netkiller $ -->
 <chapter id="recruitment">
 	<title>人才招聘</title>
-	<section>
-		<title>面试流程</title>
-		<para>简历筛选 -> 电话面试 -> 面试(face to face) -> 确定录用</para>
-		<para>注意：没有笔试这项，没有必要，可以放在面谈中，作为互动的一部分。</para>
-		<orderedlist>
-			<listitem>
-				<para>不要盲目给应聘者打电话通知他过来面试，HR部门首先应对简历做初步筛选，然后把简历email给技术部门负责人。</para>
-			</listitem>
-			<listitem>
-				<para>技术这边对简历进行审核，然后通知HR部门确认电话面试时间，并了解对方基本情况。</para>
-			</listitem>
-			<listitem>
-				<para>配合HR部门做好电话面试，了解应聘者的技术水平，能力，是否可是胜任该职位。如果OK通知面谈时间，地点，并发一封正式Email邀请函。
-				</para>
-			</listitem>
-			<listitem>
-				<para>面谈</para>
-			</listitem>
-			<listitem>
-				<para>后面工作交给HR部门负责</para>
-			</listitem>
-		</orderedlist>
-		<para>面谈注意事项：要给应聘者一个好印象，一定记得送上一杯水。</para>
-	</section>
+	<para>面谈注意事项：要给应聘者一个好印象，一定记得送上一杯水。</para>
 
 <section id="interview">
 	<title>面试题</title>

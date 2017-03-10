@@ -15,9 +15,10 @@
 <!ENTITY chapter.organizational.xml	 	SYSTEM "chapter.organizational.xml">
 <!ENTITY chapter.environment.xml		SYSTEM "chapter.environment.xml">
 
-<!ENTITY chapter.project.xml 		SYSTEM "chapter.project.xml">
+
 <!ENTITY chapter.platform.xml		SYSTEM "chapter.platform.xml">
-<!ENTITY chapter.workflow.xml	 	SYSTEM "chapter.workflow.xml">
-<!ENTITY chapter.blackhole.xml	 	SYSTEM "chapter.blackhole.xml">
-<!ENTITY chapter.kick.xml 			SYSTEM "chapter.kick.xml">
-<!ENTITY chapter.time.xml 			SYSTEM "chapter.time.xml">
+<!ENTITY chapter.project.xml 				SYSTEM "chapter.project.xml">
+<!ENTITY chapter.project.workflow.xml	 	SYSTEM "chapter.project.workflow.xml">
+<!ENTITY chapter.project.blackhole.xml	 	SYSTEM "chapter.project.blackhole.xml">
+<!ENTITY chapter.project.kick.xml 			SYSTEM "chapter.project.kick.xml">
+<!ENTITY chapter.project.time.xml 			SYSTEM "chapter.project.time.xml">

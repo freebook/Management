@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section id="time">
+	<title>项目管理中工时计算的问题</title>
+	<section id="背景">
+		<title>背景</title>
+		<orderedlist numeration="arabic" spacing="compact">
+			<listitem>
+				<para>
+					为什么项目总是不能按时结项？
+				</para>
+			</listitem>
+			<listitem>
+				<para>
+					为什么工期一再延误？
+				</para>
+			</listitem>
+			<listitem>
+				<para>
+					员工不够努力吗？
+				</para>
+			</listitem>
+			<listitem>
+				<para>
+					时间去了哪里？
+				</para>
+			</listitem>
+		</orderedlist>
+	</section>
+	<section id="面临的问题">
+		<title>面临的问题</title>
+		<para>
+			普遍问题是，我们至今对知识型工作者的做事效率，仍采用工业时代的评价模式。若工作者每小时的效率产出基本一致，那关注他们的工作时长便行之有理。
+			对于重复性劳动，这种评价模式可能确实管用，但对知识型工作者就不太适用。
+		</para>
+	</section>
+	<section id="工时去了哪里">
+		<title>工时去了哪里？</title>
+		<para>
+			据统计一个典型的美国办公室工作者，每个工作日只能完成90分钟真正有意义的工作。
+		</para>
+		<para>
+			当天剩余的大部分时间，都被浪费在各种分心事务上，比如阅读新闻、网上冲浪、同事社交、吃零食、喝咖啡、翻看报纸、处理无关邮件、不必要的拖延行为、玩游戏、做白日梦等。
+			多说一句，美国办公室工作者在世界范围内还算最高效的人群。在其他很多国家，人们每天完成的实质工作甚至更少。
+		</para>
+		<section id="洗手间茶水间吸烟">
+			<title>洗手间，茶水间，吸烟</title>
+			<itemizedlist spacing="compact">
+				<listitem>
+					<para>
+						洗手间，先不分男女性别差异以及大小号，平均下来10~15分钟一次没有意见吧？那么一天至少两次吧？
+					</para>
+				</listitem>
+				<listitem>
+					<para>
+						茶水间，洗杯子，泡茶，清理茶叶残渣，遇到同时还需要寒暄几句。需要10分钟吧？
+						一天至少2~4次吧？
+					</para>
+				</listitem>
+				<listitem>
+					<para>
+						吸烟，我不吸烟不太清楚，但是看到公司的烟友抽的爽，了得欢。20
+						分钟要吧？
+					</para>
+				</listitem>
+			</itemizedlist>
+		</section>
+		<section id="看邮件写邮件">
+			<title>看邮件，写邮件</title>
+			<para>
+				我最讨厌邮件群发，或将不相关的邮件也CC给我。阅读这些不相关的邮件是非常浪费时间的，你不清楚那封邮件中会与你有关，只能逐一阅读。
+				写邮件更浪费时间，给领导写邮件浪费时间乘以二，既要要注意措辞，还要注意语气。
+				阅读邮件至少需要30分钟时间，写邮件需要1个小时
+			</para>
+		</section>
+		<section id="沟通">
+			<title>沟通</title>
+			<para>
+				很多企业组织架构层级导致沟通不顺畅，增加沟通成本，工时内耗。企业应该为员工提供开放的沟通，而不是层层转达。
+			</para>
+		</section>
+		<section id="查资料">
+			<title>查资料</title>
+			<para>
+				查资料并没有浪费工时，磨刀不误砍柴工。但资料查了，问题没有解决工时就被消耗了。
+			</para>
+		</section>
+		<section id="无关的会议">
+			<title>无关的会议</title>
+			<para>
+				中国是开会就是你一句我一句出主意，大都无法落实。很多无关会议把你拉去旁听。一般会议时间都在2个小时左右。
+			</para>
+		</section>
+		<section id="不必要的拖延行为">
+			<title>不必要的拖延行为</title>
+			<para>
+				员工拖延时间有很多原因，不一定都是员工的问题，多是企业的问题造成的，所以企业自身要找原因，不要归罪为员工问题。
+			</para>
+		</section>
+		<section id="私人时间">
+			<title>私人时间</title>
+			<itemizedlist spacing="compact">
+				<listitem>
+					<para>
+						看手机短信，接听乱七八糟的电话（买保险的，贷款的，卖房的，头自理财的，诈骗的）
+					</para>
+				</listitem>
+				<listitem>
+					<para>
+						微信，朋友圈
+					</para>
+				</listitem>
+				<listitem>
+					<para>
+						看新闻，玩游戏
+					</para>
+				</listitem>
+			</itemizedlist>
+			<para>
+				以上仅仅粗略列出几项影响工时的因素，但实际过程中远不止这些，会有更多因素会占用工时。
+			</para>
+		</section>
+	</section>
+	<section id="怎样改善面临的问题">
+		<title>怎样改善面临的问题</title>
+		<para>
+			死扣工时的时代已经过去了，我们应该更多关注员工产出成果。
+		</para>
+		<para>
+			欧美企业尽可能的为员工提供最好的工作，弹性工作时间甚至可以SOHO办公，不是让员工享受，而是让员工最大化产出。
+		</para>
+		<para>
+			目标管理，价值管理都胜过时间管理。
+		</para>
+		<para>
+			我认为项目管理应该改叫项目服务，项目服务能更描述项目人员的角色。
+		</para>
+		<para>
+			员工每天真正投入工作的时间越长，产出就越多，做有真正有意义的工作才是王道。
+		</para>
+	</section>
+	<section id="怎样计算项目工时">
+		<title>怎样计算项目工时？</title>
+		<para>
+			项目管理中通常是采用8小时/每天，一周40小时来计算工时。
+		</para>
+		<para>
+			项目延期主要问题就是工时计算不合理，项目工时不能与8小时工作制挂钩。
+		</para>
+		<para>
+			8小时工作制，仅仅是规定员工在8小时之内要工作岗位上。
+		</para>
+		<para>
+			员工不是机器人，不可能8小时内，一刻不停的工作。
+		</para>
+		<para>
+			所以减去上洗手间，茶水间，吸烟，处理工作邮件，回复工作即时消息，开无用的会议等等时间，员工剩下多少真正有意义的工作时间？
+		</para>
+		<para>
+			所以我认为保守计算，项目工时应该按6小时计算甚至4小时。
+		</para>
+	</section>
+</section>

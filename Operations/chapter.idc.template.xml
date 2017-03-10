@@ -36,7 +36,7 @@ curl -s https://raw.githubusercontent.com/oscm/shell/master/cloud/aliyun/ssi.sh 
 		<para>8.5.11</para>
 		<screen>
 		<![CDATA[
-curl -s https://raw.githubusercontent.com/oscm/shell/master/web/tomcat/apache-tomcat.sh
+curl -s https://raw.githubusercontent.com/oscm/shell/master/web/tomcat/apache-tomcat.sh | bash
 		]]>
 		</screen>
 		<para>systemctl 脚本</para>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<section id="project"><!-- <?dbhtml dir="project"?> -->
+<chapter id="index"><?dbhtml dir="project"?>
 	<title>软件项目管理篇</title>
 	<para>这里讲述项目管理的基本知识与方法，软件项目管理与传统行业项目管理最大的区别可能是知识型人才的管理。所谓管理大可分为两类，一类是着重考察项目过程本身，一类是主要考察项目的参与者，前者着重于时间管理，后者倾向于绩效考核。
 	</para>
@@ -22,177 +22,15 @@
 				<para>运维部</para>
 			</listitem>
 		</orderedlist>
-		<!-- <para>很多中国企业组织架构五花八门，这样会造成职责不清晰。例如运维挂在开发部下面，测试挂在开发部下面</para> -->
+		<para>很多中国企业组织架构五花八门，这样会造成职责不清晰。例如运维挂在开发部下面，测试挂在开发部下面</para>
+		&chapter.project.kick.xml;
 	</section>
 	<section id="time">
 		<title>时间管理</title>
 		<para>为了确保项目最终的按时完成的一系列管理过程。它包括具体活动的界定，如：活动排序、时间估计、进度安排及时间控制等项工作。
 		</para>
 		<para>时间管理站项目管理40%的内容，很多人对项目管理的理解就是时间管理，其次就是质量管理。</para>
-
-		<section id="项目管理中工时计算的问题">
-			<title>项目管理中工时计算的问题</title>
-
-			<section id="背景">
-				<title>背景</title>
-				<orderedlist numeration="arabic" spacing="compact">
-					<listitem>
-						<para>
-							为什么项目总是不能按时结项？
-						</para>
-					</listitem>
-					<listitem>
-						<para>
-							为什么工期一再延误？
-						</para>
-					</listitem>
-					<listitem>
-						<para>
-							员工不够努力吗？
-						</para>
-					</listitem>
-					<listitem>
-						<para>
-							时间去了哪里？
-						</para>
-					</listitem>
-				</orderedlist>
-			</section>
-			<section id="面临的问题">
-				<title>面临的问题</title>
-				<para>
-					普遍问题是，我们至今对知识型工作者的做事效率，仍采用工业时代的评价模式。若工作者每小时的效率产出基本一致，那关注他们的工作时长便行之有理。
-					对于重复性劳动，这种评价模式可能确实管用，但对知识型工作者就不太适用。
-				</para>
-			</section>
-			<section id="工时去了哪里">
-				<title>工时去了哪里？</title>
-				<para>
-					据统计一个典型的美国办公室工作者，每个工作日只能完成90分钟真正有意义的工作。
-				</para>
-				<para>
-					当天剩余的大部分时间，都被浪费在各种分心事务上，比如阅读新闻、网上冲浪、同事社交、吃零食、喝咖啡、翻看报纸、处理无关邮件、不必要的拖延行为、玩游戏、做白日梦等。
-					多说一句，美国办公室工作者在世界范围内还算最高效的人群。在其他很多国家，人们每天完成的实质工作甚至更少。
-				</para>
-				<section id="洗手间茶水间吸烟">
-					<title>洗手间，茶水间，吸烟</title>
-					<itemizedlist spacing="compact">
-						<listitem>
-							<para>
-								洗手间，先不分男女性别差异以及大小号，平均下来10~15分钟一次没有意见吧？那么一天至少两次吧？
-							</para>
-						</listitem>
-						<listitem>
-							<para>
-								茶水间，洗杯子，泡茶，清理茶叶残渣，遇到同时还需要寒暄几句。需要10分钟吧？
-								一天至少2~4次吧？
-							</para>
-						</listitem>
-						<listitem>
-							<para>
-								吸烟，我不吸烟不太清楚，但是看到公司的烟友抽的爽，了得欢。20
-								分钟要吧？
-							</para>
-						</listitem>
-					</itemizedlist>
-				</section>
-				<section id="看邮件写邮件">
-					<title>看邮件，写邮件</title>
-					<para>
-						我最讨厌邮件群发，或将不相关的邮件也CC给我。阅读这些不相关的邮件是非常浪费时间的，你不清楚那封邮件中会与你有关，只能逐一阅读。
-						写邮件更浪费时间，给领导写邮件浪费时间乘以二，既要要注意措辞，还要注意语气。
-						阅读邮件至少需要30分钟时间，写邮件需要1个小时
-					</para>
-				</section>
-				<section id="沟通">
-					<title>沟通</title>
-					<para>
-						很多企业组织架构层级导致沟通不顺畅，增加沟通成本，工时内耗。企业应该为员工提供开放的沟通，而不是层层转达。
-					</para>
-				</section>
-				<section id="查资料">
-					<title>查资料</title>
-					<para>
-						查资料并没有浪费工时，磨刀不误砍柴工。但资料查了，问题没有解决工时就被消耗了。
-					</para>
-				</section>
-				<section id="无关的会议">
-					<title>无关的会议</title>
-					<para>
-						中国是开会就是你一句我一句出主意，大都无法落实。很多无关会议把你拉去旁听。一般会议时间都在2个小时左右。
-					</para>
-				</section>
-				<section id="不必要的拖延行为">
-					<title>不必要的拖延行为</title>
-					<para>
-						员工拖延时间有很多原因，不一定都是员工的问题，多是企业的问题造成的，所以企业自身要找原因，不要归罪为员工问题。
-					</para>
-				</section>
-				<section id="私人时间">
-					<title>私人时间</title>
-					<itemizedlist spacing="compact">
-						<listitem>
-							<para>
-								看手机短信，接听乱七八糟的电话（买保险的，贷款的，卖房的，头自理财的，诈骗的）
-							</para>
-						</listitem>
-						<listitem>
-							<para>
-								微信，朋友圈
-							</para>
-						</listitem>
-						<listitem>
-							<para>
-								看新闻，玩游戏
-							</para>
-						</listitem>
-					</itemizedlist>
-					<para>
-						以上仅仅粗略列出几项影响工时的因素，但实际过程中远不止这些，会有更多因素会占用工时。
-					</para>
-				</section>
-			</section>
-			<section id="怎样改善面临的问题">
-				<title>怎样改善面临的问题</title>
-				<para>
-					死扣工时的时代已经过去了，我们应该更多关注员工产出成果。
-				</para>
-				<para>
-					欧美企业尽可能的为员工提供最好的工作，弹性工作时间甚至可以SOHO办公，不是让员工享受，而是让员工最大化产出。
-				</para>
-				<para>
-					目标管理，价值管理都胜过时间管理。
-				</para>
-				<para>
-					我认为项目管理应该改叫项目服务，项目服务能更描述项目人员的角色。
-				</para>
-				<para>
-					员工每天真正投入工作的时间越长，产出就越多，做有真正有意义的工作才是王道。
-				</para>
-			</section>
-			<section id="怎样计算项目工时">
-				<title>怎样计算项目工时？</title>
-				<para>
-					项目管理中通常是采用8小时/每天，一周40小时来计算工时。
-				</para>
-				<para>
-					项目延期主要问题就是工时计算不合理，项目工时不能与8小时工作制挂钩。
-				</para>
-				<para>
-					8小时工作制，仅仅是规定员工在8小时之内要工作岗位上。
-				</para>
-				<para>
-					员工不是机器人，不可能8小时内，一刻不停的工作。
-				</para>
-				<para>
-					所以减去上洗手间，茶水间，吸烟，处理工作邮件，回复工作即时消息，开无用的会议等等时间，员工剩下多少真正有意义的工作时间？
-				</para>
-				<para>
-					所以我认为保守计算，项目工时应该按6小时计算甚至4小时。
-				</para>
-			</section>
-		</section>
-
+		&chapter.project.time.xml;
 		<section id="task">
 			<title>任务分配</title>
 			<literallayout>
@@ -347,6 +185,7 @@
 	<section id="risk">
 		<title>风险管理</title>
 		<para>涉及项目可能遇到各种不确定因素。它包括风险识别，风险量化，制订对策和风险控制等。</para>
+		&chapter.project.workflow.xml;
 		<section id="task">
 			<title>开发，测试与运维的关系</title>
 			<para>开发，测试，运维不是三个独立部门，他们相互紧密联系，但又相互制约：</para>
@@ -377,34 +216,181 @@
 	</section>
 	<section id="hr">
 		<title>人力资源管理</title>
-		<para>是为了保证所有项目关系人的能力和积极性都得到最有效地发挥和利用所做的一系列管理措施。它包括组织的规划、团队的建设、人员的选聘和项目的班子建设等一系列工作。
-		</para>
-		<section>
+		<para>是为了保证所有项目关系人的能力和积极性都得到最有效地发挥和利用所做的一系列管理措施。它包括组织的规划、团队的建设、人员的选聘和项目的班子建设等一系列工作。</para>
+
+		<section id="interface.flow">
+			<title>面试流程</title>
+			<para>简历筛选 -> 电话面试 -> 面试(face to face) -> 确定录用</para>
+			<para>注意：没有笔试这项，没有必要，可以放在面谈中，作为互动的一部分。</para>
+			<orderedlist>
+				<listitem>
+					<para>不要盲目给应聘者打电话通知他过来面试，HR部门首先应对简历做初步筛选，然后把简历email给技术部门负责人。</para>
+				</listitem>
+				<listitem>
+					<para>技术这边对简历进行审核，然后通知HR部门确认电话面试时间，并了解对方基本情况。</para>
+				</listitem>
+				<listitem>
+					<para>配合HR部门做好电话面试，了解应聘者的技术水平，能力，是否可是胜任该职位。如果OK通知面谈时间，地点，并发一封正式Email邀请函。
+					</para>
+				</listitem>
+				<listitem>
+					<para>面谈</para>
+				</listitem>
+				<listitem>
+					<para>后面工作交给HR部门负责</para>
+				</listitem>
+			</orderedlist>
+		</section>
+
+		<section id="interview">
+			<title>怎样做一位面试官</title>
+			<para>
+				今天教大家怎样做一位面试官，
+			</para>
+			<para>
+				马未都有一句话：“看打眼了”，意思是把仿品看成古董了。面试也一样，也会有打眼的时候。
+			</para>
+			<para>
+				怎样避免打眼呢？
+			</para>
+			<section id="背景">
+				<title>背景</title>
+				<para>
+					我常常再网站看到一些踩坑的文章，意思就是再试试某项目时遇到的问题。
+				</para>
+				<para>
+					在我看来之所以出现“踩坑”问题，问提出在面试官，或者用人方面，之所以出现这么多问题时你让一个没有经验的人负责一个复杂的项目，搞出一堆问题，生产环境成了实验场。
+				</para>
+				<para>
+					不去追究责任，反倒鼓励员工的经验总结。对于员工来说倒是个非常好的练手机会，对于公司来说时各种损失。这种作风再当下中国比比皆是，抢险救灾领导被表扬，而不追究为什么发生事故。
+				</para>
+			</section>
+			<section id="华丽的背景">
+				<title>华丽的背景</title>
+				<para>
+					面试者的简历第一眼看上去非常华丽，赫然写着在某某大型企业做过某某岗位。
+					通常不懂技术的 HR 是非常看重这方面。
+				</para>
+				<para>
+					实际情况是，任何大企业都是一个团队，每个团队的成员可以看成是颗螺丝钉，仅仅在该团队工作担任某项工作，根本接触不到整个项目，仅仅懂得项目的冰山一角。
+				</para>
+				<para>
+					“镀金”，就是其他金属外面薄薄的一层。
+				</para>
+			</section>
+			<section id="深度提问">
+				<title>深度提问</title>
+				<para>
+					很多面试者面对面试官能夸夸其谈，你提出的问题都能给出解决方案。
+				</para>
+				<para>
+					例如你问如何解决软件的性能问题，他会脱口而出，负载均衡，缓存，分布式，搜索引擎,Hadoop...
+					把很多面试官给镇住了。
+				</para>
+				<para>
+					实际情况呢？目前网上这类文章泛滥，每年有你参加不完的各种架构大会，看几篇文章，听几次演讲，基本原理都能明白，但距离项目实施的路还很长。
+				</para>
+				<para>
+					应对这种情况要你要深挖细问，问问具体细节，只有真正实施过的面试者才能回答出来。
+				</para>
+			</section>
+			<section id="注重设计与解决问题的能力">
+				<title>注重设计与解决问题的能力</title>
+				<para>
+					很多企业会让面试者做试题来考察面试者的能力，我认为这是浪费时间。只要几句话就能探出虚实。
+				</para>
+				<para>
+					我通常是考察面试者的设计与解决问题的能力，应对问题的反应能力。
+				</para>
+				<para>
+					请参考我写的《高级软件工程师（面试题）》
+				</para>
+			</section>
+			<section id="经验积累">
+				<title>经验积累</title>
+				<para>
+					最近面试了一些软件工程师，我发现现在的工程师整体能力下降，回想我当年，那时候四年工作经验可以独当一面，能够独立带领一个小组。现在招聘5/6年工作经验工程师都无法达到我的要求。
+				</para>
+				<para>
+					造成这个原因是现在的互联网已经相对成熟，不需要重新开发应用程序，通常应用程序建立在已有的项目之上的，员工只需完善当前的代码，几乎接触不到核心部分，仅仅是做外围的开发（听从项目经理的安排，完成指定的）所以三年工作经验，仍不能独立工作。这也是前面所说的在某宝，某讯，某度做过三年也就是这种水平。
+				</para>
+				<para>
+					经验是需要工作中不断实践积累的，需要在不同环境与不同的项目。
+				</para>
+			</section>
+			<section id="职场灰人高分低能和高学历低能">
+				<title>职场灰人（高分低能和高学历低能）</title>
+				<para>
+					本应该去工地般砖头，但因发奋努力别人十倍的付出获得了XXX大学的XXX学位。
+				</para>
+				<para>
+					再牛津和剑桥靠用功而得到好分数被认为是灰人，牛津和剑桥不鼓励这样的人。再中国这样的人才不在少数。
+				</para>
+				<para>
+					他们已经发挥到极限了，工作产生的结果仍然无法根普通同事相比。这种类型的人才是不懂思考的。
+				</para>
+			</section>
+		</section>
+
+		<section id="mlayer">
 			<title>管理好管理层</title>
 			<para>管理好管理层比管理好员工更重要，不要让管理层成为传话筒。你是抱着很大期望提供优厚的待遇聘用管理层，对于所有人来说，你需要一个这样的职位，对于他需要一分工作而已。出色的管理层就像出色的员工一样非常难寻，需要机遇，需要天时，地利，人和。很多管理层也如果普通员工一样平平谈谈，当一天和尚撞一天钟。
 			</para>
 			<para></para>
 		</section>
+
+		<section id="hr.manual">
+			<title>员工手册</title>
+			<para>员工手册再国内企业仍是空白，我记的第一次进入外企工作，入职的时候给了一个信封，里面装有：</para>
+			<section>
+				<title>企业文化</title>
+			</section>
+			<section>
+				<title>组织架构图</title>
+			</section>
+			<section>
+				<title>企业制度</title>
+			</section>
+			<section>
+				<title>办事流程</title>
+				<para>报销流程</para>
+				<para>外出/出差流程</para>
+			</section>
+			<section>
+				<title>电脑操作手册</title>
+				<section>
+					<title>电脑开启与初始化步骤</title>
+					<para>开启电脑后，怎样登录到域中</para>
+				</section>
+				<section>
+					<title>邮箱配置步骤</title>
+					<para>POP3 地址</para>
+					<para>SMTP 地址</para>
+				</section>
+				<section>
+					<title>资源位置</title>
+				</section>
+				<section>
+					<title>常用软件</title>
+				</section>
+			</section>
+			<section>
+				<title>通讯录</title>
+				<para></para>
+			</section>
+		</section>
+
 	</section>
 	<section id="purchasing">
 		<title>采购管理</title>
-		<para>为了从项目实施组织之外获得所需资源或服务所采取的一系列管理措施。它包括采购计划，采购与征购，资源的选择以及合同的管理等项目工作。
-		</para>
-		<para>采购管理这块运维涉及比较多，机房选型，机柜，路由器，交换机，防火墙，负载均衡，服务器，存储...... 这里先放弃本章节
-		</para>
+		<para>为了从项目实施组织之外获得所需资源或服务所采取的一系列管理措施。它包括采购计划，采购与征购，资源的选择以及合同的管理等项目工作。</para>
+		<para>采购管理这块运维涉及比较多，机房选型，机柜，路由器，交换机，防火墙，负载均衡，服务器，存储...... 	</para>
+		&chapter.project.blackhole.xml;
 	</section>
 
-</section>
-<!-- <chapter id="zero"> <title>从零开始</title> <subtitle>项目经理应该做什么?</subtitle> 
-	<para>假设你被任命为软件开发项目经理，目前就你一个人，公司对你很信任，权限充分授权，那麽你应该做些什么呢？</para> <para>本文讲述一个项目经理的成长历程以及遇到的各种问题如何解决</para> 
-	<section> <title>基础设施建设</title> <para>建立本版库</para> </section> <section> <title>组织架构与人才招聘</title> 
-	</section> <section> <title>让项目动起来</title> </section> </chapter> <chapter> 
-	<title>从技术转管理</title> <para>从技术转管理是最最好的过度，你一直伴随项目成长，对项目非常熟悉，能掌控项目这个优势是其他管理人员所不具备的，同时风险可控。但这个脚色转换也需要时日，并非一朝一夕。</para> 
-	<para>好的企业都会培养一些有潜力技术人员，使之能够承上启下平稳过渡。</para> <section> <title>如何处理同事之间的关系</title> 
-	</section> <section> <title>如何处理同事之间的关系</title> </section> </chapter> <chapter> 
-	<title>从空降开始</title> <subtitle>当你空降到一个团队你应该做什么?</subtitle> <para>假设你被任命为软件开发项目经理，目前有一个团队需要你负责，公司对你很信任，权限充分授权，那麽你应该做些什么呢？</para> 
-	<para>空降过去，你是去救火，基本没有好事等着你，本文讲述一个项目经理空降以后遇到的各种问题如何解决</para> <section> <title>注意事项</title> 
-	<para>你刚刚就任，根本不了解细节，还有这个的很多禁忌，无论现在的项目有多少问题，你要做的事倾听各抒己见，不要盲目说no, 虽然现在的项目有各种各样的问题存在，都也是很多人心血，有他存在意义。当你解了后，就可以大刀阔斧的干了。</para> 
-	<para>另外你不要想着急于做出成绩，也不要做得最好，否则你立了一个很高的标杆，公司会期望你做的更好，你自己也无法超越自己。</para> </section> 
-	<section> <title>重组与人才优化</title> <para></para> </section> <section> <title>持续优化</title> 
-	</section> </chapter> -->
+</chapter>
+<!-- <chapter id="zero"> <title>从零开始</title> <subtitle>项目经理应该做什么?</subtitle> <para>假设你被任命为软件开发项目经理，目前就你一个人，公司对你很信任，权限充分授权，那麽你应该做些什么呢？</para> <para>本文讲述一个项目经理的成长历程以及遇到的各种问题如何解决</para> <section> <title>基础设施建设</title> <para>建立本版库</para> </section> <section> <title>组织架构与人才招聘</title> 
+	</section> <section> <title>让项目动起来</title> </section> </chapter> <chapter> <title>从技术转管理</title> <para>从技术转管理是最最好的过度，你一直伴随项目成长，对项目非常熟悉，能掌控项目这个优势是其他管理人员所不具备的，同时风险可控。但这个脚色转换也需要时日，并非一朝一夕。</para> <para>好的企业都会培养一些有潜力技术人员，使之能够承上启下平稳过渡。</para> <section> <title>如何处理同事之间的关系</title> 
+	</section> <section> <title>如何处理同事之间的关系</title> </section> </chapter> <chapter> <title>从空降开始</title> <subtitle>当你空降到一个团队你应该做什么?</subtitle> <para>假设你被任命为软件开发项目经理，目前有一个团队需要你负责，公司对你很信任，权限充分授权，那麽你应该做些什么呢？</para> <para>空降过去，你是去救火，基本没有好事等着你，本文讲述一个项目经理空降以后遇到的各种问题如何解决</para> 
+	<section> <title>注意事项</title> <para>你刚刚就任，根本不了解细节，还有这个的很多禁忌，无论现在的项目有多少问题，你要做的事倾听各抒己见，不要盲目说no, 虽然现在的项目有各种各样的问题存在，都也是很多人心血，有他存在意义。当你解了后，就可以大刀阔斧的干了。</para> <para>另外你不要想着急于做出成绩，也不要做得最好，否则你立了一个很高的标杆，公司会期望你做的更好，你自己也无法超越自己。</para> </section> <section> <title>重组与人才优化</title> 
+	<para></para> </section> <section> <title>持续优化</title> </section> </chapter> -->
