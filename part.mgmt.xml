@@ -2,9 +2,9 @@
 <part id="index"><?dbhtml dir="mgmt"?>
 	<title>管理篇</title>
 	&chapter.project.xml;
+	&chapter.itsm.xml;
     <!-- &chapter.team.xml; -->
     &chapter.devops.xml;
-    <!-- &chapter.hr.xml; -->
     &chapter.platform.xml;
     <!-- &chapter.hr.interview.xml; -->
 </part>

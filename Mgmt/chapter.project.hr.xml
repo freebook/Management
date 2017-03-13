@@ -1,0 +1,277 @@
+<!-- <part id="index"><?dbhtml dir="hr"?> <title>人力资源管理</title> <subtitle>Human Resources</subtitle> </part> -->
+
+<section id="hr">
+	<title>人力资源管理</title>
+	<para>是为了保证所有项目关系人的能力和积极性都得到最有效地发挥和利用所做的一系列管理措施。它包括组织的规划、团队的建设、人员的选聘和项目的班子建设等一系列工作。</para>
+
+	<section id="interface.flow">
+		<title>面试流程</title>
+		<para>简历筛选 -> 电话面试 -> 面试(face to face) -> 确定录用</para>
+		<para>注意：没有笔试这项，没有必要，可以放在面谈中，作为互动的一部分。</para>
+		<orderedlist>
+			<listitem>
+				<para>不要盲目给应聘者打电话通知他过来面试，HR部门首先应对简历做初步筛选，然后把简历email给技术部门负责人。</para>
+			</listitem>
+			<listitem>
+				<para>技术这边对简历进行审核，然后通知HR部门确认电话面试时间，并了解对方基本情况。</para>
+			</listitem>
+			<listitem>
+				<para>配合HR部门做好电话面试，了解应聘者的技术水平，能力，是否可是胜任该职位。如果OK通知面谈时间，地点，并发一封正式Email邀请函。
+				</para>
+			</listitem>
+			<listitem>
+				<para>面谈</para>
+			</listitem>
+			<listitem>
+				<para>后面工作交给HR部门负责</para>
+			</listitem>
+		</orderedlist>
+	</section>
+
+	<section id="interview">
+		<title>怎样做一位面试官</title>
+		<para>
+			今天教大家怎样做一位面试官，
+		</para>
+		<para>
+			马未都有一句话：“看打眼了”，意思是把仿品看成古董了。面试也一样，也会有打眼的时候。
+		</para>
+		<para>
+			怎样避免打眼呢？
+		</para>
+		<section id="背景">
+			<title>背景</title>
+			<para>
+				我常常再网站看到一些踩坑的文章，意思就是再试试某项目时遇到的问题。
+			</para>
+			<para>
+				在我看来之所以出现“踩坑”问题，问提出在面试官，或者用人方面，之所以出现这么多问题时你让一个没有经验的人负责一个复杂的项目，搞出一堆问题，生产环境成了实验场。
+			</para>
+			<para>
+				不去追究责任，反倒鼓励员工的经验总结。对于员工来说倒是个非常好的练手机会，对于公司来说时各种损失。这种作风再当下中国比比皆是，抢险救灾领导被表扬，而不追究为什么发生事故。
+			</para>
+		</section>
+		<section id="华丽的背景">
+			<title>华丽的背景</title>
+			<para>
+				面试者的简历第一眼看上去非常华丽，赫然写着在某某大型企业做过某某岗位。
+				通常不懂技术的 HR 是非常看重这方面。
+			</para>
+			<para>
+				实际情况是，任何大企业都是一个团队，每个团队的成员可以看成是颗螺丝钉，仅仅在该团队工作担任某项工作，根本接触不到整个项目，仅仅懂得项目的冰山一角。
+			</para>
+			<para>
+				“镀金”，就是其他金属外面薄薄的一层。
+			</para>
+		</section>
+		<section id="深度提问">
+			<title>深度提问</title>
+			<para>
+				很多面试者面对面试官能夸夸其谈，你提出的问题都能给出解决方案。
+			</para>
+			<para>
+				例如你问如何解决软件的性能问题，他会脱口而出，负载均衡，缓存，分布式，搜索引擎,Hadoop...
+				把很多面试官给镇住了。
+			</para>
+			<para>
+				实际情况呢？目前网上这类文章泛滥，每年有你参加不完的各种架构大会，看几篇文章，听几次演讲，基本原理都能明白，但距离项目实施的路还很长。
+			</para>
+			<para>
+				应对这种情况要你要深挖细问，问问具体细节，只有真正实施过的面试者才能回答出来。
+			</para>
+		</section>
+		<section id="注重设计与解决问题的能力">
+			<title>注重设计与解决问题的能力</title>
+			<para>
+				很多企业会让面试者做试题来考察面试者的能力，我认为这是浪费时间。只要几句话就能探出虚实。
+			</para>
+			<para>
+				我通常是考察面试者的设计与解决问题的能力，应对问题的反应能力。
+			</para>
+			<para>
+				请参考我写的《高级软件工程师（面试题）》
+			</para>
+		</section>
+		<section id="经验积累">
+			<title>经验积累</title>
+			<para>
+				最近面试了一些软件工程师，我发现现在的工程师整体能力下降，回想我当年，那时候四年工作经验可以独当一面，能够独立带领一个小组。现在招聘5/6年工作经验工程师都无法达到我的要求。
+			</para>
+			<para>
+				造成这个原因是现在的互联网已经相对成熟，不需要重新开发应用程序，通常应用程序建立在已有的项目之上的，员工只需完善当前的代码，几乎接触不到核心部分，仅仅是做外围的开发（听从项目经理的安排，完成指定的）所以三年工作经验，仍不能独立工作。这也是前面所说的在某宝，某讯，某度做过三年也就是这种水平。
+			</para>
+			<para>
+				经验是需要工作中不断实践积累的，需要在不同环境与不同的项目。
+			</para>
+		</section>
+		<section id="职场灰人高分低能和高学历低能">
+			<title>职场灰人（高分低能和高学历低能）</title>
+			<para>
+				本应该去工地般砖头，但因发奋努力别人十倍的付出获得了XXX大学的XXX学位。
+			</para>
+			<para>
+				再牛津和剑桥靠用功而得到好分数被认为是灰人，牛津和剑桥不鼓励这样的人。再中国这样的人才不在少数。
+			</para>
+			<para>
+				他们已经发挥到极限了，工作产生的结果仍然无法根普通同事相比。这种类型的人才是不懂思考的。
+			</para>
+		</section>
+	</section>
+
+	<section id="mlayer">
+		<title>管理好管理层</title>
+		<para>管理好管理层比管理好员工更重要，不要让管理层成为传话筒。你是抱着很大期望提供优厚的待遇聘用管理层，对于所有人来说，你需要一个这样的职位，对于他需要一分工作而已。出色的管理层就像出色的员工一样非常难寻，需要机遇，需要天时，地利，人和。很多管理层也如果普通员工一样平平谈谈，当一天和尚撞一天钟。
+		</para>
+		<para></para>
+	</section>
+
+	<section id="关于离职率">
+		<title>关于离职率</title>
+		<para>
+			少有公司意识到离职率这个问题，表面上是员工主动提辞的，所以企业常常将离职率归罪于员工。
+		</para>
+		<para>
+			可以用“铁打的营盘，流水的兵”来概括离职率。但我不这么看，我认为是“黑瞎子掰苞谷”。
+		</para>
+		<section id="人员流动带来的问题">
+			<title>人员流动带来的问题</title>
+			<orderedlist numeration="arabic" spacing="compact">
+				<listitem>
+					<para>
+						员工入职一般需要3个月甚至半年才能熟练掌握岗位技能
+					</para>
+				</listitem>
+				<listitem>
+					<para>
+						部分员工掌握用户资源，随之员工的离开，资源也被带走
+					</para>
+				</listitem>
+			</orderedlist>
+		</section>
+		<section id="人力资源的问题">
+			<title>人力资源的问题</title>
+			<para>
+				人力资源与用人部门是两套体系，人力资源的职责是尽量压低工资，招聘到合适岗位的员工。
+				所以有经验的人，当被问到期望工资时，都会适当说高点，人力资源再压低后，仍是自己期望的薪资水平。
+				有些人没有经验的人，会不知不觉的表露出急于找一份工作心情，这样的会被压的更低。
+				这已经成为行业的潜规则。
+			</para>
+			<para>
+				员工入职后员工交给用人部门，此刻人力资源部的工作到此结束。
+			</para>
+		</section>
+		<section id="离职的原因">
+			<title>离职的原因</title>
+			<orderedlist numeration="arabic" spacing="compact">
+				<listitem>
+					<para>
+						有相当一部分员工并没有拿到期望的薪资水平，一般是委屈自己也会先把事情干好。
+					</para>
+				</listitem>
+				<listitem>
+					<para>
+						工作一段时间后得知其他同事的薪资水平后，会产生不平衡的心理，萌生离职想法。
+					</para>
+				</listitem>
+				<listitem>
+					<para>
+						员工有更好的发展空间。
+					</para>
+				</listitem>
+				<listitem>
+					<para>
+						公司经营不善
+					</para>
+				</listitem>
+				<listitem>
+					<para>
+						缺乏企业文化
+					</para>
+				</listitem>
+			</orderedlist>
+			<para>
+				等等......
+			</para>
+		</section>
+		<section id="离职率的考核问题">
+			<title>离职率的考核问题</title>
+			<para>
+				很多企业都没有意识到离职率这个问题，自然就没有想过对离职率的考核。
+			</para>
+			<para>
+				很多人认为离职跟人力资源并没有没关系，人力资源已经把员工交给了用人部门。
+				员工在供职部门的工作情况，以及工作状态，心里状态，用人部门应该关注这些。
+			</para>
+			<para>
+				事实上很多企业采取薪资保密知道，用人部门的经理根部不知道员工的具体薪资情况以及入职时人力资源是怎么跟他谈的。
+			</para>
+			<para>
+				很多员工也不善于跟部门经理谈此是，只能压在心里。员工能员工之间更有共鸣，虽然公司声明要保密薪水，
+				但总有要好的员工会相互透露。
+			</para>
+			<para>
+				观察你会发现，例如新聘的两位员工很快建立信任关系，新员工与现役老员工需要一段时间建立信任关系。
+				新员工与新员工无所不谈，新员工与老员工聊天就所有顾及。
+			</para>
+			<para>
+				对于人力资源而言，并没有一定要留下某个人的迫切需要，而加工资，用人部门的话语权并不是很大，往往需要上层领导审批。
+				对于申请加薪的员工而言，更多的答复是公司有公司的加薪制度，现在加不了，需要等到调薪日统一处理。
+				而员工选择跳槽省去了很多麻烦。
+			</para>
+			<para>
+				离职率应该怎样考核呢？
+			</para>
+			<para>
+				人力资源占比80%，部门占比20%。
+			</para>
+			<para>
+				每个季度或半年人力资源需要跟员工面对面谈一次，了解员工的状态。同时调薪周期也需要缩短，与时俱进。
+			</para>
+		</section>
+	</section>
+	<section id="hr.manual">
+		<title>员工手册</title>
+		<para>员工手册再国内企业仍是空白，我记的第一次进入外企工作，入职的时候给了一个信封，里面装有：</para>
+		<section>
+			<title>企业文化</title>
+		</section>
+		<section>
+			<title>组织架构图</title>
+		</section>
+		<section>
+			<title>企业制度</title>
+		</section>
+		<section>
+			<title>办事流程</title>
+			<para>报销流程</para>
+			<para>外出/出差流程</para>
+		</section>
+		<section>
+			<title>电脑操作手册</title>
+			<section>
+				<title>电脑开启与初始化步骤</title>
+				<para>开启电脑后，怎样登录到域中</para>
+			</section>
+			<section>
+				<title>邮箱配置步骤</title>
+				<para>POP3 地址</para>
+				<para>SMTP 地址</para>
+			</section>
+			<section>
+				<title>资源位置</title>
+			</section>
+			<section>
+				<title>常用软件</title>
+			</section>
+		</section>
+		<section>
+			<title>通讯录</title>
+			<para></para>
+		</section>
+	</section>
+
+	
+
+
+
+</section>

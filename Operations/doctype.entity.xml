@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!ENTITY part.graphics.xml			SYSTEM "part.graphics.xml">
 <!ENTITY chapter.fta.xml		 	SYSTEM "chapter.fta.xml">
-<!ENTITY chapter.itsm.xml	 		SYSTEM "chapter.itsm.xml">
 <!ENTITY chapter.operations.xml		SYSTEM "chapter.operations.xml">
 <!ENTITY chapter.monitor.xml		SYSTEM "chapter.monitor.xml">
 <!ENTITY chapter.fishbone.xml		SYSTEM "chapter.fishbone.xml">

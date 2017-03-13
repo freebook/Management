@@ -1,9 +1,0 @@
-<part id="index"><?dbhtml dir="hr"?>
-	<title>人力资源管理</title>
-	<subtitle>Human Resources</subtitle>
-
-	&chapter.organizational.xml;
-	&chapter.hr.interview.xml;
-	&chapter.position.xml;
-	&chapter.hr.handover.xml;
-</part>

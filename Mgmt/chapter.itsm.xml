@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Id: chapter.practice.xml 614 2013-06-10 10:10:09Z netkiller $ -->
-<section id="index"><?dbhtml dir="itsm"?>
+<chapter id="index"><?dbhtml dir="itsm"?>
 	<title>ITSM (IT Service Management) IT服务管理</title>
+	<subtitle>ITIL(IT Infrastructure Library)</subtitle>
 	<screen>
 (1)服务级别管理
 (2)可用性管理
@@ -231,4 +232,4 @@
 			</section>
 		</section>
 	</section>
-</section>
+</chapter>
