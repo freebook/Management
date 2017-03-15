@@ -13,8 +13,6 @@
 		关于Gitlib的安装配置请参考
 		<ulink url="http://www.netkiller.cn/project/project/gitlab/index.html" />
 	</para>
-
-
 	<section id="user">
 		<title>创建用户</title>
 		<procedure>
@@ -43,15 +41,15 @@
 			<step>
 				<para>点击 New Group 按钮新建一个组，我习惯每个域一个组，所以我使用 netkiller.cn 作为组名称
 				</para>
-				<graphic format="png" fileref="images/gitlab/group.png" width="" srccredit="neo" />
+				<graphic format="png" fileref="../images/gitlab/group.png" width="" srccredit="neo" />
 			</step>
 			<step>
 				<para>输入 netkiller.cn 然后单击 Create group</para>
-				<graphic format="png" fileref="images/gitlab/group.new.png" width="" srccredit="neo" />
+				<graphic format="png" fileref="../images/gitlab/group.new.png" width="" srccredit="neo" />
 			</step>
 			<step>
 				<para>组创建完毕</para>
-				<graphic format="png" fileref="images/gitlab/groups.png" width="" srccredit="neo" />
+				<graphic format="png" fileref="../images/gitlab/groups.png" width="" srccredit="neo" />
 			</step>
 		</procedure>
 		<para>创建组后接下来创建项目</para>
@@ -59,15 +57,15 @@
 			<title>Gitlab 初始化 - 创建项目</title>
 			<step>
 				<para>单击 New Project 创建项目</para>
-				<graphic format="png" fileref="images/gitlab/projects.png" width="" srccredit="neo" />
+				<graphic format="png" fileref="../images/gitlab/projects.png" width="" srccredit="neo" />
 			</step>
 			<step>
 				<para>输入 www.netkiller.cn 并点击 Create project 按钮创建项目</para>
-				<graphic format="png" fileref="images/gitlab/projects.new.png" width="" srccredit="neo" />
+				<graphic format="png" fileref="../images/gitlab/projects.new.png" width="" srccredit="neo" />
 			</step>
 			<step>
 				<para>项目创建完毕</para>
-				<graphic format="png" fileref="images/gitlab/projects.created.png" width="" srccredit="neo" />
+				<graphic format="png" fileref="../images/gitlab/projects.created.png" width="" srccredit="neo" />
 			</step>
 		</procedure>
 	</section>
@@ -81,25 +79,31 @@
 		<para>我们怎样使用git 的分支功能呢？ 首先我们不再为每个任务创建一个分支，将任务分支放在用户自己的仓库下面，通过 pull
 			request 合并，同时合并过程顺便code review。
 		</para>
-
-		<para>testing: 用户测试组的测试分支，只能合并，不能提交代码。</para>
-		<para>development：开发组的分支，可以合并，可以接受pull request, 可以提交代码</para>
-
+		<para>master：是主干，只有开发部主管/经理级别拥有权限，只能合并来自testing的代码</para>
+		<para>testing: 测试分支，测试部拥有权限，此分支不能修改，只能从开发分支合并代码。</para>
+		<para>development：开发组的分支，Team拥有修改权限，可以合并，可以接受pull request, 可以提交代码</para>
+		<para>tag 是 Release 本版，开发部主管/经理拥有权限</para>
+		
+		<para>分支的权限管理：</para>
+		<para>master: 保护 </para>
+		<para>testing：保护 </para>
+		<para>development：保护 </para>
+		
 		<procedure>
 			<title>Gitlab 分支应用 - 创建分支</title>
 			<step>
 				<para>首先，点击左侧 Commits 按钮，然后点击 Branches 按钮进入分支管理</para>
-				<graphic format="png" fileref="images/gitlab/branches.png" width="" srccredit="neo" />
+				<graphic format="png" fileref="../images/gitlab/branches.png" width="" srccredit="neo" />
 			</step>
 
 			<step>
 				<para>点击 New branch 创建分支</para>
-				<graphic format="png" fileref="images/gitlab/branches.new.png" width="" srccredit="neo" />
+				<graphic format="png" fileref="../images/gitlab/branches.new.png" width="" srccredit="neo" />
 				<para>在 Branch name 中输入分支名称，然后点击 Create branch 创建分支 </para>
 			</step>
 			<step>
 				<para>分支已经创建</para>
-				<graphic format="png" fileref="images/gitlab/branches.created.png" width="" srccredit="neo" />
+				<graphic format="png" fileref="../images/gitlab/branches.created.png" width="" srccredit="neo" />
 			</step>
 		</procedure>
 		<para>重复上面步骤，完成development分支的创建。</para>
@@ -107,7 +111,6 @@
 		<procedure>
 			<title>保护分支</title>
 			<step>
-
 				<para>master</para>
 				<para>testing</para>
 			</step>
@@ -126,7 +129,13 @@
 			</step>
 		</procedure>
 	</section>
-	<section id="merage">
+		<section id="codereview">
+		<title>代码审查</title>
+	</section>
+	<section id="merge">
 		<title>合并</title>
+	</section>
+	<section id="webhook">
+		<title>WebHook</title>
 	</section>
 </section>

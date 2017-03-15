@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<part id="index"><?dbhtml dir="mgmt"?>
+<part id="devops"><!-- <?dbhtml dir="mgmt"?> -->
 	<title>管理篇</title>
 	&chapter.project.xml;
 	&chapter.itsm.xml;
