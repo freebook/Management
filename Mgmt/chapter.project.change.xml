@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter id="Change">
+	<title>变更管理(Change Management)</title>
+	<para></para>
+	<section id="what">
+		<title>什么是变更管理</title>
+		<para>项目变更管理是指项目组织为适应项目运行过程中与项目相关的各种因素的变化，保证项目目标的实现而对项目计划进行相应的部分变更或全部变更，并按变更后的要求组织项目实施的过程。</para>
+	</section>
+	<section>
+		<title>需求变更</title>
+		<section id="why">
+			<title>为什么会变更</title>
+			<para>为什么会出现变更呢？常规变更我们先不提（正常的变更例如部署的变化，软件的升级等等），软件开发中存在的变更更多是需求上的变化，为什么会出现需求变更呢？很多开发人员非常困惑。</para>
+			<orderedlist>
+				<title>我们再逐一分析:</title>
+				<listitem>
+					<para>岗位的变化</para>
+				</listitem>
+				<listitem>
+					<para>专业的问题</para>
+				</listitem>
+				<listitem>
+					<para>缺乏详细设计文档</para>
+				</listitem>
+			</orderedlist>
+			<para>岗位的变化，早期软件开发是没有产品这一岗位，那时的需求分析是由系统分析员完成的，同时还要做一个详细设计文档，前者需要一定的技术背景，后者更资深，那时的变更反倒很少。</para>
+			<para>进入互联网时代，出现了产品这个岗位，这个岗位总体上参差不齐，年龄偏低，经验少，常常工作3~5年，产品这个岗位再大学里并没有这个专业，也就没有一个标准，所以这个行业的人来自五花八门的专业。任何一个岗位都需要时间来积累经验，一个经验不足的产品人员给出的需求往往存在很多问题，甚至不合理，另一方面企业更注重产品部门，导致产品比较强势，开发只能配合，常常是做到一般才发现需求不合理，接下来就是变更了......	</para>
+			<para>这导致了一个问题，非常有经验的开发人员不再指出产品的不合理之处，按照需求开发，出现问题走变更流程，产品害怕需求变更承担责任，即使需求是错误的也要求开发完成，坚持需求没有问题。有很多功能就不了了之</para>
+			<para>缺乏详细设计文档，互联网快速变化，导致一个问题没有时间做详细设计文档，软件的生命周期也短，大家都不愿意为了这么短周期的开发去写设计文档，通常是按照需求直接开发，这也是需求变更频繁的一个原因。</para>
+			<para></para>
+		</section>
+	</section>
+	<section id="when">
+		<title></title>
+	</section>
+	<section id="where">
+		<title></title>
+	</section>
+	<section id="who">
+		<title></title>
+	</section>
+	<section id="how">
+		<title></title>
+	</section>
+</chapter>

@@ -23,5 +23,6 @@
 <!ENTITY chapter.project.kick.xml 			SYSTEM "chapter.project.kick.xml">
 <!ENTITY chapter.project.time.xml 			SYSTEM "chapter.project.time.xml">
 <!ENTITY chapter.project.hr.xml 			SYSTEM "chapter.project.hr.xml">
+<!ENTITY chapter.project.change.xml 		SYSTEM "chapter.project.change.xml">
 
 <!ENTITY chapter.itsm.xml	 				SYSTEM "chapter.itsm.xml">
