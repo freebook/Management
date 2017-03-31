@@ -10,6 +10,7 @@ http://www.gnu.org/prep/standards/
 	</screen>
 	<section id="coding.file">
 		<title>php 文件</title>
+		<para>http://www.php-fig.org</para>
 		<section>
 			<title>格式与 编码</title>
 			<para>使用 UNIX 风格换行, 请在你的编辑器内调整</para>
