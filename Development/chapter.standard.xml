@@ -15,9 +15,12 @@
 			<title>Script</title>
 		</section>
 	</section>
-	<section id="performance">
-		<title>性能</title>
-
+	<section id="redis">
+		<title>Redis Key</title>
+		<para>Redis Key 使用“：”分割例如 </para>
+		<screen>
+set SMS:CAPTCHA 1234
+		</screen>
 	</section>
 	<section id="performance">
 		<title>安全</title>
