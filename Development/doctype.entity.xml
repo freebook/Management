@@ -1,3 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!ENTITY chapter.development.xml 	SYSTEM "chapter.development.xml">
-<!ENTITY chapter.coding.xml		 	SYSTEM "chapter.coding.xml">
+<!ENTITY chapter.standard.xml		 	SYSTEM "chapter.standard.xml">
+<!ENTITY chapter.standard.html.xml		SYSTEM "chapter.standard.html.xml">
+<!ENTITY chapter.standard.coding.xml		SYSTEM "chapter.standard.coding.xml">
