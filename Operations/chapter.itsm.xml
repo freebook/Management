@@ -24,7 +24,7 @@
 		<subtitle>桌面支持 </subtitle>
 		<para><ulink url="http://freehelpdesk.org/">Help Desk Software</ulink></para>
 	</section>
-	<section>
+	<section id="problem">
 		<title>Problem Management(问题管理)</title>
 		&chapter.fta.xml;
 		&chapter.fishbone.xml;

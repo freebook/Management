@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<chapter>
+<chapter><?dbhtml dir="template"?>
 	<title>招聘模板</title>
 	<section>
 		<title>Workflow</title>

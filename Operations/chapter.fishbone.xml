@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<section id="index"><?dbhtml dir="fishbone"?>
+<section id="fishbone">
 	<title>因果图在运维工作中的应用</title>
 	<chapterinfo>
 		<keywordset>
@@ -36,7 +36,7 @@
 	<section id="how">
 		<title>怎样使用因果图</title>
 		<para>下面我们提供一个鱼骨图分析案例</para>
-		<graphic  format="png" fileref="../../images/ops/fishbone/fishbone.png" width="1024" srccredit="neo" />
+		<graphic  format="png" fileref="../images/ops/fishbone/fishbone.png" width="1024" srccredit="neo" />
 		<para>上图我们看到保障系统7*24小时运行有哪些因素印象，网站分为几个部分组成</para>
 		<orderedlist>
 			<title>网站</title>
