@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ENTITY chapter.project.xml 			SYSTEM "chapter.project.xml">
+<!ENTITY chapter.project.workflow.xml	SYSTEM "chapter.project.workflow.xml">
+<!ENTITY chapter.project.blackhole.xml	SYSTEM "chapter.project.blackhole.xml">
+<!ENTITY chapter.project.kick.xml 		SYSTEM "chapter.project.kick.xml">
+<!ENTITY chapter.project.time.xml 		SYSTEM "chapter.project.time.xml">
+<!ENTITY chapter.project.hr.xml 			SYSTEM "chapter.project.hr.xml">
+<!ENTITY chapter.project.change.xml 		SYSTEM "chapter.project.change.xml">
