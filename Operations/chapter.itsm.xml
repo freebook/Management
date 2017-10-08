@@ -15,10 +15,11 @@
 (9)配置管理
 (10)发布管理	
 	</screen>
+	
 	<section>
 		<title>组织架构</title>
 	</section>
-	<section>
+	<section id="desk">
 		<title>Help Desk / Service Desk</title>
 		<subtitle>桌面支持 </subtitle>
 		<para><ulink url="http://freehelpdesk.org/">Help Desk Software</ulink></para>
@@ -26,6 +27,7 @@
 	<section>
 		<title>Problem Management(问题管理)</title>
 		&chapter.fta.xml;
+		&chapter.fishbone.xml;
 		<section>
 			<title>员工手册</title>
 			<itemizedlist>
