@@ -8,7 +8,25 @@ http://lxr.linux.no/linux/Documentation/CodingStyle
 http://perldoc.perl.org/perlstyle.html
 http://www.gnu.org/prep/standards/
 	</screen>
-	<section id="coding.file">
+	<section id="java">
+		<title>java 编程规范</title>
+		<section>
+			<title>Spring Data JPA</title>
+			<programlisting>
+			<![CDATA[
+	@Autowired
+	private TableRepostitory tableRepostitory;
+	
+	@Autowired
+	private JdbcTemplate jdbcTemplate;
+	
+	@PersistenceContext 
+	private EntityManager entityManager; 
+			]]>
+			</programlisting>
+		</section>
+	</section>
+	<section id="php">
 		<title>php 文件</title>
 		<para>http://www.php-fig.org</para>
 		<section>

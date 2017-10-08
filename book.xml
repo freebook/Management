@@ -44,6 +44,10 @@
 	
 	<!ENTITY % graphics.doctype.entity.xml 	SYSTEM "Graphics/doctype.entity.xml">
 	%graphics.doctype.entity.xml;
+	
+	<!ENTITY % marketing.doctype.entity.xml 	SYSTEM "Marketing/doctype.entity.xml">
+	%marketing.doctype.entity.xml;
+	<!ENTITY part.marketing.xml 				SYSTEM "part.marketing.xml">
 
 ] >
 
@@ -62,7 +66,10 @@
         &book.info.legalnotice.xml;
 
 		<abstract>
-			<para></para>
+			<para>我眼中的管理学</para>
+			<para>管理学门槛并不高，如果你有一点点小天赋，便能快速掌握这项技能，并且在未来的工作中管理学会始终伴随你，受益终生。</para>
+			<para>这就像很多非文科专业的人，最终在文学领域取得成功。所以说，管理学需要的是悟性，他和技术完全不同，你不能用学技术的方法学历管理，否则适得其反，获得了MBA文凭，却对管理一窍不通。</para>
+			<para>另外管理是不是技术，他没有一个标准，不能套用书本。你需要萃取管理学的精华，提炼出适合你的管理学。管理学仅仅是一个工具而已。</para>
 		</abstract>
 
 	</info>
@@ -71,6 +78,7 @@
     &book.preface.xml;
 	
     &part.mgmt.xml;
+    &chapter.marketing.xml;
 	&part.development.xml;
 	&part.testing.xml;
 	&part.operations.xml;
