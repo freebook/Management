@@ -2,4 +2,3 @@
 
 <!ENTITY chapter.team.xml 		SYSTEM "chapter.team.xml">
 <!ENTITY chapter.position.xml	SYSTEM "chapter.position.xml">
-<!ENTITY chapter.sqa.xml 			SYSTEM "chapter.sqa.xml">

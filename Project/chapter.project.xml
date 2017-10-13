@@ -34,12 +34,9 @@
 		<para>时间管理站项目管理40%的内容，很多人对项目管理的理解就是时间管理，其次就是质量管理。</para>
 		&chapter.project.time.xml;
 	</section>
-
-	<section id="sqa">
-		<title>质量管理</title>
-		<para>是为了确保项目达到客户所规定的质量要求所实施的一系列管理过程。它包括质量规划，质量控制和质量保证等。</para>
-	</section>
-
+	
+	&chapter.project.quality.xml;
+	
 	<section id="Communication">
 		<title>沟通管理（Communication Management）</title>
 		<para>为了确保项目的信息的合理收集和传输所需要实施的一系列措施，它包括沟通规划，信息传输和进度报告等。</para>

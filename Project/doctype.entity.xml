@@ -6,3 +6,4 @@
 <!ENTITY chapter.project.time.xml 		SYSTEM "chapter.project.time.xml">
 <!ENTITY chapter.project.hr.xml 			SYSTEM "chapter.project.hr.xml">
 <!ENTITY chapter.project.change.xml 		SYSTEM "chapter.project.change.xml">
+<!ENTITY chapter.project.quality.xml 	SYSTEM "chapter.project.quality.xml">
