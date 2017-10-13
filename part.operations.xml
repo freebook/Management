@@ -2,9 +2,6 @@
 <!-- $Id$ -->
 <chapter id="index"><?dbhtml dir="ops"?>
 	<title>运维篇(Operations)</title>
-	
-	&chapter.idc.move.xml;
-	&chapter.idc.template.xml;
 	&chapter.system.xml;
 	&chapter.monitor.xml;
 	&chapter.backup.xml;

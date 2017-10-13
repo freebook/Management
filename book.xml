@@ -87,8 +87,5 @@
     &chapter.itsm.xml;
     &chapter.utilities.xml;
     &part.mgmt.xml;
-	&part.development.xml;
-	&part.testing.xml;
-	&part.operations.xml;
 	&book.appendix.xml;
  </book>

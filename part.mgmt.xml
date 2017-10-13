@@ -5,4 +5,7 @@
     &chapter.devops.xml;
     &chapter.platform.xml;
     <!-- &chapter.hr.interview.xml; -->
+    &part.development.xml;
+	&part.testing.xml;
+	&part.operations.xml;
 </part>

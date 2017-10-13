@@ -46,12 +46,11 @@
 	</section>
 	<section>
 		<title>Change Management(变更管理)</title>
-
-
+		&chapter.itsm.change.move.xml;
 	</section>
 	<section>
 		<title>Release Management(发布管理)</title>
-
+		&chapter.itsm.release.template.xml;
 	</section>
 	<section>
 		<title>内部培训</title>
