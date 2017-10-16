@@ -34,8 +34,8 @@
 	%dev.doctype.entity.xml;
 	<!ENTITY part.development.xml		SYSTEM "part.development.xml">
 	
-	<!ENTITY % testing.doctype.entity.xml 	SYSTEM "Testing/doctype.entity.xml">
-	%testing.doctype.entity.xml;
+	<!-- <!ENTITY % testing.doctype.entity.xml 	SYSTEM "Testing/doctype.entity.xml">
+	%testing.doctype.entity.xml; -->
 		
 	<!ENTITY % ops.doctype.entity.xml 	SYSTEM "Operations/doctype.entity.xml">
 	%ops.doctype.entity.xml;
