@@ -10,7 +10,11 @@
 
 <!ENTITY chapter.position.xml		 	SYSTEM "chapter.position.xml">
 <!ENTITY chapter.organizational.xml	 	SYSTEM "chapter.organizational.xml">
-<!ENTITY chapter.environment.xml		SYSTEM "chapter.environment.xml">
+<!ENTITY chapter.environment.xml			SYSTEM "chapter.environment.xml">
 
-<!ENTITY chapter.platform.xml				SYSTEM "chapter.platform.xml">
-<!ENTITY chapter.utilities.xml				SYSTEM "chapter.utilities.xml">
+<!ENTITY chapter.platform.xml			SYSTEM "chapter.platform.xml">
+<!ENTITY chapter.utilities.xml			SYSTEM "chapter.utilities.xml">
+<!ENTITY chapter.utilities.smart.xml		SYSTEM "chapter.utilities.smart.xml">
+<!ENTITY chapter.utilities.6s.xml 		SYSTEM "chapter.utilities.6s.xml">
+
+

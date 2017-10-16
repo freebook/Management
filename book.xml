@@ -18,8 +18,6 @@
 	
 	<!ENTITY chapter.itsm.xml 			SYSTEM "ITSM/chapter.itsm.xml">
 	<!ENTITY chapter.practice.xml 		SYSTEM "ITSM/chapter.practice.xml">
-	<!ENTITY part.engineering.xml		SYSTEM "part.engineering.xml">
-	<!ENTITY chapter.terminal.xml 		SYSTEM "chapter.terminal.xml">
 	<!ENTITY chapter.reference.xml		SYSTEM "chapter.reference.xml">
 	
 	<!ENTITY % doctype.entity.xml 		SYSTEM "doctype.entity.xml">
@@ -40,7 +38,7 @@
 		
 	<!ENTITY % ops.doctype.entity.xml 	SYSTEM "Operations/doctype.entity.xml">
 	%ops.doctype.entity.xml;
-	<!ENTITY part.operations.xml		SYSTEM "part.operations.xml">
+	<!ENTITY part.operations.xml			SYSTEM "part.operations.xml">
 	
 	<!ENTITY % graphics.doctype.entity.xml 	SYSTEM "Graphics/doctype.entity.xml">
 	%graphics.doctype.entity.xml;

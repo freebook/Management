@@ -15,7 +15,10 @@
 (9)配置管理
 (10)发布管理	
 	</screen>
-	
+	<!-- 
+ITIL (Information Technology Infrastructure Library)
+Call Center, Help Desk, Service Desk	
+	 -->
 	<section>
 		<title>组织架构</title>
 	</section>
@@ -24,7 +27,7 @@
 		<subtitle>桌面支持 </subtitle>
 		<para><ulink url="http://freehelpdesk.org/">Help Desk Software</ulink></para>
 	</section>
-	<section id="problem">
+	<section id="itsm.problem">
 		<title>Problem Management(问题管理)</title>
 		&chapter.fta.xml;
 		&chapter.fishbone.xml;
@@ -37,14 +40,14 @@
 			</itemizedlist>
 		</section>
 	</section>
-	<section>
+	<section id="itsm.incident">
 		<title>Incident Management(突发事件管理)</title>
 		<section>
 			<title>突发事件处理流程</title>
 			<graphic  format="png" fileref="../images/incident.png" srccredit="neo" />
 		</section>
 	</section>
-	<section>
+	<section id="itsm.change">
 		<title>Change Management(变更管理)</title>
 		&chapter.itsm.change.move.xml;
 	</section>
@@ -57,7 +60,7 @@
 		<para>团队培训，指定培训计划等</para>
 	</section>
 
-	<section>
+	<section id="itsm.resource">
 		<title>IT资源管理</title>
 		<section>
 			<title>设备采购</title>
