@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Author: netkiller $ -->
 <!-- $Id: part.sqa.xml 495 2012-11-23 02:50:46Z netkiller $ -->
-<part id="index"><!-- <?dbhtml dir="management"?> -->
+<part id="management"><!-- <?dbhtml dir="management"?> -->
 	<title>管理篇</title>
 	<para><ulink url="images/overviews.png"><graphic  format="png" fileref="images/overviews.png" width="1024" srccredit="neo" /></ulink></para>
 	&chapter.project.xml;

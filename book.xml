@@ -15,12 +15,7 @@
 -->
 
 <!--
-	
 	<!ENTITY chapter.reference.xml		SYSTEM "chapter.reference.xml">
-	
-	<!ENTITY % doctype.entity.xml 		SYSTEM "doctype.entity.xml">
-	%doctype.entity.xml;
-	
 -->
 	<!ENTITY part.management.xml 			SYSTEM "part.management.xml">
 
@@ -47,6 +42,8 @@
 	%project.doctype.entity.xml;
 	<!-- <!ENTITY part.marketing.xml 				SYSTEM "part.marketing.xml"> -->
 
+	<!ENTITY % workplace.doctype.entity.xml 		SYSTEM "Workplace/doctype.entity.xml">
+	%workplace.doctype.entity.xml;
 ] >
 
 <book>
@@ -76,6 +73,7 @@
     &book.preface.xml;
 	
     &part.management.xml;
+    <!-- &chapter.workplace.xml; -->
     &part.mgmt.xml;
 	&book.appendix.xml;
  </book>

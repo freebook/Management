@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Id: chapter.workplace.xml 523 2013-02-20 06:20:39Z netkiller $ -->
-<chapter id="workplace">
+<chapter id="index"><?dbhtml dir="workplace" ?>
 	<title>Workplace</title>
 	<section>
 		<title>中西方企业文化对比</title>
