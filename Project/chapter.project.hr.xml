@@ -1,4 +1,4 @@
-<!-- <part id="index"><?dbhtml dir="hr"?> <title>人力资源管理</title>  </part> -->
+<!-- <part id="index"><?dbhtml dir="hr"?> <title>人力资源管理</title> </part> -->
 <section id="hr">
 	<title>人力资源管理</title>
 	<subtitle>Human Resources</subtitle>
@@ -125,7 +125,7 @@
 		<para></para>
 	</section>
 
-	<section id="关于离职率">
+	<section id="resignation">
 		<title>关于离职率</title>
 		<para>
 			少有公司意识到离职率这个问题，表面上是员工主动提辞的，所以企业常常将离职率归罪于员工。
@@ -230,7 +230,7 @@
 		</section>
 	</section>
 
-	<section id="你清楚你的工作职责吗">
+	<section id="responsibility-range">
 		<title>你清楚你的工作职责吗？</title>
 		<para>
 			对于基层员工来说，员工很清楚自己的工作职责。
@@ -308,7 +308,40 @@
 			</para>
 		</section>
 	</section>
+	<section>
+		<title>脑力工作者的老龄化问题</title>
+		<section>
+			<title>程序员的记忆力</title>
+			<para>人的记忆力的巅峰时期是在多大年纪？
+				我人为是18~30这个时间段，26是巅峰，30岁以后逐渐衰退更多是靠经验弥补记忆。所以18~30岁这个时间段的经验积累就非常重要。
+				工作中发现周围的同事未到30就已经开始出现记忆力衰退的情况。常常是几个月前写的代码自己都没有任何印象。
+			</para>
+		</section>
+		<section>
+			<title>脑力工作者偏老龄化</title>
+			<para>目前我国的教育是过度教育，拼学历的时代，很多大学生毕业后不适应社会，第一个想法是回去读研，读研出来已经接近27~28，社会经验为零，工作经验为零。
+				最应该积累社会经验和工作经验的时间段已经错过，27岁站在起跑线上，按照我之前提出的3:3:3原则（三年初级攻城狮，六年中级工程师，九年高级工程师）36岁。
+			</para>
 
+			<para>这个年纪也是心态复杂的年纪，放在那个岗位上都不合适。华为不是正在清退大龄程序员。</para>
+		</section>
+		<section>
+			<title>老龄化存在的问题</title>
+			<itemizedlist>
+				<listitem>
+					<para>不动脑不思考</para>
+				</listitem>
+				<listitem>
+					<para>求稳定求安逸</para>
+				</listitem>
+				<listitem>
+					<para>不学习新技术</para>
+				</listitem>
+			</itemizedlist>
+			<para>面试中发现的问题30岁左右工作6年的面试者，能力不是一般差。 很多人一旦进入一家企业就沿袭原有的技术路线，不再创新，求稳定，求安逸。也可以说没有能力创新或者不敢创新，不想承担风险。
+			</para>
+		</section>
+	</section>
 	<section id="hr.manual">
 		<title>员工手册</title>
 		<para>员工手册再国内企业仍是空白，我记的第一次进入外企工作，入职的时候给了一个信封，里面装有：</para>

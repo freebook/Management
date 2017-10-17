@@ -6,26 +6,7 @@
 	<para>学习管理你千万不能陷入到管理学领域，很多管理者陷入一个误区，试图寻找一种管理工具(非软件，这里指的是管理方法)，通过工具解决项目管理问题。</para>
 	<para>管理软件开发团队，你只需要20%的管理学知识，更多的是对技术的掌握。</para>
 	
-
-
-	<section id="range">
-		<title>范围管理</title>
-		<para>为了实现项目的目标，对项目的工作内容进行控制的管理过程。它包括范围的界定，范围的规划，范围的调整等。</para>
-		<para>我们将技术部划分为三个子部门，这是为了实现DEVOPS而制定。</para>
-		<orderedlist>
-			<listitem>
-				<para>软件开发部</para>
-			</listitem>
-			<listitem>
-				<para>软件测试部</para>
-			</listitem>
-			<listitem>
-				<para>运维部</para>
-			</listitem>
-		</orderedlist>
-		<para>很多中国企业组织架构五花八门，这样会造成职责不清晰。例如运维挂在开发部下面，测试挂在开发部下面</para>
-		&chapter.project.kick.xml;
-	</section>
+	&chapter.project.range.xml;
 	<section id="time">
 		<title>时间管理</title>
 		<para>为了确保项目最终的按时完成的一系列管理过程。它包括具体活动的界定，如：活动排序、时间估计、进度安排及时间控制等项工作。
@@ -36,38 +17,8 @@
 	
 	&chapter.project.quality.xml;
 	&chapter.project.communication.xml;
-	
 	&chapter.project.change.xml;
-	<section id="integrated">
-		<title>集成管理</title>
-		<para>是指为确保项目各项工作能够有机地协调和配合所展开的综合性和全局性的项目管理工作和过程。它包括项目集成计划的制定，项目集成计划的实施，项目变动的总体控制等。
-		</para>
-		<para>我习惯于将配置管理划为集成管理，我认为配置管理是软件集成的一个环节，你别较真，管理学本就没有规范而言，你的模式成功，你就可以著书立说，你就是权威，你就是标准。
-		</para>
-		<section id="task">
-			<title>配置管理</title>
-			<para>是通过技术或行政手段对软件产品及其开发过程和生命周期进行控制、规范的一系列措施。配置管理的目标是记录软件产品的演化过程，确保软件开发者在软件生命周期中各个阶段都能得到精确的产品配置。
-			</para>
-			<para>配置管理很多企业将其理解为应用软件的配置文件，这是错误的。所有影响软件正常安装，运行的配置项，都要纳入配置管理。</para>
-			<orderedlist>
-				<title>配置管理范围涵盖软硬件，包括：</title>
-				<listitem>
-					<para>硬件：路由器，交换机，防火墙，负载均衡器，服务器......</para>
-				</listitem>
-				<listitem>
-					<para>系统软件：操作系统，应用服务器，数据库，缓存，消息队列......</para>
-				</listitem>
-				<listitem>
-					<para>应用软件配置文件：日志，接口，数据库连接池......</para>
-				</listitem>
-			</orderedlist>
-
-			<para>任何项目应该有三套以上配置库，分别是开发，测试，生产</para>
-			<para>开发配置文件所涉及资源与权限仅限于开发环境，测试配置文件所涉及资源与权限也仅限于测试环境，生产环境也一样，应用程序部署到那个环境，就应该使用那套配置文件
-			</para>
-
-		</section>
-	</section>
+	&chapter.project.integrated.xml;
 
 	<section id="risk">
 		<title>风险管理</title>

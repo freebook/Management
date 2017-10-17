@@ -16,8 +16,6 @@
 
 <!--
 	
-	<!ENTITY chapter.itsm.xml 			SYSTEM "ITSM/chapter.itsm.xml">
-	<!ENTITY chapter.practice.xml 		SYSTEM "ITSM/chapter.practice.xml">
 	<!ENTITY chapter.reference.xml		SYSTEM "chapter.reference.xml">
 	
 	<!ENTITY % doctype.entity.xml 		SYSTEM "doctype.entity.xml">
