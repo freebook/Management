@@ -14,9 +14,6 @@
 	<!ENTITY book.history 		SYSTEM "book.history.xml">
 -->
 
-<!--
-	<!ENTITY chapter.reference.xml		SYSTEM "chapter.reference.xml">
--->
 	<!ENTITY part.management.xml 			SYSTEM "part.management.xml">
 
 	<!ENTITY % utilities.doctype.entity.xml 	SYSTEM "Utilities/doctype.entity.xml">
@@ -73,7 +70,7 @@
     &book.preface.xml;
 	
     &part.management.xml;
-    <!-- &chapter.workplace.xml; -->
+    &chapter.workplace.xml;
     &part.mgmt.xml;
 	&book.appendix.xml;
  </book>

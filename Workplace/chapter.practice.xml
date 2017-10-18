@@ -3,12 +3,17 @@
 <chapter id="itsm">
 	<title>ITSM 实践</title>
 	<section>
-		<title>组织架构</title>
+		<title></title>
+	</section>
+	<section>
+		<title></title>
 	</section>
 	<section>
 		<title>Help Desk / Service Desk</title>
 		<subtitle>桌面支持 </subtitle>
-		<para><ulink url="http://freehelpdesk.org/">Help Desk Software</ulink></para>
+		<para>
+			<ulink url="http://freehelpdesk.org/">Help Desk Software</ulink>
+		</para>
 	</section>
 	<section>
 		<title>Problem Management(问题管理)</title>
@@ -16,9 +21,15 @@
 		<section>
 			<title>员工手册</title>
 			<itemizedlist>
-				<listitem><para>邮箱配置，初始密码</para></listitem>
-				<listitem><para>开发环境配置</para></listitem>
-				<listitem><para>版本库地址</para></listitem>
+				<listitem>
+					<para>邮箱配置，初始密码</para>
+				</listitem>
+				<listitem>
+					<para>开发环境配置</para>
+				</listitem>
+				<listitem>
+					<para>版本库地址</para>
+				</listitem>
 			</itemizedlist>
 		</section>
 	</section>
@@ -26,14 +37,10 @@
 		<title>Incident Management(突发事件管理)</title>
 		<section>
 			<title>突发事件处理流程</title>
-			<graphic  format="png" fileref="../images/incident.png" srccredit="neo" />
+			<graphic format="png" fileref="../images/incident.png" srccredit="neo" />
 		</section>
 	</section>
-	<section>
-		<title>Change Management(变更管理)</title>
 
-
-	</section>
 	<section>
 		<title>Release Management(发布管理)</title>
 
@@ -69,11 +76,11 @@
 		<section id="admin">
 			<title>IDC 设备管理</title>
 			<para></para>
-			<section >
+			<section>
 				<title>资产管理</title>
 				<para>设备登记</para>
 			</section>
-			<section >
+			<section>
 				<title>图表管理</title>
 				<para></para>
 				<section>
@@ -94,15 +101,15 @@
 
 				</section>
 			</section>
-			<section >
+			<section>
 				<title>进出IDC机房</title>
 				<para>进出IDC机房注意事项</para>
 			</section>
-			<section >
+			<section>
 				<title>设备上下架</title>
 				<para>上下架流程</para>
 			</section>
-			<section >
+			<section>
 				<title>如何维护设备</title>
 				<para></para>
 			</section>
