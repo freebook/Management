@@ -10,5 +10,5 @@
 	&chapter.salary.xml;
 	&chapter.performance.xml;
 
-	<!-- <section id="desk"> <title>Service Desk(服务台)</title> </section> <section id="incident"> <title>Incident Management(突发事件管理)</title> <graphic format="png" fileref="../images/incident.png" srccredit="neo" /> </section>  -->
+	<!-- <section id="desk"> <title>Service Desk(服务台)</title> </section>   -->
 </chapter>
