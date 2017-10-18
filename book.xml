@@ -14,7 +14,8 @@
 	<!ENTITY book.history 		SYSTEM "book.history.xml">
 -->
 
-	<!ENTITY part.management.xml 			SYSTEM "part.management.xml">
+	<!ENTITY part.management.xml 		SYSTEM "part.management.xml">
+	<!ENTITY chapter.business.xml		SYSTEM "chapter.business.xml">
 
 	<!ENTITY % utilities.doctype.entity.xml 	SYSTEM "Utilities/doctype.entity.xml">
 	%utilities.doctype.entity.xml;
@@ -34,7 +35,6 @@
 	
 	<!ENTITY % project.doctype.entity.xml 	SYSTEM "Project/doctype.entity.xml">
 	%project.doctype.entity.xml;
-	<!-- <!ENTITY part.marketing.xml 			SYSTEM "part.marketing.xml"> -->
 
 	<!ENTITY % workplace.doctype.entity.xml 		SYSTEM "Workplace/doctype.entity.xml">
 	%workplace.doctype.entity.xml;
@@ -72,6 +72,7 @@
 	
     &part.management.xml;
     &chapter.workplace.xml;
+    &chapter.business.xml;
     &part.mgmt.xml;
 	&book.appendix.xml;
  </book>

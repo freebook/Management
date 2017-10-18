@@ -22,4 +22,18 @@
 	</section>
 	&chapter.utilities.smart.xml;
 	&chapter.utilities.6s.xml;
+	<section id="PCRDFI">
+		<title>PCRDFI</title>
+		<para>执行理论包了六个要素：PCRDFI </para>
+		<screen>
+		<![CDATA[
+计划（Plan）
+沟通（Communicate）
+风险评估（Risk-Evaluate） 
+实施（Do）
+反馈（Feedback）
+改进（Improve）
+		]]>	
+		</screen>
+	</section>
 </chapter>
