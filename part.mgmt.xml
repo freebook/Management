@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <part id="devops"><!-- <?dbhtml dir="mgmt"?> -->
 	<title>实施篇</title>
-    &chapter.devops.xml;
     &chapter.platform.xml;
     &part.development.xml;
 	&part.operations.xml;
