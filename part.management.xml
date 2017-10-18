@@ -5,7 +5,7 @@
 	<title>管理篇</title>
 	<para><ulink url="images/overviews.png"><graphic  format="png" fileref="images/overviews.png" width="1024" srccredit="neo" /></ulink></para>
 	&chapter.project.xml;
-	&chapter.hr.xml;
+	&chapter.hrm.xml;
     &chapter.marketing.xml;
     &chapter.itsm.xml;
     

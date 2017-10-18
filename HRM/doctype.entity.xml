@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!ENTITY chapter.hrm.xml					SYSTEM "chapter.hrm.xml">
+<!ENTITY chapter.recruitment.xml			SYSTEM "chapter.recruitment.xml">
 <!ENTITY chapter.training.xml			SYSTEM "chapter.training.xml">
 <!ENTITY chapter.salary.xml				SYSTEM "chapter.salary.xml">
 <!ENTITY chapter.performance.xml			SYSTEM "chapter.performance.xml">
