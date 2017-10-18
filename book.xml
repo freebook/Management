@@ -39,8 +39,8 @@
 	<!ENTITY % workplace.doctype.entity.xml 		SYSTEM "Workplace/doctype.entity.xml">
 	%workplace.doctype.entity.xml;
 	
- 	<!ENTITY % hr.doctype.entity.xml 	SYSTEM "HR/doctype.entity.xml">
-	%hr.doctype.entity.xml;	
+ 	<!ENTITY % hrm.doctype.entity.xml 	SYSTEM "HRM/doctype.entity.xml">
+	%hrm.doctype.entity.xml;	
 	
 ] >
 

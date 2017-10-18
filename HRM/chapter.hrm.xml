@@ -810,7 +810,10 @@ $Id: chapter.itsm.xml 580 2013-05-07 10:08:48Z netkiller $
 			我主张建立学习型团队，员工能持续学习新的技术，并将技术转化为生产力，这是一种不错的选择。
 		</para>
 	</section>
+	&chapter.training.xml;
 	&chapter.salary.xml;
+	&chapter.performance.xml;
+	
 <!-- 	<section id="desk">
 		<title>Service Desk(服务台)</title>
 	</section>
@@ -827,9 +830,5 @@ $Id: chapter.itsm.xml 580 2013-05-07 10:08:48Z netkiller $
 		<title>Change Management(变更管理)</title>
 		
 	</section>
-	<section id="release">
-		<title>Release Management(发布管理)</title>
-		<para></para>
-		
-	</section> -->
+	 -->
 </chapter>
