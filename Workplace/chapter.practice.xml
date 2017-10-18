@@ -2,15 +2,6 @@
 <!-- $Id: chapter.practice.xml 614 2013-06-10 10:10:09Z netkiller $ -->
 <chapter id="itsm">
 	<title>ITSM 实践</title>
-
-
-	<section>
-		<title>Help Desk / Service Desk</title>
-		<subtitle>桌面支持 </subtitle>
-		<para>
-			<ulink url="http://freehelpdesk.org/">Help Desk Software</ulink>
-		</para>
-	</section>
 	<section>
 		<title>Problem Management(问题管理)</title>
 
@@ -88,8 +79,7 @@
 				</section>
 				<section>
 					<title>服务器连接图</title>
-					<para>server A ----> B server 服务器相互访问关系</para>
-					<para>server:80 A ----> D server:80 端口及服务之间的关系</para>
+
 
 				</section>
 			</section>
