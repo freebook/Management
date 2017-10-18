@@ -8,6 +8,7 @@
 	&chapter.hrm.xml;
     &chapter.marketing.xml;
     &chapter.itsm.xml;
-    
+    &chapter.product.xml;
     &chapter.utilities.xml;
+    &chapter.business.xml;
 </part>

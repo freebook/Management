@@ -42,6 +42,9 @@
  	<!ENTITY % hrm.doctype.entity.xml 	SYSTEM "HRM/doctype.entity.xml">
 	%hrm.doctype.entity.xml;	
 	
+	<!ENTITY % product.doctype.entity.xml 	SYSTEM "Product/doctype.entity.xml">
+	%product.doctype.entity.xml;	
+	
 ] >
 
 <book>
@@ -72,7 +75,6 @@
 	
     &part.management.xml;
     &chapter.workplace.xml;
-    &chapter.business.xml;
     &part.mgmt.xml;
 	&book.appendix.xml;
  </book>
