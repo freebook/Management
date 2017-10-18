@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--
-$Author: netkiller $
-$Id: chapter.itsm.xml 580 2013-05-07 10:08:48Z netkiller $
--->
+<!-- $Author: netkiller $ $Id: chapter.itsm.xml 580 2013-05-07 10:08:48Z netkiller $ -->
 <chapter id="index"><?dbhtml dir="hrm"?>
 	<title>人力资源管理</title>
 	<subtitle>Human Resources Management</subtitle>
 	
+	&chapter.recruitment.xml;
+	&chapter.training.xml;
+	&chapter.salary.xml;
+	&chapter.performance.xml;
+
 	<section id="mlayer">
 		<title>管理好管理层</title>
 		<para>管理好管理层比管理好员工更重要，不要让管理层成为传话筒。你是抱着很大期望提供优厚的待遇聘用管理层，对于所有人来说，你需要一个这样的职位，对于他需要一分工作而已。出色的管理层就像出色的员工一样非常难寻，需要机遇，需要天时，地利，人和。很多管理层也如果普通员工一样平平谈谈，当一天和尚撞一天钟。
@@ -663,56 +665,8 @@ $Id: chapter.itsm.xml 580 2013-05-07 10:08:48Z netkiller $
 			</para>
 		</section>
 	</section>
-	<section id="给团队充电">
-		<title>给团队充电</title>
-		<para>
-			我发现国内的企业少有重视团队的学习与充电，有段子说：“把女人当男人用，把男人当牲口用”。程序猿称自己为码畜!
-		</para>
-		<para>
-			我在外企工作的一段时间，外企非常重视
-			Trainning，这种Trainning有很多形式，有人力资源组织的，有团队内部牵头的。
-		</para>
-		<para>
-			起初我认为Trainning是培训，随着对Trainning的认识，与其说培训不如说训练更贴切，这种训练有短训也有长训。
-		</para>
-		<para>
-			经过训练后，可能让你从生手变成熟手，意味着更高的产出，更少的次品率。
-		</para>
-		<para>
-			映射到软件开发工作中就是高效率与低缺陷。
-		</para>
-		<para>
-			Trainning
-			不是讲PPT（幻灯片）而是实战，需要动手做，亲自实践，团队成员相互合作，初级程序猿可以得到资深程序猿的指导，进步非常快，而资深程序猿之间经验共享也相当重要。
-		</para>
-		<para>
-			其实团队就像军队一样，军队不能天天打仗，一场战斗后就需要休整一段时间，并为下一场战斗做准备，休整阶段每天就是常规训练。
-			项目团队也一样，经过一段时间的项目冲刺，就需要休息调整，放慢进度，给团队学习与充电，调剂团队气氛。
-		</para>
-		<para>
-			另外调动团队的积极性是一种艺术，而不是管理层充当监工的角色，上传下达，进度跟踪就打到达到的，进度逼的太紧团队会出负面情绪，导致团队出工不出力，张弛有度非常重要。
-		</para>
-		<para>
-			我主张建立学习型团队，员工能持续学习新的技术，并将技术转化为生产力，这是一种不错的选择。
-		</para>
-	</section>
-	&chapter.recruitment.xml;
-	&chapter.training.xml;
-	&chapter.salary.xml;
-	&chapter.performance.xml;
-	
-<!-- 	<section id="desk">
-		<title>Service Desk(服务台)</title>
-	</section>
-	<section id="incident">
-		<title>Incident Management(突发事件管理)</title>
-		<graphic  format="png" fileref="../images/incident.png" srccredit="neo" />
-	</section>
-	<section id="problem">
-		<title>Problem Management(问题管理)</title>
-		
-	</section>
-	
-	
-	 -->
+
+
+
+	<!-- <section id="desk"> <title>Service Desk(服务台)</title> </section> <section id="incident"> <title>Incident Management(突发事件管理)</title> <graphic format="png" fileref="../images/incident.png" srccredit="neo" /> </section> <section id="problem"> <title>Problem Management(问题管理)</title> </section> -->
 </chapter>

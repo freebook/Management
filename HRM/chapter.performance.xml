@@ -1,5 +1,504 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<section>
+<section id="performance">
 	<title>绩效管理</title>
 	<subtitle>Performance management</subtitle>
+	<section id="员工激励机制">
+		<title>员工激励机制</title>
+		<para>
+			俗话说 “水不激不扬，人不激不奋”
+			是我国古代典型的激励思想。中国古代在激励方面有颇多论述和实践，我认为中国儒家思想博大精深，但不太好操作。
+		</para>
+		<section id="什么是激励">
+			<title>什么是激励？</title>
+			<para>
+				激励过程可以看作是外部刺激、个体内部条件、行为表现和行为结果的共同作用过程。
+				激励是一个动态变化循环的过程：奖励目标→努力→绩效→奖励→满意→努力，这其中还有个人完成目标的能力，获得奖励的期望值，觉察到的公平，消耗力量、能力等一系列因素。只有综合考虑到各个方面，才能取得满意的激励效果。
+			</para>
+		</section>
+		<section id="为什么要激励">
+			<title>为什么要激励？</title>
+			<para>
+				我们将“付出”，“回报”放在一架天枰上：
+			</para>
+			<itemizedlist>
+				<listitem>
+					<para>
+						当天枰两侧相等时，员工感到公平；
+					</para>
+				</listitem>
+				<listitem>
+					<para>
+						当天枰左侧大于（〉）右侧时，员工感到占了便宜，行为有：
+						——员工产生歉疚感，从而更努力工作。 ——员工心安理得。
+					</para>
+				</listitem>
+				<listitem>
+					<para>
+						当天枰左侧小于（〈）右侧时，员工感到吃了亏，行为有：
+						——员工争取更多的奖酬、待遇。
+						——员工减少自己投入努力，如迟到早退、怠工、出废品、浪费原料、放弃责任。
+						——员工想方设法把参照者的奖酬待遇拉下来。
+						——员工想要参照者工作干得更多。
+						——参照者心理上调节对这些变量的认识（类似于用阿Q精神），使之平衡。
+						——改变参照对象，求得“比上不足、比下有余”的自慰效果。
+						——在企业没法达到公平感觉时，员工辞职，另谋高就。
+					</para>
+				</listitem>
+			</itemizedlist>
+			<para>
+				公平感觉纯粹是主观、心理上的反应。在现实中，人们常常高估自己的投入贡献，低估别人的投入贡献，从而造成观察问题的系统偏差。
+			</para>
+		</section>
+		<section id="何时激励员工">
+			<title>何时激励员工</title>
+			<para>
+				员工激励是无时无刻的，伴随整个职业生涯，而非需要的时候激励一把。
+			</para>
+		</section>
+		<section id="在哪激励员工">
+			<title>在哪激励员工</title>
+			<para>
+				同样员工激励可以是任何时间任何地点。
+			</para>
+		</section>
+		<section id="谁来激励员工">
+			<title>谁来激励员工</title>
+			<para>
+				很多企业认为激励员工是人力资源的工作，人力资源部门职能确实包此项工作，但人力资源部门实施起来也有很多不足的地方。
+				首先人力资源部门并不熟悉每个部门的工作细节，如果各部门或小组能够内部激励员工效果远远好于由人力资源部门主导的相关工作。
+			</para>
+		</section>
+		<section id="激励的误区">
+			<title>激励的误区</title>
+			<para>
+				画饼方法，很多企业采用这种方法，这种激励在当下已经失去了作用或收效甚微。先不说画饼是否能兑现，画饼法设置的目标太遥远，而到达目标途中每步细节是缺失的。
+			</para>
+			<para>
+				最常见的例子就是大会上老板说“大家好好干，达到业绩，年底发奖金”，会议结束老板回到自己的办公室，员工回到自己的位置上该干什么干什么。
+				因为公司的业绩就像股市一样不可预测，这个年终奖就像买彩票或是场赌博，且风险很大，员工都默认放弃，顺其自然，能拿到奖金也好，拿不到也没有什么付出。
+			</para>
+			<para>
+				当员工得到奖励，可能热情状态能保持几天，几周，一两个月，这种热情状态不可能持续保持，在这个期间员工的工作状态是有显著提升的。高潮过去随后热情就会消退，慢慢回到正常的工作状态。
+				所以激励是持续的，渐进的，激励密度也很有讲究，“密”与“疏”都会影响激励的效果。
+			</para>
+		</section>
+		<section id="怎样激励员工">
+			<title>怎样激励员工</title>
+			<para>
+				从上面的天枰法则我们可以看到，激励就是不停地调整法码。有哪些激励方法呢：
+			</para>
+			<orderedlist numeration="arabic" spacing="compact">
+				<listitem>
+					<para>
+						表率激励
+					</para>
+				</listitem>
+				<listitem>
+					<para>
+						荣誉激励
+					</para>
+				</listitem>
+				<listitem>
+					<para>
+						奖惩激励
+					</para>
+				</listitem>
+				<listitem>
+					<para>
+						目标激励
+					</para>
+				</listitem>
+				<listitem>
+					<para>
+						物质激励
+					</para>
+				</listitem>
+				<listitem>
+					<para>
+						情感激励
+					</para>
+				</listitem>
+				<listitem>
+					<para>
+						公平激励
+					</para>
+				</listitem>
+				<listitem>
+					<para>
+						信任激励
+					</para>
+				</listitem>
+				<listitem>
+					<para>
+						赏识激励
+					</para>
+				</listitem>
+				<listitem>
+					<para>
+						尊重激励
+					</para>
+				</listitem>
+				<listitem>
+					<para>
+						参与激励
+					</para>
+				</listitem>
+				<listitem>
+					<para>
+						荣誉激励
+					</para>
+				</listitem>
+				<listitem>
+					<para>
+						关心激励
+					</para>
+				</listitem>
+				<listitem>
+					<para>
+						相互激励
+					</para>
+				</listitem>
+				<listitem>
+					<para>
+						自我激励
+					</para>
+				</listitem>
+				<listitem>
+					<para>
+						股票增值
+					</para>
+				</listitem>
+				<listitem>
+					<para>
+						股票期權
+					</para>
+				</listitem>
+				<listitem>
+					<para>
+						虛擬股票
+					</para>
+				</listitem>
+				<listitem>
+					<para>
+						員工持股
+					</para>
+				</listitem>
+			</orderedlist>
+			<para>
+				激励方式太多了，无法依依列举，你可以参考相关管理学的书籍，近代管理学有很成熟激励方法，以及很多成熟的案例参考。
+			</para>
+			<para>
+				我想谈的是“激励图”，这是我多年总结出来的图表。供大家参考。
+				<inlinemediaobject>
+					<imageobject>
+						<imagedata fileref="https://raw.githubusercontent.com/netkiller/journal/master/%E7%AE%A1%E7%90%86/%E5%91%98%E5%B7%A5%E6%BF%80%E5%8A%B1/%E6%BF%80%E5%8A%B1%E5%9B%BE.png" />
+					</imageobject>
+				</inlinemediaobject>
+			</para>
+			<para>
+				从激励图中我们可以看到：
+			</para>
+			<orderedlist numeration="arabic" spacing="compact">
+				<listitem>
+					<para>
+						从不激励的企业，员工永远是常态工作，偶尔还会产生负面情绪。
+					</para>
+				</listitem>
+				<listitem>
+					<para>
+						如果激励与下一次激励间隔过长效果就不明显
+					</para>
+				</listitem>
+				<listitem>
+					<para>
+						当激励后间隔太长或者停止激励，员工在经过一段常态的工作后，会出现负能量增长的情况
+					</para>
+				</listitem>
+				<listitem>
+					<para>
+						最不好的结果是一旦激励完后直接进入消极阶段
+					</para>
+				</listitem>
+				<listitem>
+					<para>
+						正能量常态的团队，这种团队最常见的就是直销，保险行业，激励后的结果我们无法预知，已经上升到精神层面。
+					</para>
+				</listitem>
+				<listitem>
+					<para>
+						让激励成为常态，持续不断激励这是每个企业需要思考的一个问题。
+					</para>
+				</listitem>
+			</orderedlist>
+		</section>
+	</section>
+	<section id="软件行业绩效管理">
+		<title>软件行业绩效管理</title>
+		<section id="什么是绩效管理">
+			<title>什么是绩效管理</title>
+			<para>
+				绩效管理是管理者保证员工的工作活动和结果与组织目标保持一致的一种手段和过程。它是通过识别、衡量和传达有关员工工作绩效状况和水平的信息，并作出相应指引来使组织的目标得以实现。
+				我们听到更多的是“绩效考核”：绩效考核是绩效管理的基础和手段，也是绩效管理的必经阶段。没有经过绩效考核阶段是不可能到达绩效管理阶段的。
+			</para>
+		</section>
+		<section id="为什么绩效管理">
+			<title>为什么绩效管理</title>
+			<para>
+				达成目标：绩效考核本质上是一种过程管理，而不是仅仅对结果的考核。它是将中长期的目标分解成年度、季度、月度指标，不断督促员工实现、完成的过程，有效的绩效考核能帮助企业达成目标。
+			</para>
+			<para>
+				挖掘问题：绩效考核是一个不断制订计划、执行、检查、处理的PDCA循环过程，体现在整个绩效管理环节，包括绩效目标设定、绩效要求达成、绩效实施修正、绩效面谈、绩效改进、再制定目标的循环，这也是一个不断的发现问题、改进问题的过程。
+			</para>
+			<para>
+				分配利益：与利益不挂钩的考核是没有意义的，员工的工资一般都会为两个部分：固定工资和绩效工资。绩效工资的分配与员工的绩效考核得分息息相关，所以一说起考核，员工的第一反应往往是绩效工资的发放。
+			</para>
+			<para>
+				促进成长：绩效考核的最终目的并不是单纯地进行利益分配，而是促进企业与员工的共同成长。通过考核发现问题、改进问题，找到差距进行提升，最后达到双赢。 绩效考核的应用重点在薪酬和绩效的结合上。薪酬与绩效在人力资源管理中，是两个密不可分的环节。在设定薪酬时，一般已将薪酬分解为固定工资和绩效工资，绩效工资正是通过绩效予以体现，而对员工进行绩效考核也必须要表现在薪酬上，否则绩效和薪酬都失去了激励的作用。
+			</para>
+			<para>
+				人员激励：通过绩效考核，把员工聘用、职务升降、培训发展、劳动薪酬相结合，使得企业激励机制得到充分运用，有利于企业的健康发展；同时对员工本人，也便于建立不断自我激励的心理模式。
+			</para>
+		</section>
+		<section id="绩效管理的分类">
+			<title>绩效管理的分类</title>
+			<para>
+				绩效管理可分为两大类，一类是激励型绩效管理，侧重于激发员工的工作积极性，比较适用于成长期的企业;另一类是管控型绩效管理，侧重于规范员工的工作行为，比较适用于成熟期的企业。
+				但无论采用哪一种考核方式，其核心都应有利于提升企业的整体绩效，而不应在指标的得分上斤斤计较
+			</para>
+		</section>
+		<section id="绩效管理面临的问题">
+			<title>绩效管理面临的问题</title>
+			<para>
+				绩效管理是人力资源管理的一项核心职能，对于人力资源管理来说是非常重要的。然而新型产业绩效管理面临一些列问题，传统的绩效考核手段并不适用，随着绩效管理工作的实施，发现难以推广，各种阻力重重，很多问题对于人力资源部门一筹莫展。很多企业采用生拿硬套方法，使用传统方法考核技术人员，这样仅仅是对于公司做了交代（我们已经实施了绩效管理），但这样绩效管理无法长久，最后不了了之。
+			</para>
+			<orderedlist numeration="arabic" spacing="compact">
+				<listitem>
+					<para>
+						软件开发无法量化
+					</para>
+				</listitem>
+				<listitem>
+					<para>
+						程序员水平问题
+					</para>
+				</listitem>
+				<listitem>
+					<para>
+						怎么考核脑力工作者
+					</para>
+				</listitem>
+				<listitem>
+					<para>
+						变化总比计划快，指标分解被打乱
+					</para>
+				</listitem>
+			</orderedlist>
+			<para>
+				技术人员的绩效管理已经超出人力资源部门能力范围，需要多部门的不断深入，方能有效地支持企业的整个运营。
+			</para>
+			<para>
+				KPI之所以广受欢迎，就是因为“你选择衡量什么，你就得到什么”。问题在于，有许多种KPI指标任你选择，选到适合自己的真不太容易。领导层如果选了错误的KPI，就意味着员工会执行错误的指令，后果显然很严重。
+			</para>
+			<para>
+				站在员工的角度，KPI无非就是：
+			</para>
+			<orderedlist numeration="arabic" spacing="compact">
+				<listitem>
+					<para>
+						在指定的时间段内，我要完成哪些任务；
+					</para>
+				</listitem>
+				<listitem>
+					<para>
+						这些任务，我分别要完成到什么程度；
+					</para>
+				</listitem>
+				<listitem>
+					<para>
+						根据完成了哪些、各自完成的程度来拿钱。
+					</para>
+				</listitem>
+			</orderedlist>
+			<para>
+				说得再简单一点就是，完成了KPI拿钱拿奖励，完不成爱干嘛干嘛。提前完成再贡献，就显得没有意义。
+			</para>
+			<para>
+				KPI从最大程度上提高了效率，却也是一把双刃剑。
+			</para>
+			<para>
+				其一，有些事情值得去做，但在存在一定风险，且无法测量，也因此无法制订KPI。没有写进激励机制，那创新就显得困难了些。
+			</para>
+			<para>
+				其二，没有人对最项目的终结果负责，每个人只对自己经手的过程负责。
+			</para>
+			<para>
+				长此以往，KPI 让那些充满报复与野心的员工激情消耗殆尽。
+			</para>
+		</section>
+		<section id="绩效管理的误区">
+			<title>绩效管理的误区</title>
+			<para>
+				绩效管理强调组织目标和个人目标的一致性，强调组织和个人同步成长，形成“多赢”局面；绩效管理体现着“以人为本”的思想，在绩效管理的各个环节中都需要管理者和员工的共同参与。
+			</para>
+			<para>
+				在我看来国内企业绩效管理归为，员工考核，很多人认为企业存在的问题是员工工作不积极，没有责任感。我认为这样的企业首先应该自我反省。什么样的企业文化，产生什么样的员工。
+			</para>
+		</section>
+		<section id="怎样做绩效管理">
+			<title>怎样做绩效管理</title>
+			<para>
+				绩效管理应以软件开发为主线，贯穿软件开发过程中，而不是软件开发以外一项工作。绩效管理不能影响正常的软件开发，不应让绩效管理成为技术人员的负担。
+				让绩效管理融入开发工作，成为软件开发过程中的一个环节。
+				绩效管理应该由技术部门自行实施，人力资源部门协助。与其挖空心思怎么样考评员工，不如建立一个积极上进的团队。所以我们应该以团队建设为主，而不是考核为主。
+			</para>
+			<para>
+				实施绩效管理是为了更好的实现：达成目标，挖掘问题，分配利益，促进成长，人员激励。实现上述目标，我们不一定非使用“关键绩效指标(KPI：Key
+				Performance Indicator)”，还有其他的考核方式。
+				KPI是在国内应用最广的，但我觉得也是最不适用于技术人员考核的方法。平衡计分卡(Balance
+				Scorecard, BSC)操作起来太繁琐。360°评价体系，真的浪费人力成本。
+				最后一种目标管理MBO(Management by objectives)
+				我认为优于其他几项，但仍需要改造，我们只需要借鉴一部分精华即刻。
+			</para>
+			<section id="开发模式">
+				<title>开发模式</title>
+				<para>
+					项目管理模式的软件开发团队，不理利于创新，会降低员工的积极性，员工没有参与感，将员工视为工时，一个部件，一个资源，任凭项目经理的调度，使用。员工的想法无法得到重视，仅仅是执行命令。
+					我更喜欢敏捷开发团队，我更喜欢全栈开发人员，让开发人员参与的软件开发周期的每个环节中，人力资源利用率高，让开发工作成为有趣的事，从被动接收任务分配，到主动参与其中。
+				</para>
+			</section>
+			<section id="通过代码提交数量判断其在团队中的贡献">
+				<title>通过代码提交数量判断其在团队中的贡献</title>
+				<para>
+					分析年，月，周每个队员的提交数量判断其在团队中的贡献。这是一个有说服力的数据，无人反对。做的工作多自然提交就会多。
+				</para>
+				<para>
+					需要注意，同级别比较，不能垮级别比较。贡献越多，对系统就越了解这是成正比的。也就更有机会得到晋升。
+				</para>
+				<para>
+					通过本周，本月报表与上周，上月的对比，分析员工工作状态。
+				</para>
+			</section>
+			<section id="目标与达成">
+				<title>目标与达成</title>
+				<para>设置目标，确定达成目标的关键结果，这部分参考了MBO(Management by objectives)与OKR(Objectives Key Results)。
+				</para>
+			</section>
+			<section id="通过提交日历查看员工的状态">
+				<title>通过提交日历查看员工的状态</title>
+				<para>
+					提交日历可以一看出一周，一个月，一年的贡献。
+				</para>
+			</section>
+			<section id="团队约束">
+				<title>团队约束</title>
+				<para>
+					团队的约束远大于规章制度的约束。
+				</para>
+			</section>
+			<section id="bug率">
+				<title>BUG率</title>
+				<para>
+					BUG并不能说明什么，做的越多，BUG反馈就越多，它可以所作选项出现，我更关注的是reopen的次数。而不是队员的bug数量
+					很多人错误的将bug率计入考评，导致多做多bug, 少做少bug,
+					不做没bug。
+				</para>
+			</section>
+			<section id="代码审查">
+				<title>代码审查</title>
+				<para>
+					我不建议专门抽时间做代码审查，我主张提交后即刻审查，分支合并过程审查。审查可能考核队员能力，责任心等等
+				</para>
+			</section>
+		</section>
+		<section id="鱼骨图">
+			<title>鱼骨图</title>
+			<para>
+				我使用鱼骨图做OKR，我认为这样更清晰。
+				<inlinemediaobject>
+					<imageobject>
+						<imagedata fileref="http://netkiller.github.io/journal/images/fishbone/fishbone.png" />
+					</imageobject>
+				</inlinemediaobject>
+			</para>
+		</section>
+		<section id="雷达图">
+			<title>雷达图</title>
+			<para>
+				考核指标打分制，很多企业将考核项目打分例如1~10分，然后再计算总分，这个打分本身就不合理。
+				传统的绩效考核采用填表的方式，我认为这种方法应该淘汰了。我更喜欢雷达图。
+				通过雷达图打分，覆盖区域面积越大能力越强，同时可以一眼看出那方面能力不足。
+			</para>
+			<figure>
+				<title>雷达图</title>
+				<mediaobject>
+					<imageobject>
+						<imagedata fileref="https://github.com/netkiller/journal/blob/master/%E7%AE%A1%E7%90%86/%E7%BB%A9%E6%95%88%E7%AE%A1%E7%90%86/%E7%BB%BC%E5%90%88%E8%AF%84%E4%BC%B0.PNG" />
+					</imageobject>
+					<textobject>
+						<phrase>雷达图</phrase>
+					</textobject>
+				</mediaobject>
+			</figure>
+		</section>
+		<section id="全栈开发能力评估">
+			<title>全栈开发能力评估</title>
+			<para>
+				需求，设计，开发，测试，运维。
+			</para>
+			<figure>
+				<title>全栈开发</title>
+				<mediaobject>
+					<imageobject>
+						<imagedata fileref="https://raw.githubusercontent.com/netkiller/journal/master/%E7%AE%A1%E7%90%86/%E7%BB%A9%E6%95%88%E7%AE%A1%E7%90%86/%E5%85%A8%E6%A0%88%E5%BC%80%E5%8F%91.PNG" />
+					</imageobject>
+					<textobject>
+						<phrase>全栈开发</phrase>
+					</textobject>
+				</mediaobject>
+			</figure>
+		</section>
+		<section id="总结">
+			<title>总结</title>
+			<para>
+				综上所述，我管这种绩效考核称为CO2TRD (高大上，我TM真有才!!!
+				为什么这样组合，CO2不用说了，TRD来自Toyota Racing Development)
+				即：
+			</para>
+			<itemizedlist spacing="compact">
+				<listitem>
+					<para>
+						Contributors (贡献)
+					</para>
+				</listitem>
+				<listitem>
+					<para>
+						Objective (目标达成)
+					</para>
+				</listitem>
+				<listitem>
+					<para>
+						Teamwork (团队合作)
+					</para>
+				</listitem>
+				<listitem>
+					<para>
+						Constraints (约束)
+					</para>
+				</listitem>
+				<listitem>
+					<para>
+						Defect (缺陷)
+					</para>
+				</listitem>
+				<listitem>
+					<para>
+						Review (审查)
+					</para>
+				</listitem>
+			</itemizedlist>
+			<para>
+				记住CO2TRD是Netkiller 发明的：）
+			</para>
+		</section>
+	</section>
 </section>
