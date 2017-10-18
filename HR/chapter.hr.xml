@@ -14,86 +14,18 @@ $Id: chapter.itsm.xml 580 2013-05-07 10:08:48Z netkiller $
 	</section>
 	<section id="problem">
 		<title>Problem Management(问题管理)</title>
-		<para>“问题管理” 是以解决问题为导向，以挖掘问题、表达问题、归结问题、处理问题为线索和切入点的一套管理理论和管理方法。也可以说，问题管理就是借助问题进行的管理。</para>
-		<para>问题管理是事件管理的主要出口，在事件管理中无法根本解决的事件、不断重复的事件、典型或影响范围过大的事件等，通常由事件管理的负责人在问题管理项目中发起问题，交给问题管理处理。问题管理的根本目的是消除或减少同类事件的发生，通过分析所发生的事件或事件的趋势，找出根本原因，然后提出解决办法、解决方案、变通方法、或建议的预防性措施等，来消除或减少事件的再次发生。同时问题管理还可包括主动问题管理和被动问题管理两个部分，问题管理的活动包括问题的发起、确认和分配、问题调查、已知错误确立、提供解决方案、评审、关闭。</para>
-		<para>“问题管理”是在挖掘问题的基础上，合适地表达问题，正确地解决问题，以此来防范问题演化为危机的一套管理理论和方法。也可以说，问题管理就是借助问题优化管理。</para>
-		<para>“问题管理”的三要素是挖掘问题、表达问题、解决问题。其中，挖掘问题包括发现问题、分析问题和界定问题，解决问题包括制定解决方案、实施解决方案和跟踪反馈，表达问题不是独立的环节，而是体现和融入到挖掘问题和解决问题的每一个环节之中。</para>
-		<orderedlist>
-			<title>问题管理的特点主要有三方面</title>
-			<listitem><para>一是防患于未然，防止问题演化为危机。问题管理强调“从危机管理到问题管理”，并不是要取代危机管理，而是要以危机管理为主转向以问题管理为主，做到“以防为主，防消结合”；</para></listitem>
-			<listitem><para>二是发现和解决关键问题，过滤假问题，解决真问题；</para></listitem>
-			<listitem><para>三是跨专业、跨部分地分析和解决问题，打通专业管理或部门之间之间的鸿沟；</para></listitem>
-		</orderedlist>
+		
 	</section>
 	<section id="configuration">
 		<title>Configuration Management(配置管理)</title>
 	</section>
 	<section id="change">
 		<title>Change Management(变更管理)</title>
-		<section>
-			<title>变更方案</title>
-		</section>
-		<section>
-			<title>回退计划</title>
-		</section>
-		<section>
-			<title>变更评估</title>
-		</section>
-		<section>
-			<title>变更授权</title>
-		</section>
-		<section>
-			<title>过程记录</title>
-		</section>
-		<section>
-			<title>结果回顾</title>
-		</section>
+		
 	</section>
 	<section id="release">
 		<title>Release Management(发布管理)</title>
 		<para></para>
-		<section>
-			<title>发布类型</title>
-			<para>发布的类型主要包括德尔塔发布（Delta Release）、全发布（Full Release）和包发布（Package Release）三种</para>
-		</section>
-		<section>
-			<title>发布规划</title>
-		</section>
-		<section>
-			<title>参与人员与职责</title>
-		</section>
-		<section>
-			<title>范围与权限</title>
-		</section>
-		<section>
-			<title>检测标准</title>
-		</section>
-		<section>
-			<title>过程和结果</title>
-		</section>
-	</section>
-</chapter>
-<chapter id="delivery">
-	<title>Service Delivery Set(服务实施系列)</title>
-	<section>
-		<title>Service Level Management(服务水平管理)</title>
-	</section>
-	<section>
-		<title>Availability Management(可用性管理)</title>
-	</section>
-	<section>
-		<title>Capacity Management(容量管理)</title>
-	</section>
-	<section>
-		<title>IT Continuity Management(IT可持续性管理)</title>
-	</section>
-	<section>
-		<title>IT Financial Management(IT财务管理)</title>
-	</section>
-	<section>
-		<title></title>
-	</section>
-	<section>
-		<title></title>
+		
 	</section>
 </chapter>

@@ -2,10 +2,8 @@
 <!-- $Id: chapter.practice.xml 614 2013-06-10 10:10:09Z netkiller $ -->
 <chapter id="itsm">
 	<title>ITSM 实践</title>
-	
-	<section>
-		<title></title>
-	</section>
+
+
 	<section>
 		<title>Help Desk / Service Desk</title>
 		<subtitle>桌面支持 </subtitle>
@@ -39,10 +37,6 @@
 		</section>
 	</section>
 
-	<section>
-		<title>Release Management(发布管理)</title>
-
-	</section>
 	<section>
 		<title>内部培训</title>
 		<para>团队培训，指定培训计划等</para>
@@ -109,7 +103,7 @@
 			</section>
 			<section>
 				<title>如何维护设备</title>
-				
+
 			</section>
 		</section>
 	</section>
