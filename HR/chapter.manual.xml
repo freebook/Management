@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section id="hr.manual">
+		<title>员工手册</title>
+		<para>员工手册再国内企业仍是空白，我记的第一次进入外企工作，入职的时候给了一个信封，里面装有：</para>
+		<section>
+			<title>企业文化</title>
+		</section>
+		<section>
+			<title>组织架构图</title>
+		</section>
+		<section>
+			<title>企业制度</title>
+		</section>
+		<section>
+			<title>办事流程</title>
+			<para>报销流程</para>
+			<para>外出/出差流程</para>
+		</section>
+		<section>
+			<title>电脑操作手册</title>
+			<section>
+				<title>电脑开启与初始化步骤</title>
+				<para>开启电脑后，怎样登录到域中</para>
+			</section>
+			<section>
+				<title>邮箱配置步骤</title>
+				<para>POP3 地址</para>
+				<para>SMTP 地址</para>
+			</section>
+			<section>
+				<title>资源位置</title>
+			</section>
+			<section>
+				<title>常用软件</title>
+			</section>
+		</section>
+		<section>
+			<title>通讯录</title>
+			<para></para>
+		</section>
+	</section>

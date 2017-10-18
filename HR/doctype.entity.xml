@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
+<!ENTITY chapter.salary.xml		SYSTEM "chapter.salary.xml">
 <!ENTITY chapter.hr.interview.xml		SYSTEM "chapter.hr.interview.xml">
 <!ENTITY chapter.hr.handover.xml 		SYSTEM "chapter.hr.handover.xml">
