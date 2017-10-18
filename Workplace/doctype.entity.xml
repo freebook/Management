@@ -4,3 +4,4 @@
 <!ENTITY chapter.postgraduate.xml	SYSTEM "chapter.postgraduate.xml">
 <!ENTITY chapter.recommend.xml		SYSTEM "chapter.recommend.xml">
 <!ENTITY chapter.bottleneck.xml		SYSTEM "chapter.bottleneck.xml">
+<!ENTITY chapter.out.xml				SYSTEM "chapter.out.xml">
