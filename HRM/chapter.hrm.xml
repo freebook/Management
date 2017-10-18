@@ -4,6 +4,7 @@
 	<title>人力资源管理</title>
 	<subtitle>Human Resources Management</subtitle>
 	
+	&chapter.planning.xml;
 	&chapter.recruitment.xml;
 	&chapter.training.xml;
 	&chapter.salary.xml;
@@ -668,5 +669,5 @@
 
 
 
-	<!-- <section id="desk"> <title>Service Desk(服务台)</title> </section> <section id="incident"> <title>Incident Management(突发事件管理)</title> <graphic format="png" fileref="../images/incident.png" srccredit="neo" /> </section> <section id="problem"> <title>Problem Management(问题管理)</title> </section> -->
+	<!-- <section id="desk"> <title>Service Desk(服务台)</title> </section> <section id="incident"> <title>Incident Management(突发事件管理)</title> <graphic format="png" fileref="../images/incident.png" srccredit="neo" /> </section>  -->
 </chapter>
