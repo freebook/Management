@@ -2,11 +2,16 @@
 <chapter id="index"><?dbhtml dir="miscellaneous"?>
 	<title>其他</title>
 
-<!-- 	<chapter id="organizational">
-		<title>Organizational Architecture</title>
-		<para>Creativity+Open+Fun+Freedom+Easy+Excellence</para>
+	<!-- <chapter id="organizational"> <title>Organizational Architecture</title> <para>Creativity+Open+Fun+Freedom+Easy+Excellence</para> </chapter> -->
 
-	</chapter> -->
+	<section id="strategic">
+		<title></title>
+		<subtitle>Enterprise Strategic Management</subtitle>
+		<section>
+			<title>战略是什么</title>
+			<para>德鲁克提出，战略就是通过最有效的管理，用最小的资源达到最大回报的过程。战略的根本是一种增长方式，我们用什么样的方式、什么样的路径达成企业的增长。</para>
+		</section>
+	</section>
 
 	<section id="浅谈技术型企业管理">
 		<title>浅谈技术型企业管理</title>
