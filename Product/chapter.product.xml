@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<chapter id="index"><?dbhtml dir="project"?>
+<chapter id="index"><?dbhtml dir="product"?>
 	<title>产品管理</title>
 	<section id="design">
 		<title>谈设计</title>
