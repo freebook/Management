@@ -28,25 +28,22 @@
 		</section>
 	</section>
 
-	<section>
-		<title>内部培训</title>
-		<para>团队培训，指定培训计划等</para>
-	</section>
+
 
 	<section>
 		<title>IT资源管理</title>
 		<section>
 			<title>设备采购</title>
-			
-			
+
+
 		</section>
-		
+
 		<section>
 			<title>周期性时间管理</title>
 			<section>
 				<title>合同到期与续约</title>
 			</section>
-			
+
 		</section>
 		<section id="admin">
 			<title>IDC 设备管理</title>
@@ -58,14 +55,12 @@
 			<section>
 				<title>图表管理</title>
 				<para></para>
-				
-				<section>
-					<title>机柜图</title>
-				</section>
+
+
 				<section>
 					<title>防火墙/路由器与交换机链路图</title>
-					<para>接口对应关系</para>
-					
+
+
 				</section>
 				<section>
 					<title>服务器连接图</title>
@@ -169,22 +164,6 @@
 		</section>
 		<section>
 			<title>网络应用系统管理</title>
-			<section>
-				<title>MIS 系统</title>
-				<para></para>
-			</section>
-			<section>
-				<title>ERP 系统</title>
-			</section>
-			<section>
-				<title>OA/CRM... 系统</title>
-			</section>
-		</section>
-		<section>
-			<title>网络机房管理</title>
-			<section>
-				<title>网络拓扑图</title>
-			</section>
 		</section>
 	</section>
 </chapter>

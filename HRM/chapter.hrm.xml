@@ -3,12 +3,11 @@
 <chapter id="index"><?dbhtml dir="hrm"?>
 	<title>人力资源管理</title>
 	<subtitle>Human Resources Management</subtitle>
-	
+	<para>人力资源管理并不是人力资源部们的工作，人力资源管理需要渗透到每个部门。</para>
 	&chapter.planning.xml;
 	&chapter.recruitment.xml;
 	&chapter.training.xml;
 	&chapter.salary.xml;
 	&chapter.performance.xml;
 
-	<!-- <section id="desk"> <title>Service Desk(服务台)</title> </section>   -->
 </chapter>

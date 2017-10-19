@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <appendix id="appendix">
 	<title>附录</title>
-	<screen>
+	<section>
+		<title>管理学书籍</title>
+		<para>值得一读的管理学书籍</para>
+		<screen>
+		<![CDATA[
 第1部 《科学管理原理》 弗雷德里克·温斯洛·泰罗(美国1856—1915)
 第2部 《社会组织和经济组织理论》 马克思·韦伯(德国1864—1920)
 第3部 《经理人员的职能》 切斯特·巴纳德(美国1886—1961)
@@ -36,5 +40,11 @@
 《敏捷软件开发：原则、模式与实践》
 《人月神话》
 PMP，CMMI ， RUP
-	</screen>
+		]]>
+		</screen>
+	</section>
+	<section>
+		<title>观点引用过的参考书籍</title>
+		<para>《销售无处不在》 廖敏夫</para>
+	</section>
 </appendix>
