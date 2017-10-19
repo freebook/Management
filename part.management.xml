@@ -4,11 +4,11 @@
 <part id="management">
 	<title>管理篇</title>
 	<para><ulink url="images/overviews.png"><graphic  format="png" fileref="images/overviews.png" width="1024" srccredit="neo" /></ulink></para>
-	&chapter.project.xml;
 	&chapter.hrm.xml;
+	&chapter.project.xml;
     &chapter.marketing.xml;
-    &chapter.itsm.xml;
     &chapter.product.xml;
+    &chapter.itsm.xml;
     &chapter.utilities.xml;
     &chapter.business.xml;
 </part>
