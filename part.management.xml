@@ -9,6 +9,6 @@
     &chapter.marketing.xml;
     &chapter.product.xml;
     &chapter.itsm.xml;
-    &chapter.utilities.xml;
     &chapter.business.xml;
+    &chapter.utilities.xml;
 </part>

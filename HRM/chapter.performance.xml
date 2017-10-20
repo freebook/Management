@@ -245,7 +245,7 @@
 				<title>发展空间</title>
 				<para>
 					外面机会总是更多，有更好的发展空间。作为企业，你为员工提供了什么样的机会与发展空间？他为什么留下来？他凭什么会留下来？这是企业值得反思的。
-					有些企业不断空降外援，没有给内部员工提供升迁机会，这应该是主要为题。
+					有些企业不断空降外援，没有给内部员工提供升迁机会，这应该是主要问题。
 					最可笑的就是“从基层做起”，从基层做起表示你永远做基层。如果你没有特别的手段，你根本没有机会向上爬。真正从基层做到高层管理的屈指可数。
 				</para>
 				<para>
@@ -485,7 +485,7 @@
 				我想谈的是“激励图”，这是我多年总结出来的图表。供大家参考。
 				<inlinemediaobject>
 					<imageobject>
-						<imagedata fileref="https://raw.githubusercontent.com/netkiller/journal/master/%E7%AE%A1%E7%90%86/%E5%91%98%E5%B7%A5%E6%BF%80%E5%8A%B1/%E6%BF%80%E5%8A%B1%E5%9B%BE.png" />
+						<imagedata fileref="../images/hrm/performance/%E6%BF%80%E5%8A%B1%E5%9B%BE.png" />
 					</imageobject>
 				</inlinemediaobject>
 			</para>
@@ -726,7 +726,7 @@
 				<title>雷达图</title>
 				<mediaobject>
 					<imageobject>
-						<imagedata fileref="https://github.com/netkiller/journal/blob/master/%E7%AE%A1%E7%90%86/%E7%BB%A9%E6%95%88%E7%AE%A1%E7%90%86/%E7%BB%BC%E5%90%88%E8%AF%84%E4%BC%B0.PNG" />
+						<imagedata fileref="../images/hrm/performance/%E7%BB%BC%E5%90%88%E8%AF%84%E4%BC%B0.png" />
 					</imageobject>
 					<textobject>
 						<phrase>雷达图</phrase>
@@ -743,7 +743,7 @@
 				<title>全栈开发</title>
 				<mediaobject>
 					<imageobject>
-						<imagedata fileref="https://raw.githubusercontent.com/netkiller/journal/master/%E7%AE%A1%E7%90%86/%E7%BB%A9%E6%95%88%E7%AE%A1%E7%90%86/%E5%85%A8%E6%A0%88%E5%BC%80%E5%8F%91.PNG" />
+						<imagedata fileref="../images/hrm/performance/%E5%85%A8%E6%A0%88%E5%BC%80%E5%8F%91.png" />
 					</imageobject>
 					<textobject>
 						<phrase>全栈开发</phrase>
