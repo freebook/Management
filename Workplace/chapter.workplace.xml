@@ -8,7 +8,7 @@
 	&chapter.recommend.xml;
 	&chapter.bottleneck.xml;
 	&chapter.out.xml;
-	<section>
+	<section id="workplace.automation">
 		<title>自动化是双刃剑</title>
 		<para>
 			自动化不是万能的，自动化也存在缺陷。笔者实施自动化的一切初衷是为了省事。
@@ -194,7 +194,7 @@
 		</section>
 	</section>
 
-	<section>
+	<section id="workplace.ai">
 		<title>我们会被人工智能取代吗</title>
 		<para>
 			最近很多媒体在讨论人工智能
@@ -225,7 +225,10 @@
 		</para>
 		<para>人工智能一定会给某些岗位带来冲击，但不是突如其来，我们有足够的时间应对人工智能带来的冲击。</para>
 	</section>
-
+	<section>
+		<title>任何人都可以被替代</title>
+		<para>没有时间写</para>
+	</section>
 	<section>
 		<title>中西方企业文化对比</title>
 		<para>中西职场观念的差异，中国同事总是把工作任务当做皮球一样踢来踢去，“我经常发现当一个人将工作交给另外一个人去完成时，他同时将跟进工作完成质量的任务一并交送出去。当我问他结果时，他会说：不知道，我已经将这件事交代给其他人了。” 罗夫希望自己的管理理念能改变现状，可发现这是一件很难的事。摘自：老外眼中的中国职场</para>
