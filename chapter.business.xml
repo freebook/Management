@@ -2,12 +2,8 @@
 <chapter id="index"><?dbhtml dir="business"?>
 	<title>Business Administration</title>
 
-	<!-- <chapter id="organizational"> <title>Organizational Architecture</title>  </chapter> -->
-<!-- 	<section id="culture">
-		<title>企业文化</title>
-		<para>Creativity+Open+Fun+Freedom+Easy+Excellence</para>
-		<para></para>
-	</section> -->
+	<!-- <chapter id="organizational"> <title>Organizational Architecture</title> </chapter> -->
+	<!-- <section id="culture"> <title>企业文化</title> <para>Creativity+Open+Fun+Freedom+Easy+Excellence</para> <para></para> </section> -->
 
 	<section id="strategic">
 		<title></title>
@@ -17,7 +13,12 @@
 			<para>德鲁克提出，战略就是通过最有效的管理，用最小的资源达到最大回报的过程。战略的根本是一种增长方式，我们用什么样的方式、什么样的路径达成企业的增长。</para>
 		</section>
 	</section>
-
+	<section>
+		<title>商业模式</title>
+		<para>当今企业之间的竞争，不是产品之间的竞争，而是商业模式之间的竞争 ------德鲁克</para>
+		<para>商业模式就是企业家为实现企业价值最大化，把能使企业运行的内外各要素整合真起来，形成一个完整的高效的具有独特核心竞争力的运作系统，并通过最优实现形式满足客户需求、实现客户价值，同时使系统达到持续盈利目标的整合解决方案。</para>
+		<para>简单地说，商业模式就是企业赚钱的方式方法。</para>
+	</section>
 	<section id="浅谈技术型企业管理">
 		<title>浅谈技术型企业管理</title>
 		<para>
