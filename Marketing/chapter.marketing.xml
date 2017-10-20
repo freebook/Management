@@ -180,9 +180,19 @@
 	</section>
 	<section id="usp">
 		<title>USP (Unique Selling Proposition)</title>
-		<para>卖点，即独特的销售主张，最早由美国的罗瑟·里斯夫提示，是营销史上的一个重要理论。USP 包括三个必备要素：</para>
-		<para>必须明确向消费者提出购买建议，表明购买本产品所获得的利益。</para>
-		<para>所强调的利益必须是本产品首先提出的，是竞争对手所不拥有或者未曾提出的。</para>
-		<para>建议必须强有力，能够吸引、打动消费者产生购买欲望。</para>
+		<para>卖点，即独特的销售主张，最早由美国的罗瑟·里斯夫提示，是营销史上的一个重要理论。</para>
+		<orderedlist numeration="arabic" spacing="compact">
+			<title>USP 包括三个必备要素：</title>
+			<listitem>
+				<para>必须明确向消费者提出购买建议，表明购买本产品所获得的利益。</para>
+			</listitem>
+			<listitem>
+				<para>所强调的利益必须是本产品首先提出的，是竞争对手所不拥有或者未曾提出的。</para>
+			</listitem>
+			<listitem>
+				<para>建议必须强有力，能够吸引、打动消费者产生购买欲望。</para>
+			</listitem>
+		</orderedlist>
+		<para>跟卖点对应的另一个感念是“买点”，简单地说，就是顾客买东西的动机和理由。</para>
 	</section>
 </chapter>
