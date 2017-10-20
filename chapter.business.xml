@@ -2,8 +2,13 @@
 <chapter id="index"><?dbhtml dir="business"?>
 	<title>Business Administration</title>
 
-	<!-- <chapter id="organizational"> <title>Organizational Architecture</title> <para>Creativity+Open+Fun+Freedom+Easy+Excellence</para> </chapter> -->
-	
+	<!-- <chapter id="organizational"> <title>Organizational Architecture</title>  </chapter> -->
+<!-- 	<section id="culture">
+		<title>企业文化</title>
+		<para>Creativity+Open+Fun+Freedom+Easy+Excellence</para>
+		<para></para>
+	</section> -->
+
 	<section id="strategic">
 		<title></title>
 		<subtitle>Enterprise Strategic Management</subtitle>

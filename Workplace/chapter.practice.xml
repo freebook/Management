@@ -152,16 +152,7 @@
 				<title>文档备份</title>
 			</section>
 		</section>
-		<section>
-			<title>网络操作系统管理</title>
-			<para></para>
-			<section>
-				<title>域控制器</title>
-			</section>
-			<section>
-				<title>文件存储服务器</title>
-			</section>
-		</section>
+		
 		
 	</section>
 </chapter>
