@@ -4,7 +4,6 @@
 	<title>ITSM 实践</title>
 	<section>
 		<title>Problem Management(问题管理)</title>
-
 		<section>
 			<title>员工手册</title>
 			<itemizedlist>
@@ -27,23 +26,16 @@
 			<graphic format="png" fileref="../images/incident.png" srccredit="neo" />
 		</section>
 	</section>
-
-
-
 	<section>
 		<title>IT资源管理</title>
 		<section>
 			<title>设备采购</title>
-
-
 		</section>
-
 		<section>
 			<title>周期性时间管理</title>
 			<section>
 				<title>合同到期与续约</title>
 			</section>
-
 		</section>
 		<section id="admin">
 			<title>IDC 设备管理</title>
@@ -55,17 +47,8 @@
 			<section>
 				<title>图表管理</title>
 				<para></para>
-
-
 				<section>
 					<title>防火墙/路由器与交换机链路图</title>
-
-
-				</section>
-				<section>
-					<title>服务器连接图</title>
-
-
 				</section>
 			</section>
 			<section>
@@ -76,10 +59,6 @@
 				<title>设备上下架</title>
 				<para>上下架流程</para>
 			</section>
-			<section>
-				<title>如何维护设备</title>
-
-			</section>
 		</section>
 	</section>
 
@@ -89,50 +68,9 @@
 		<section>
 			<title>Office 基础设施及周边设备管理</title>
 			<section>
-				<title>固定资产管理</title>
-			</section>
-			<section>
 				<title>电脑设备</title>
 				<para>电脑设备</para>
 			</section>
-			<section>
-				<title>打印机设备</title>
-				<para>打印机设备</para>
-			</section>
-			<section>
-				<title>电脑设备采购</title>
-			</section>
-			<section>
-				<title>电脑升级</title>
-			</section>
-			<section>
-				<title>报修流程</title>
-				<para></para>
-			</section>
-			<section>
-				<title>报废流程</title>
-			</section>
 		</section>
-		<section>
-			<title>网络用户管理</title>
-			<section>
-				<title>用户分配</title>
-			</section>
-			<section>
-				<title>邮箱分配</title>
-				<section>
-					<title>邮件模板</title>
-				</section>
-				<section>
-					<title>邮件签名规范</title>
-				</section>
-			</section>
-			<section>
-				<title>权限分配</title>
-			</section>
-		</section>
-		
-		
-
 	</section>
 </chapter>
