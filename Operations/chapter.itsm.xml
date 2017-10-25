@@ -83,30 +83,8 @@ Call Center, Help Desk, Service Desk
 		</section>
 		&chapter.itsm.change.move.xml;
 	</section>
-	<section id="itsm.release">
-		<title>Release Management(发布管理)</title>
-		<section>
-			<title>发布类型</title>
-			<para>发布的类型主要包括德尔塔发布（Delta Release）、全发布（Full Release）和包发布（Package Release）三种</para>
-		</section>
-		<section>
-			<title>发布规划</title>
-		</section>
-		<section>
-			<title>参与人员与职责</title>
-		</section>
-		<section>
-			<title>范围与权限</title>
-		</section>
-		<section>
-			<title>检测标准</title>
-		</section>
-		<section>
-			<title>过程和结果</title>
-		</section>
-		&chapter.itsm.release.template.xml;
-		
-	</section>
+	&chapter.itsm.release.xml;
+	
 	<section id="itsm.training">
 		<title>内部培训</title>
 		<para>团队培训，指定培训计划等</para>
