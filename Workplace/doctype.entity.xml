@@ -5,3 +5,4 @@
 <!ENTITY chapter.recommend.xml		SYSTEM "chapter.recommend.xml">
 <!ENTITY chapter.bottleneck.xml		SYSTEM "chapter.bottleneck.xml">
 <!ENTITY chapter.out.xml				SYSTEM "chapter.out.xml">
+<!ENTITY chapter.tools.xml			SYSTEM "chapter.tools.xml">
