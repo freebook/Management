@@ -47,27 +47,15 @@
 			<section>
 				<title>图表管理</title>
 				<para></para>
-				<section>
-					<title>防火墙/路由器与交换机链路图</title>
-				</section>
+				
 			</section>
-			<section>
-				<title>进出IDC机房</title>
-				<para>进出IDC机房注意事项</para>
-			</section>
-			<section>
-				<title>设备上下架</title>
-				<para>上下架流程</para>
-			</section>
+			
 		</section>
 	</section>
 
 	<section>
 		<title>桌面支持</title>
 		<subtitle>Help Desk</subtitle>
- 		<section>
-			<title>Office 基础设施及周边设备管理</title>
-			
-		</section>
+ 		
 	</section>
 </chapter>

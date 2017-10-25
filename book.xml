@@ -15,7 +15,6 @@
 -->
 
 	<!ENTITY part.management.xml 		SYSTEM "part.management.xml">
-	<!ENTITY chapter.business.xml		SYSTEM "chapter.business.xml">
 
 	<!ENTITY % utilities.doctype.entity.xml 	SYSTEM "Utilities/doctype.entity.xml">
 	%utilities.doctype.entity.xml;
@@ -36,14 +35,17 @@
 	<!ENTITY % project.doctype.entity.xml 	SYSTEM "Project/doctype.entity.xml">
 	%project.doctype.entity.xml;
 
-	<!ENTITY % workplace.doctype.entity.xml 		SYSTEM "Workplace/doctype.entity.xml">
+	<!ENTITY % workplace.doctype.entity.xml 	SYSTEM "Workplace/doctype.entity.xml">
 	%workplace.doctype.entity.xml;
 	
- 	<!ENTITY % hrm.doctype.entity.xml 	SYSTEM "HRM/doctype.entity.xml">
+ 	<!ENTITY % hrm.doctype.entity.xml 		SYSTEM "HRM/doctype.entity.xml">
 	%hrm.doctype.entity.xml;	
 	
 	<!ENTITY % product.doctype.entity.xml 	SYSTEM "Product/doctype.entity.xml">
 	%product.doctype.entity.xml;	
+	
+	<!ENTITY % business.doctype.entity.xml 	SYSTEM "Business/doctype.entity.xml">
+	%business.doctype.entity.xml;	
 	
 ] >
 
