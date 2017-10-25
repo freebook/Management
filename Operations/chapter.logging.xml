@@ -1,48 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section id="logging">
 	<title>日志</title>
-	<section id="log1">
-		<title>日志卷挂载</title>
-		<section>
-			<title>子卷挂载</title>
-			<para>将 /srv/apache-tomcat/logs 日志目录挂载到 /www/logs 子卷</para>
-			<screen>
-			<![CDATA[
-[root@iZ62sreab5qZ ~]#  btrfs subvolume snapshot /www /www/logs
-Create a snapshot of '/www' in '/www/logs'
-
-UUID=6b2d5cbf-0b0f-42df-b697-7280671ea847 /srv/apache-tomcat/logs btrfs defaults,subvol=logs 1 1
-
-			]]>
-			</screen>
-		</section>
-		<section id="log2">
-			<title>使用过个子卷</title>
-			<para>挂载多个子卷</para>
-			<screen>
-			<![CDATA[
-[root@iZ62sreab5qZ ~]#  btrfs subvolume snapshot /www /www/logs
-Create a snapshot of '/www' in '/www/logs'
-[root@iZ62sreab5qZ ~]#  btrfs subvolume snapshot /www /www/logs/admin
-Create a snapshot of '/www' in '/www/logs/admin'
-[root@iZ62sreab5qZ ~]#  btrfs subvolume snapshot /www /www/logs/m
-Create a snapshot of '/www' in '/www/logs/m'
-[root@iZ62sreab5qZ ~]#  btrfs subvolume snapshot /www /www/logs/www
-Create a snapshot of '/www' in '/www/logs/www'
-			]]>
-			</screen>
-		</section>
-		<section id="fstab">
-			<title>/etc/fstab配置</title>
-			<screen>
-			<![CDATA[
-UUID=9936c1b9-44ea-46b7-ae7c-2486c4859116 /srv/apache-tomcat-www/logs btrfs defaults,subvol=logs/www 1 1
-UUID=9936c1b9-44ea-46b7-ae7c-2486c4859116 /srv/apache-tomcat-admin/logs btrfs defaults,subvol=logs/admin 1 1
-UUID=9936c1b9-44ea-46b7-ae7c-2486c4859116 /srv/apache-tomcat-m/logs btrfs defaults,subvol=logs/m 1 1
-			]]>
-			</screen>
-		</section>
-	</section>
+	
 <!--	
 	<section id="boot-loader">
 		<title>boot-loader</title>

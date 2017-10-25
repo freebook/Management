@@ -32,16 +32,6 @@
 
 		</literallayout>
 	</section>
-	<section id="task">
-		<title>开发，测试与运维的关系</title>
-		<para>开发，测试，运维不是三个独立部门，他们相互紧密联系，但又相互制约：</para>
-		<para>开发只负责写程序，将运行无误的程序提交至版本库中</para>
-		<para>开发不能私自将程序交给运维部署，也不能将编译好的程序给运维测试。</para>
-		<para>测试部只能从版本库提取代码，然后编译，打包，运行，测试 </para>
-		<para>不允许测试部将代码交给运维部部署</para>
-		<para>避免代码没有经过版本库流入生产环境，线下与线上代码不一致</para>
-		<para>运维部负责部署应用程序，配置管理，只接受测试部确认无误的版本，部署代码只能从版本库中提取</para>
-	</section>
-	&chapter.platform.gitlab.xml;
+	
 	&chapter.environment.xml;
 </chapter>
