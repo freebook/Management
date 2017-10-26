@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section id="planning">
 	<title>规划和战略</title>
+	<para>规划和战略是指确定组织人力资源管理与实现组织战略目标的方向指导计划。它包括了：</para>
+	<para>组织架构设计，人力资源结构规划，人力成本结构的发展与流动。</para>
 	<section id="愿景管理">
 		<title>愿景管理</title>
 		<para>
@@ -80,8 +82,12 @@
 			</orderedlist>
 		</section>
 	</section>
+	
+	&chapter.hrm.team.xml;
+	&chapter.hrm.organizational.xml;
 	<section>
 		<title>权力不等于领导力</title>
 		<para>你有权利，未必有领导力，岗位赋予的管理权力不是领导力。</para>
 	</section>
+	
 </section>

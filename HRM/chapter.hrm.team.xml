@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- $Id: chapter.team.xml 580 2013-05-07 10:08:48Z netkiller $ -->
+<section id="Team-Foundation">
+	<title>团队组建</title>
+
+	<para>许多企业都流行为解决特定问题而成立所谓的专案小组，这是一件大伤脑筋的事。</para>
+	<para>为了能让专案小组发功功能作用，除了考虑人数，技术水准，还应该考虑团队领导与成员间的交往频率，亲密度，信赖关系等各种因素，除此之外还必须衡量员工之间的相互关系。</para>
+	<para>如果团队成员的价值观上不能彼此认同，这种差异容易导致人与人之间难以沟通，出现能力配置不良，个人的发展企业发展的方向不一致。</para>
+	<para>团队缺少一个有威望的领导。出现群龙无首的状态。在有些情况下，虽然团队成员目标一致，但缺少一个有威望的团队领导的指挥，团队成员也会陷入盲目状态。</para>
+	<para>评价一个团队的组织程度，就是团队整体对项目是否有一致的认同。事实上，行两一下这种一致概念的程度，就可以判断这个团队是否能达到预期的目标。</para>
+
+</section>
+
+<!-- <chapter id="teamwork">
+	<title>团队合作</title>
+	<section>
+		<title>团队沟通</title>
+		<para>沟通方式有很多，沟通工具有很多，那种更适合你呢？经验告诉我们IRC, 新闻组，邮件列表最高效。</para>
+		<itemizedlist>
+			<listitem>
+				<para>IRC</para>
+			</listitem>
+			<listitem>邮件列表 Mailing list / Usenet 新闻组</listitem>
+			<listitem>即时通信 Skype | MSN</listitem>
+			<listitem>...</listitem>
+		</itemizedlist>
+	</section>
+</chapter>
+ -->

@@ -2,6 +2,7 @@
 <!-- $Id$ -->
 <section id="itsm.release">
 	<title>Release Management(发布管理)</title>
+	
 	<section>
 		<title>发布类型</title>
 		<para>发布的类型主要包括德尔塔发布（Delta Release）、全发布（Full Release）和包发布（Package Release）三种</para>

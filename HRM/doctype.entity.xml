@@ -7,3 +7,5 @@
 <!ENTITY chapter.performance.xml			SYSTEM "chapter.performance.xml">
 <!ENTITY chapter.hr.interview.xml		SYSTEM "chapter.hr.interview.xml">
 <!ENTITY chapter.hr.handover.xml 		SYSTEM "chapter.hr.handover.xml">
+<!ENTITY chapter.hrm.team.xml 			SYSTEM "chapter.hrm.team.xml">
+<!ENTITY chapter.hrm.organizational.xml	SYSTEM "chapter.hrm.organizational.xml">
