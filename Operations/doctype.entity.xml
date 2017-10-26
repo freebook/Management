@@ -7,6 +7,5 @@
 <!ENTITY chapter.fishbone.xml		SYSTEM "chapter.fishbone.xml">
 <!ENTITY chapter.system.xml			SYSTEM "chapter.system.xml">
 <!ENTITY chapter.backup.xml			SYSTEM "chapter.backup.xml">
-<!ENTITY chapter.logging.xml				SYSTEM "chapter.logging.xml">
 <!ENTITY chapter.itsm.release.xml		SYSTEM "chapter.itsm.release.xml">
 <!ENTITY chapter.itsm.change.move.xml		SYSTEM "chapter.itsm.change.move.xml">
