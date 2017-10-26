@@ -75,8 +75,14 @@
 	&book.dedication.xml;
     &book.preface.xml;
 	
-    &part.management.xml;
+	&chapter.business.xml;
+	&chapter.hrm.xml;
+	&chapter.project.xml;
+    &chapter.marketing.xml;
+    &chapter.product.xml;
+    &chapter.itsm.xml;
+    &chapter.utilities.xml;
     &chapter.workplace.xml;
-    &part.mgmt.xml;
+    
 	&book.appendix.xml;
  </book>

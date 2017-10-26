@@ -3,12 +3,4 @@
 <!-- $Id: part.sqa.xml 495 2012-11-23 02:50:46Z netkiller $ -->
 <part id="management">
 	<title>管理篇</title>
-	<para><ulink url="images/overviews.png"><graphic  format="png" fileref="images/overviews.png" width="1024" srccredit="neo" /></ulink></para>
-	&chapter.hrm.xml;
-	&chapter.project.xml;
-    &chapter.marketing.xml;
-    &chapter.product.xml;
-    &chapter.itsm.xml;
-    &chapter.business.xml;
-    &chapter.utilities.xml;
 </part>

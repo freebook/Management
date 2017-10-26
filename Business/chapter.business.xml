@@ -2,7 +2,7 @@
 <chapter id="index"><?dbhtml dir="business"?>
 	<title>Business Administration</title>
 	<!-- <section id="culture"> <title>企业文化</title> <para>Creativity+Open+Fun+Freedom+Easy+Excellence</para> <para></para> </section> -->
-
+	<para><ulink url="images/overviews.png"><graphic  format="png" fileref="images/overviews.png" width="1024" srccredit="neo" /></ulink></para>
 	<section id="strategic">
 		<title></title>
 		<subtitle>Enterprise Strategic Management</subtitle>
