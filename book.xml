@@ -20,9 +20,8 @@
 	%utilities.doctype.entity.xml;
 	<!ENTITY part.mgmt.xml 				SYSTEM "part.mgmt.xml">
 	
-	<!ENTITY % dev.doctype.entity.xml 	SYSTEM "Development/doctype.entity.xml">
-	%dev.doctype.entity.xml;
-	<!ENTITY part.development.xml		SYSTEM "part.development.xml">
+	<!ENTITY % financial.doctype.entity.xml 	SYSTEM "Financial/doctype.entity.xml">
+	%financial.doctype.entity.xml;
 		
 	<!ENTITY % ops.doctype.entity.xml 	SYSTEM "Operations/doctype.entity.xml">
 	%ops.doctype.entity.xml;
@@ -81,6 +80,7 @@
     &chapter.marketing.xml;
     &chapter.product.xml;
     &chapter.itsm.xml;
+    &chapter.financial.xml;
     &chapter.utilities.xml;
     &chapter.workplace.xml;
     

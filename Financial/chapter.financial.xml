@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <part id="index"><?dbhtml dir="Software-Engineering"?> <title>软件工程 (Software Engineering)</title> &chapter.development.xml; &chapter.coding.xml; </part> -->
+<chapter id="index"><?dbhtml dir="financial"?>
+	<title>财务管理</title>
+	<subtitle>财务管理(Financial Management)</subtitle>
+	<section id="financial.object">
+		<title>财务管理的目标</title>
+		<literallayout>
+		<![CDATA[
+1、产值最大化
+2、利润最大化
+3、股东财富最大化
+4、企业价值最大化
+		]]>
+		</literallayout>
+		<para>财务管理的内容</para>
+		<literallayout>
+		<![CDATA[
+1、筹资管理
+2、投资管理
+3、营运资金管理
+4、利润分配管理
+		]]>
+		</literallayout>		
+	</section>
+
+</chapter>
