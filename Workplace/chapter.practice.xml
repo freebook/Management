@@ -3,17 +3,6 @@
 <chapter id="itsm">
 	<title>ITSM 实践</title>
 	<graphic format="png" fileref="../images/incident.png" srccredit="neo" />
-	<section>
-		<title>Problem Management(问题管理)</title>
-		<section>
-			<title>员工手册</title>
-			
-		</section>
-	</section>
-	<section>
-		<title>Incident Management(突发事件管理)</title>
-		
-	</section>
 	
 	<section>
 		<title>桌面支持</title>
