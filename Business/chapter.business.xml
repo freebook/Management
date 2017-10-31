@@ -7,6 +7,25 @@
 			<graphic format="png" fileref="images/overviews.png" width="1024" srccredit="neo" />
 		</ulink>
 	</para>
+	<section>
+		<title>什么是管理</title>
+		<para>管理即对一定范围的人员及事务进行安排和处理。</para>
+	</section>
+	<section>
+		<title>管理层的职责</title>
+		<para>管理人员的职责是什么呢？ 不同级别的管理层职责是不同的，一般分为三层，即高层，中层，和基层。他们的侧重点也不同。</para>
+		<itemizedlist>
+			<listitem>
+				<para>高层管理：计划，组织, 决策。</para>
+			</listitem>
+			<listitem>
+				<para>中层管理：指挥，协调，控制。</para>
+			</listitem>
+			<listitem>
+				<para>基层管理：执行，检查，改进。</para>
+			</listitem>
+		</itemizedlist>
+	</section>
 	<section id="strategic">
 		<title>战略管理</title>
 		<subtitle>Enterprise Strategic Management</subtitle>
@@ -24,14 +43,7 @@
 	
 	&chapter.force.xml;
 
-<!-- 	<section id="浅谈技术型企业管理">
-		<title>浅谈技术型企业管理</title>
-		
-	</section>
-	<section id="项目管理">
-		<title>项目管理</title>
-
-	</section> -->
+	<!-- <section id="浅谈技术型企业管理"> <title>浅谈技术型企业管理</title> </section> <section id="项目管理"> <title>项目管理</title> </section> -->
 	<section id="出现问题为什么会相互推诿">
 		<title>出现问题为什么会相互推诿</title>
 		<para>

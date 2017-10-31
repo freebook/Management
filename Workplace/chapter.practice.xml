@@ -2,33 +2,19 @@
 <!-- $Id: chapter.practice.xml 614 2013-06-10 10:10:09Z netkiller $ -->
 <chapter id="itsm">
 	<title>ITSM 实践</title>
+	<graphic format="png" fileref="../images/incident.png" srccredit="neo" />
 	<section>
 		<title>Problem Management(问题管理)</title>
 		<section>
 			<title>员工手册</title>
-			<itemizedlist>
-				<listitem>
-					<para>邮箱配置，初始密码</para>
-				</listitem>
-				<listitem>
-					<para>开发环境配置</para>
-				</listitem>
-				<listitem>
-					<para>版本库地址</para>
-				</listitem>
-			</itemizedlist>
+			
 		</section>
 	</section>
 	<section>
 		<title>Incident Management(突发事件管理)</title>
-		<section>
-			<title>突发事件处理流程</title>
-			<graphic format="png" fileref="../images/incident.png" srccredit="neo" />
-		</section>
+		
 	</section>
-	<section>
-		<title>IT资源管理</title>
-	</section>
+	
 	<section>
 		<title>桌面支持</title>
 		<subtitle>Help Desk</subtitle>
