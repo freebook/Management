@@ -42,13 +42,13 @@
 				<para>无论如何你都不可能把所有预期结果都能考虑到</para>
 			</listitem>
 			<listitem>
-				<para>所做的工作仅仅为了满足预期结果的验收，</para>
+				<para>所做的工作仅仅为了满足预期结果的验收</para>
 			</listitem>
 			<listitem>
-				<para>对已知缺陷视而不见，</para>
+				<para>对已知缺陷视而不见</para>
 			</listitem>
 			<listitem>
-				<para>验收报告以外的缺陷，心照不宣</para>
+				<para>而对于验收人员，验收报告以外的缺陷，心照不宣</para>
 			</listitem>
 			<listitem>
 				<para>无法预见缺陷，发现缺陷为时已晚,已经到了项目尾声。</para>

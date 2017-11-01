@@ -19,8 +19,7 @@
 
 		<section>
 			<title>任务分配</title>
-			<para>一旦时间点确定，接下来就是分配任务倒指定开发人，任务的分配十分讲究，分配任务要精确描述，不能使用模糊语言，那样会造成误解。我的分配原则是5W1H方法：
-			</para>
+			<para>一旦时间点确定，接下来就是分配任务倒指定开发人，任务的分配十分讲究，分配任务要精确描述，不能使用模糊语言，那样会造成误解。我的分配原则是5W2H方法：</para>
 			<literallayout>
 				<![CDATA[
 - What：做什么事？
@@ -29,6 +28,7 @@
 - Where：在什么地方做，在什么范围内完成？
 - Who：由谁负责做？由谁负责执行？谁更合适？熟练程度低的人能做吗？
 - How：怎样做
+- How much: 成本 （不是所有岗位都会涉及成本）
 				]]>
 			</literallayout>
 			<para>举例，运维任务</para>
@@ -67,6 +67,18 @@
 - How：具体怎么操作的细节，此处省略200字...
 				]]>
 			</literallayout>
+			<para>举例，促销任务</para>
+			<literallayout>
+				<![CDATA[
+- What：XXX产品促销。
+- Why：目前XXX产品在 XXX 市场占有率 XXX 用户反映 XXX。
+- When：促销起始时间 XXX 结束时间 XXX
+- Where：AAA 细分市场，BBB区域。
+- Who：XXX负责 XX，XXX负责 XX，XXX 负责 XX
+- How：具体怎么操作的细节，此处省略200字...
+- How much: 成本XXX
+				]]>
+			</literallayout>
 		</section>
 		<section>
 			<title>任务确认</title>
@@ -83,17 +95,41 @@
 	</section>
 	<section id="meeting">
 		<title>会议管理</title>
-		<para>开会就要有解决方案，成熟的方案，否则不要开会，开了没有意义，浪费时间。</para>
-		<para>通常我们看到的会议就是针对XXXXX问题你们看看怎么做，你们大家商量一下，然后你一言，我一嘴，各个提建议，到头什么都没有解决，一份会议记录发给所有人，几乎没有人看。</para>
-		<para>提意见都很踊跃，具体到谁负责都开始低头，会议内容落实5%不到。</para>
-		<para>会议不能议而不决，会议的目的是针对方案细节依次敲定，然后进入到Ticket对应具体负责人。</para>
 		<section>
-			<title>严控会议用时</title>
+			<title>会议的时间成本</title>
+			<para>会议不仅占用管理层的时间，更占用员工的时间，所以要严控会议用时。</para>
+			<para>开会就要有解决方案，成熟的方案，否则不要开会，开了没有意义，浪费时间。</para>
 		</section>
 		<section>
 			<title>三个臭皮匠，还是臭皮匠</title>
 			<para>三个臭皮匠，还是臭皮匠，永远不会成为诸葛亮，如果三个臭皮匠能成为诸葛亮，就不会出现三足鼎立的情况，集思广益纯属扯淡。</para>
 			<para>大部分的会议就浪费在听取广大群众的发言。</para>
+			<para>通常我们看到的会议就是针对XXXXX问题你们看看怎么做，你们大家商量一下，然后你一言，我一嘴，各个提建议，到头什么都没有解决，一份会议记录发给所有人，几乎没有人看。</para>
+			<para>提意见都很踊跃，具体到谁负责都开始低头，会议内容落实5%不到。</para>
+		</section>
+		<section>
+			<title>下一个饭局</title>
+			<para>会议出现交叉，追尾，就是如同赶饭局。</para>
+			<para>多任务处理和预约冲突使会议效率变低，公司不得不安排更多会议完成工作。</para>
+		</section>
+		<section>
+			<title>会议必须有结论</title>
+			<para>会开了，问题仍然没有解决，这种议而不决非常普遍。</para>
+			<para>会议不能议而不决，会议的目的是针对方案细节依次敲定，然后进入到Ticket对应具体负责人。</para>
+		</section>
+		<section>
+			<title>会议记录</title>
+			<para>我从来不看，没有必要写。</para>
+		</section>
+		<section>
+			<title>会议地点</title>
+			<para>会议地点可以随时随地，桌面讨论也是会议，不一定非要定会议室。</para>
+		</section>
+		<section>
+			<title>怎样管理会议的时间呢？</title>
+			<para></para>
+			<para></para>
+			<para>我认为可以这样管理，首先规定一个部门或者管理层，一周或者一个月的会议时长。每组织一次会议，便扣除会议时长，并告知剩余时长。</para>
 		</section>
 	</section>
 	<section>
