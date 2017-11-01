@@ -126,13 +126,39 @@
 			<para>会议地点可以随时随地，桌面讨论也是会议，不一定非要定会议室。</para>
 		</section>
 		<section>
+			<title>与会人员</title>
+			<para>与会议议题无关的的人员不应该参加会议。</para>
+			<para></para>
+		</section>
+		<section>
 			<title>怎样管理会议的时间呢？</title>
-			<para></para>
-			<para></para>
+			<para>取消一定数量的会议或者刻意压缩会议时间并不现实，因为促进合作和作出重大决定都需要开会研究。</para>
 			<para>我认为可以这样管理，首先规定一个部门或者管理层，一周或者一个月的会议时长。每组织一次会议，便扣除会议时长，并告知剩余时长。</para>
+			<para>同时制定下面六条规定，可以让许多公司大幅提高会议质量。</para>
+			<para></para>
+			<orderedlist numeration="arabic" spacing="compact">
+				<listitem>
+					<para>会议审批，议题论证，组织会议人员资格，会议时间、与会人员都要严格审查</para>
+				</listitem>
+				<listitem>
+					<para>议程目标明确。比如通知A事项，讨论B事项和决定C事项。会议过程也和会议目标一样简明扼要，与会者专注于完成具体目标。</para>
+				</listitem>
+				<listitem>
+					<para>提前准备。所有周商业计划回顾都必须提前发出，让与会者能在会议前查阅。这一举措大大减少会上分享信息时间。</para>
+				</listitem>
+				<listitem>
+					<para>按时开始。时长一小时会议如果晚5分钟开始，就会浪费8%的会议时间，但很多管理团队在任何其他职责领域都不会允许8%的浪费发生。</para>
+				</listitem>
+				<listitem>
+					<para>敲定事项，会议的目的是针对方案细节依次敲定，什么是应具体负责人，什么时间完成。</para>
+				</listitem>
+				<listitem>
+					<para>尽早结束，尤其是在会议无法得出明确结果的情况下。当公司内部会议效率下降，或与会者准备不充分时，乔布斯会马上“紧急叫停”。有人觉得这样做唐突无礼，但当会议不太可能得出理想结果时，该做法有效制止了时间和金钱浪费。</para>
+				</listitem>
+			</orderedlist>
 		</section>
 	</section>
-	<section>
+	<section id="workreport">
 		<title>工作报告</title>
 		<para>不要让员工为了写工作报告而写工作报告。</para>
 		<para>我从不要求团队写工作报告，因为项目管理中Ticket/Issue一幕了然，任务出口是由经我这里确认后发出，对整个项目了如执掌，所以不需要工作报告。
