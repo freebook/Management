@@ -3,9 +3,4 @@
 <chapter id="itsm">
 	<title>ITSM 实践</title>
 	<graphic format="png" fileref="../images/incident.png" srccredit="neo" />
-	
-	<section>
-		<title>桌面支持</title>
-		<subtitle>Help Desk</subtitle>
-	</section>
 </chapter>

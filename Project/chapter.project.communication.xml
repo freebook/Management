@@ -16,12 +16,12 @@
 			<para>当今的职场90、95后为主力，这一代独生子女内心比较脆弱，管理层稍有措辞不当，就会伤害到他们的情绪，后果是撂挑子就走。</para>
 			<para>无论是谁被反问的时候，都难免产生被冒犯的情绪。</para>
 		</section>
-	</section>
-	<section>
-		<title>任务分配</title>
-		<para>一旦时间点确定，接下来就是分配任务倒指定开发人，任务的分配十分讲究，分配任务要精确描述，不能使用模糊语言，那样会造成误解。我的分配原则是5W1H方法：
-		</para>
-		<literallayout>
+
+		<section>
+			<title>任务分配</title>
+			<para>一旦时间点确定，接下来就是分配任务倒指定开发人，任务的分配十分讲究，分配任务要精确描述，不能使用模糊语言，那样会造成误解。我的分配原则是5W1H方法：
+			</para>
+			<literallayout>
 				<![CDATA[
 - What：做什么事？
 - Why：为什么做这件事？有什么意义？目的是什么？有必要吗？
@@ -30,9 +30,9 @@
 - Who：由谁负责做？由谁负责执行？谁更合适？熟练程度低的人能做吗？
 - How：怎样做
 				]]>
-		</literallayout>
-		<para>举例，运维任务</para>
-		<literallayout>
+			</literallayout>
+			<para>举例，运维任务</para>
+			<literallayout>
 				<![CDATA[
 - What：为api服务器做负载均衡，多增加一个节点，负载均衡算法采用最小连接数。
 - Why：目前api服务器只有一台，如果出现故障将影响倒所有业务运行，顾该服务器存在单点故障，需要增加节点。
@@ -44,9 +44,9 @@
   - api1.example.com  192.168.2.5
   - api2.example.com  192.168.2.6				
 				]]>
-		</literallayout>
-		<para>举例，开发任务</para>
-		<literallayout>
+			</literallayout>
+			<para>举例，开发任务</para>
+			<literallayout>
 				<![CDATA[
 - What：增加图片验证码。
 - Why：目前用户注册登陆以及发帖无验证吗，某些用户通过机器人软件批量开户/发广告帖，给我门管理带来很大困扰。
@@ -55,9 +55,9 @@
 - Who：张三负责验证码生成类的开发，李四负责用户注册，登陆UI修改，王五负责发帖UI的修改。
 - How：具体怎么操作的细节，此处省略200字...				
 				]]>
-		</literallayout>
-		<para>举例，测试任务</para>
-		<literallayout>
+			</literallayout>
+			<para>举例，测试任务</para>
+			<literallayout>
 				<![CDATA[
 - What：测出XXX软件并发性能。
 - Why：目前XXX软件在线任务达到200后，用户反映速度慢，经常掉线。
@@ -66,27 +66,35 @@
 - Who：XXX负责网络配置，XXX负责软件部署，XXX 负责测试
 - How：具体怎么操作的细节，此处省略200字...
 				]]>
-		</literallayout>
+			</literallayout>
+		</section>
+		<section>
+			<title>任务确认</title>
+			<para>当接受分配的任务后，最好能够在沟通完毕后确认一下对方的意思，例如：</para>
+			<para>“XXX 总, 我没理解错误的话，您的意思是要求我：第一，......; 第二，......; 第三, ......; 是这样吗？ 没有问题的话我就按这个去执行了。”</para>
+		</section>
 	</section>
-	<section>
-		<title>任务确认</title>
-		<para>当接受分配的任务后，最好能够在沟通完毕后确认一下对方的意思，例如：</para>
-		<para>“XXX 总, 我没理解错误的话，您的意思是要求我：第一，......; 第二，......; 第三, ......; 是这样吗？ 没有问题的话我就按这个去执行了。”</para>
-	</section>
-	<section>
+	<section id="cross">
 		<title>越级和跨部门沟通</title>
 		<para>谨慎处理越级和跨部门沟通，无论是对上还是对下的越级，都是职场中的忌讳。</para>
 		<para>对上越级沟通，会让自己的上次暗生不满。</para>
 		<para>对下的越级沟通，会损害直接下属的权威。</para>
 		<para>两者都会打乱其部门内部的权利结构和工作部署，形象整个组织架构管理。</para>
 	</section>
-	<section>
-		<title>工作例会</title>
+	<section id="meeting">
+		<title>会议管理</title>
 		<para>开会就要有解决方案，成熟的方案，否则不要开会，开了没有意义，浪费时间。</para>
-		<para>通常我们看到的会议就是针对XXXXX问题你们看看怎么做，你们大家商量一下，然后你一言，我一嘴，各个提建议，到头什么都没有解决，一份会议记录发给所有人，几乎没有人看。
-		</para>
+		<para>通常我们看到的会议就是针对XXXXX问题你们看看怎么做，你们大家商量一下，然后你一言，我一嘴，各个提建议，到头什么都没有解决，一份会议记录发给所有人，几乎没有人看。</para>
 		<para>提意见都很踊跃，具体到谁负责都开始低头，会议内容落实5%不到。</para>
 		<para>会议不能议而不决，会议的目的是针对方案细节依次敲定，然后进入到Ticket对应具体负责人。</para>
+		<section>
+			<title>严控会议用时</title>
+		</section>
+		<section>
+			<title>三个臭皮匠，还是臭皮匠</title>
+			<para>三个臭皮匠，还是臭皮匠，永远不会成为诸葛亮，如果三个臭皮匠能成为诸葛亮，就不会出现三足鼎立的情况，集思广益纯属扯淡。</para>
+			<para>大部分的会议就浪费在听取广大群众的发言。</para>
+		</section>
 	</section>
 	<section>
 		<title>工作报告</title>

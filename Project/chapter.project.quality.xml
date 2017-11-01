@@ -6,6 +6,101 @@
 	<title>质量管理</title>
 	<subtitle>SQA (Software Quality Assurance)</subtitle>
 	<para>是为了确保项目达到客户所规定的质量要求所实施的一系列管理过程。它包括质量规划，质量控制和质量保证等。</para>
+	<section>
+		<title>无缺点管理</title>
+		<subtitle>zero defects management</subtitle>
+		<para>由于周末经常外出自驾游，途中会经过东莞、惠州、观澜、大鹏等工业区，哪里的工厂给过一个很深的印象，每个工厂楼顶会有一个巨大的牌匾“已通过ISO 9001”。这让我开始思考以往的质量管理。</para>
+		<orderedlist numeration="arabic" spacing="compact">
+			<title>我认为质量管理方法可以分为两类：</title>
+			<listitem>
+				<para>考察过程</para>
+			</listitem>
+			<listitem>
+				<para>检验结果</para>
+			</listitem>
+		</orderedlist>
+		<para>传统劳动密集型产业可以采用考察过程（例如ISO9001），制定产生规范，产生预期结果。这种方法对于资本密集型产业或知识密集型产业并不适合。所以另一种检验结果的质量管理办法孕育而生。</para>
+		<orderedlist>
+			<title>简单的说，这种质量管理办法是：</title>
+			<listitem>
+				<para>首先制定预期结果，</para>
+			</listitem>
+			<listitem>
+				<para>项目完成后与期望结果对比</para>
+			</listitem>
+			<listitem>
+				<para>输出验收报告</para>
+			</listitem>
+			<listitem>
+				<para>根据验收报告做出处理</para>
+			</listitem>
+		</orderedlist>
+		<para>这种管理的方法存在很多弊端，工作中你会遇到下面这些问题：</para>
+		<orderedlist>
+			<title>考察结果的质量管理存在的弊端：</title>
+			<listitem>
+				<para>无论如何你都不可能把所有预期结果都能考虑到</para>
+			</listitem>
+			<listitem>
+				<para>所做的工作仅仅为了满足预期结果的验收，</para>
+			</listitem>
+			<listitem>
+				<para>对已知缺陷视而不见，</para>
+			</listitem>
+			<listitem>
+				<para>验收报告以外的缺陷，心照不宣</para>
+			</listitem>
+			<listitem>
+				<para>无法预见缺陷，发现缺陷为时已晚,已经到了项目尾声。</para>
+			</listitem>
+		</orderedlist>
+		<para>举一个例子，国家检验奶粉有一个标准，一些不法企业在奶粉中添加三聚氰胺，可以通过检测，最终酿成惨剧。</para>
+		<para>无论是考察过程的质量管理还是检验结果的质量管理，这两种管理方式仅仅能做出合格的产品，无法做出精品。</para>
+		<para>丰田公司的一位高级管理人员说：“我们不应使用全面质量管理，因为这种管理充其量只能让缺点减至10%。如果我们生产400万辆汽车的话，便会有40万人购得一辆带毛病的车，这是生产与用户之间的最大危机，而推行无缺点管理则会消除这种现象。”现在，领先的日本公司逐渐由全面质量管理转向无缺点管理。</para>
+		<para>无缺点管理的范围已经超出了产品质量范畴</para>
+		<orderedlist>
+			<listitem>
+				<para> 计划缺陷</para>
+			</listitem>
+			<listitem>
+				<para> 设计缺陷</para>
+			</listitem>
+			<listitem>
+				<para> 产品缺陷</para>
+			</listitem>
+			<listitem>
+				<para> 研发缺陷</para>
+			</listitem>
+			<listitem>
+				<para> 开发缺陷</para>
+			</listitem>
+			<listitem>
+				<para> 工艺缺陷</para>
+			</listitem>
+			<listitem>
+				<para> 材料缺陷</para>
+			</listitem>
+			<listitem>
+				<para> 流程缺陷</para>
+			</listitem>
+			<listitem>
+				<para> 设备缺陷</para>
+			</listitem>
+			<listitem>
+				<para> 人的缺陷</para>
+			</listitem>
+			<listitem>
+				<para> 生产缺陷</para>
+			</listitem>
+			<listitem>
+				<para> 服务缺陷</para>
+			</listitem>
+			<listitem>
+				<para> 市场缺陷</para>
+			</listitem>
+		</orderedlist>
+
+	</section>
 	<section id="pressure">
 		<title>压力测试中存在的问题</title>
 		<section id="what-什么是压力测试">

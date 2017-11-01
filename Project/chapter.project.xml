@@ -26,10 +26,10 @@
 	
 	&chapter.project.range.xml;
 	&chapter.project.time.xml;
-	&chapter.project.quality.xml;
 	&chapter.project.communication.xml;
 	&chapter.project.change.xml;
 	&chapter.project.integrated.xml;
+	&chapter.project.quality.xml;
 	&chapter.project.risk.xml;
 	&chapter.project.cost.xml;
 	&chapter.project.hr.xml;
