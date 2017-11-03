@@ -1,3 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!ENTITY part.graphics.xml			SYSTEM "part.graphics.xml">
 <!ENTITY chapter.product.xml		 	SYSTEM "chapter.product.xml">
+<!ENTITY chapter.product.design.xml	SYSTEM "chapter.product.design.xml">
