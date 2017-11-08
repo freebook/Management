@@ -416,11 +416,7 @@ f.close()
 		</section>
 
 	</section>
-	<!-- <section>
-		<title>Database Adminstrator</title>
-		<para></para>
-		<section>
-			<title></title>
+	<!-- 
 			<qandaset>
 				<qandaentry>
 					<question>索引问题？</question>
@@ -429,8 +425,7 @@ f.close()
 						</literallayout>
 				</qandaentry>
 			</qandaset>
-		</section>
-	</section> -->
+		 -->
 </section>
 
 </chapter>

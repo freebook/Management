@@ -1,3 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!ENTITY chapter.business.xml			SYSTEM "chapter.business.xml">
 <!ENTITY chapter.force.xml				SYSTEM "chapter.force.xml">
+<!ENTITY section.7s.xml					SYSTEM "section.7s.xml">
