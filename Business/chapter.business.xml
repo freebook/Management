@@ -63,16 +63,47 @@
 		<para>商业上有这样的说法</para>
 		<itemizedlist>
 			<title>同样一桩生意</title>
-			<listitem><para>第一个做是天才</para></listitem>
-			<listitem><para>第二个做是庸才</para></listitem>
-			<listitem><para>第三个做是蠢材</para></listitem>
-			<listitem><para>第四个做是破产</para></listitem>
+			<listitem>
+				<para>第一个做是天才</para>
+			</listitem>
+			<listitem>
+				<para>第二个做是庸才</para>
+			</listitem>
+			<listitem>
+				<para>第三个做是蠢材</para>
+			</listitem>
+			<listitem>
+				<para>第四个做是破产</para>
+			</listitem>
 		</itemizedlist>
+		<para>一项新鲜事物，在10个人当中，有一两个人赞成就可以开始着手做了；有5个人赞成时，就已经迟了一步；如果有七八个人赞成时，那就太晚了。</para>
+		<para>很多企业在做决策时，以为地考虑多数人的意见，忽略少数人的意见，这样不仅不利于企业发展，还打击了员工创新的积极性。</para>
+		<para>企业一定要具有一种强烈的忧患意识、时不我待的紧迫感和危机感，及时把握创新机会。</para>
 	</section>
 	
 	&chapter.force.xml;
 	&section.7s.xml;
-	<!-- <section id="浅谈技术型企业管理"> <title>浅谈技术型企业管理</title> </section> <section id="项目管理"> <title>项目管理</title> </section> -->
+	&section.creative.xml;
+	<section id="barrel">
+		<title>木桶理论</title>
+		<para>木桶原理（Cannikin Law）又叫短板理论，是一条非常著名的管理学原理，由美国管理学家彼得所提出。其核心内容是讲一只木桶盛水的多少，并不取决于桶壁上最高的那块木板，而恰恰取决于桶壁上最短的那块板。</para>
+		<para>管理学不是时期会出现不同的概念，很多理论已经是适合当下所处的环境。例如“木桶理论”就是如此，时至今日还能在常常听到管理层在谈论“木桶理论”，所以有必要谈谈。</para>
+		<section>
+			<title>木桶斜放放置</title>
+			<para>木桶的储水量取决于木桶的使用状态，如果继续用木桶的比喻来说，就是将木桶向长板一方倾斜放置，比正着放置要增加更多的容量。</para>
+		</section>
+		<section>
+			<title>大木桶理论</title>
+			<para>木桶的储水量取决于木桶直径大小。</para>
+		</section>
+		<section>
+			<title>设备上下架</title>
+
+		</section>
+	</section>
+	<section id="项目管理">
+		<title>项目管理</title>
+	</section>
 	<section id="出现问题为什么会相互推诿">
 		<title>出现问题为什么会相互推诿</title>
 		<para>
@@ -173,9 +204,7 @@
 				<title>从战术家到战略家</title>
 				<para>从局部战术向全局战略转型</para>
 			</section>
-			<section>
-				<title>如何处理同事之间的关系</title>
-			</section>
+			<!-- <section> <title>如何处理同事之间的关系</title> </section> -->
 		</section>
 		<section>
 			<title>从空降开始</title>
@@ -194,11 +223,7 @@
 			<section>
 				<title>持续优化</title>
 			</section>
-
-			<section>
-				<title>基础设施建设</title>
-				<para>建立本版库</para>
-			</section>
+			<!-- <section> <title>基础设施建设</title> <para>建立本版库</para> </section> -->
 			<section>
 				<title>组织架构与人才招聘</title>
 			</section>
