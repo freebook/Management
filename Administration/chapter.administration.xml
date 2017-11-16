@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- $Author: netkiller $ -->
+<!-- $Id: chapter.sqa.xml 495 2012-11-23 02:50:46Z netkiller $ -->
+<chapter id="administration">
+	<title>行政管理</title>
+	<section>
+		<title>办公用品管理</title>
+		<section>
+			<title>自带办公设备</title>
+			<para>人的一生，1/3在睡觉，1/3 在工作，剩余1/3被琐事浪费掉，例如等公交车、上班的路上......</para>
+			<para>既然每天有1/3 的时间在公司，在公司使用电脑的时间远远比在家中长，8小时面对电脑，为什么不买个配置好点的电脑放在公司使用呢？</para>
+			<para>首先公司从成本等角度采购的办公室设备，已经不能满足我们的需求。其次员工也在追求高频办公环境。有调查数据显示，办公环境不好、电脑慢、网速慢、离家远等等已经成为90后离职因素。</para>
+			<para>最近几年办公室内开流行机械键盘，这是对公司办公设备不满意的一种表现，或者说越来越多的员工开始追求高品质。仔细观察你会发现很多新入职的90后员工常常携带着自己心爱的带苹果电脑，对于90后和00后 Macbook, iPad, iPhone 三件套已经成为学生标配。</para>
+			<para>员工需要有品质生活和有品质的办公环境，办公室有一台好电脑和电脑椅，路上有一部汽车，家里有一个好床、一个沙发和WiFI音响。</para>
+			<para>所以自带办公用品趋势必然会出现。</para>
+		</section>
+<!-- 		<section>
+			<title>服务器连接图</title>
+
+		</section> -->
+	</section>
+</chapter>
+<!-- 
+<chapter id="sqa">
+	<title></title>
+</chapter>
+<chapter id="scm">
+	<title>SCM (Software Configuration Management)</title>
+</chapter>
+
+<chapter id="scm">
+	<title>SCM (Software Configuration Management)</title>
+
+
+
+
+
+	<section>
+		<title>周期性时间管理</title>
+		<section>
+			<title>合同到期与续约</title>
+		</section>
+		<section>
+			<title>SSL 证书</title>
+			<para>证书购买，续约，吊销</para>
+		</section>
+	</section>
+	<section id="admin">
+		<title>IDC 设备管理</title>
+		<para></para>
+
+		<section>
+			<title>图表管理</title>
+			<para></para>
+			<section>
+				<title>网络拓扑图</title>
+			</section>
+			<section>
+				<title>机柜图</title>
+			</section>
+			<section>
+				<title>防火墙/路由器与交换机链路图</title>
+
+			</section>
+
+		</section>
+
+
+	</section>
+
+</chapter>
+
+ -->

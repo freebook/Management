@@ -46,6 +46,8 @@
 	<!ENTITY % business.doctype.entity.xml 	SYSTEM "Business/doctype.entity.xml">
 	%business.doctype.entity.xml;	
 	
+	<!ENTITY chapter.administration.xml 		SYSTEM "Administration/chapter.administration.xml">
+	
 ] >
 
 <book>
@@ -83,6 +85,7 @@
     &chapter.financial.xml;
     &chapter.utilities.xml;
     &chapter.workplace.xml;
+    &chapter.administration.xml;
     
 	&book.appendix.xml;
  </book>
