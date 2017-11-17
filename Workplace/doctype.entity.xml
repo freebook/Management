@@ -6,3 +6,4 @@
 <!ENTITY chapter.bottleneck.xml		SYSTEM "chapter.bottleneck.xml">
 <!ENTITY chapter.out.xml				SYSTEM "chapter.out.xml">
 <!ENTITY chapter.tools.xml			SYSTEM "chapter.tools.xml">
+<!ENTITY chapter.gap.xml				SYSTEM "chapter.gap.xml">

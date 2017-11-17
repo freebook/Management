@@ -12,12 +12,27 @@
 			<para>首先公司从成本等角度采购的办公室设备，已经不能满足我们的需求。其次员工也在追求高频办公环境。有调查数据显示，办公环境不好、电脑慢、网速慢、离家远等等已经成为90后离职因素。</para>
 			<para>最近几年办公室内开流行机械键盘，这是对公司办公设备不满意的一种表现，或者说越来越多的员工开始追求高品质。仔细观察你会发现很多新入职的90后员工常常携带着自己心爱的带苹果电脑，对于90后和00后 Macbook, iPad, iPhone 三件套已经成为学生标配。</para>
 			<para>员工需要有品质生活和有品质的办公环境，办公室有一台好电脑和电脑椅，路上有一部汽车，家里有一个好床、一个沙发和WiFI音响。</para>
-			<para>所以自带办公用品趋势必然会出现。</para>
+			<para>所以自带办公用品趋势必然会出现。企业应该鼓励员工自带电脑等办公用品，降低IT固定资产的采购，同时给与员工一定的设备折旧补偿。</para>
 		</section>
-<!-- 		<section>
-			<title>服务器连接图</title>
-
-		</section> -->
+		<section>
+			<title>选择苹果电脑</title>
+			<para>目前高配电脑的价格与苹果电脑的价格差距已经非常接近，与其采购PC不如采购苹果电脑。</para>
+			<para>使用苹果电脑办公有很多优势：</para>
+			<itemizedlist>
+				<title></title>
+				<listitem>
+					<para>不需要定期杀毒</para>
+				</listitem>
+				<listitem><para>硬件故障率低</para></listitem>
+				<listitem><para>娱乐性软件比较少</para></listitem>
+				<listitem><para>游戏比较少</para></listitem>
+			</itemizedlist>
+			<para>以往使用普通电脑和盗版软件，每天电脑都会出现各种奇葩问题，需要IT部的同事到工作位上处理。</para>
+		</section>
+ 		<section>
+			<title>正版软件是趋势</title>
+			<para></para>
+		</section>
 	</section>
 </chapter>
 <!-- 
@@ -30,10 +45,6 @@
 
 <chapter id="scm">
 	<title>SCM (Software Configuration Management)</title>
-
-
-
-
 
 	<section>
 		<title>周期性时间管理</title>
@@ -58,10 +69,7 @@
 			<section>
 				<title>机柜图</title>
 			</section>
-			<section>
-				<title>防火墙/路由器与交换机链路图</title>
-
-			</section>
+			
 
 		</section>
 
