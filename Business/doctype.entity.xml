@@ -3,3 +3,4 @@
 <!ENTITY chapter.force.xml				SYSTEM "chapter.force.xml">
 <!ENTITY section.7s.xml					SYSTEM "section.7s.xml">
 <!ENTITY section.creative.xml			SYSTEM "section.creative.xml">
+<!ENTITY section.watch.xml				SYSTEM "section.watch.xml">
