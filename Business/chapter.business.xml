@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<chapter id="index"><?dbhtml dir="business"?>
+<part id="index"><?dbhtml dir="business"?>
 	<title>Business Administration</title>
 	<!-- <section id="culture"> <title>企业文化</title> <para>Creativity+Open+Fun+Freedom+Easy+Excellence</para> <para></para> </section> -->
 	<para>
@@ -298,4 +298,4 @@
 		</para>
 		<para>左拉（Emile Zola）曾在1868年的作品中指出：“工作需要有休闲。如果钱不够多，未来又无可展望，人就会把握眼前能得到的快感”。</para>
 	</section>
-</chapter>
+</part>
