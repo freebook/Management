@@ -1,7 +1,7 @@
 <!-- <part id="index"><?dbhtml dir="hr"?> <title>人力资源管理</title> </part> -->
-<section id="hr">
+<chapter id="hr">
 	<title>人力资源管理</title>
 	<subtitle>Human Resources</subtitle>
 	<para>是为了保证所有项目关系人的能力和积极性都得到最有效地发挥和利用所做的一系列管理措施。它包括组织的规划、团队的建设、人员的选聘和项目的班子建设等一系列工作。</para>
 	<para>更多请参考“人力资源管理” 相关章节。</para>
-</section>
+</chapter>

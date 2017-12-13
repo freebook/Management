@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!ENTITY chapter.project.xml 			SYSTEM "chapter.project.xml">
 <!ENTITY chapter.project.range.xml 		SYSTEM "chapter.project.range.xml">
+<!ENTITY chapter.project.range.kick.xml 	SYSTEM "chapter.project.range.kick.xml">
 <!ENTITY chapter.project.risk.xml		SYSTEM "chapter.project.risk.xml">
 <!ENTITY chapter.project.cost.xml		SYSTEM "chapter.project.cost.xml">
-<!ENTITY chapter.project.kick.xml 		SYSTEM "chapter.project.kick.xml">
 <!ENTITY chapter.project.time.xml 		SYSTEM "chapter.project.time.xml">
 <!ENTITY chapter.project.hr.xml 			SYSTEM "chapter.project.hr.xml">
 <!ENTITY chapter.project.change.xml 		SYSTEM "chapter.project.change.xml">
