@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<section id="training">
+<chapter id="training">
 	<title>培训与开发</title>
 	<subtitle>Employee Training and Development </subtitle>
 	<para></para>
@@ -215,4 +215,4 @@
 
 	</section>
 
-</section>
+</chapter>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<section id="recruitment">
+<chapter id="recruitment">
 	<title>招聘与配置</title>
 	<section id="interface.flow">
 		<title>面试流程</title>
@@ -498,4 +498,4 @@
 			</para>
 		</section>
 	</section>
-</section>
+</chapter>

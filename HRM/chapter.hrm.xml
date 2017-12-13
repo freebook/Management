@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Author: netkiller $ $Id: chapter.itsm.xml 580 2013-05-07 10:08:48Z netkiller $ -->
-<chapter id="index"><?dbhtml dir="hrm"?>
+<part id="index"><?dbhtml dir="hrm"?>
 	<title>人力资源管理</title>
 	<subtitle>Human Resources Management</subtitle>
 	<para>人力资源管理并不是人力资源部们的工作，人力资源管理需要渗透到每个部门。</para>
@@ -10,4 +10,4 @@
 	&chapter.salary.xml;
 	&chapter.performance.xml;
 
-</chapter>
+</part>
