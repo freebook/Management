@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<section id="postgraduate">
+<chapter id="postgraduate">
 	<title>考研与工作怎么选择</title>
 	<para>
 		最近我在网站看到一篇帖子，作者询问是继续工作还是回学校考研。有很多大学生毕业无法融入社会最终选择考研。
@@ -87,8 +87,8 @@
 			我把知识体系分成横向与纵向两个方向，博士是为了解决特定领域特定问题而存在的，是知识的纵向发展，所以我说博士不再是博士而是”窄士“。另外学历越高越不容易转行。
 		</para>
 	</section>
-</section>
-<section id="knowledge">
+</chapter>
+<chapter id="knowledge">
 	<title>学历与学识的区别</title>
 	<literallayout>学历只能用高低评判，学历越高知识面越窄是个上升的金字塔结构。
 		学识与学历恰恰相反，是上升的倒金字塔结构，我们通常将学识与另一个词“渊博”共同使用。学识同义词有学富五车、知识渊博、才高八斗、多才多艺、博古通今等等。
@@ -124,4 +124,4 @@
 
 		</para>
 	</section>
-</section>
+</chapter>
