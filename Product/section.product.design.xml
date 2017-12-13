@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<section id="design">
+<chapter id="design">
 	<title>谈设计</title>
 	<para>
 		今天谈谈设计这个话题。
@@ -101,4 +101,4 @@
 			你可以提供两到三份设计稿出来，分别用心设计的最终稿，其他几分随便设计，三份形成对比分别是上，中，下。然后将三份设计稿交上去，让他们选择其中一份。这种方法能够一定程度避免被玩死。
 		</para>
 	</section>
-</section>
+</chapter>

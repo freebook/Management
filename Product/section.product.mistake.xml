@@ -15,4 +15,50 @@
 		<para>
 		</para>
 	</section>
+	<section id="unrequirements">
+		<title>伪需求</title>
+		<para>什么是伪需求？简言之：看似有这种需求，但其实这种需求是经不起使用频次，用户体验及使用依附性的考验。看似是需求，实则是伪需求。</para>
+		<para>“伪需求”不仅在各创业公司的商业模式里较为常见，而且在大公司里随处可见。</para>
+		<orderedlist>
+			<title>产生“伪需求”的因是什么呢？</title>
+			<listitem>
+				<para>为了需求而需求，这是产品人员的工作，当一天和尚，要念一本经</para>
+			</listitem>
+			<listitem>
+				<para>将解决方案当成需求</para>
+			</listitem>
+			<listitem>
+				<para>认为自己的需求就是市场需求</para>
+			</listitem>
+			<listitem>
+				<para>解决了一个需求，却会影响另一个需求的需求</para>
+			</listitem>
+			<listitem>
+				<para>将已经成熟的市场检验跨界移植到未知目标市场</para>
+			</listitem>
+			<listitem>
+				<para>不符合用户习惯的需求</para>
+			</listitem>
+			<listitem>
+				<para>无法超越现有竞品的需求</para>
+			</listitem>
+		</orderedlist>
+	</section>
+	<section>
+		<title>未进行充分的可行性调研</title>
+		<para>头脑风暴出的good idea，容易让人头脑发热，往往密闭认得的双眼，让人失去基本的判断力，仓促中决策，没有突入足够的时间做市场调用。</para>
+	</section>
+	<section>
+		<title>乐观估算市场规模及销售额</title>
+	</section>
+	<section>
+		<title>过分追求成长速度和维度</title>
+		<para>任何事物都有它的规律，成长是一个必经的过程，急于求成，疯狂扩张，揠苗助长，只能物极必反。</para>
+	</section>
+	<section>
+		<title>缺乏风险控制及止损策略</title>
+		<para>计划没有变化快，举两个例子，毛泽东与蒋介石。</para>
+		<para>毛泽东擅长战略规划，至于战术交给指战员自由发挥，指战员根据战事进展随机应变。</para>
+		<para>蒋介石的作战计划非常之详细，但战事总是事与愿违，不能按照他预想的战况发展，随时时间的推移，最终无法把控。</para>
+	</section>
 </chapter>
