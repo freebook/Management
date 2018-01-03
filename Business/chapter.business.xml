@@ -9,12 +9,12 @@
 				srccredit="neo" />
 		</ulink>
 	</para>
-	<section>
+	<chapter>
 		<title>什么是管理</title>
 		<para>管理即对一定范围的人员及事务进行安排和处理。</para>
 		<para>管理模式只能借鉴不能模仿。</para>
-	</section>
-	<section>
+	</chapter>
+	<chapter>
 		<title>管理层的职责</title>
 		<para>管理人员的职责是什么呢？ 不同级别的管理层职责是不同的，一般分为三层，即高层，中层，和基层。他们的侧重点也不同。</para>
 		<itemizedlist>
@@ -44,8 +44,8 @@
 		</itemizedlist>
 
 		<para>但中国很多企业有所不同，中层策划，高层决策。</para>
-	</section>
-	<section id="strategic">
+	</chapter>
+	<chapter id="strategic">
 		<title>战略管理</title>
 		<subtitle>Enterprise Strategic Management</subtitle>
 		<section>
@@ -53,15 +53,15 @@
 			<para>德鲁克提出，战略就是通过最有效的管理，用最小的资源达到最大回报的过程。战略的根本是一种增长方式，我们用什么样的方式、什么样的路径达成企业的增长。
 			</para>
 		</section>
-	</section>
-	<section>
+	</chapter>
+	<chapter>
 		<title>商业模式</title>
 		<para>当今企业之间的竞争，不是产品之间的竞争，而是商业模式之间的竞争 ------德鲁克</para>
 		<para>商业模式就是企业家为实现企业价值最大化，把能使企业运行的内外各要素整合真起来，形成一个完整的高效的具有独特核心竞争力的运作系统，并通过最优实现形式满足客户需求、实现客户价值，同时使系统达到持续盈利目标的整合解决方案。
 		</para>
 		<para>简单地说，商业模式就是企业赚钱的方式方法。</para>
-	</section>
-	<section>
+	</chapter>
+	<chapter>
 		<title>商业法则</title>
 		<para>“在其他人都投了资的地方去投资，你是不会发财的” ------ 巴菲特</para>
 		<para>商业上有这样的说法</para>
@@ -85,12 +85,12 @@
 		<para>很多企业在做决策时，以为地考虑多数人的意见，忽略少数人的意见，这样不仅不利于企业发展，还打击了员工创新的积极性。</para>
 		<para>企业一定要具有一种强烈的忧患意识、时不我待的紧迫感和危机感，及时把握创新机会。</para>
 		<para>要想在市场上获得成功，你必须成为一个独立思考者，因为共识通常都是错误的。你必须要有与众不同的观点和视角。</para>
-	</section>
+	</chapter>
 	
 	&chapter.force.xml;
 	&section.7s.xml;
 	&section.creative.xml;
-	<section id="barrel">
+	<chapter id="barrel">
 		<title>木桶理论</title>
 		<para>木桶原理（Cannikin
 			Law）又叫短板理论，是一条非常著名的管理学原理，由美国管理学家彼得所提出。其核心内容是讲一只木桶盛水的多少，并不取决于桶壁上最高的那块木板，而恰恰取决于桶壁上最短的那块板。
@@ -125,8 +125,8 @@
 			</para>
 		</section>
 
-	</section>
-	<section id="二八定律">
+	</chapter>
+	<chapter id="二八定律">
 		<title>二八定律</title>
 		<para>二八定律，又名帕累托法则，也叫巴莱特定律、最省力的法则、不平衡原则等，是意大利经济学家帕累托所提出。后被广泛应用于社会学及企业管理学等。
 		</para>
@@ -147,8 +147,8 @@
 				<para>重视少数关键需求。不是人人都知道自己需要什么，有时20%的群体需求，可能复合80%的人群。</para>
 			</listitem>
 		</itemizedlist>
-	</section>
-	<section id="出现问题为什么会相互推诿">
+	</chapter>
+	<chapter id="出现问题为什么会相互推诿">
 		<title>出现问题为什么会相互推诿</title>
 		<para>
 			一旦出现问题，很可能同事反目成仇，背后给你一枪，将责任推给其他人。有时可能是部门相互推卸责任。这种做法会像瘟疫一样传染，影响更多的人或部门效仿。
@@ -218,9 +218,9 @@
 				Individual，简称DRI）。DRI遍布于公司各个层级。在苹果，谁负责什么，永远不会搞混。DRI的名字经常出现在会议进程表上，每个人都知道谁是直接负责人。如此公开透明的责任制使得每一个员工没有互相推诿和偷懒的机会，一旦项目出现问题，很容易找到出现问题的环节予以纠正，并追究相关责任。而且，一个项目只能有一个DRI，如果超过一个DRI，那就等于没有直接责任人。DRI能够有效加速决策流程，也可以减少很多不必要的会议。
 			</para>
 		</section>
-	</section>
+	</chapter>
 
-	<section>
+	<chapter>
 		<title>管理黑洞</title>
 		<section>
 			<title>活在竞争对手的阴影下</title>
@@ -238,9 +238,9 @@
 			<title>到处救火</title>
 			<para>发现问题，指定规范，无人检查</para>
 		</section>
-	</section>
+	</chapter>
 
-	<section id="zero">
+	<chapter id="zero">
 		<title>成为管理者</title>
 		<subtitle></subtitle>
 		<para>本文讲述项目经理的成长历程以及遇到的各种问题如何解决</para>
@@ -303,20 +303,20 @@
 
 		</section>
 
-	</section>
-	<section id="">
+	</chapter>
+	<chapter id="">
 		<title>天赋，精力和时间</title>
 		<para>小说家杰弗·啊彻（Jeffrey
 			Archer）曾经说过：“人们把精力的作用低估了。有点天赋又有精力，你能称王；有精力没有天赋，你可以称侯；有天赋而没有精力，你只能做穷光蛋。”
 		</para>
-	</section>
-	<section>
+	</chapter>
+	<chapter>
 		<title>科斯定律</title>
 		<para>科斯定律，简单粗暴总结就是：谁用得最好就归谁。</para>
 		<para>合适人工具给合适的人用，并创造最大化价值。</para>
-	</section>
+	</chapter>
 	&section.watch.xml;
-	<section>
+	<chapter>
 		<title>为什么中国家族企业过不了三代?</title>
 		<para>中国企业不用说三代，两代都极其艰难，为什么呢？</para>
 		<para>首先中国企业创建的都是些什么人。中国第一代企业家，创业者多是的没有受过很好教育，学历不高的一代人，但他们是具有经商天赋的一代人。除了学历不高其余都高，他们具备了高智商，高情商，高财商，高胆商……
@@ -337,8 +337,8 @@
 		<para>学历不等于学识，博士等于窄士，高学历是是面向微观领域，解决特定领域，特定问题而存在的。而经营企业，管理一个企业则需要学识渊博，掌握各种领域的跨界知识。
 		</para>
 		<para>学识不等于能力，实际操作的落地能力</para>
-	</section>
-	<section>
+	</chapter>
+	<chapter>
 		<title>《幸福的决定因素》</title>
 		<para>
 			有的公司考核目的不是“以人为本”而是“以钱为本”：美国华盛顿大学（University of
@@ -347,5 +347,5 @@
 		<para>左拉（Emile
 			Zola）曾在1868年的作品中指出：“工作需要有休闲。如果钱不够多，未来又无可展望，人就会把握眼前能得到的快感”。
 		</para>
-	</section>
+	</chapter>
 </part>
