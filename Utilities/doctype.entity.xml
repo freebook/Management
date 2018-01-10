@@ -16,4 +16,4 @@
 <!ENTITY chapter.utilities.smart.xml		SYSTEM "chapter.utilities.smart.xml">
 <!ENTITY chapter.utilities.6s.xml 		SYSTEM "chapter.utilities.6s.xml">
 
-
+<!ENTITY section.7s.xml					SYSTEM "section.7s.xml">

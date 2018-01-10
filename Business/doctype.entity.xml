@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!ENTITY chapter.business.xml			SYSTEM "chapter.business.xml">
 <!ENTITY chapter.force.xml				SYSTEM "chapter.force.xml">
-<!ENTITY section.7s.xml					SYSTEM "section.7s.xml">
 <!ENTITY section.creative.xml			SYSTEM "section.creative.xml">
 <!ENTITY section.watch.xml				SYSTEM "section.watch.xml">
