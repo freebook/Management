@@ -39,7 +39,7 @@ Call Center, Help Desk, Service Desk
 			<listitem><para>二是发现和解决关键问题，过滤假问题，解决真问题；</para></listitem>
 			<listitem><para>三是跨专业、跨部分地分析和解决问题，打通专业管理或部门之间之间的鸿沟；</para></listitem>
 		</orderedlist>
-		&chapter.fta.xml;
+		&chapter.itsm.fta.xml;
 		&chapter.fishbone.xml;
 		<section>
 			<title>员工手册</title>
@@ -55,6 +55,19 @@ Call Center, Help Desk, Service Desk
 		<section>
 			<title>突发事件处理流程</title>
 			<graphic  format="png" fileref="../images/incident.png" srccredit="neo" />
+		</section>
+		<section>
+			<title>事件处理方式</title>
+			<para>很多人顺着简单而直接的“事件 > 反应 > 结果” 连锁行为来反应。</para>
+			<para>遇有状况发生，第一时间不加思索地反映，造成的结果不但于事无补甚至造成二次故障。</para>
+			<para>这种不由自主或未经过思考的反映有时会导致灾难性的后果。</para>
+			<para>更好的选自是：</para>
+			<screen>
+			<![CDATA[
+事件 -> 结果 -> 反应
+			]]>
+			</screen>
+			<para>说白了就是，遇事想清楚在动手不迟。</para>
 		</section>
 		&chapter.monitor.xml;
 	</section>
