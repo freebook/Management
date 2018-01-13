@@ -182,4 +182,22 @@
 			</para>
 		</section>
 	</section>
+	<section>
+		<title>项目延期</title>
+		<para>项目延期不一定是团队不够努力，导致拖延的原因有很多种，有些是管理者的责任，还有以下是团队成员的责任:</para>
+		<orderedlist numeration="arabic" spacing="compact">
+			<listitem>
+				<para>工时计算本身有问题。</para>
+			</listitem>
+			<listitem>
+				<para>追求完美。</para>
+			</listitem>
+			<listitem>
+				<para>认为分配违背员工意愿。</para>
+			</listitem>
+			<listitem>
+				<para>害怕犯错误，承担责任或受到批评。</para>
+			</listitem>
+		</orderedlist>
+	</section>
 </chapter>
