@@ -37,7 +37,11 @@
 		<title>网络营销</title>
 		<para>简单的说，网络营销就是以互联网为主要手段进行的，为达到一定营销目的的营销活动。</para>
 		<para>利用E-mail营销、博客与微博营销、网络广告营销、视频营销等</para>
-
+		<section>
+			<title>网络营销与传统营销的区别</title>
+			<para>传统营销是：“关注、兴趣、渴望、记忆、购买”。</para>
+			<para>网络时代新媒体营销：“关注、兴趣、搜索、对比、购买、分享与口碑传播”。</para>
+		</section>
 		<section id="sem">
 			<title>SEM(Search Engine Marketing)</title>
 			<para>搜索引擎营销，是指在搜索引擎上推广网站，提高网站可见度，从而带来流量的网络营销活动；</para>

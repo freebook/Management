@@ -2,6 +2,7 @@
 <!ENTITY chapter.hrm.xml					SYSTEM "chapter.hrm.xml">
 <!ENTITY chapter.planning.xml			SYSTEM "chapter.planning.xml">
 <!ENTITY chapter.recruitment.xml			SYSTEM "chapter.recruitment.xml">
+<!ENTITY chapter.recruitment.star.xml	SYSTEM "chapter.recruitment.star.xml">
 <!ENTITY chapter.training.xml			SYSTEM "chapter.training.xml">
 <!ENTITY chapter.salary.xml				SYSTEM "chapter.salary.xml">
 <!ENTITY chapter.performance.xml			SYSTEM "chapter.performance.xml">
