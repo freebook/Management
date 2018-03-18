@@ -2,7 +2,23 @@
 <chapter id="performance">
 	<title>绩效管理</title>
 	<subtitle>Performance management</subtitle>
-	<section id="">
+	<section>
+		<title>找出有潜力的员工</title>
+		<para>找出企业中有潜力的员工并不难。</para>
+		<itemizedlist>
+			<title>找出企业中有潜力的员工只需关注三点：</title>
+			<listitem>
+				<para>分析能力</para>
+			</listitem>
+			<listitem>
+				<para>取得成就</para>
+			</listitem>
+			<listitem>
+				<para>人际关系</para>
+			</listitem>
+		</itemizedlist>
+	</section>
+	<section id="期待效应">
 		<title>期待效应</title>
 		<subtitle>亦称“罗森塔尔效应(RobertRosenthal Effect)”或“皮格马利翁效应”。</subtitle>
 		<para>期待效应，是一个心理学的概念，通常是指在人际交往中，一方充沛的感情和较高的期望可以引起另一方微妙而深刻的变化。</para>
