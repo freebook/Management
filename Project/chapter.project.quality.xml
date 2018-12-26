@@ -101,6 +101,57 @@
 		</orderedlist>
 
 	</section>
+	
+	<section id="为什么自动化测试难以推广">
+		<title>为什么自动化测试难以推广</title>
+		<para>2005 第一次接触自动化测试，十年已经过去了，着眼身边的企业，真正实施自动化测试的企业非常少。 大部分企业，测试仍然处在，点鼠标阶段。测试人员通常是验收交付，而没有参与整个软件开发周期。</para>
+		<section>
+			<title>为什么自动化测试难以实施</title>
+			<para>为什么自动化测试难以实施，我想有几个问题，阻碍了自动测试普及。 其实懂得自动化测试工具的人还是很多的，自动化测试难以实施，并不是缺乏技术人才。Load Runner, QTP 等等很多测试人员都会使用，为什么他们放弃这些工具，改用手动测试呢？</para>
+			<orderedlist>
+				<title></title>
+				<listitem>90%测试仍然处在功能测试</listitem>
+				<listitem>很多测试人员没有开发背景</listitem>
+				<listitem>测试角色，没有贯穿整个软件开发周期</listitem>
+				<listitem>各种问题阻碍了自动化脚本</listitem>
+				<listitem>在中国测试人员人力成本太低</listitem>
+			</orderedlist>
+			<para>随着技术发展，软件的多样性，已经不局限于基于CS结构的GUI, 基于BS浏览器WEB UI。例如目前的安卓系统，苹果IOS系统，微软的 Windows Mobile 系统等等。 还有一些非人机交互界面，各种协议/接口，例如json,bson,xml-rpc,soap,mq(message queue)我认为这些都应该纳入自动化测试范畴。 这就需要测试人员具有一定的开发能力，且测试上述内容速要广泛的技术知识支撑。</para>
+			<orderedlist>
+				<title>我认为高级测试工程师，需要具备以下能力</title>
+				<listitem>嗅探器使用</listitem>
+				<listitem>gdb 使用</listitem>
+				<listitem>了解各种协议族</listitem>
+				<listitem>渗透于注入</listitem>
+				<listitem>HTML/CSS/Javascript</listitem>
+				<listitem>数据库 等等</listitem>
+			</orderedlist>
+			<para>就WEB测试而言，涉及的内容就太广泛了，从浏览器->WEB服务器->APP服务器->缓存->数据库，中间会经过各种代理，负载均衡，分布式文件系统等等。</para>
+			<para>配置这样一个测试环境都已经非常不容易，幸好我们可以采用自动化运维干这件事。</para>
+		</section>
+		<section id="是什么阻碍了自动化测试">
+			<title>是什么阻碍了自动化测试</title>
+			<orderedlist>
+				<title></title>
+				<listitem>各种UI特效</listitem>
+				<listitem>验证码</listitem>
+				<listitem>浏览器支持</listitem>
+				<listitem>第三方插件(Flash,ActiveX...)</listitem>
+				<listitem>技术封闭</listitem>
+			</orderedlist>
+			<para>互联网的快速发展 Load Runner, QTP 等等软件，我认为已经跟不互联网的快速了，他们仍然按照传统周期发布软件更新。 而互联网需要的是快速变化，互联网应用程序开发者，需要体验更多的创新功能，软件软件发布周期至少一年一个版本。真的太慢了。</para>
+			<para>互联网不断加入的新技术成为了自动化测试障碍，传统软件无法支持这些新技术，甚至向微软这样的企业技术跟进都显得不给力。</para>
+			<para>Windows Automation 3.0 是非常高大上玩意，但是你在Microsoft官网能找到的资料，少之甚少，我不知道微软的目的何在。</para>
+			<para>只有 Load Runner, QTP 这些功能与微软又合作，才能拿到Windows Automation API。</para>
+		</section>
+		<section id="中国测试人员的人力成本">
+			<title>中国测试人员的人力成本</title>
+			<para>测试人员的薪水在开发团队中应该是处于中下等的。与高级程序员，软件架构师是有很大差距的。这也造成了自动化测试难以实施的原因。</para>
+			<para>我们需要从高级程序员，软件架构师转测试的高级测试人员。</para>
+			<para>我们需要黑客级的测试人员！！！</para>
+		</section>
+	</section>
+	
 	<section id="pressure">
 		<title>压力测试中存在的问题</title>
 		<section id="what-什么是压力测试">
