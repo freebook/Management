@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!ENTITY part.devops.xml 				SYSTEM "part.devops.xml">
+<!ENTITY chapter.devops.xml				SYSTEM "chapter.devops.xml">
+
 <!ENTITY chapter.project.xml 			SYSTEM "chapter.project.xml">
 <!ENTITY chapter.project.range.xml 		SYSTEM "chapter.project.range.xml">
 <!ENTITY chapter.project.range.kick.xml 	SYSTEM "chapter.project.range.kick.xml">
@@ -20,5 +23,3 @@
 <!ENTITY chapter.backup.xml			SYSTEM "chapter.backup.xml">
 <!ENTITY chapter.itsm.release.xml		SYSTEM "chapter.itsm.release.xml">
 <!ENTITY chapter.itsm.change.move.xml		SYSTEM "chapter.itsm.change.move.xml">
-
-<!ENTITY chapter.devops.xml				SYSTEM "chapter.devops.xml">
