@@ -45,7 +45,7 @@
 			<listitem>分布式，软件再也不是只运行在 一个CPU下，软件被分成很多模块被分布式部署到多台服务上。</listitem>
 		</orderedlist>
 		<orderedlist>
-			<title>这时便出现了极限编程，敏捷开发….等等，新的思想不断提出，但是仍然无法解决面临的问题。</title>
+			<title>这时便出现了极限编程，敏捷开发….等等，同时诞生了新的岗位“产品”，新的思想不断提出，但是仍然无法解决面临的问题。</title>
 			<listitem>产品部：需如雪片飞来，需求堆积如山</listitem>
 			<listitem>开发部：版本延期，质量问题频发，疲于奔命修复 BUG，刚修复了一个， 又出现新的 Bug</listitem>
 			<listitem>测试部：手工测试，升级后问题爆发，测试环境通过，到生产环境就出问题</listitem>
@@ -67,5 +67,25 @@
 		<para>总结这个时期实际上是： 软件项目管理 加 ITSM (IT Service Management) IT服务管理</para>
 		<para>所以聚焦微观管理解决宏观管理问题的做法是错误的，于是诞生了 DevOps。 DevOps 是多维度宏观管理学，是管理的管理。</para>
 	</section>
-
+	<section id="为什么很多企业为什么实施DevOps以失败告终">
+		<title>为什么很多企业为什么实施 DevOps 以失败告终？</title>
+		<para>很多企业实施DevOps 紧紧是软件堆砌，根本没有深入理解 DevOps，吧devops 相关的软件全部安装上，然后做系统集成。</para>
+		<orderedlist>
+			<title>这时各部门一片抱怨声：</title>
+			<listitem>管理层说：项目管理工具不好用。</listitem>
+			<listitem>产品说：我不用那个Wiki写需求</listitem>
+			<listitem>设计说：版本控制对于PSD这种大文件兼容不好</listitem>
+			<listitem>开发说：我们不用 Docker，而我们也不用 maven</listitem>
+			<listitem>测试说：怎么随意部署环境，我们还没有测试完，就清空数据了。</listitem>
+			<listitem>运维说：我不敢用你的自动发布</listitem>		
+		</orderedlist>
+		<para>改变现有的工作方式是非常痛苦的，任何不合理的流程和工作方式已经使用了多年，习惯已经根深蒂固。</para>
+		<para>实施devops 需要各部门收集意见，对各个部门培训，等各部门理解了 DevOps 原理和流程后，才能实施。</para>
+	</section>
+	<section id="持续集成不是DevOps">
+		<title>持续集成不是DevOps</title>
+		<subtitle>Jenkins 不是 DevOps</subtitle>
+		<para></para>
+		
+	</section>
 </chapter>
