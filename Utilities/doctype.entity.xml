@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!ENTITY part.platform.xml					SYSTEM "part.platform.xml">
-<!ENTITY chapter.devops.xml					SYSTEM "chapter.devops.xml">
+<!-- <!ENTITY chapter.devops.xml					SYSTEM "chapter.devops.xml"> -->
 <!ENTITY devops.development.xml				SYSTEM "chapter.development.xml">
 <!ENTITY devops.automation.xml				SYSTEM "chapter.automation.xml">
 <!ENTITY devops.automation.deployment.xml 	SYSTEM "chapter.automation.deployment.xml">
