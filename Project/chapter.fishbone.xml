@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section id="fishbone">
+	<title>因果图在运维工作中的应用</title>
+	<chapterinfo>
+		<keywordset>
+			<keyword>因果图, 鱼骨图, 石川图</keyword>
+			<keyword>fishbone</keyword>
+			<keyword></keyword>
+			<keyword></keyword>
+		</keywordset>
+	</chapterinfo>
+	<section id="what">
+		<title>什么是因果图</title>
+		<para>鱼骨图，又名因果图，是一种发现问题“根本原因”的分析方法，我们将影响问题的因素与特性，按相互关联性整理而成的层次分明、条理清楚，并标出重要因素的图形就叫特性要因图、特性原因图。因其形状如鱼骨，所以又叫鱼骨图（以下称鱼骨图），它是一种透过现象看本质的分析方法。鱼骨图由日本管理大师石川馨先生所发明，故又名石川图。鱼骨图是一种发现问题“根本原因”的方法，它也可以称之为“Ishikawa”或者“因果图”。其特点是简捷实用，深入直观。它看上去有些像鱼骨，问题或缺陷（即后果）标在“鱼头”外。在鱼骨上长出鱼刺，上面按出现机会多寡列出产生问题的可能原因，有助于说明各个原因之间是如何相互影响的。</para>
+	</section>
+	<section id="why">
+		<title>为什么使用因果图</title>
+		<para>在运维工作中，我们经常使用 过程中“故障树分析”，它主要用于出现故障时找到问题的源头。而因果图则是保证7*24运维有哪些影响因素。我认为将“故障树分析”与“因果图”互补使用更能解决运维中遇到的各种问题。</para>
+		<para>“因果图”能未雨绸缪，“故障树分析”可以亡羊补牢。</para>
+	</section>
+	<section id="when">
+		<title>何时使用因果图</title>
+		<para>我认为任何环节都能使用因果图帮我们我们改善IT运维工作。</para>
+	</section>
+	<section id="where">
+		<title>何处使用因果图</title>
+		<para>例如项目的部署先，部署中，部署后等等每个环节。部署前拿出因果图由为重要。</para>
+	</section>
+	<section id="who">
+		<title>谁来负责制作因果图</title>
+		<para>问题总是受到一些因素的影响，我们通过头脑风暴法找出这些因素，并将它们与影响因素的特性值，整理，分类，层次化。</para>
+		<note>
+			<para>我不喜欢开茶话会（中国式会议），参与人员应该每个人在会议前找出问题因素，会议中拿出问题的因素提交给会议主持者，会议目的是将每个人寻找出的影响问题的因素整理成为鱼骨图，而不是在会议上讨论找问题因素。</para>
+		</note>
+	</section>
+	<section id="how">
+		<title>怎样使用因果图</title>
+		<para>下面我们提供一个鱼骨图分析案例</para>
+		<graphic  format="png" fileref="../images/ops/fishbone/fishbone.png" width="1024" srccredit="neo" />
+		<para>上图我们看到保障系统7*24小时运行有哪些因素印象，网站分为几个部分组成</para>
+		<orderedlist>
+			<title>网站</title>
+			<listitem>
+				<para>www.exampel.com 网站入口，主要是静态内容，或者已经将动态静态化。</para>
+			</listitem>
+			<listitem>
+				<para>img.exampel.com 图片服务器</para>
+			</listitem>
+			<listitem>
+				<para>acc.example.com, api.example.com 动态服务器</para>
+			</listitem>
+			<listitem>
+				<para>cch.exampel.com 缓存服务器， db.example.com 数据库服务器</para>
+			</listitem>
+			<listitem>
+				<para>mq.example.com 消息服务器</para>
+			</listitem>
+		</orderedlist>
+		<para>我通常给每个服务器指定一个主机名，有些事DNS解析的，有些事hosts文件设置例如 cch.example.com, db.example.com 不需要DNS解析。</para>
+		<para>现在我们分别解释每个节点与问题的影响因素，这里仅仅给出的一个简单的例子，也只能让你对因果图有个入门了解。</para>
+		<section>
+			<title>www.example.com, img.example.com</title>
+			<para>影响的因素主要是web服务器，IP地址，80端口，防火墙设置，DNS 解析等等</para>
+		</section>
+		<section>
+			<title>acc.example.com, api.example.com</title>
+			<para>除了web服务器，IP地址，80端口，防火墙设置，DNS 解析。他的影响因素包括</para>
+			<para>PHP版本，PHP扩展，PHP配置文件</para>
+		</section>
+		<section>
+			<title>cch.exampel.com, mq.exampe.com, db.example.com</title>
+			<para>影响的因素是防火墙，端口，数据库同步等等...</para>
+		</section>		
+	</section>	
+	
+</section>

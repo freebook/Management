@@ -15,10 +15,10 @@
 -->
 
 	<!ENTITY part.management.xml 		SYSTEM "part.management.xml">
-
+	<!ENTITY part.devops.xml 				SYSTEM "part.devops.xml">
+	
 	<!ENTITY % utilities.doctype.entity.xml 	SYSTEM "Utilities/doctype.entity.xml">
 	%utilities.doctype.entity.xml;
-	<!ENTITY part.mgmt.xml 				SYSTEM "part.mgmt.xml">
 	
 	<!ENTITY % financial.doctype.entity.xml 	SYSTEM "Financial/doctype.entity.xml">
 	%financial.doctype.entity.xml;
@@ -78,10 +78,9 @@
 	
 	&chapter.business.xml;
 	&chapter.hrm.xml;
-	&chapter.project.xml;
+	&part.devops.xml;
     &chapter.marketing.xml;
     &chapter.product.xml;
-    &chapter.itsm.xml;
     &chapter.financial.xml;
     &chapter.utilities.xml;
     &chapter.workplace.xml;

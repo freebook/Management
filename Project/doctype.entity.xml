@@ -10,3 +10,14 @@
 <!ENTITY chapter.project.quality.xml 	SYSTEM "chapter.project.quality.xml">
 <!ENTITY chapter.project.communication.xml 	SYSTEM "chapter.project.communication.xml">
 <!ENTITY chapter.project.integrated.xml 		SYSTEM "chapter.project.integrated.xml">
+
+<!ENTITY part.graphics.xml			SYSTEM "part.graphics.xml">
+<!ENTITY chapter.itsm.xml	 			SYSTEM "chapter.itsm.xml">
+<!ENTITY chapter.itsm.fta.xml		 	SYSTEM "chapter.itsm.fta.xml">
+<!ENTITY chapter.operations.xml		SYSTEM "chapter.operations.xml">
+<!ENTITY chapter.monitor.xml		SYSTEM "chapter.monitor.xml">
+<!ENTITY chapter.fishbone.xml		SYSTEM "chapter.fishbone.xml">
+<!ENTITY chapter.system.xml			SYSTEM "chapter.system.xml">
+<!ENTITY chapter.backup.xml			SYSTEM "chapter.backup.xml">
+<!ENTITY chapter.itsm.release.xml		SYSTEM "chapter.itsm.release.xml">
+<!ENTITY chapter.itsm.change.move.xml		SYSTEM "chapter.itsm.change.move.xml">
