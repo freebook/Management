@@ -15,7 +15,6 @@
 -->
 
 	<!ENTITY part.management.xml 		SYSTEM "part.management.xml">
-	<!ENTITY part.devops.xml 				SYSTEM "part.devops.xml">
 	
 	<!ENTITY % utilities.doctype.entity.xml 	SYSTEM "Utilities/doctype.entity.xml">
 	%utilities.doctype.entity.xml;
