@@ -11,7 +11,6 @@
 <!ENTITY chapter.project.communication.xml 	SYSTEM "chapter.project.communication.xml">
 <!ENTITY chapter.project.integrated.xml 		SYSTEM "chapter.project.integrated.xml">
 
-<!ENTITY part.graphics.xml			SYSTEM "part.graphics.xml">
 <!ENTITY chapter.itsm.xml	 			SYSTEM "chapter.itsm.xml">
 <!ENTITY chapter.itsm.fta.xml		 	SYSTEM "chapter.itsm.fta.xml">
 <!ENTITY chapter.operations.xml		SYSTEM "chapter.operations.xml">
@@ -21,3 +20,5 @@
 <!ENTITY chapter.backup.xml			SYSTEM "chapter.backup.xml">
 <!ENTITY chapter.itsm.release.xml		SYSTEM "chapter.itsm.release.xml">
 <!ENTITY chapter.itsm.change.move.xml		SYSTEM "chapter.itsm.change.move.xml">
+
+<!ENTITY chapter.devops.xml				SYSTEM "chapter.devops.xml">
