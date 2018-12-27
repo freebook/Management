@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<chapter id="time">
+<section id="time">
 	<title>时间管理</title>
 	<para>为了确保项目最终的按时完成的一系列管理过程。它包括具体活动的界定，如：活动排序、时间估计、进度安排及时间控制等项工作。</para>
 	<para>时间管理站项目管理40%的内容，很多人对项目管理的理解就是时间管理，其次就是质量管理。</para>
@@ -258,4 +258,4 @@
 			<para>会议是十分浪费时间的，但又不得不开会，减少会议浪费工作时间非常重要，请阅读《Nekiller Management 手札》·沟通管理章节。</para>
 		</section>
 	</section>
-</chapter>
+</section>

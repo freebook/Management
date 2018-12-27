@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Author: netkiller $ -->
 <!-- $Id: chapter.workflow.xml 594 2013-05-22 10:30:58Z netkiller $ -->
-<chapter id="chapter">
+<section id="chapter">
 	<title>风险管理</title>
 	<para>涉及项目可能遇到各种不确定因素。它包括风险识别，风险量化，制订对策和风险控制等。</para>
 	<section id="task">
@@ -122,4 +122,4 @@ if ()
 		</sidebar>
 	</section>
 
-</chapter>
+</section>
