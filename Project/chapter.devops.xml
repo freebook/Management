@@ -87,6 +87,7 @@
 		<title>持续集成不是DevOps</title>
 		<subtitle>Jenkins 不是 DevOps</subtitle>
 		<para>持续集成是一种软件开发实践，即团队开发成员经常集成他们的工作，通常每个成员每天至少集成一次，也就意味着每天可能会发生多次集成。每次集成都通过自动化的构建（包括编译，发布，自动化测试)来验证，从而尽快地发现集成错误。</para>
+		<para>持续集成只是 DevOps 中的一个小小的环节，并不是最主要的核心工作。</para>
 		<orderedlist>
 			<title>持续集成可以解决什么问题</title>
 			<listitem>能验证代码是否可以正常编译</listitem>
@@ -151,5 +152,56 @@
 			<para>我们就先从监控说起把，你很发现很多 DevOps 的文章中，不会涉及到监控，但是这是运维的重中之重。</para>
 		</section>
 	</section>
+	<section id="收缩技术栈">
+		<title>收缩技术栈</title>
+		<para>技术部门常常会陷入技术思维，恨不得将所有主流技术都使用上，却忽略了他们兼容性，以及对该技术的掌握程度。</para>
+		<para>当团队没有100%掌握某项技术是，风险是巨大的，我们常常会看到网上有这种文章《XXX踩过的坑》，者无疑是拿生产环境练手，自己打怪升级。</para>
+		<para>大炮打蚊子，很多需求根本无需使用复杂的技术，最终变成庞然大物。</para>
+		<para>尽量使用一种技术解决所有问题，而不是使用所有技术解决一种问题。这样技术团队学习起来不会太吃力，且团队人力资源可以共享，测试难度和运维难度都会降低。</para>
+		<section id="模块化思维">
+			<title>模块化思维</title>
+			<para>技术思维另一个误区就是，拆整为零，模块化。例如,用户中心，商品中心，订单中心，物流中心 ……</para>
+			<screen>
+			<![CDATA[
+   用户中心 —---—- 商品中心，
+     |  \       /   |
+     |    \   /     |
+     |      X       |
+     |    /  \      |
+     |  /      \    |
+  订单中心 ——---- 物流中心			
+			]]>
+			</screen>
+			<orderedlist>
+				<title>看这个架构多么清晰</title>
+				<listitem>用户中心： 负责用户注册，登录，找回密码</listitem>
+				<listitem>商品中心：商品分类，商品搜索，商品列表，商品展示</listitem>
+				<listitem>订单中心：订单报价，订单合并……</listitem>
+				<listitem>物流中心：对接物流平台……</listitem>
 
+			</orderedlist>
+			<para>技术人员的成就感飘飘然，然票票。运维根据需求将上面四个中心使用四台高配置服务器部署起来。</para>
+			<orderedlist>
+				<title>市场部需求</title>
+				<listitem>用户登录</listitem>
+				<listitem> 浏览商品</listitem>
+				<listitem>下订单</listitem>
+				<listitem>走物流</listitem>
+				<listitem> 用户积分+100</listitem>
+
+			</orderedlist>
+			<para>平时没有什么问题，订单量一大所有问题都暴漏出来， 积分添加失败，库存数据出错，物流下单失败…… </para>
+			<orderedlist>
+				<title>这种模式的问题有很多，例如</title>
+				<listitem>运维复杂，部署复杂，配置管理复杂</listitem>
+				<listitem>排查问题难度搞</listitem>
+				<listitem>分离后，通过网络连接，网络存在延迟和超时等等其他不可控因素</listitem>
+				<listitem>分布式事务处理，复杂且难以保证</listitem>
+				<listitem>分布式锁，并发的杀手</listitem>
+
+			</orderedlist>
+			<para>任何一个系统都不能简单的进行拆分，抓中拆分同样是我们教育的问题，导致思维方式产生问题。	</para>
+			<para>15年前我就意识到这种问题所在，15年后去一下电商公司面试，发现他们仍然在采用这种模式。</para>
+		</section>
+	</section>
 </chapter>
