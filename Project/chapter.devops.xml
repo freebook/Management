@@ -115,6 +115,75 @@
 		<para>我认为，持续集成尚不完善，测试环境玩玩可以，生产环境还是不要了。</para>
 	</section>
 	<section id="">
+		<title>自动化部署</title>
+		<para>本章节重点谈自动化部署，每个人对自动化部署都有自己的理解，每个企业对自动化部署的需求也不同。</para>
+		<para>目前很多云平台开始推出一些列 DevOps 工具，体验了一下，仍然处在初级阶段，也不十分成熟。严格的说他们实现的 CD （持续部署）。</para>
+		<para>前面讲过持续集成不是 DevOps，这里我要说持续部署也不是 DevOps。CD是从CI中分离出来的，将部署单独提炼出来。</para>
+		<orderedlist>
+			<title>自动化部署远比 CD 要复杂，涉及包括	</title>
+
+			<listitem>网络层：网络设备管理，负载均衡切换，路由表管理</listitem>
+			<listitem>系统层：基础设施，操作系统，软件运行环境，</listitem>
+			<listitem>软件层：软件部署，CD部分</listitem>
+			<listitem>缓存层：缓存的刷新</listitem>
+			<listitem>搜索层：重建全文索引</listitem>
+			<listitem>数据层：数据库结构管理，数据库数据管理</listitem>
+			<listitem>日志层：谁，什么时间，做了什么操作，结果怎样</listitem>
+			<listitem>除此之外，管理上还需要提案和审批流程等等</listitem>
+		</orderedlist>
+
+		<para>所以 CD （持续部署）解决不了企业的生产环境自动化部署需求，CD紧紧是CI （持续集成）运行完成后，将构建物部署到指定的运行环境中。通常CD并不提供回撤功能，所以极少由企业使用 CD 部署生产环境。</para>
+		<screen>
+		<![CDATA[
+Git -> 编译 -> 测试 -> 打包 -> 构建物 -> 部署 -> 运行		
+		]]>
+		</screen>
+		<para>CI/CD 的流水线作业只能部署单一项目，对于大型网站就无能为例</para>
+		<orderedlist>
+			<title>例如很多大型网站</title>
+
+			<listitem>构建过程非常复杂，不仅仅是一个项目打包， 而是需要多个模块，处理复杂的配置过程。</listitem>
+			<listitem>一次部署多台服务器，每个服务器可能有多个实例，实例间相互依赖关系</listitem>
+			<listitem>需要遵守严格的部署和启动顺序</listitem>
+			<listitem>记录部署日志，文件的新增，覆盖，删除</listitem>
+			<listitem>部署时间点</listitem>
+			<listitem>升级不仅仅是代码，还有数据库，缓存……</listitem>
+			<listitem>需要改变负载均衡设备节点，设置防火墙策略</listitem>
+			<listitem>需要有完备的回撤方案</listitem>
+			<listitem>除此之外好虚考虑增量部署和差异部署，例如部署100mb 以上的大文件，甚至GB尺寸的文件</listitem>
+		</orderedlist>
+
+		<para>
+			很多 DevOps 方案注重 Docker，K8s解决方案。但实际情况 Docker 并不适用于所有场景，更多是物理服务器，虚拟机，云主机，刀片服务器…
+		</para>
+		<para>
+			使用 Docker 的前提是，Docker必须部署在宿主主机上，在云主机中部署 Docker 意义不大。
+		</para>
+		<para>
+			很多企业大量使用云主机，对 Docker 并无强烈的需求。
+		</para>
+
+		<orderedlist>
+			<title>运维需要怎样的自动化部署工具</title>
+
+			<listitem>项目管理：升级提案，工作流转，工作审批</listitem>
+			<listitem>备份管理：任何生产环境部署前都需要备份，必须实现增量备份和差异备份。</listitem>
+			<listitem>环境管理：环境部署，基础设施管理</listitem>
+			<listitem>阶段管理：开发，测试，生产</listitem>
+			<listitem>仓库管理：分支切换，分支保护（例如只允许合并不允许提交）</listitem>
+			<listitem>配置管理：每个阶段拥有自己的配置</listitem>
+			<listitem>文件过滤：排除过滤，包含获取，替换过滤（替换指定文件中的内容，用户不同阶段的差异区分）</listitem>
+			<listitem>覆盖删除：覆盖指定文件，删除指定文件</listitem>
+			<listitem>内容优化：Grup, Webpack 优化，压缩js, css,html5, 图片雪碧图…..</listitem>
+			<listitem>自动构建：编译，测试，测试报告，打包</listitem>
+			<listitem>部署管理：节点管理，增量部署，差异部署，md5sum 校验检查</listitem>
+			<listitem>部署脚本：部署前脚本（停止），部署后脚本（启动）或者环境初始化，解决部署依赖</listitem>
+			<listitem>时间线：谁，什么时间，做了部署，可以指定时间点随时回撤到指定版本。</listitem>
+			<listitem>部署日志：谁，什么时间，做了什么操作，产生什么结果</listitem>
+			<listitem>部署报告：生产 Issue或Ticker 报告</listitem>
+		</orderedlist>
+	</section>
+	<section id="收集各部门问题">
 		<title>收集各部门问题</title>
 		<para>实施DevOps前需要收集各部门问题</para>
 		<orderedlist>
