@@ -80,6 +80,7 @@
 			<listitem>运维说：我不敢用你的自动发布</listitem>
 		</orderedlist>
 		<para>可能用户需要打开浏览器数个窗口，频繁切换才能完成具体工作。</para>
+		<para>时不时就能听到有人在公司的QQ群、微信群、钉钉上有人喊，XXXX 环境又挂了。</para>
 		<para>改变现有的工作方式是非常痛苦的，任何不合理的流程和工作方式已经使用了多年，习惯已经根深蒂固。</para>
 		<para>实施devops 需要各部门收集意见，对各个部门培训，等各部门理解了 DevOps 原理和流程后，才能实施。</para>
 	</section>
@@ -115,16 +116,21 @@
 		<para>我认为，持续集成尚不完善，测试环境玩玩可以，生产环境还是不要了。</para>
 	</section>
 	<section id="">
+		<title>持续交付不是 DevOps</title>
+		<para>持续交付(Continuous Delivery)和持续部署(Continuous Deployment)的区别</para>
+		
+	</section>
+	<section id="自动化部署">
 		<title>自动化部署</title>
 		<para>本章节重点谈自动化部署，每个人对自动化部署都有自己的理解，每个企业对自动化部署的需求也不同。</para>
-		<para>目前很多云平台开始推出一些列 DevOps 工具，体验了一下，仍然处在初级阶段，也不十分成熟。严格的说他们实现的 CD （持续部署）。</para>
-		<para>前面讲过持续集成不是 DevOps，这里我要说持续部署也不是 DevOps。CD是从CI中分离出来的，将部署单独提炼出来。</para>
+		<para>目前很多云平台开始推出一些列 DevOps 工具，体验了一下，仍然处在初级阶段，也不十分成熟。严格的说他们实现的 CD (持续交付)。</para>
+		<para>前面讲过持续集成不是 DevOps，这里我要说持续部署也不是 DevOps。自动化部署是从CI/CD中分离出来的，将部署单独提炼出来。</para>
 		<orderedlist>
-			<title>自动化部署远比 CD 要复杂，涉及包括	</title>
+			<title>自动化部署远比 CD(Continuous Delivery) 持续交付要复杂，涉及包括	</title>
 
 			<listitem>网络层：网络设备管理，负载均衡切换，路由表管理</listitem>
 			<listitem>系统层：基础设施，操作系统，软件运行环境，</listitem>
-			<listitem>软件层：软件部署，CD部分</listitem>
+			<listitem>软件层：软件部署</listitem>
 			<listitem>缓存层：缓存的刷新</listitem>
 			<listitem>搜索层：重建全文索引</listitem>
 			<listitem>数据层：数据库结构管理，数据库数据管理</listitem>
@@ -132,7 +138,7 @@
 			<listitem>除此之外，管理上还需要提案和审批流程等等</listitem>
 		</orderedlist>
 
-		<para>所以 CD （持续部署）解决不了企业的生产环境自动化部署需求，CD紧紧是CI （持续集成）运行完成后，将构建物部署到指定的运行环境中。通常CD并不提供回撤功能，所以极少由企业使用 CD 部署生产环境。</para>
+		<para>所以 CD （持续交付）解决不了企业的生产环境自动化部署需求，CD紧紧是CI （持续集成）运行完成后，将构建物部署到指定的运行环境中。通常CD并不提供回撤功能，所以极少由企业使用 CD 部署生产环境。</para>
 		<screen>
 		<![CDATA[
 Git -> 编译 -> 测试 -> 打包 -> 构建物 -> 部署 -> 运行		

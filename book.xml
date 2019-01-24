@@ -22,13 +22,11 @@
 	<!ENTITY % financial.doctype.entity.xml 	SYSTEM "Financial/doctype.entity.xml">
 	%financial.doctype.entity.xml;
 		
-	<!ENTITY % ops.doctype.entity.xml 	SYSTEM "Operations/doctype.entity.xml">
-	%ops.doctype.entity.xml;
-	<!ENTITY part.operations.xml			SYSTEM "part.operations.xml">
+	<!ENTITY % devops.doctype.entity.xml 	SYSTEM "DevOps/doctype.entity.xml">
+	%devops.doctype.entity.xml;
 	
 	<!ENTITY % marketing.doctype.entity.xml 	SYSTEM "Marketing/doctype.entity.xml">
 	%marketing.doctype.entity.xml;
-	<!ENTITY part.marketing.xml 				SYSTEM "part.marketing.xml">
 	
 	<!ENTITY % project.doctype.entity.xml 	SYSTEM "Project/doctype.entity.xml">
 	%project.doctype.entity.xml;

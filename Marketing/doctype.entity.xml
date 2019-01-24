@@ -1,2 +1,3 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!ENTITY chapter.marketing.xml	SYSTEM "chapter.marketing.xml">
+<!ENTITY part.marketing.xml 			SYSTEM "part.marketing.xml">
+<!ENTITY chapter.marketing.xml			SYSTEM "chapter.marketing.xml">
