@@ -115,13 +115,20 @@
 		<para>以上的特性，你敢在生产环境上使用吗？一旦发布失败，或者需要回撤，持续集成并没有很好的解决方案。</para>
 		<para>我认为，持续集成尚不完善，测试环境玩玩可以，生产环境还是不要了。</para>
 	</section>
-	<section id="">
+	<section id="持续交付不是DevOps">
 		<title>持续交付不是 DevOps</title>
-		<para>持续交付(Continuous Delivery)和持续部署(Continuous Deployment)的区别</para>
-		
+		<para>持续集成、持续交付、持续部署是一系列的软件工程实践方法，使用自动化手段达到完成软件。</para>
+		<orderedlist>
+			<title>持续交付(Continuous Delivery)和持续部署(Continuous Deployment)的区别</title>
+			<listitem>持续集成(Continuous Integration) 通过将每一次改动都提交到一个模拟产品环境中，使用严格的自动化测试，确保业务应用和服务能符合预期，最终产生构建产物。</listitem>
+			<listitem>持续交付(Continuous Delivery) 通过持续集成产生构建物，确保让软件产品能够快速、安全的部署到产品环境中。持续交付并不是指软件每一个改动都要尽快的部署到产品环境中。它指的是任何的修改都已证明构建物可以在任何时候实施部署。</listitem>
+			<listitem>持续部署(Continuous deployment) 是持续交付的更高阶段即生产阶段，就是将最终的产品发布到线上生产环境，给用户使用。所以当业务开发完成时，经过持续集成，持续交付后，你有信心只需要按一次按钮就能将应用快速并安全的部署到产品环境中。</listitem>
+		</orderedlist>
+		<para>请不要再混淆持续交付与持续部署了。</para>
 	</section>
 	<section id="自动化部署">
 		<title>自动化部署</title>
+		<subtitle>我习惯将持续部署(Continuous deployment)称为自动化部署</subtitle>
 		<para>本章节重点谈自动化部署，每个人对自动化部署都有自己的理解，每个企业对自动化部署的需求也不同。</para>
 		<para>目前很多云平台开始推出一些列 DevOps 工具，体验了一下，仍然处在初级阶段，也不十分成熟。严格的说他们实现的 CD (持续交付)。</para>
 		<para>前面讲过持续集成不是 DevOps，这里我要说持续部署也不是 DevOps。自动化部署是从CI/CD中分离出来的，将部署单独提炼出来。</para>
@@ -188,7 +195,19 @@ Git -> 编译 -> 测试 -> 打包 -> 构建物 -> 部署 -> 运行
 			<listitem>部署日志：谁，什么时间，做了什么操作，产生什么结果</listitem>
 			<listitem>部署报告：生产 Issue或Ticker 报告</listitem>
 		</orderedlist>
+		<para>持续集成与持续交付和持续部署的关系：</para>
+		<screen>
+		<![CDATA[
+持续集成(CI) -> 构建物 --> 持续交付(CD) --> 交付验收环境 （Alpha）--> 验收成功
+             \                                                    |                     
+              \................................................../
+                                         |
+                                         V
+                                      持续部署 ----> 生产环境 (Beta/Preview/Release) ----> 生产环境验收
+		]]>
+		</screen>
 	</section>
+	
 	<section id="收集各部门问题">
 		<title>收集各部门问题</title>
 		<para>实施DevOps前需要收集各部门问题</para>
