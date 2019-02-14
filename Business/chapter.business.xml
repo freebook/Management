@@ -89,64 +89,7 @@
 	&chapter.bigdata.xml;
 	&chapter.force.xml;
 	&section.creative.xml;
-	<chapter id="barrel">
-		<title>木桶理论</title>
-		<para>木桶原理（Cannikin
-			Law）又叫短板理论，是一条非常著名的管理学原理，由美国管理学家彼得所提出。其核心内容是讲一只木桶盛水的多少，并不取决于桶壁上最高的那块木板，而恰恰取决于桶壁上最短的那块板。
-		</para>
-		<para>管理学不是时期会出现不同的概念，很多理论已经是适合当下所处的环境。例如“木桶理论”就是如此，时至今日还能在常常听到管理层在谈论“木桶理论”，所以有必要谈谈。
-		</para>
-		<section>
-			<title>木桶斜放放置</title>
-			<para>木桶的储水量取决于木桶的使用状态，如果继续用木桶的比喻来说，就是将木桶向长板一方倾斜放置，比正着放置要增加更多的容量。
-			</para>
-		</section>
-		<section>
-			<title>大木桶理论</title>
-			<para>木桶的储水量取决于木桶直径大小。</para>
-		</section>
-		<section>
-			<title>木桶倾放理论</title>
-			<para>木桶的储水量，取决于木桶的使用状态，如果将木桶沿着长板的方向倾斜放置，比正常放置要增加更多的容量。</para>
-			<para>它给人们的启示：用人贵在用其所长。</para>
-		</section>
-		<section id="">
-			<title>模板互补理论</title>
-			<para>木桶的最终储水量，取决于木板相互配合。在特定的使用状态下，通过相互配合，取长补短，可以增加一定的储水量。</para>
-		</section>
-		<section id="">
-			<title>木板密合理论</title>
-			<para>对于木桶而言，如果木板长度都合适，但是相互之间的缝隙很大，同样无法装满水或者说无法达到应有的容量。</para>
-		</section>
-		<section id="">
-			<title>木桶直径理论</title>
-			<para>木桶的储水量，取决于木桶的直径。如果我们没有长坂，可以将许多短木板合起来做而成直径更大的木盆，木盆所装的水一样可以比木桶多。
-			</para>
-		</section>
 
-	</chapter>
-	<chapter id="二八定律">
-		<title>二八定律</title>
-		<para>二八定律，又名帕累托法则，也叫巴莱特定律、最省力的法则、不平衡原则等，是意大利经济学家帕累托所提出。后被广泛应用于社会学及企业管理学等。
-		</para>
-		<para>是19世纪末20世纪初意大利经济学家巴莱多发现的。他认为，在任何一组东西中，最重要的只占其中一小部分，约20%，其余80%尽管是多数，却是次要的，因此又称二八定律。
-		</para>
-		<itemizedlist>
-			<title>少数关键</title>
-			<listitem>
-				<para>发挥少数关键员工的优势。在企业中，往往是20%的员工为企业创造了80%的财富。</para>
-			</listitem>
-			<listitem>
-				<para>加強少數关键客户服务。我们习惯的认为所有客户一样重要，但事实上可能企业80%的收入来自 20% 的老客户。</para>
-			</listitem>
-			<listitem>
-				<para>关注少数关键产品经营。经过对产品利润的分析，不难发现，80%的利润来自于 20% 的产品。</para>
-			</listitem>
-			<listitem>
-				<para>重视少数关键需求。不是人人都知道自己需要什么，有时20%的群体需求，可能复合80%的人群。</para>
-			</listitem>
-		</itemizedlist>
-	</chapter>
 	<chapter id="出现问题为什么会相互推诿">
 		<title>出现问题为什么会相互推诿</title>
 		<para>
@@ -303,18 +246,12 @@
 		</section>
 
 	</chapter>
-	<chapter id="">
+	<chapter>
 		<title>天赋，精力和时间</title>
 		<para>小说家杰弗·啊彻（Jeffrey
 			Archer）曾经说过：“人们把精力的作用低估了。有点天赋又有精力，你能称王；有精力没有天赋，你可以称侯；有天赋而没有精力，你只能做穷光蛋。”
 		</para>
 	</chapter>
-	<chapter>
-		<title>科斯定律</title>
-		<para>科斯定律，简单粗暴总结就是：谁用得最好就归谁。</para>
-		<para>合适人工具给合适的人用，并创造最大化价值。</para>
-	</chapter>
-	&section.watch.xml;
 	<chapter>
 		<title>为什么中国家族企业过不了三代?</title>
 		<para>中国企业不用说三代，两代都极其艰难，为什么呢？</para>

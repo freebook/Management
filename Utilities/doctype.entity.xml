@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!ENTITY part.platform.xml					SYSTEM "part.platform.xml">
-<!-- <!ENTITY chapter.devops.xml					SYSTEM "chapter.devops.xml"> -->
+
 <!ENTITY devops.development.xml				SYSTEM "chapter.development.xml">
 <!ENTITY devops.automation.xml				SYSTEM "chapter.automation.xml">
 <!ENTITY devops.automation.deployment.xml 	SYSTEM "chapter.automation.deployment.xml">
@@ -10,10 +10,13 @@
 <!ENTITY chapter.position.xml		 	SYSTEM "chapter.position.xml">
 <!ENTITY chapter.organizational.xml	 	SYSTEM "chapter.organizational.xml">
 <!ENTITY chapter.environment.xml			SYSTEM "chapter.environment.xml">
-
 <!ENTITY chapter.platform.xml			SYSTEM "chapter.platform.xml">
+
+<!ENTITY chapter.theory.xml					SYSTEM "chapter.theory.xml">
+
 <!ENTITY chapter.utilities.xml			SYSTEM "chapter.utilities.xml">
 <!ENTITY chapter.utilities.smart.xml		SYSTEM "chapter.utilities.smart.xml">
 <!ENTITY chapter.utilities.6s.xml 		SYSTEM "chapter.utilities.6s.xml">
 
 <!ENTITY section.7s.xml					SYSTEM "section.7s.xml">
+<!ENTITY section.watch.xml				SYSTEM "section.watch.xml">

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<chapter id="watch">
+<section id="watch">
 	<title>手表定律</title>
 	<literallayout>
 	<![CDATA[
@@ -65,4 +65,4 @@
 		<title>统一的政策</title>
 		<para>今天搞迭代，明天高敏捷，后天高绩效，恨不得将所有管理方法都使用上，但有写政策是相悖的。</para>
 	</section>
-</chapter>
+</section>
