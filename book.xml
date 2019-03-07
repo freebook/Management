@@ -21,9 +21,6 @@
 	
 	<!ENTITY % financial.doctype.entity.xml 	SYSTEM "Financial/doctype.entity.xml">
 	%financial.doctype.entity.xml;
-		
-	<!ENTITY % devops.doctype.entity.xml 	SYSTEM "DevOps/doctype.entity.xml">
-	%devops.doctype.entity.xml;
 	
 	<!ENTITY % marketing.doctype.entity.xml 	SYSTEM "Marketing/doctype.entity.xml">
 	%marketing.doctype.entity.xml;
@@ -76,7 +73,7 @@
 	
 	&chapter.business.xml;
 	&chapter.hrm.xml;
-	&part.devops.xml;
+	&part.it.xml;
     &chapter.marketing.xml;
     &chapter.product.xml;
     &chapter.financial.xml;

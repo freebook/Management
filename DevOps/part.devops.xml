@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<part id="index"><?dbhtml dir="devops"?>
-	<title>DevOps 实施篇</title>
-	&chapter.devops.xml;
-    &chapter.project.xml;
-	&chapter.itsm.xml;
-</part>
