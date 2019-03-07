@@ -5,16 +5,6 @@
 	%common.doctype.entity.xml;
 	
 	<!ENTITY book.appendix.xml		    SYSTEM "book.appendix.xml">
-
-<!--
-	<!ENTITY book.dedication 	SYSTEM "book.dedication.xml">
-	<!ENTITY book.preface 		SYSTEM "book.preface.xml">
-	<!ENTITY book.appendix 		SYSTEM "book.appendix.xml">
-	<!ENTITY book.glossary 		SYSTEM "book.glossary.xml">
-	<!ENTITY book.history 		SYSTEM "book.history.xml">
--->
-
-	<!ENTITY part.management.xml 		SYSTEM "part.management.xml">
 	
 	<!ENTITY % utilities.doctype.entity.xml 	SYSTEM "Utilities/doctype.entity.xml">
 	%utilities.doctype.entity.xml;
