@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Id$ -->
+<!-- 
 <section id="itsm.release">
 	<title>Release Management(发布管理)</title>
 	
@@ -23,7 +24,7 @@
 		<title>过程和结果</title>
 	</section>
 </section>
-<!-- 
+
 	<section id="ap.ipaddress">
 		<title>IP Address</title>
 		<screen>
