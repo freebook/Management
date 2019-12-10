@@ -2,7 +2,7 @@
 <!-- $Author: netkiller $ -->
 <!-- $Id: chapter.sqa.xml 495 2012-11-23 02:50:46Z netkiller $ -->
 <!-- <chapter id="sqa"> <title></title> </chapter> <chapter id="sqa"> <title></title> </chapter> <chapter id=""> <title></title> </chapter> <section id="workflow"> <title></title> </section> <chapter id="scm"> <title>SCM (Software Configuration Management)</title> </chapter> -->
-<section id="sqa">
+<chapter id="sqa">
 	<title>质量管理</title>
 	<subtitle>SQA (Software Quality Assurance)</subtitle>
 	<para>是为了确保项目达到客户所规定的质量要求所实施的一系列管理过程。它包括质量规划，质量控制和质量保证等。</para>
@@ -622,4 +622,4 @@
 		</section>
 	</section>
 
-</section>
+</chapter>

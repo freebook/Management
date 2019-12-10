@@ -11,14 +11,15 @@
 <!ENTITY chapter.project.quality.xml 		SYSTEM "chapter.project.quality.xml">
 <!ENTITY chapter.project.communication.xml 	SYSTEM "chapter.project.communication.xml">
 <!ENTITY chapter.project.integrated.xml 	SYSTEM "chapter.project.integrated.xml">
+<!ENTITY chapter.project.purchasing.xml		SYSTEM "chapter.project.purchasing.xml">
 
-<!ENTITY section.risk.fishbone.xml				SYSTEM "section.risk.fishbone.xml">
-<!ENTITY section.risk.monitor.xml				SYSTEM "section.risk.monitor.xml">
+<!ENTITY chapter.scrum.xml					SYSTEM "chapter.scrum.xml">
+
+<!ENTITY section.risk.fishbone.xml			SYSTEM "section.risk.fishbone.xml">
+<!ENTITY section.risk.monitor.xml			SYSTEM "section.risk.monitor.xml">
 
 <!ENTITY chapter.itsm.xml	 				SYSTEM "chapter.itsm.xml">
-<!ENTITY chapter.itsm.fta.xml		 		SYSTEM "chapter.itsm.fta.xml">
 <!ENTITY chapter.operations.xml				SYSTEM "chapter.operations.xml">
 <!ENTITY chapter.system.xml					SYSTEM "chapter.system.xml">
-<!ENTITY chapter.backup.xml					SYSTEM "chapter.backup.xml">
 <!ENTITY chapter.itsm.release.xml			SYSTEM "chapter.itsm.release.xml">
 <!ENTITY chapter.itsm.change.move.xml		SYSTEM "chapter.itsm.change.move.xml">

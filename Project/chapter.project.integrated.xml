@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<section id="integrated">
+<chapter id="integrated">
 	<title>集成管理</title>
 	<para>是指为确保项目各项工作能够有机地协调和配合所展开的综合性和全局性的项目管理工作和过程。它包括项目集成计划的制定，项目集成计划的实施，项目变动的总体控制等。
 	</para>
@@ -42,4 +42,4 @@
 		<para>开发说：这不是我要的。测试说：这不是我要的。运维说：这不是我要的。</para>
 		<para>总之，对于不熟悉的领域心里没底，不知道他的内部结构，不知道出现问题怎么解决。持续集成只会给大家制造麻烦。</para>
 	</section>
-</section>
+</chapter>
