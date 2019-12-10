@@ -66,12 +66,15 @@
 	&chapter.business.xml;
 	&chapter.hrm.xml;
 	&part.it.xml;
+	&chapter.product.xml;
     &chapter.marketing.xml;
-    &chapter.product.xml;
     &chapter.financial.xml;
     &chapter.workplace.xml;
+    
+    <part>
+    	<title>杂项</title>
     &chapter.utilities.xml;
     &chapter.administration.xml;
-    
+    </part>
 	&book.appendix.xml;
 </book>
