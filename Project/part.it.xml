@@ -4,5 +4,4 @@
 <part id="management">
 	<title>IT 管理篇</title>
 	&chapter.project.xml;
-	&chapter.itsm.xml;
 </part>
