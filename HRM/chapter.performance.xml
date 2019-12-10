@@ -2,7 +2,7 @@
 <chapter id="performance">
 	<title>绩效管理</title>
 	<subtitle>Performance management</subtitle>
-	<section>
+	<section id="找出有潜力的员工">
 		<title>找出有潜力的员工</title>
 		<para>找出企业中有潜力的员工并不难。</para>
 		<itemizedlist>
@@ -876,8 +876,8 @@
 			</para>
 		</section>
 	</section>
-	<section id="resignation">
-		<title>关于离职率</title>
+	<section id="一个员工的离职成本到底有多高">
+		<title>一个员工的离职成本到底有多高？</title>
 		<para>
 			少有公司意识到离职率这个问题，表面上是员工主动提辞的，所以企业常常将离职率归罪于员工。
 		</para>
@@ -887,17 +887,11 @@
 		<section id="人员流动带来的问题">
 			<title>人员流动带来的问题</title>
 			<orderedlist numeration="arabic" spacing="compact">
-				<listitem>
-					<para>
-						员工入职一般需要3个月甚至半年才能熟练掌握岗位技能
-					</para>
-				</listitem>
-				<listitem>
-					<para>
-						部分员工掌握用户资源，随之员工的离开，资源也被带走
-					</para>
-				</listitem>
+				<listitem>员工入职一般需要3个月甚至半年才能熟练掌握岗位技能				</listitem>
+				<listitem>部分员工掌握用户资源，随之员工的离开，资源也被带走				</listitem>
+				<listitem>一个员工离职会引起大约3个员工产生离职的想法</listitem>
 			</orderedlist>
+			<para>核心人才的流失，至少有2个月的新员工招聘期、3个月的适应期，6个月的融入期；此外，还有相当于4个月工资的招聘费用，超过40%的失败率。</para>
 		</section>
 		<section id="人力资源的问题">
 			<title>人力资源的问题</title>
@@ -980,7 +974,7 @@
 			</para>
 		</section>
 	</section>
-	<section id="forgo">
+	<section id="企业与员工谁放弃了谁">
 		<title>企业与员工谁放弃了谁</title>
 		<para>
 			是企业放弃了员工？还是员工放弃了企业？
@@ -1124,7 +1118,7 @@
 			</para>
 		</section>
 	</section>
-	<section>
+	<section id="优秀员工的十个特征">
 		<title>优秀员工的十个特征</title>
 		<orderedlist numeration="arabic" spacing="compact">
 			<listitem>
@@ -1159,7 +1153,7 @@
 			</listitem>
 		</orderedlist>
 	</section>
-	<section id="dog">
+	<section id="忠犬干不了狼的工作">
 		<title>忠犬干不了狼的工作</title>
 		<para>在网上看到一篇，用人原则：忠诚大于能力！</para>
 		<para>能力很重要，可有一样东西比能力更重要，那就是人品。人品，是人真正的最高学历，是人能力施展的基础，是当今社会稀缺而珍贵的品质标签。人品和能力，如同左手和右手：单有能力，没有人品，人将残缺不全。人品决定态度，态度决定行为，行为决定着最后的结果。人品意义深远，没有人会愿意信任、重用一个人品欠佳的员工。好人品已成为现代人职业晋升的敬业标杆与成功人生的坚实根基。</para>
@@ -1197,7 +1191,7 @@
 		<para>我认为这是中国传统的主子思维，企业雇主与雇员是契约关系，企业提供报仇，员工付出。狗可以吃屎，但狼必须吃肉，否则狼也会变成哈士奇。</para>
 		<para>正如日本松下幸之助老先生所讲：用人不求全，有 70分的人才就好。</para>
 	</section>
-	<section>
+	<section id="出问题的时候才会被想起的员工">
 		<title>出问题的时候才会被想起的员工</title>
 		<para>在相当多的情况下，优秀的技术人员往往没有存在感，其价值只有出问题的时候才会被人想起来。</para>
 		<para>典型场景 1，某个公司业务一直发展的不错，某天老板查工资单，咦，这个运维总监怎么工资这么高，没见他做啥事啊，好像除了报预算要加硬件带宽就没见他给公司做过什 么贡献，也不知道这钱都花哪里去了，hr 过来一下，找个借口什么价值观不符送走送走，我有个远房亲戚做过网管，管过几百台电脑呢， 俩月后，各种运营活动出来抱怨系统支持不住业务发展，漏洞迸发，公司开始请猎头到处挖资深运维负责人。</para>

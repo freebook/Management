@@ -15,7 +15,7 @@ all: html htmlhelp
 html:
 	@mkdir -p ${HTML_DIR}
 	@find ${HTML_DIR} -type f -iname "*.html" -exec rm -rf {} \;
-	@rsync -au ../common/docbook.css $(HTML_DIR)/
+	@rsync -au common/docbook.css $(HTML_DIR)/
 	@$(XSLTPROC) -o $(HTML_DIR)/ $(DSSSL) $(PROJECT_DIR)/book.xml
 	@$(shell test -d $(HTML_DIR)/images && find $(HTML_DIR)/images/ -type f -exec rm -rf {} \;)
 	@$(shell test -d images && rsync -au $(PROJECT_DIR)/images $(HTML_DIR)/)
