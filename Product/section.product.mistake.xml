@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<chapter id="mistake">
+<section id="mistake">
 	<title>产设计人员常犯的错误</title>
 	<section id="花80时间开发使用率不到20的功能">
 		<title>花80%时间开发使用率不到20%的功能</title>
@@ -61,4 +61,4 @@
 		<para>毛泽东擅长战略规划，至于战术交给指战员自由发挥，指战员根据战事进展随机应变。</para>
 		<para>蒋介石的作战计划非常之详细，但战事总是事与愿违，不能按照他预想的战况发展，随时时间的推移，最终无法把控。</para>
 	</section>
-</chapter>
+</section>

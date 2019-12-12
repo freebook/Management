@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<chapter id="requirements">
+<section id="requirements">
 	<title>需求</title>
 	<para>客户自身的需求是一切购买行为的源头。</para>
 	<para>如果一家企业，能够捕捉到客户自己都没有意识到的需求，那么它往往可以改变世界。</para>
@@ -17,4 +17,4 @@
 		<para>需求采集、需求分析、需求筛选、需求处理</para>
 	</section>
 	
-</chapter>
+</section>
