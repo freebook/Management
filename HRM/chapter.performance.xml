@@ -38,6 +38,7 @@
 		<title>管理好管理层</title>
 		<para>现在流行“找客户痛点，不如找领导G点”</para>
 		<para>管理好管理层比管理好员工更重要，不要让管理层成为传话筒。你是抱着很大期望提供优厚的待遇聘用管理层，对于所有人来说，你需要一个这样的职位，对于他需要一分工作而已。出色的管理层就像出色的员工一样非常难寻，需要机遇，需要天时，地利，人和。很多管理层也如果普通员工一样平平谈谈，当一天和尚撞一天钟。</para>
+		<para>当管理层在重大决策中屡屡失手时，真相往往会成为众矢之的。管理者会绞尽脑汁地编造一些颇具创意谎言，以逃避显而易见的真相，试图将真相在众目睽睽之下遮掩起来。</para>
 		<para>如何管理号管理层呢？或者说怎样考核管理层呢？我认为有下一几个维度：</para>
 		<itemizedlist>
 			<title></title>
@@ -884,11 +885,24 @@
 		<para>
 			可以用“铁打的营盘，流水的兵”来概括离职率。但我不这么看，我认为是“黑瞎子掰苞谷”。
 		</para>
+		<section id="离职原因">
+			<title>离职原因</title>
+			<para>你是否遇到过这样的场景，你很久没有看到某个员工出现，于是问了他的主管：</para>
+			<para>他辞职了，不过我们本来就打算辞掉他，他的绩效有问题。</para>
+			<para>员工离职分为内因和外因两种。</para>
+			<itemizedlist>
+				<title>我将员工流失的原因归为几类</title>
+				<listitem>自身原因，自己辞职</listitem>
+				<listitem>公司原因，自己辞职</listitem>
+				<listitem>自身原因，被炒鱿鱼</listitem>
+				<listitem>公司原因，被炒鱿鱼</listitem>
+			</itemizedlist>
+		</section>
 		<section id="人员流动带来的问题">
 			<title>人员流动带来的问题</title>
 			<orderedlist numeration="arabic" spacing="compact">
-				<listitem>员工入职一般需要3个月甚至半年才能熟练掌握岗位技能				</listitem>
-				<listitem>部分员工掌握用户资源，随之员工的离开，资源也被带走				</listitem>
+				<listitem>员工入职一般需要3个月甚至半年才能熟练掌握岗位技能</listitem>
+				<listitem>部分员工掌握用户资源，随之员工的离开，资源也被带走</listitem>
 				<listitem>一个员工离职会引起大约3个员工产生离职的想法</listitem>
 			</orderedlist>
 			<para>核心人才的流失，至少有2个月的新员工招聘期、3个月的适应期，6个月的融入期；此外，还有相当于4个月工资的招聘费用，超过40%的失败率。</para>

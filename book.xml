@@ -42,7 +42,7 @@
 		&book.info.author.xml;
 
 		<copyright>
-			<year>2010-2019</year>
+			<year>2010-2020</year>
 			<holder>netkiller</holder>
 		</copyright>
 
@@ -60,7 +60,7 @@
 
 	</info>
 
-	&book.dedication.xml;
+	<!-- &book.dedication.xml; -->
     &book.preface.xml;
 	
 	&chapter.business.xml;
@@ -70,12 +70,12 @@
     &chapter.marketing.xml;
     
     &chapter.workplace.xml;
-    
-    <part>
-    	<title>杂项</title>
+
+	<part>
+		<title>杂项</title>
     &chapter.utilities.xml;
     &chapter.financial.xml;
     &chapter.administration.xml;
-    </part>
+	</part>
 	&book.appendix.xml;
 </book>
