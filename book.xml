@@ -59,14 +59,16 @@
 		</abstract>
 
 		<cover>
-			<para role="tagline"></para>
+			<para role="tagline">Netkiller Management 手札</para>
 			<mediaobject>
 				<imageobject>
 					<imagedata fileref="images/cover.png" />
 				</imageobject>
 			</mediaobject>
 		</cover>
-
+		<keywordset>
+			<keyword>企业管理,工商管理,人力资源管理,项目管理,产品管理,市场营销</keyword>
+		</keywordset>
 	</info>
 
 	<!-- &book.dedication.xml; -->
