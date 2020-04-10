@@ -58,6 +58,15 @@
 
 		</abstract>
 
+		<cover>
+			<para role="tagline">Documentation for MyProject</para>
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="images/cover.png" />
+				</imageobject>
+			</mediaobject>
+		</cover>
+
 	</info>
 
 	<!-- &book.dedication.xml; -->
