@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<chapter id="bigdata">
+<section id="bigdata">
 	<title>商业与大数据</title>
 	<section id="bigdata.1">
 		<title>大数据的误区</title>
@@ -16,4 +16,4 @@
 		<para>今天的整个商业世界中，应该让数据做主。首先，要养成习惯问：“数据怎么说”、“这些数据从那来的”、“这些数据能特出什么分析”、“我们对结果有大多信心”。</para>
 		<para>决策让数据做主</para>
 	</section>
-</chapter>
+</section>

@@ -59,7 +59,7 @@
 		</abstract>
 
 		<cover>
-			<para role="tagline">Documentation for MyProject</para>
+			<para role="tagline"></para>
 			<mediaobject>
 				<imageobject>
 					<imagedata fileref="images/cover.png" />
