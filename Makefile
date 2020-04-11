@@ -1,6 +1,6 @@
-XSLTPROC = /usr/bin/xsltproc
-DSSSL = ../docbook-xsl/docbook.xsl
-TMPDIR = $(shell mktemp -d --suffix=.tmp -p /tmp management.html.XXXXXX)
+XSLTPROC=/usr/bin/xsltproc
+DSSSL=docbook-xsl/docbook.xsl
+TMPDIR=$(shell mktemp -d --suffix=.tmp -p /tmp management.html.XXXXXX)
 WORKSPACE=~/workspace
 PROJECT=Management
 DOCBOOK=management
@@ -10,12 +10,14 @@ HTML_DIR=$(PUBLIC_HTML)/$(DOCBOOK)
 HTMLHELP_DIR=~/htmlhelp/$(DOCBOOK)/htmlhelp
 #HTMLHELP=$(PUBLIC_HTML)/download/$(date +%Y)/chm/Netkiller$(PROJECT).chm
 HTMLHELP=../Netkiller$(PROJECT).chm
-all: html htmlhelp
+all: git html htmlhelp
 
-html:
+git:
 	@git pull
 	@git submodule init
 	@git submodule update
+
+html: git
 	@mkdir -p ${HTML_DIR}
 	@find ${HTML_DIR} -type f -iname "*.html" -exec rm -rf {} \;
 	@rsync -au common/docbook.css $(HTML_DIR)/

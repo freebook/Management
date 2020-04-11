@@ -55,7 +55,6 @@
 			<para>不要成为一个拥有MBA文凭，却对管理一窍不通的人，这种人在中国真的不少。</para>
 			<para></para>
 			<para>本电子书采用碎片化写作方式，所以没有截止时间，写作也很随意，内容不断填充，更新，章节不断扩展和调整。每年的年底我会推出 epub, Kindle mobi 等格式的电子书。</para>
-
 		</abstract>
 
 		<cover>
@@ -79,7 +78,6 @@
 	&part.it.xml;
 	&chapter.product.xml;
     &chapter.marketing.xml;
-    
     &chapter.workplace.xml;
 
 	<part>
