@@ -67,11 +67,10 @@
 	<!-- &book.dedication.xml; -->
     &book.preface.xml;
 	
-	&chapter.business.xml;
+	
 	&chapter.hrm.xml;
 	&part.it.xml;
-	&chapter.product.xml;
-    &chapter.marketing.xml;
+	&chapter.business.xml;
     &chapter.workplace.xml;
 
 	<part>

@@ -253,4 +253,6 @@
 		</para>
 		<para>学识不等于能力，实际操作的落地能力</para>
 	</chapter>
+	&chapter.product.xml;
+    &chapter.marketing.xml;
 </part>
