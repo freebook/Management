@@ -70,6 +70,7 @@
 	
 	&chapter.hrm.xml;
 	&part.it.xml;
+	&chapter.product.xml;
 	&chapter.business.xml;
     &chapter.workplace.xml;
 
@@ -78,6 +79,7 @@
     &chapter.utilities.xml;
     &chapter.financial.xml;
     &chapter.administration.xml;
+    &chapter.marketing.xml;
 	</part>
 	&book.appendix.xml;
 </book>
