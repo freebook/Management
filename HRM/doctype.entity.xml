@@ -4,6 +4,9 @@
 <!ENTITY chapter.recruitment.xml		SYSTEM "chapter.recruitment.xml">
 <!ENTITY section.recruitment.star.xml	SYSTEM "section.recruitment.star.xml">
 <!ENTITY section.recruitment.talent.xml	SYSTEM "section.recruitment.talent.xml">
+<!ENTITY section.recruitment.95.xml		SYSTEM "section.recruitment.95.xml">
+<!ENTITY section.recruitment.ability.xml		SYSTEM "section.recruitment.ability.xml">
+
 <!ENTITY chapter.training.xml			SYSTEM "chapter.training.xml">
 <!ENTITY chapter.salary.xml				SYSTEM "chapter.salary.xml">
 

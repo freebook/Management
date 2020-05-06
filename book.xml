@@ -67,9 +67,9 @@
 	<!-- &book.dedication.xml; -->
     &book.preface.xml;
 	
-	
-	&chapter.hrm.xml;
 	&part.it.xml;
+	&chapter.hrm.xml;
+	
 	&chapter.product.xml;
 	&chapter.business.xml;
     &chapter.workplace.xml;

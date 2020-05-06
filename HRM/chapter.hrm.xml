@@ -4,7 +4,6 @@
 	<title>人力资源管理</title>
 	<subtitle>Human Resources Management</subtitle>
 	<para>人力资源管理并不是人力资源部们的工作，人力资源管理需要渗透到每个部门。</para>
-	&section.hrm.quesion.xml;
 	&chapter.planning.xml;
 	&chapter.recruitment.xml;
 	&chapter.training.xml;
