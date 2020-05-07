@@ -4,3 +4,4 @@
 <!ENTITY section.creative.xml			SYSTEM "section.creative.xml">
 <!ENTITY chapter.bigdata.xml			SYSTEM "chapter.bigdata.xml">
 <!ENTITY section.system.xml				SYSTEM "section.system.xml">
+<!ENTITY chapter.problem.xml			SYSTEM "chapter.problem.xml">
