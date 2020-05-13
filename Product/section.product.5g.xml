@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section id="5G 消息将来带哪些变化">
+	<title>5G 消息将来带哪些变化</title>
+	<para>5G消息与即时通信APP相比有哪些优势</para>
+	<section>
+		<title>即时通信APP</title>
+
+		<para>即时通信APP接收信息需要APP实时与APP的服务器连接。</para>
+		<para>开启后台刷新，APP定时去服务器检查，并下载更新数据</para>
+		<para>如果用户关闭后台刷新服务，APP是无法接收信息的，只能用户打开APP的时候，APP才会与服务器建立连接，将最新数据下载下来。</para>
+		<para>它的处理流程是这样的：</para>
+		<screen>
+		<![CDATA[
+手机终端 <—> 4G数据服务 <—> TCP/IP <—> API服务器 <—> API 接口 <—> 微服务 <—> 数据
+		]]>
+		</screen>
+		<para>如果是从A用户发送到B用户一条消息。</para>
+		<screen>
+		<![CDATA[
+手机A <—> 4G数据服务 <—> TCP/IP <—> API服务器 <—> API 接口 <—> 微服务 <—> 数据
+                                                             ^
+                                                             ｜
+                                                             V 
+手机B <—> 4G数据服务 <—> TCP/IP <—> API服务器 <—> API 接口 <—> 微服务 <—> 数据
+		]]>
+		</screen>
+		<para>很多APP为了达到海量用户需求，还会将 TCP改为UDP通信，UDP协议无法判断信息的达到，即消息会丢失。为了防止UDP数据丢失，还要做数据检查，增加复杂性。</para>
+	</section>
+	<section>
+		<title>手机消息推送</title>
+		<para>消息推送是单向的，只能从服务器向手机推送。</para>
+		<screen>
+		<![CDATA[
+推送服务器 <——> 消息队列 <——> 发送器 ——> 苹果/安卓服务器 ——> 手机
+                ｜
+                V 
+              数据库
+		]]>
+		</screen>
+
+	</section>
+	<section>
+		<title>5G 消息</title>
+		<para>5G消息是通过原生接口与5G基站通信，我个人猜测类似之前的 AT 命令，是一种信令。</para>
+		<screen>
+		<![CDATA[
+手机终端 <—> 原生消息接口 <—> 5G基站 <—> 服务 <—> 数据
+		]]>
+		</screen>
+		<para>A用户给B用户发送点对点消息：</para>
+		<screen>
+		<![CDATA[
+手机A <—> 原生消息接口 <—> 5G基站 <—> 原生消息接口 <—> 手机B
+                          ｜
+                          V
+                       消息队列
+                          ｜
+                          V
+                        数据库
+		]]>
+		</screen>
+		<para>第三方接口</para>
+		<screen>
+		<![CDATA[
+手机终端 <—> 原生消息接口 <—> 5G基站 <—> 服务 <—> 数据
+							 ｜
+                      5G API 接口（TCP/IP）
+                             ｜
+                         第三方云服务
+]]>
+		</screen>
+	</section>
+	<section>
+		<title>安全与隐私</title>
+		<para>5G 开卡就已经完成了实名制，手机SIM卡与身份证绑定，同时会登记个人信息，运营商窗口办理。</para>
+		<para>即时通信APP的实名制是自行上传身份证信息，服务商审核。无法避免家里的小孩拿着家长身份证可以做一些危险的操作。</para>
+		<para>5G 系统是封闭的，可以将服务器与基站放在私有城域网中，而APP连接的接口服务器是开放的容易受到攻击。</para>
+		<para>公安机关追查APP犯罪的手段是跟踪IP地址结合手机基站信息，刑侦比较复杂。 5G消息就简单许多，手机100%实名认证，基站数据定位精准。</para>
+	</section>
+	<section>
+		<title>5G消息的缺点</title>
+		<para>第一个缺点就是不能回撤</para>
+		<para>原生消息接口功能有限，升级非常困难</para>
+		<para>可能会成为广告和垃圾短信重灾区</para>
+	</section>
+	<section>
+		<title>5G消息谁会受益</title>
+		<para>5G消息受益的可能是苹果的 FaceTime 跟 iMessages</para>
+		<para>5G消息与物联网怎么结合?</para>
+		<para>有了5G消息，物联网模块可以通过5G消息与手机通信，不再依赖特定APP，直接使用短信原生窗口，控制物联网模块，查看数据等等。</para>
+	</section>
+	<section>
+		<title>最后总结</title>
+		<para>APP走TCP/IP，绕不开OSI七层参考模型，ARP解析，MAC地址广播，TCP/IP，DNS，每个环节都会影响建立连接的速度。</para>
+		<para>而5G消息直接走基站，是信令的调制与解调过程，所以延迟小，速度快。</para>
+		<para>我门平时也能感受到，拨通电话的速度远比即时通信APP建立语音连接的速度要快。</para>
+		<para>三大运营商想法很好，事不一定能干成。</para>
+		<para>
+			下面是链接《5G消息白皮书》
+			<footnote>
+				<para>
+					《5G消息白皮书》
+					<ulink url="https://n2.sinaimg.cn/tech/c0a99b19/20200408/5GXiaoXiBaiPiShu.pdf" />
+				</para>
+			</footnote>
+		</para>
+	</section>
+</section>

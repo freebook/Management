@@ -5,3 +5,4 @@
 <!ENTITY section.product.mistake.xml	SYSTEM "section.product.mistake.xml">
 <!ENTITY section.product.push.xml	SYSTEM "section.product.push.xml">
 <!ENTITY section.product.app.xml	SYSTEM "section.product.app.xml">
+<!ENTITY section.product.5g.xml		SYSTEM "section.product.5g.xml">
