@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <part id="index"><?dbhtml dir="business"?>
-	<title>Business Administration</title>
+	<title>管理杂谈</title>
+	<!-- Business Administration -->
 	<!-- <section id="culture"> <title>企业文化</title> <para>Creativity+Open+Fun+Freedom+Easy+Excellence</para> <para></para> </section> -->
 	<para>
 		<ulink url="../images/overviews.png">
