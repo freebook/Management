@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <chapter id="index"><?dbhtml dir="product"?>
-	<title>产品</title>
+	<title>产品手札</title>
 	<para>产品经理应该考虑的不是为设计一款产品卖给客户，而是帮助他们解决问题</para>
 	&section.requirements.xml;
 	&section.product.design.xml;
