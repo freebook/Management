@@ -4,7 +4,11 @@
 <chapter id="administration">
 	<title>行政管理</title>
 	<section>
-		<title>办公用品管理</title>
+		<title>办公环境管理</title>
+		<para>之前我在外企，工位面积差不多是 1.5米 * 1.5米，办公桌是转角的，屏风高度也是1.5米。</para>
+		<para>最近几年，我发现很多公司为了降低办公室租赁成本，给员工提供的工位越来越小。</para>
+		<para>与其说是办公工位，不如说是网吧，一排一排的长条桌，屏风差不多20公分高，能保证自己的物品不会侵占到同事的位置。</para>
+		<para>员工的电脑包只能放在地上，桌面根本摆放不开，显得一片狼藉。中午都无法趴在桌子上睡觉。就这这种办公环境公司还在讲996狼性。</para>
 		<section>
 			<title>自带办公设备</title>
 			<para>人的一生，1/3在睡觉，1/3 在工作，剩余1/3被琐事浪费掉，例如等公交车、上班的路上......</para>
@@ -17,65 +21,25 @@
 		<section>
 			<title>选择苹果电脑</title>
 			<para>目前高配电脑的价格与苹果电脑的价格差距已经非常接近，与其采购PC不如采购苹果电脑。</para>
-			<para>使用苹果电脑办公有很多优势：</para>
 			<itemizedlist>
-				<title></title>
-				<listitem>
-					<para>不需要定期杀毒</para>
-				</listitem>
-				<listitem><para>硬件故障率低</para></listitem>
-				<listitem><para>娱乐性软件比较少</para></listitem>
-				<listitem><para>游戏比较少</para></listitem>
+				<title>使用苹果电脑办公有很多优势：</title>
+				<listitem>不需要定期杀毒</listitem>
+				<listitem>硬件故障率低	</listitem>
+				<listitem>娱乐性软件比较少</listitem>
+				<listitem>游戏比较少</listitem>
 			</itemizedlist>
 			<para>以往使用普通电脑和盗版软件，每天电脑都会出现各种奇葩问题，需要IT部的同事到工作位上处理。</para>
+			<para>很多公司将三年以上的电脑奖励给员工，或者员工出很少的钱购买自己的电脑。</para>
 		</section>
- 		<section>
+		<section>
 			<title>正版软件是趋势</title>
-			<para></para>
+			<para>最近几年我发现身边已经有同事开始使用正版软件，正版意识的出现，也是员工对品质的追求。</para>
+			<para>有一位市场的同事自己购买了Office 356</para>
+			<para>有一位做产品经理的同事自己购买了 Sketch</para>
+			<para>好几位程序猿团购了 intellij idea </para>
+			<para>很多软件是生产力工具，企业很有必要购买正版软件，现在正版软件的价格并不高。软件也是公司的固定资产。</para>
 		</section>
 	</section>
 </chapter>
-<!-- 
-<chapter id="sqa">
-	<title></title>
-</chapter>
-<chapter id="scm">
-	<title>SCM (Software Configuration Management)</title>
-</chapter>
-
-<chapter id="scm">
-	<title>SCM (Software Configuration Management)</title>
-
-	<section>
-		<title>周期性时间管理</title>
-		<section>
-			<title>合同到期与续约</title>
-		</section>
-		<section>
-			<title>SSL 证书</title>
-			<para>证书购买，续约，吊销</para>
-		</section>
-	</section>
-	<section id="admin">
-		<title>IDC 设备管理</title>
-		<para></para>
-
-		<section>
-			<title>图表管理</title>
-			<para></para>
-			<section>
-				<title>网络拓扑图</title>
-			</section>
-			<section>
-				<title>机柜图</title>
-			</section>
-			
-
-		</section>
-
-
-	</section>
-
-</chapter>
-
- -->
+<!-- <chapter id="sqa"> <title></title> </chapter> <chapter id="scm"> <title>SCM (Software Configuration Management)</title> </chapter> <chapter id="scm"> <title>SCM (Software Configuration Management)</title> <section> <title>周期性时间管理</title> <section> <title>合同到期与续约</title> </section> <section> <title>SSL 证书</title> <para>证书购买，续约，吊销</para> </section> </section> <section id="admin"> <title>IDC 设备管理</title> <para></para> <section> <title>图表管理</title> <para></para> <section> <title>网络拓扑图</title> </section> <section> 
+	<title>机柜图</title> </section> </section> </section> </chapter> -->
