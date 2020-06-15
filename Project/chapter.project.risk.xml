@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Author: netkiller $ -->
 <!-- $Id: chapter.workflow.xml 594 2013-05-22 10:30:58Z netkiller $ -->
-<chapter id="chapter">
+<chapter id="risk">
 	<title>风险管理</title>
 	<para>涉及项目可能遇到各种不确定因素。它包括风险识别，风险量化，制订对策和风险控制等。</para>
 	<section id="task">
@@ -17,7 +17,7 @@
 		<para>开发 -&gt; 测试 -&gt; 运维 贯穿始终。</para>
 	</section>
 
-	<section id="workflow">
+	<section id="制度流程和规范的误区">
 		<title>制度、流程和规范的误区</title>
 		<para>几乎所有的技术企业都会重视技术规范，为此制定各种规范，并要求员工严格执行。同时员工会想出各种对策，就这样形成了潜规则。</para>
 		<para>这些规范就好比“请保持室内卫生，不准乱丢垃圾，禁止随地吐痰，不要闯红灯” 一样没起到的实质作用。</para>
@@ -96,7 +96,6 @@ if ()
 			<para>值班的同事偶尔偷懒，他就半夜起来监控他们工作。一个打工者能做到如此，真让人佩服。</para>
 			<para>但是故障的频率依然没有改观，运维仍是每天疲于奔命的救火。</para>
 			<para>但是我们有更好的方法，真的不必如此操劳且效率低下。</para>
-
 		</section>
 		<section>
 			<title>总结</title>
@@ -114,17 +113,82 @@ if ()
 			<para>我觉得很多规范是形式主义。我一向主张实用主义。</para>
 			<para>通过技术手段可能避免很多没有意义规范，开发自动化，测试自动化，运维自动化，这是趋势也是我的努力的目标。</para>
 		</section>
+		
+		<section>
+			<title>案例分析：怎样避免电梯伤人事件再发生</title>
+			<para>电梯与我们的生活是密不可分，生活在城市，很难想象如果没有电梯会怎么样。</para>
+			<simplesect>
+				<title>事件起因、经过和结果</title>
+				<para>几年前有一起电梯（手扶梯）伤人事件，事情的起因是这样的，一家商场电梯维修了一半，为了不影响商场运业，维修人员几把盖板临时盖上，供顾客使用。</para>
+				<para>事件的经过是这样的，一位妈妈带着孩子来到商场购物，一脚踩在电梯盖板上，盖板突然反转，顾客直接掉进电梯，母亲顺势将孩子抛出，然后就被搅入传送机构，血肉模糊，最后惨死在电梯里。</para>
+				<para>最后我们看看处理结果，事件发生之后，新闻与评论无非是指责商场，指责电梯维保，指责生产厂家，探讨电梯行业等等舆论层面。商场马上启动公关，进入司法理赔谈判等等。</para>
+				<para>我们看到舆论只会去职责，从未有人提出过解决方案。</para>
+			</simplesect>
+			<simplesect>
+				<title>怎样彻底解决电梯伤人，让这种事件不能再次发生呢？</title>
+				<para>社会舆论一边倒“管理层面”，也就是提高商场服务意识，工作人员敬业程度等等，但这些因素是不可控。</para>
+				<para>另一种是“技术层面”，通过技术手段解决电梯安全问题。在我看来此次事件是电梯设计缺陷所致。</para>
+
+				<formalpara>
+					<title>电梯伤人事件解决方案</title>
+					<para>现在我来说说技术层面“电梯伤人事件解决方案”。</para>
+					<para>首先在电梯盖板下面安装一个按压开关，当盖板安装好后，开关处于下压状态，电路导通，通过继电器，开电梯电源。</para>
+					<para>一旦盖板被打开，电梯立即停止供电。进一步延伸功能，当盖板被打开，停止电梯供电，同时触发警报。</para>
+					<para>怎么样？成本不足5元钱，安装两个零件彻底解决了安全问题， 在现有的电梯设备上改装，只需要几个小时就可以完成。</para>
+					<para>这种技术层面的解决方案，远比媒体/舆论期望的“管理层面解决方案”要好。</para>
+					<para>我们可以在很多方面作出技术改善，安装各种传感器，实现工作状态实时监控，故障报警，自动响应等等。</para>
+				</formalpara>
+				<para>当下需要重点解决的是下面几点：</para>
+
+				<formalpara>
+					<title>实时监控</title>
+					<para>目前电梯都是每年巡检一次，使用过程中出现问题再找厂商上面维修。这样的检查是远远不够的，往往电梯出现问题，轻者将人困在其中，重者就会伤人。</para>
+					<orderedlist>
+						<title>例如我们可以采用很多传感器技术监控电梯：</title>
+						<listitem>电梯们安全，目前很多电梯又具备防止夹人的功能，老式通过限位开关的那种逐渐淘汰，新的基本采用光传感器，我遇到过几次故障，例如反复无法关门。 我认为可能做很多改进，例如反复关门超过3~5次就发出报警，停止电梯运行。</listitem>
+						<listitem>红外空间扫锚，当电梯停止运行（无人乘坐），扫描电梯室内热源，热源超过5分钟，发出警报。这种情况可能是小孩被困或者老人晕倒。</listitem>
+					</orderedlist>
+				</formalpara>
+				<formalpara>
+					<title>远程监控</title>
+					<para>远程监控是指电梯传感器收集的数据，实时或定时发送到厂家，用作数据分析，归档备份</para>
+				</formalpara>
+				<formalpara>
+					<title>故障报警</title>
+					<para>目前主要靠人来判断故障，然后决定是否需要通知厂商维修。</para>
+					<para>有了上面的监控数据，电梯出现故障厂家第一时间知道，并上门维修。</para>
+					<para>甚至厂家可以可通收集的监控数据，通过技术人员分析，决定是否远程遥闭电梯。</para>
+				</formalpara>
+				<formalpara>
+					<title>自动响应</title>
+					<para>是电梯智能化的标志，电梯能根据预先设定的程序，对轻微故障，作出自动响应。如上面谈到的“电梯们安全”，“红外空间扫锚”。</para>
+				</formalpara>
+				<formalpara>
+					<title>电梯行业应该引入4S概念</title>
+					<para>目前电梯市场十分混乱，我认为电梯行业应该引入4S概念。</para>
+					<itemizedlist>
+						<title></title>
+						<listitem>是一种集销售（Sale）	</listitem>
+						<listitem>零配件（Sparepart）</listitem>
+						<listitem>售后服务（Service）</listitem>
+						<listitem>信息反馈（Survey）</listitem>
+					</itemizedlist>
+					<para>四位一体的销售企业，让电梯的销售，配件，售后保养，以及问题反馈流程化，标准化。</para>
+				</formalpara>
+			</simplesect>
+		</section>
+		
 	</section>
 	<section id="fta">
 		<title>故障树分析(Fault Tree Analysis，FTA)</title>
-		<graphic  format="png" fileref="../images/graphics/fta.png" srccredit="neo" />
+		<graphic format="png" fileref="../images/graphics/fta.png" srccredit="neo" />
 	</section>
 	&section.risk.fishbone.xml;
 	<section id="itsm.incident">
 		<title>Incident Management(突发事件管理)</title>
 		<section>
 			<title>突发事件处理流程</title>
-			<graphic  format="png" fileref="../images/incident.png" srccredit="neo" />
+			<graphic format="png" fileref="../images/incident.png" srccredit="neo" />
 		</section>
 		<section>
 			<title>事件处理方式</title>
@@ -139,7 +203,7 @@ if ()
 			</screen>
 			<para>说白了就是，遇事想清楚再动手不迟。</para>
 		</section>
-		
+
 	</section>
 	&section.risk.monitor.xml;
 </chapter>
