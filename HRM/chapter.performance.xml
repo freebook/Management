@@ -9,40 +9,54 @@
 		<para>现在流行“找客户痛点，不如找领导G点”</para>
 		<para>管理好管理层比管理好员工更重要，不要让管理层成为传话筒。你是抱着很大期望提供优厚的待遇聘用管理层，对于所有人来说，你需要一个这样的职位，对于他需要一分工作而已。出色的管理层就像出色的员工一样非常难寻，需要机遇，需要天时，地利，人和。很多管理层也如果普通员工一样平平谈谈，当一天和尚撞一天钟。</para>
 		<para>当管理层在重大决策中屡屡失手时，真相往往会成为众矢之的。管理者会绞尽脑汁地编造一些颇具创意谎言，以逃避显而易见的真相，试图将真相在众目睽睽之下遮掩起来。</para>
-		<para>如何管理号管理层呢？或者说怎样考核管理层呢？我认为有下一几个维度：</para>
-		<itemizedlist>
-			<title></title>
-			<listitem>
-				<para>目标的如何落实到每个员工</para>
-			</listitem>
-			<listitem>
-				<para>目标是否明确，是否团队抱怨目标过于复杂，如法无法落地</para>
-			</listitem>
-			<listitem>
-				<para>如何处理项目的失误，以及提出解决方案</para>
-			</listitem>
-			<listitem>
-				<para>人才培养</para>
-			</listitem>
-			<listitem>
-				<para>末位淘汰，对于差员工怎样处理，能容忍多久</para>
-			</listitem>
-			<listitem>
-				<para>发现员工的独特价值</para>
-			</listitem>
-			<listitem>
-				<para>人才保留，当一位优秀员工离开，公司会做什么</para>
-			</listitem>
-			<listitem>
-				<para>持续改善，如何发现并解决问题</para>
-			</listitem>
-			<listitem>
-				<para>业绩追踪，能够分析关键指标分析业绩</para>
-			</listitem>
-			<listitem>
-				<para>业绩对话，对既有问题，如何找到问题根源</para>
-			</listitem>
-		</itemizedlist>
+		<section>
+			<title>管理层应具备的能力？</title>
+			<orderedlist>
+				<title>管理应该具备三种能力：</title>
+				<listitem>管理能力</listitem>
+				<listitem>创新能力</listitem>
+				<listitem>合作能力</listitem>
+				<listitem>提出问题，分析问题，解决问题的能力</listitem>
+			</orderedlist>
+		</section>
+		<section>
+			<title>怎样考核管理层呢？</title>
+			<para>如何管理好管理层呢？或者说怎样考核管理层呢？</para>
+			<itemizedlist>
+				<title>我认为有下一几个维度：</title>
+				<listitem>
+					<para>目标的如何落实到每个员工</para>
+				</listitem>
+				<listitem>
+					<para>目标是否明确，是否团队抱怨目标过于复杂，无法落地</para>
+				</listitem>
+				<listitem>
+					<para>如何处理项目的失误，以及提出解决方案</para>
+				</listitem>
+				<listitem>
+					<para>人才培养</para>
+				</listitem>
+				<listitem>
+					<para>末位淘汰，对于差员工怎样处理，能容忍多久</para>
+				</listitem>
+				<listitem>
+					<para>发现员工的独特价值</para>
+				</listitem>
+				<listitem>
+					<para>人才保留，当一位优秀员工离开，公司会做什么</para>
+				</listitem>
+				<listitem>
+					<para>持续改善，如何发现并解决问题</para>
+				</listitem>
+				<listitem>
+					<para>业绩追踪，能够分析关键指标分析业绩</para>
+				</listitem>
+				<listitem>
+					<para>业绩对话，对既有问题，如何找到问题根源</para>
+				</listitem>
+			</itemizedlist>
+			<para>另外，大公司的主管未必能胜任小公司的工作。</para>
+		</section>
 	</section>
 	<section id="让员工更敬业">
 		<title>让员工更敬业</title>
@@ -57,14 +71,12 @@
 			</listitem>
 			<listitem>
 				<para>
-					根据Gallup
-					2014年调查，只有6%的中国员工高度敬业，低于全球13%的平均水平；
+					根据Gallup 2014年调查，只有6%的中国员工高度敬业，低于全球13%的平均水平；
 				</para>
 			</listitem>
 			<listitem>
 				<para>
-					LinkedIn
-					2014年调查显示，一半以上的中国职场人士平均在职时间为34个月，相比美国的56个月，几乎短了两年。而在中国员工在职时间的中位数更是只有24个月。
+					LinkedIn 2014年调查显示，一半以上的中国职场人士平均在职时间为34个月，相比美国的56个月，几乎短了两年。而在中国员工在职时间的中位数更是只有24个月。
 				</para>
 			</listitem>
 		</orderedlist>
@@ -920,5 +932,5 @@
 		<para>以上案例纯属假设，如有雷同纯属巧合。但我并没有无中生有瞎编！</para>
 		<para>在运维，技术保障等领域，没有存在感其实是技术的最高境界，但是很遗憾，因为没有存在感，所以往往无法被升职，被提拔，被认可。往往是问题越多，救火越频繁，存在感越强，越会成为领导喜欢的人才，特别是一些大公司，这种技术价值与所谓公司价值观倒挂的现象尤其突出。</para>
 	</section>
-	
+
 </chapter>
