@@ -765,7 +765,7 @@
 				我使用鱼骨图做OKR，我认为这样更清晰。
 				<inlinemediaobject>
 					<imageobject>
-						<imagedata fileref="http://netkiller.github.io/journal/images/fishbone/fishbone.png" />
+						<imagedata fileref="../images/fishbone/fishbone.png" />
 					</imageobject>
 				</inlinemediaobject>
 			</para>
