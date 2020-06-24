@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section id="sns">
+	<title>社交媒体趋势图</title>
+	<screen>
+	<![CDATA[
+                    服务能力
+                       ^	
+                       |
+                  微信  |            抖音 
+                       |         微视
+               知乎     |	   B站  
+图文 o---------------内容趋势---------------> 视频
+                       |       传统直播
+           微博         |    优酷
+                       |    
+       BBS             |    爱奇艺
+                       o	
+	]]>
+	</screen>
+	<section>
+		<title>平台属性</title>
+
+		<table>
+			<title>平台属性对比图</title>
+			<tgroup cols="2">
+				<thead>
+					<row>
+						<entry>平台</entry>
+						<entry>形式</entry>
+						<entry>属性</entry>
+					</row>
+				</thead>
+				<tbody>
+					<row>
+						<entry>微博</entry>
+						<entry>短图文（主）/视频（辅）</entry>
+						<entry>娱乐/动态分享</entry>
+					</row>
+					<row>
+						<entry>微信</entry>
+						<entry>短图文/视频，公众号（长图文/视频），小程序互动</entry>
+						<entry>社交，朋友圈</entry>
+					</row>
+					<row>
+						<entry>知乎</entry>
+						<entry>长图文（主），视频/直播（辅）</entry>
+						<entry>问答</entry>
+					</row>
+					<row>
+						<entry>B站</entry>
+						<entry>中长视频</entry>
+						<entry>二次元</entry>
+					</row>
+					<row>
+						<entry>爱奇艺/优酷</entry>
+						<entry>长视频</entry>
+						<entry>电影/电视剧</entry>
+					</row>
+					<row>
+						<entry>传统直播</entry>
+						<entry>直播</entry>
+						<entry>打赏</entry>
+					</row>
+					<row>
+						<entry>抖音/微视</entry>
+						<entry>短视频/直播</entry>
+						<entry>流行/科普/娱乐/带货</entry>
+					</row>
+				</tbody>
+			</tgroup>
+		</table>
+		<para>大约在15年前开始不再看电视，3年前不再看爱奇艺，你们呢？</para>
+		<para>中间看过一段时间YY直播，从未打赏过主播，一直白嫖。</para>
+		<para>从内容角度看，视频内容优于图文内容，因此最近几年短视频和直播平台逐渐占据优势。</para>
+		<para>从服务角度看，微信公众号和小程序的生态更具服务优势。</para>
+		<para>微视的内容娱乐至死，抖音的内容趋向于带货。</para>
+		<para>相对来说B站视频质量比较高，但是B站推送做的不好，需要用户自己去发现高质量的内容。</para>
+
+	</section>
+
+
+
+</section>
