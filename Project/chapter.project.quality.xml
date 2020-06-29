@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Author: netkiller $ -->
 <!-- $Id: chapter.sqa.xml 495 2012-11-23 02:50:46Z netkiller $ -->
-<!-- <chapter id="sqa"> <title></title> </chapter> <chapter id="sqa"> <title></title> </chapter> <chapter id=""> <title></title> </chapter> <section id="workflow"> <title></title> </section> <chapter id="scm"> <title>SCM (Software Configuration Management)</title> </chapter> -->
 <chapter id="sqa">
 	<title>质量管理</title>
-	<subtitle>SQA (Software Quality Assurance)</subtitle>
+	<subtitle>SQA (Software Quality Assurance) / SCM (Software Configuration Management)</subtitle>
 	<para>是为了确保项目达到客户所规定的质量要求所实施的一系列管理过程。它包括质量规划，质量控制和质量保证等。</para>
 	<section id="无缺点管理">
 		<title>无缺点管理</title>
@@ -101,7 +100,7 @@
 		</orderedlist>
 
 	</section>
-	
+
 	<section id="为什么自动化测试难以推广">
 		<title>为什么自动化测试难以推广</title>
 		<para>2005 第一次接触自动化测试，十年已经过去了，着眼身边的企业，真正实施自动化测试的企业非常少。 大部分企业，测试仍然处在，点鼠标阶段。测试人员通常是验收交付，而没有参与整个软件开发周期。</para>
@@ -154,7 +153,7 @@
 			<para>我们需要黑客级的测试人员！！！</para>
 		</section>
 	</section>
-	
+
 	<section id="pressure">
 		<title>压力测试中存在的问题</title>
 		<section id="what-什么是压力测试">
@@ -623,5 +622,142 @@
 			</para>
 		</section>
 	</section>
+	<section id="协议测试">
+		<title>协议测试</title>
 
+		<section>
+			<title>What 什么是协议测试</title>
+			<para>什么事协议？ 协议是计算机进程或网络中进行数据交换而建立的规则、标准或约定的集合。</para>
+			<para>什么是协议测试? 协议测试就是软件界面与应用服务器间通信规则的测试。</para>
+			<para>需要注意一点，协议测试不是接口测试，接口测试通常是RPC调用，例如基于HTTP SOAP, XML-RPM 并不在本文的讨论范围之内，接口测试可以放在单元测试中。</para>
+		</section>
+		<section>
+			<title>Why 为什么要做协议测试</title>
+			<para>传统测试更多注重界面的测试，界面是针对用户的，也是唯一可见，也是最容易测试的。我们通过下面的金字塔说明。</para>
+			<screen>
+	<![CDATA[
+```text
+
+          /\
+         /  \ 
+        / UI \
+       /``````\
+      /  API   \
+     /``````````\
+    /   Service  \
+   /..............\
+```	
+	]]>
+			</screen>
+			<para>用户只能看到 UI ，UI测试是有局限的，只能看到冰山一角，越往下层越难发现软件的缺陷。</para>
+
+			<para>互联网的今天应用软件已不仅仅是三层架构，互联网特点是多语言混合开发，软件运行在异构平台上。</para>
+
+			<para>举例最简单的B/S结构的应用测试如下:</para>
+			<screen>
+<![CDATA[
+
+```text
+用户 -> DNS -> CDN -> Proxy / SLB -> Web -> Application -> Cache -> Database
+```
+]]>
+			</screen>
+			<para>这已经是最简单的结构了，复杂都远不止这些。中间环节还可以加入搜罗引擎，计划任务，单点登录......</para>
+
+			<para>所以仅仅通过UI测试是无法满足，但我们往往看到企业中测试团队的人员比例是，UI测试人数最多，Service 人数最少，呈现出倒金字塔形状。</para>
+
+		</section>
+		<section>
+			<title>where 在哪儿测试</title>
+
+
+			<para>这里谈的协议，不仅限于UI到服务间的协议，还有服务于服务见的协议，进程与进程间的协议。</para>
+
+			<para>这些协议五花八门，有私有协议，有开放式协议，有二进制协议，有文本协议，还有中性协议二进制与文本混用。</para>
+
+			<para>难以归类，从不同角度可能做不同的归类。</para>
+		</section>
+		<section>
+			<title>when 什么时候测试</title>
+
+
+			<para>什么时候测试，我的建议紧随开发的进度。不要等待软件开发完时在测试，这样的好处是随时可能发现问题。</para>
+		</section>
+		<section>
+			<title>Who 谁来做，执行对象</title>
+
+			<para>协议测试可能是传统科班出身测试工程师的门槛，但对于全栈工程师来说相对容易。协议测试通常无法使用现有的测试软件做测试，很多情况需要我们写专用的测试软件。</para>
+
+			<para>编写测试软件需要掌握哪些技术呢，除了精通一门语言还要掌握下面最基本的技能？</para>
+			<orderedlist>
+				<title>数据处理：</title>
+				<listitem>XML处理 DOM / XPATH </listitem>
+				<listitem>系列化与反序列化 例如 语言自身的系列化 / Json / Hession / MsgPack / Protobuf</listitem>
+				<listitem>编码与解码 URL / Base64 / Unicode / GB系列</listitem>
+				<listitem>摘要 MD5 / SHA1 / CRC32</listitem>
+				<listitem>加密解密 DES / ASE / 分对称公私钥加密</listitem>
+				<listitem>pack/unpack 主要用于处理C/C++结构体重的数据库结构</listitem>
+			</orderedlist>
+			<orderedlist>
+				<title>通信：</title>
+				<listitem>HTTP GET/POST/PUT/DELETE</listitem>
+				<listitem>消息队列 RabbitMQ / ActiveMQ / ZeroMQ</listitem>
+				<listitem>Unix Socket / Tcp Socket / UDP Socket</listitem>
+				<listitem>HTML5 / Web Socket / Ajax</listitem>
+				<listitem>管道</listitem>
+				<listitem>Sniffer 软件（抓包/监控）</listitem>
+			</orderedlist>
+			<orderedlist>
+				<title>信号，线程，存储：</title>
+				<listitem>共享内存</listitem>
+				<listitem>线程锁</listitem>
+				<listitem>信号处理</listitem>
+
+			</orderedlist>
+		</section>
+		<section>
+			<title>How 怎样做测试</title>
+			<para>使用现有的测试软件</para>
+			<para>编写软件模拟协议发出请求然后验证反馈结果</para>
+			<para>嗅探，植入</para>
+			<para>目前自动化测试软件发展很快，可以实现很多协议测试，但仍有局限。所以仍然需要用户自己开发测试工具。</para>
+
+			<para>对于 HTTP GET / POST 完全可以通过现有测试软件实现我们的测试需求。</para>
+
+			<para>对于已知协议的测试是比较容易进行的，更多是工作是，编码/解码，协议的送出与反馈。</para>
+
+			<para>对于很多未知的私有协议就需要经验了，需要大量协议嗅探，总结，反复尝试。文本协议门槛比较低，对于私有的二进制协议难度相对高些。</para>
+		</section>
+		<section>
+			<title>如何学习协议测试</title>
+			<orderedlist>
+				<title>学习协议测试分为几个阶段：</title>
+				<listitem>
+					<para>首先从文本协议开始学起，第一步先拿 SMTP 发送邮件 练手，了解基本协议后，就可以进行下一步学习，学习HTTP协议，处理基本的请求。</para>
+					<para>可以尝试自己开发一个 Web 服务器，不用太复杂，实现基本的目录浏览，文件下载，GET/POST 处理。最后学习ajax, json, websocket 等等，</para>
+				</listitem>
+				<listitem>
+					<para>然后学习二进制协议。早年都欢拿 MSN / QQ 练手，实现一个QQ机器人，这里涉及到其他语言处理C/C++的结构体的问题，就是 pack/unpack 操作，这是一道门槛，阔跨过去前途光明。</para>
+					<para>目前很多软件架构上尽量避免使用结构体，而是使用序列化例如msgpack/hession/Protobuf等等，主要是方便多语音环境的通信。</para>
+				</listitem>
+				<listitem>
+					<para>最后学习与硬件交互，可以拿GSM Modem AT 命令练手，DTMF 信令解码，AFSK数字信号处理 等等</para>
+				</listitem>
+			</orderedlist>
+			<sidebar>
+				<title>案例：</title>
+				<para>Motorola Mototrbo DMR 数字电台测试案例分享给各位。</para>
+				<para>我是深圳较早一批使用数字电台的用户，手上有一台 Mototrbo XIR P8668 \(对讲机，一下简称P8668\)，P8668拥有GPS/短信收发功能。 我想搞清楚这个短信收发如何实现，并计划实现一个每日发送天气预报给终端的功能。 P8668 通过蓝牙与电脑连接，蓝牙会虚拟一个网卡，任何通信都可以转发到蓝牙设备。</para>
+				<para>首先我开启嗅探器，扫描 P8668 的UDP端口，使用python 开发了一个简单日志记录功能，记录端口上通信的数据。然后开始测试，首先是ping功能，观看数据包变化。 没有多久就分析出ping的数据包，然后是发送短信，接收短信。反复比较分析每条日志，找出变化规律，最终完美的实现了短信收发。</para>
+			</sidebar>
+		</section>
+
+
+		<section>
+			<title>总结</title>
+			<para>掌握协议测试的测试工程师钱途无量，协议测试门槛也远远高于一般的测试。</para>
+			<para>对于协议测试工程师我要说的是，不要局限在协议测试工程师这个领域，格局要放大些，例如监控领域，自动化领域，游戏外挂领域等等。</para>
+		</section>
+
+	</section>
 </chapter>
