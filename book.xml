@@ -77,9 +77,6 @@
 	<part>
 		<title>杂项</title>
     &chapter.utilities.xml;
-    &chapter.financial.xml;
-    &chapter.administration.xml;
-    &chapter.marketing.xml;
 	</part>
 	&book.appendix.xml;
 </book>
