@@ -52,8 +52,8 @@ PMP，CMMI ， RUP
 	<section id="display">
 		<title>职位名称中英文对照</title>
 		<para>management和administration的区别</para>
-		<para>management 管理层  administration 行政部门 </para>
-	
+		<para>management 管理层 administration 行政部门 </para>
+
 		<para>Positions - IT相关职位名称英文翻译</para>
 		<screen>
 		<![CDATA[
@@ -137,4 +137,30 @@ ERP技术/应用顾问 ERP Technical/Application Consultant
 		]]>
 		</screen>
 	</section>
+	<section>
+		<title>名词解释</title>
+
+		<glosslist>
+			<glossentry>
+				<glossterm>产品附加值</glossterm>
+				<glossdef>
+					<para>
+						产品附加值是指通过智力劳动(包括技术、知识产权、管理经验等)、人工加工、设备加工、流通营销等创造的超过原辅材料的价值的增加值，生产环节创造的价值与流通环节创造的价值皆为产品附加值的一部分。其中的高附加值产品指智力创造的价值在附加值中占主要比重，具有较高的价值增长与较高经济效益，商品拥有高额利润。而低附加值产品指非智力创造的价值在附加值中占次要比重。
+					</para>
+				</glossdef>
+			</glossentry>
+			<glossentry>
+				<glossterm> </glossterm>
+				<glossdef>
+					<para>
+
+					</para>
+				</glossdef>
+			</glossentry>
+		</glosslist>
+
+	</section>
+
+	&chapter.utilities.xml;
+
 </appendix>

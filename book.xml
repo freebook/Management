@@ -74,9 +74,5 @@
 	&chapter.business.xml;
     &chapter.workplace.xml;
 
-	<part>
-		<title>杂项</title>
-    &chapter.utilities.xml;
-	</part>
 	&book.appendix.xml;
 </book>

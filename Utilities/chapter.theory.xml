@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<chapter id="law">
+<section id="law">
 	<title>理论与定律</title>
 
 	<section id="barrel">
@@ -76,4 +76,4 @@
 		<para>为什么京东越做越重，因为我们坚持认为，在这个产业里面，做的事情越多，吃到的节数越多，有一天行业趋于理性的时候，你才有能力和资格去获取行业的最大利益。什么代理商，什么分销商，对不起，最终你们都是不存在的，死是必然的，只是不知道什么时候死。</para>
 	</section>
 	&section.watch.xml;
-</chapter>	
+</section>	
