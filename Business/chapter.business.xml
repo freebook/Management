@@ -34,6 +34,7 @@
 		</section>
 		&section.system.xml;
 		&section.die.xml;
+		&section.pattern.xml;
 	</chapter>
 	<chapter id="strategic">
 		<title>战略管理</title>

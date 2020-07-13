@@ -16,267 +16,262 @@
 	</section>
 	<section>
 		<title>IT部门</title>
-	    <section>
-		    <title>回收办公设备</title>
-	    </section>
-	    <section>
-		    <title>回收电脑</title>
-		    <para>检查电脑配置</para>
-	    </section>
-	    <section>
-		    <title>回收邮箱</title>
-		    <para>备份本地邮件</para>
-		    <para>设置邮件转发到交接人的邮箱中</para>
-		    <para>关闭邮箱</para>
-	    </section>
-	    <section>
-		    <title>回收帐号</title>
-		    <orderedlist>
-			    <listitem>电脑登录帐号</listitem>
-		    </orderedlist>
-	    </section>
-	</section>
-
-<section>
-	<title>职位交接</title>
-	<para>在兲朝这个的国家，企业人流量很大，交接工作在所难免，下面列出了交接流程与细节</para>
-	<section>
-		<title>开发工作交接</title>
 		<section>
-			<title>文档部分</title>
-			<para>需求文档</para>
-			<para>设计文档</para>
+			<title>回收办公设备</title>
 		</section>
 		<section>
-			<title>开发环境</title>
-			<para>开发语言及版本</para>
-			<para>开发环境配置</para>
+			<title>回收电脑</title>
+			<para>检查电脑配置</para>
 		</section>
 		<section>
-			<title>编译部署</title>
-			<para>编译部署</para>
+			<title>回收邮箱</title>
+			<para>备份本地邮件</para>
+			<para>设置邮件转发到交接人的邮箱中</para>
+			<para>关闭邮箱</para>
+		</section>
+		<section>
+			<title>回收帐号</title>
+			<orderedlist>
+				<listitem>电脑登录帐号</listitem>
+			</orderedlist>
 		</section>
 	</section>
 
 	<section>
-		<title>运维工作交接</title>
+		<title>职位交接</title>
+		<para>在兲朝这个的国家，企业人流量很大，交接工作在所难免，下面列出了交接流程与细节</para>
 		<section>
-			<title>网管工作交接</title>
-			<screen>
-交接文档内容
-1. 电话号码，已经分配情况，以及对应座位的图表
-2. 网络拓扑以及IP地址分配情况， 交换机端口对应图表
-3. ADSL 帐号密码
-4. 路由器帐号密码
-5. 无线帐号密码
-6. 工具（网线钳，测线器，系统光盘等等）
-7. 各种网络设备以及器材的说明书
-			</screen>
-		</section>
-		<section>
-			<title>机房相关</title>
+			<title>开发工作交接</title>
 			<section>
-				<title>硬件设备清单</title>
-				<para></para>
+				<title>文档部分</title>
+				<para>需求文档</para>
+				<para>设计文档</para>
+			</section>
+			<section>
+				<title>开发环境</title>
+				<para>开发语言及版本</para>
+				<para>开发环境配置</para>
+			</section>
+			<section>
+				<title>编译部署</title>
+				<para>编译部署</para>
+			</section>
+		</section>
+
+		<section>
+			<title>运维工作交接</title>
+			<section>
+				<title>网管工作交接</title>
+				<screen>
+					交接文档内容
+					1. 电话号码，已经分配情况，以及对应座位的图表
+					2. 网络拓扑以及IP地址分配情况， 交换机端口对应图表
+					3. ADSL 帐号密码
+					4. 路由器帐号密码
+					5. 无线帐号密码
+					6. 工具（网线钳，测线器，系统光盘等等）
+					7. 各种网络设备以及器材的说明书
+				</screen>
+			</section>
+			<section>
+				<title>机房相关</title>
+				<section>
+					<title>硬件设备清单</title>
+					<para></para>
+					<table frame="all">
+						<title>compile</title>
+						<tgroup cols="8">
+							<thead>
+								<row>
+									<entry>序号</entry>
+									<entry>设备名称</entry>
+									<entry>设备型号</entry>
+									<entry>IP地址</entry>
+									<entry>RAID</entry>
+									<entry>运行服务</entry>
+									<entry>用户名与密码</entry>
+									<entry>备注</entry>
+								</row>
+							</thead>
+							<tbody>
+								<row>
+									<entry>１</entry>
+									<entry>防火墙</entry>
+									<entry>cisco pix 515</entry>
+									<entry>f0/0: xxx.xxx.xxx.xxx, f0/1: xxx.xxx.xx.xxx</entry>
+									<entry></entry>
+									<entry></entry>
+									<entry>console:****,telnet:****,ssh:****</entry>
+								</row>
+								<row>
+									<entry>2</entry>
+									<entry>服务器</entry>
+									<entry>Dell R510</entry>
+									<entry>eth0: xxx.xxx.xx.xx, eth1:xxx.xx.xxx.x, gateway:
+										xxx.xxx.xx.xx
+									</entry>
+									<entry>RAID 5</entry>
+									<entry>Apache,php</entry>
+									<entry>console:****,telnet:****,ssh:****</entry>
+								</row>
+							</tbody>
+						</tgroup>
+					</table>
+				</section>
+				<section>
+					<title>网络拓扑结构</title>
+					<para>设备之前链接图</para>
+				</section>
+				<section>
+					<table>机架位置图</table>
+					<para>机柜中的服务器位置，从上倒下</para>
+				</section>
+			</section>
+
+			<section>
+				<title>服务器</title>
+				<section>
+					<table>通用配置</table>
+				</section>
+				<section>
+					<table>LVS</table>
+
+				</section>
+				<section>
+					<table>Database</table>
+					<section>
+						<title>MySQL</title>
+					</section>
+					<section>
+						<title>Oracle</title>
+					</section>
+				</section>
+
+				<para>服务器本版</para>
+				<para>服务器数量</para>
+				<para>网络设备清单</para>
+
 				<table frame="all">
-					<title>compile</title>
-					<tgroup cols="8">
-						<thead>
-							<row>
-								<entry>序号</entry>
-								<entry>设备名称</entry>
-								<entry>设备型号</entry>
-								<entry>IP地址</entry>
-								<entry>RAID</entry>
-								<entry>运行服务</entry>
-								<entry>用户名与密码</entry>
-								<entry>备注</entry>
-							</row>
-						</thead>
+					<title>网络设备清单</title>
+					<tgroup cols="7">
 						<tbody>
 							<row>
-								<entry>１</entry>
-								<entry>防火墙</entry>
-								<entry>cisco pix 515</entry>
-								<entry>f0/0: xxx.xxx.xxx.xxx, f0/1: xxx.xxx.xx.xxx</entry>
-								<entry></entry>
-								<entry></entry>
-								<entry>console:****,telnet:****,ssh:****</entry>
+								<entry>服务器名称</entry>
+								<entry>型号</entry>
+								<entry>主机名</entry>
+								<entry>IP 地址</entry>
+								<entry>帐号</entry>
+								<entry>运行服务</entry>
+								<entry>备注</entry>
 							</row>
 							<row>
-								<entry>2</entry>
-								<entry>服务器</entry>
-								<entry>Dell R510</entry>
-								<entry>eth0: xxx.xxx.xx.xx, eth1:xxx.xx.xxx.x, gateway:
-									xxx.xxx.xx.xx</entry>
-								<entry>RAID 5</entry>
-								<entry>Apache,php</entry>
-								<entry>console:****,telnet:****,ssh:****</entry>
+								<entry>Servlet Example</entry>
+								<entry>execute</entry>
+								<entry>source</entry>
+								<entry>source</entry>
+								<entry>source</entry>
+								<entry>
+								</entry>
+								<entry>
+								</entry>
+							</row>
+						</tbody>
+					</tgroup>
+				</table>
+
+				<para></para>
+
+				<para>
+					<userinput>telnet 127.0.0.1 119</userinput>
+				</para>
+				<table frame="all">
+					<title>compile</title>
+					<tgroup cols="3">
+						<tbody>
+							<row>
+								<entry>JSP Example</entry>
+								<entry>execute</entry>
+								<entry>source</entry>
+							</row>
+							<row>
+								<entry>Servlet Example</entry>
+								<entry>execute</entry>
+								<entry>source</entry>
 							</row>
 						</tbody>
 					</tgroup>
 				</table>
 			</section>
-			<section>
-				<title>网络拓扑结构</title>
-				<para>设备之前链接图</para>
-			</section>
-			<section>
-				<table>机架位置图</table>
-				<para>机柜中的服务器位置，从上倒下</para>
-			</section>
-		</section>
 
-		<section>
-			<title>服务器</title>
 			<section>
-				<table>通用配置</table>
-			</section>
-			<section>
-				<table>LVS</table>
-
-			</section>
-			<section>
-				<table>Database</table>
+				<title>软件部分</title>
+				<para>密码文档.</para>
+				<para>密码文档.</para>
 				<section>
-					<title>MySQL</title>
+					<title>密码文档</title>
+					<para> this is the second section in my book.</para>
 				</section>
 				<section>
-					<title>Oracle</title>
+					<title>配置文档</title>
+					<para> this is the second section in my book.</para>
+					<section>
+						<title>网络设备配置文档</title>
+						<para>交换机</para>
+						<para>路由器</para>
+					</section>
+					<section>
+						<title>服务器配置</title>
+						<section>
+							<title>磁盘</title>
+							<para>SCSI,SAS,RAID驱动</para>
+							<para>RAID</para>
+							<para>划分</para>
+						</section>
+						<section>
+							<title>网络</title>
+							<para>sysctl</para>
+						</section>
+						<section>
+							<title>Web 服务器配置</title>
+							<para>编译条件及步骤</para>
+							<para>优化参数</para>
+							<para>配置文件</para>
+							<para></para>
+						</section>
+
+						<section>
+							<title>数据库</title>
+							<para>编译参数</para>
+							<para>配置文件</para>
+							<para>优化参数</para>
+						</section>
+
+					</section>
 				</section>
+
 			</section>
 
-			<para>服务器本版</para>
-			<para>服务器数量</para>
-			<para>网络设备清单</para>
-
-			<table frame="all">
-				<title>网络设备清单</title>
-				<tgroup cols="7">
-					<tbody>
-						<row>
-							<entry>服务器名称</entry>
-							<entry>型号</entry>
-							<entry>主机名</entry>
-							<entry>IP 地址</entry>
-							<entry>帐号</entry>
-							<entry>运行服务</entry>
-							<entry>备注</entry>
-						</row>
-						<row>
-							<entry>Servlet Example</entry>
-							<entry>execute</entry>
-							<entry>source</entry>
-							<entry>source</entry>
-							<entry>source</entry>
-                            <entry> </entry>
-                            <entry> </entry>
-						</row>
-					</tbody>
-				</tgroup>
-			</table>
-
-			<para></para>
-
-			<para>
-				<userinput>telnet 127.0.0.1 119</userinput>
-			</para>
-			<table frame="all">
-				<title>compile</title>
-				<tgroup cols="3">
-					<tbody>
-						<row>
-							<entry>JSP Example</entry>
-							<entry>execute</entry>
-							<entry>source</entry>
-						</row>
-						<row>
-							<entry>Servlet Example</entry>
-							<entry>execute</entry>
-							<entry>source</entry>
-						</row>
-					</tbody>
-				</tgroup>
-			</table>
-		</section>
-
-		<section>
-			<title>软件部分</title>
-			<para>密码文档.</para>
-			<para>密码文档.</para>
 			<section>
-				<title>密码文档</title>
-				<para> this is the second section in my book.</para>
+				<title>后们及安全检查</title>
+				<procedure>
+					<title>setp by setp</title>
+					<step>
+						<para>passwd</para>
+						<para>关闭所有用户</para>
+					</step>
+					<step>
+						<para>/home/*/.ssh</para>
+						<para>清除所有用户OpenSSH证书</para>
+					</step>
+					<step>
+						<para>nmap</para>
+						<para>扫描服务端口</para>
+					</step>
+					<step>
+						<para>进程检查</para>
+					</step>
+				</procedure>
 			</section>
-			<section>
-				<title>配置文档</title>
-				<para> this is the second section in my book.</para>
-				<section>
-					<title>网络设备配置文档</title>
-					<para>交换机</para>
-					<para>路由器</para>
-				</section>
-				<section>
-					<title>服务器配置</title>
-					<section>
-						<title>磁盘</title>
-						<para>SCSI,SAS,RAID驱动</para>
-						<para>RAID</para>
-						<para>划分</para>
-					</section>
-					<section>
-						<title>网络</title>
-						<para>sysctl</para>
-					</section>
-					<section>
-						<title>Web 服务器配置</title>
-						<para>编译条件及步骤</para>
-						<para>优化参数</para>
-						<para>配置文件</para>
-						<para></para>
-					</section>
-					<section>
-						<title>PHP 配置文件</title>
-					</section>
-					<section>
-						<title>Tomcat/Resin 配置文件</title>
-					</section>
-					<section>
-						<title>数据库</title>
-						<para>编译参数</para>
-						<para>配置文件</para>
-						<para>优化参数</para>
-					</section>
-
-				</section>
-			</section>
-			<section>
-				<title>故障处理检查</title>
-				<para> this is the second section in my book.</para>
-			</section>
-		</section>
-
-		<section>
-			<title>后们及安全检查</title>
-			<procedure>
-				<title>setp by setp</title>
-				<step>
-					<para>passwd</para>
-					<para>关闭所有用户</para>
-				</step>
-				<step>
-					<para>/home/*/.ssh</para>
-					<para>清除所有用户OpenSSH证书</para>
-				</step>
-				<step>
-					<para>nmap</para>
-					<para>扫描服务端口</para>
-				</step>
-				<step>
-					<para>进程检查</para>
-				</step>
-			</procedure>
 		</section>
 	</section>
-</section>
 </chapter>

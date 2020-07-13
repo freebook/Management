@@ -7,3 +7,4 @@
 <!ENTITY chapter.problem.xml			SYSTEM "chapter.problem.xml">
 <!ENTITY chapter.manager.xml			SYSTEM "chapter.manager.xml">
 <!ENTITY section.die.xml				SYSTEM "section.die.xml">
+<!ENTITY section.pattern.xml			SYSTEM "section.pattern.xml">
