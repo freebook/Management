@@ -13,6 +13,7 @@
 <!ENTITY chapter.salary.xml				SYSTEM "chapter.salary.xml">
 
 <!ENTITY chapter.performance.xml		SYSTEM "chapter.performance.xml">
+<!ENTITY section.performance.okr.xml	SYSTEM "section.performance.okr.xml">
 
 <!ENTITY chapter.hr.interview.xml		SYSTEM "chapter.hr.interview.xml">
 <!ENTITY chapter.hr.handover.xml 		SYSTEM "chapter.hr.handover.xml">

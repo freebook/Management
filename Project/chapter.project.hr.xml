@@ -4,24 +4,7 @@
 	<subtitle>Human Resources</subtitle>
 	<para>是为了保证所有项目关系人的能力和积极性都得到最有效地发挥和利用所做的一系列管理措施。它包括组织的规划、团队的建设、人员的选聘和项目团队建设等一系列工作。</para>
 	<para>更多请参考“人力资源管理” 相关章节。</para>
-	<section>
-		<title>性格分类</title>
-		<para>团队中人员的性能有以下几种分类：</para>
-		<orderedlist numeration="arabic" spacing="compact">
-			<listitem>
-				<para>追求新事物</para>
-			</listitem>
-			<listitem>
-				<para>追求完美</para>
-			</listitem>
-			<listitem>
-				<para>拒绝改变。</para>
-			</listitem>
-			<listitem>
-				<para>害怕犯错误，承担责任或受到批评。</para>
-			</listitem>
-		</orderedlist>
-	</section>
+
 	<section id="it.interview">
 		<title>面试目的</title>
 		<para>关于面试题目</para>

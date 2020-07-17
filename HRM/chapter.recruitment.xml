@@ -52,6 +52,24 @@
 				于是人才招聘网站提供了搜索功能，这个功能确实解决了很大问题，只能说是解决招聘问题，没有解决人才问题。
 			</para>
 		</section>
+		<section>
+			<title>性格分类</title>
+			<para>团队中人员的性能有以下几种分类：</para>
+			<orderedlist numeration="arabic" spacing="compact">
+				<listitem>
+					<para>追求新事物</para>
+				</listitem>
+				<listitem>
+					<para>追求完美</para>
+				</listitem>
+				<listitem>
+					<para>拒绝改变。</para>
+				</listitem>
+				<listitem>
+					<para>害怕犯错误，承担责任或受到批评。</para>
+				</listitem>
+			</orderedlist>
+		</section>
 		<section id="人才分类">
 			<title>人才分类</title>
 			<para>人才的分类可以归纳为三种类型，I型，T型，X型，三种类型简称ITX（便于记忆，ITX是电脑主板的一种规格尺寸）</para>

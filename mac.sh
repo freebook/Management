@@ -1,3 +1,4 @@
+git submodule update
 #rm -rf ~/tmp/management/
 mkdir -p ~/tmp/management/
 cp -r images ~/tmp/management/
