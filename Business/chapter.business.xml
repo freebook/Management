@@ -1,90 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<part id="index"><?dbhtml dir="business"?>
-	<title>管理杂谈</title>
-	<!-- Business Administration -->
-	<!-- <section id="culture"> <title>企业文化</title> <para>Creativity+Open+Fun+Freedom+Easy+Excellence</para> <para></para> </section> -->
-	<para>
-		<ulink url="../images/overviews.png">
-			<graphic format="png" fileref="images/overviews.png" width="1024" srccredit="neo" />
-		</ulink>
-	</para>
-	<chapter id="什么是管理">
-		<title>什么是管理</title>
-		<para>管理即对一定范围的人员及事务进行安排和处理。</para>
-		<para>管理模式只能借鉴不能模仿。</para>		
-		&section.force.xml;
-		<section>
-			<title>管理黑洞</title>
-			<section>
-				<title>活在竞争对手的阴影下</title>
-				<para>做企业的本质还是为用户创造价值，不能把打败对手当成使命和目的。企业的眼光要看用户，不要看对手，像110米跨栏一样，你必须盯着阶段性目标，跨越你的障碍，过程中一定会有竞争对手，你只能用余光瞄他，如果你去对打，你也到不了终点。
-				</para>
-			</section>
-			<section>
-				<title>无法流程化，标准化，不可重复</title>
-				<para></para>
-			</section>
-			<section>
-				<title>石沉大海，不了了之</title>
-			</section>
-			<section>
-				<title>到处救火</title>
-				<para>发现问题，指定规范，无人检查</para>
-			</section>
-		</section>
-		&section.system.xml;
-		&section.die.xml;
-		&section.pattern.xml;
-	</chapter>
-	<chapter id="strategic">
-		<title>战略管理</title>
-		<subtitle>Enterprise Strategic Management</subtitle>
-		<section>
-			<title>战略是什么</title>
-			<para>德鲁克提出，战略就是通过最有效的管理，用最小的资源达到最大回报的过程。战略的根本是一种增长方式，我们用什么样的方式、什么样的路径达成企业的增长。
-			</para>
-		</section>
-	</chapter>
-	<chapter id="商业模式">
-		<title>商业模式</title>
-		<para>当今企业之间的竞争，不是产品之间的竞争，而是商业模式之间的竞争 ------德鲁克</para>
-		<para>商业模式就是企业家为实现企业价值最大化，把能使企业运行的内外各要素整合真起来，形成一个完整的高效的具有独特核心竞争力的运作系统，并通过最优实现形式满足客户需求、实现客户价值，同时使系统达到持续盈利目标的整合解决方案。
-		</para>
-		<para>简单地说，商业模式就是企业赚钱的方式方法。</para>
-		<section id="商业法则">
-			<title>商业法则</title>
-			<para>“在其他人都投了资的地方去投资，你是不会发财的” ------ 巴菲特</para>
-			<para>商业上有这样的说法</para>
-			<itemizedlist>
-				<title>同样一桩生意</title>
-				<listitem>
-					<para>第一个做是天才</para>
-				</listitem>
-				<listitem>
-					<para>第二个做是庸才</para>
-				</listitem>
-				<listitem>
-					<para>第三个做是蠢材</para>
-				</listitem>
-				<listitem>
-					<para>第四个做是破产</para>
-				</listitem>
-			</itemizedlist>
-			<para>一项新鲜事物，在10个人当中，有一两个人赞成就可以开始着手做了；有5个人赞成时，就已经迟了一步；如果有七八个人赞成时，那就太晚了。
-			</para>
-			<para>很多企业在做决策时，以为地考虑多数人的意见，忽略少数人的意见，这样不仅不利于企业发展，还打击了员工创新的积极性。</para>
-			<para>企业一定要具有一种强烈的忧患意识、时不我待的紧迫感和危机感，及时把握创新机会。</para>
-			<para>要想在市场上获得成功，你必须成为一个独立思考者，因为共识通常都是错误的。你必须要有与众不同的观点和视角。</para>
-		</section>
-		&chapter.bigdata.xml;
-		&section.creative.xml;
-	</chapter>
+<!-- <section id="culture"> <title>企业文化</title> <para>Creativity+Open+Fun+Freedom+Easy+Excellence</para> <para></para> </section> -->
+<para>
+	<ulink url="../images/overviews.png">
+		<graphic format="png" fileref="images/overviews.png" width="1024" srccredit="neo" />
+	</ulink>
+</para>
+<chapter id="企业管理">
+	<title>企业管理</title>
+	<para>管理即对一定范围的人员及事务进行安排和处理。</para>
+	<para>管理模式只能借鉴不能模仿。</para>
 
+	<section>
+		<title>管理黑洞</title>
+		<section>
+			<title>活在竞争对手的阴影下</title>
+			<para>做企业的本质还是为用户创造价值，不能把打败对手当成使命和目的。企业的眼光要看用户，不要看对手，像110米跨栏一样，你必须盯着阶段性目标，跨越你的障碍，过程中一定会有竞争对手，你只能用余光瞄他，如果你去对打，你也到不了终点。
+			</para>
+		</section>
+		<section>
+			<title>无法流程化，标准化，不可重复</title>
+			<para></para>
+		</section>
+		<section>
+			<title>石沉大海，不了了之</title>
+		</section>
+		<section>
+			<title>到处救火</title>
+			<para>发现问题，指定规范，无人检查</para>
+		</section>
+	</section>
+	&section.pattern.xml;
+	&section.business.strategic.xml;
 	&chapter.problem.xml;
 	&chapter.manager.xml;
-	
-    &chapter.financial.xml;
-    &chapter.administration.xml;
-    &chapter.marketing.xml;
+</chapter>
 
-</part>
+
+
+
+
+

@@ -9,6 +9,10 @@
 			<keyword></keyword>
 		</keywordset>
 	</chapterinfo>
+	<section id="fta">
+		<title>故障树分析(Fault Tree Analysis，FTA)</title>
+		<graphic format="png" fileref="../images/graphics/fta.png" srccredit="neo" />
+	</section>
 	<section id="what">
 		<title>什么是因果图</title>
 		<para>鱼骨图，又名因果图，是一种发现问题“根本原因”的分析方法，我们将影响问题的因素与特性，按相互关联性整理而成的层次分明、条理清楚，并标出重要因素的图形就叫特性要因图、特性原因图。因其形状如鱼骨，所以又叫鱼骨图（以下称鱼骨图），它是一种透过现象看本质的分析方法。鱼骨图由日本管理大师石川馨先生所发明，故又名石川图。鱼骨图是一种发现问题“根本原因”的方法，它也可以称之为“Ishikawa”或者“因果图”。其特点是简捷实用，深入直观。它看上去有些像鱼骨，问题或缺陷（即后果）标在“鱼头”外。在鱼骨上长出鱼刺，上面按出现机会多寡列出产生问题的可能原因，有助于说明各个原因之间是如何相互影响的。</para>
@@ -36,7 +40,7 @@
 	<section id="how">
 		<title>怎样使用因果图</title>
 		<para>下面我们提供一个鱼骨图分析案例</para>
-		<graphic  format="png" fileref="../images/ops/fishbone/fishbone.png" width="1024" srccredit="neo" />
+		<graphic format="png" fileref="../images/ops/fishbone/fishbone.png" width="1024" srccredit="neo" />
 		<para>上图我们看到保障系统7*24小时运行有哪些因素印象，网站分为几个部分组成</para>
 		<orderedlist>
 			<title>网站</title>
@@ -70,7 +74,7 @@
 		<section>
 			<title>cch.exampel.com, mq.exampe.com, db.example.com</title>
 			<para>影响的因素是防火墙，端口，数据库同步等等...</para>
-		</section>		
-	</section>	
-	
+		</section>
+	</section>
+
 </section>

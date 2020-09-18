@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!ENTITY part.business.xml				SYSTEM "part.business.xml">
 <!ENTITY chapter.business.xml			SYSTEM "chapter.business.xml">
+<!ENTITY section.business.strategic.xml	SYSTEM "section.business.strategic.xml">
 <!ENTITY section.force.xml				SYSTEM "section.force.xml">
 <!ENTITY section.creative.xml			SYSTEM "section.creative.xml">
 <!ENTITY chapter.bigdata.xml			SYSTEM "chapter.bigdata.xml">

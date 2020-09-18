@@ -69,9 +69,8 @@
 	
 	&part.it.xml;
 	&chapter.hrm.xml;
-	
-	&chapter.product.xml;
-	&chapter.business.xml;
+
+	&part.business.xml;
     &chapter.workplace.xml;
 
 	&book.appendix.xml;
