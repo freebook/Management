@@ -8,5 +8,5 @@
 <!ENTITY section.system.xml				SYSTEM "section.system.xml">
 <!ENTITY chapter.problem.xml			SYSTEM "chapter.problem.xml">
 <!ENTITY chapter.manager.xml			SYSTEM "chapter.manager.xml">
-<!ENTITY section.die.xml				SYSTEM "section.die.xml">
+<!ENTITY section.company.xml			SYSTEM "section.company.xml">
 <!ENTITY section.pattern.xml			SYSTEM "section.pattern.xml">

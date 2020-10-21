@@ -36,29 +36,30 @@
 				<para>这种模式最早出现在思科，并在硅谷得到实践，在国内最成功的的企业应该是小米。</para>
 			</sidebar>
 		</section>
-		<section id="深耕一个行业，还是多领域尝试">
-			<title>深耕一个行业，还是多领域尝试？</title>
-			<para>对于企业深耕一个行业，还是多领域尝试呢？</para>
-			<para>保持基业长青，需要追逐风口，如今没有哪个行业可以做一辈子，通常3-5年就要调整一次企业的方向。</para>
-			<para>企业经营方向可以归纳为三种类型，I型，T型，X型，三种类型简称ITX。</para>
-			<formalpara>
-				<title>“I” 型企业</title>
-				<para>“I” 型企业深耕垂直领域。</para>
-				<para>I型企业抗风险能力差，例如人口红利消失，产业转移，城市转型，新冠疫情来临等等，对于I型企业是致命打击。</para>
-				<para>“I” 型企业还有另一种做法是水平扩展。</para>
-				<para>做全产业闭环生态，形成垄断，在上游，中游，下游均有定价权。</para>
-			</formalpara>
-			<formalpara>
-				<title>“T”型企业</title>
-				<para>T型企业要立足一个行业，然后不断尝试其他行业，这样可以避免风险。</para>
-			</formalpara>
-			<formalpara>
-				<title>"X" 型企业</title>
-				<para>X 型企业就更稳健，多领域发展，抗风险能力最强。</para>
-			</formalpara>
-		</section>
-		&section.system.xml;
 	</section>
+	<section id="深耕一个行业，还是多领域尝试">
+		<title>深耕一个行业，还是多领域尝试？</title>
+		<para>对于企业深耕一个行业，还是多领域尝试呢？</para>
+		<para>保持基业长青，需要追逐风口，如今没有哪个行业可以做一辈子，通常3-5年就要调整一次企业的方向。</para>
+		<para>企业经营方向可以归纳为三种类型，I型，T型，X型，三种类型简称ITX。</para>
+		<formalpara>
+			<title>“I” 型企业</title>
+			<para>“I” 型企业深耕垂直领域。</para>
+			<para>I型企业抗风险能力差，例如人口红利消失，产业转移，城市转型，新冠疫情来临等等，对于I型企业是致命打击。</para>
+			<para>“I” 型企业还有另一种做法是水平扩展。</para>
+			<para>做全产业闭环生态，形成垄断，在上游，中游，下游均有定价权。</para>
+		</formalpara>
+		<formalpara>
+			<title>“T”型企业</title>
+			<para>T型企业要立足一个行业，然后不断尝试其他行业，这样可以避免风险。</para>
+		</formalpara>
+		<formalpara>
+			<title>"X" 型企业</title>
+			<para>X 型企业就更稳健，多领域发展，抗风险能力最强。</para>
+		</formalpara>
+	</section>
+		&section.system.xml;
+
 </section>
 <section id="商业模式">
 	<title>商业模式</title>
