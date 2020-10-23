@@ -18,7 +18,7 @@
 
 <!ENTITY chapter.hr.interview.xml		SYSTEM "chapter.hr.interview.xml">
 <!ENTITY chapter.hr.handover.xml 		SYSTEM "chapter.hr.handover.xml">
-<!ENTITY chapter.hrm.team.xml 			SYSTEM "chapter.hrm.team.xml">
-<!ENTITY chapter.hrm.organizational.xml	SYSTEM "chapter.hrm.organizational.xml">
+<!ENTITY section.hrm.team.xml 			SYSTEM "section.hrm.team.xml">
+<!ENTITY section.hrm.organizational.xml	SYSTEM "section.hrm.organizational.xml">
 <!ENTITY section.hrm.quesion.xml		SYSTEM "section.hrm.quesion.xml">
 
