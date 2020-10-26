@@ -5,6 +5,7 @@
 	<para>「干活不由东，累死也无功」是一句简单朴素的俗语，说明了一个显而易见的道理：在给东家做活的时候，要尊重东家的意愿，听东家的安排，按东家的要求去做，这样才能令东家满意。否则，如果强调自我个性，自命不凡、自以为是、自做主张的不按照东家的要求做，即使做得再多也是费力不讨好，也很难令东家满意，是徒劳无益的。</para>
 	&chapter.postgraduate.xml;
 	&chapter.education.xml;
+	&chapter.gap.xml;
 	&chapter.recommend.xml;
 	&chapter.bottleneck.xml;
 	&chapter.out.xml;
@@ -135,7 +136,6 @@
 
 	</section>
 	&chapter.career.xml;
-	&chapter.gap.xml;
 	<section>
 		<title>任何人都可以被替代</title>
 		<para>没有时间写</para>
