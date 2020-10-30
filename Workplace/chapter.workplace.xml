@@ -6,7 +6,6 @@
 	&chapter.postgraduate.xml;
 	&chapter.education.xml;
 	&chapter.gap.xml;
-	&chapter.recommend.xml;
 	&chapter.bottleneck.xml;
 	&chapter.out.xml;
 	<section id="workplace.automation">
@@ -71,8 +70,8 @@
 		</para>
 
 	</section>
-	
-	
+
+
 	<section id="workplace.ai">
 		<title>我们会被人工智能取代吗</title>
 		<para>
