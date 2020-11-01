@@ -74,50 +74,9 @@
 	</section>
 	<section id="ap.login">
 		<title>用户验证</title>
-		<para></para>
-		<section>
-			<title>Telnet</title>
-			<screen>
-			</screen>
-		</section>
-		<section>
-			<title>WEP</title>
-			<para>WEP 加密</para>
-			<screen>
-			<![CDATA[
-
-			]]>
-			</screen>
-			<literallayout>
-
-			</literallayout>
-		</section>
-		<section>
-			<title>WAP2</title>
-			<screen>
-
-			</screen>
-		</section>
-		<section>
-			<title>WAP2 cipher</title>
-			<screen>
- 
-			</screen>
-		</section>
-		<section>
-			<title>Mac</title>
-			<screen>
-
-			</screen>
-		</section>
+		<para></para>	
 	</section>
-	<section id="ap.wlan">
-		<title>WLAN</title>
-		<screen>
 
-		</screen>
-
-	</section>
 	-->
 
 
