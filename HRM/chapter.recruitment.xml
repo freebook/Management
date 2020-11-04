@@ -27,6 +27,7 @@
 	</section>
 	&section.recruitment.95.xml;
 	&section.recruitment.ability.xml;
+	&section.recruitment.talent.xml;
 
 	<section id="找到并留住最佳员工">
 		<title>找到并留住最佳员工</title>
@@ -500,7 +501,6 @@
 			</para>
 		</section>
 	</section>
-	&section.recruitment.talent.xml;
 
 	<section id="员工的离职成本到底有多高">
 		<title>员工的离职成本到底有多高？</title>

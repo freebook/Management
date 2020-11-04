@@ -4,7 +4,7 @@
 	<!-- Business Administration -->
 	&chapter.business.xml;
 	&chapter.product.xml;
-    &chapter.financial.xml;
-    &chapter.administration.xml;
+	<!-- &chapter.financial.xml; -->
+	<!-- &chapter.administration.xml; -->
     &chapter.marketing.xml;
 </part>
