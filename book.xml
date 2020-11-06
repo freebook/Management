@@ -69,6 +69,7 @@
 
 	&chapter.hrm.xml;
 	&part.project.xml;
+	&chapter.product.xml;
 	&part.business.xml;
     &chapter.workplace.xml;
 
