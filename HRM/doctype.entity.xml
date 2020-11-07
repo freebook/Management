@@ -8,6 +8,7 @@
 <!ENTITY section.recruitment.ability.xml		SYSTEM "section.recruitment.ability.xml">
 
 <!ENTITY chapter.training.xml			SYSTEM "chapter.training.xml">
+<!ENTITY section.training.xml			SYSTEM "section.training.xml">
 <!ENTITY section.training.status.xml	SYSTEM "section.training.status.xml">
 
 <!ENTITY chapter.salary.xml				SYSTEM "chapter.salary.xml">
