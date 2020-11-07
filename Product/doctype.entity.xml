@@ -8,3 +8,4 @@
 <!ENTITY section.product.5g.xml		SYSTEM "section.product.5g.xml">
 <!ENTITY section.product.sns.xml	SYSTEM "section.product.sns.xml">
 <!ENTITY section.product.user.xml	SYSTEM "section.product.user.xml">
+<!ENTITY section.product.ai.xml		SYSTEM "section.product.ai.xml">
