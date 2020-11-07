@@ -11,4 +11,7 @@
 	&section.product.sns.xml;
 	&section.product.user.xml;
 	&section.product.ai.xml;
+	
+	&section.market.brand.xml;
+	&section.market.class.xml;
 </chapter>
