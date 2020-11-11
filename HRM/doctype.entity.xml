@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!ENTITY chapter.hrm.xml				SYSTEM "chapter.hrm.xml">
+
 <!ENTITY chapter.planning.xml			SYSTEM "chapter.planning.xml">
+<!ENTITY section.planning.team.xml 		SYSTEM "section.planning.team.xml">
+<!ENTITY section.planning.organizational.xml	SYSTEM "section.planning.organizational.xml">
+<!ENTITY section.planning.quesion.xml	SYSTEM "section.planning.quesion.xml">
+
 <!ENTITY chapter.recruitment.xml		SYSTEM "chapter.recruitment.xml">
 <!ENTITY section.recruitment.star.xml	SYSTEM "section.recruitment.star.xml">
 <!ENTITY section.recruitment.talent.xml	SYSTEM "section.recruitment.talent.xml">
@@ -19,7 +24,4 @@
 
 <!ENTITY chapter.hr.interview.xml		SYSTEM "chapter.hr.interview.xml">
 <!ENTITY chapter.hr.handover.xml 		SYSTEM "chapter.hr.handover.xml">
-<!ENTITY section.hrm.team.xml 			SYSTEM "section.hrm.team.xml">
-<!ENTITY section.hrm.organizational.xml	SYSTEM "section.hrm.organizational.xml">
-<!ENTITY section.hrm.quesion.xml		SYSTEM "section.hrm.quesion.xml">
 
