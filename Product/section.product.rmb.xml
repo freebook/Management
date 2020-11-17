@@ -1,1 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<section id="央行数字货币">
+	<title>央行数字货币（DCEP）</title>
+	<subtitle>为什么央行数字货币难以推广和普及？</subtitle>
+	<para>大家是否想过，一向追逐新技术的互联网企业为什么对数字人民币反应平平？</para>
+	<para>无论是微信还是支付宝官方对数字货币都没有对此表态？</para>
+	<para>未来数字人民币是否能与微信和支付宝形成三足鼎立？</para>
+	<para>数字货币的推广和普及难在哪里？</para>
+	<section>
+		<title>什么是央行数字货币（DCEP）？</title>
+		<para>DCEP，全称Digital Currency Electronic Payment，意为应用于电子支付的数字货币。DCEP由国家发行，价格直接和人民币挂钩，它是纸制人民币的另一种形式。</para>
+	</section>
+	<section>
+		<title>钱包内的数字货币不能增值</title>
+		<para>数字人民币与法币可以相互兑换，放在中心化银行中人民币，银行卡里是会产生利息的，虽然目前利率很低，总还是有的，我发还可以选择余额宝之类的理财产品。将法币兑换成数字人民币，放在数字钱包中，数字货币是静态的，是无法产生利息的。</para>
+	</section>
+	<section>
+		<title>数字钱包不能信用消费</title>
+		<para>数字钱包用来存放数字货币，你放入多少数字货币，消费多少数字货币，它无法用于信用消费，即不能透支。</para>
+	</section>
+	<section>
+		<title>数字人民币与比特币</title>
+		<para>虽然数字人民币使用区块链技术，但是与比特币和以太坊有本质的区别，数字人民币与法币是一比一等值，不会出现浮动汇率。</para>
+		<para>数字人民币不能用来投资，也不会增值，一样受到通货澎好的影响。</para>
+	</section>
+	<section>
+		<title>央行的数字货币在那里能挖矿？</title>
+		<para>答：持续996的工作就是在挖矿。老板检查你的工作（工作量证明）后发放。</para>
+	</section>
+	<section>
+		<title>无法运行智能合约</title>
+		<para>数字人民币不支持智能合约，仅仅是纸制货币的替代品，这限制了数字人民币的普及，智能合约可以衍生出很多商业模式。</para>
+		<para>例如，我们可以是使用智能合约实现担保交易。</para>
+	</section>
+	<section>
+		<title>数字货币的优势以及解决了什么问题？</title>
+		<para>离线支付，不依赖网络，没有4G信号和Wi-Fi 也能完成支付。</para>
+		<para>除此之外携带人民币出境比较方便，例如在境外完成交易，且不受汇率影响，直接钱包对钱包完成转账。</para>
+	</section>
+	<section>
+		<title>最后总结</title>
+		<para>如果没有利息你还会用数字货币吗？</para>
+		<para>不能用来透支你还会用数字货币吗？</para>
+		<para>所以暂时我们只需官网，并不急于上数字人民币，目前来看还有较成熟的应用场景和案例参考。</para>
+	</section>
+</section>

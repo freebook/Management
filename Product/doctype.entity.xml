@@ -9,3 +9,4 @@
 <!ENTITY section.product.sns.xml	SYSTEM "section.product.sns.xml">
 <!ENTITY section.product.user.xml	SYSTEM "section.product.user.xml">
 <!ENTITY section.product.ai.xml		SYSTEM "section.product.ai.xml">
+<!ENTITY section.product.rmb.xml	SYSTEM "section.product.rmb.xml">
