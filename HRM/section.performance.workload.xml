@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<section>
+<section id="绩效和工作量">
 	<title>绩效（Performance）和工作量（Workload）</title>
 	<para>耶克斯-多德森定律是心理学家耶克斯（R.M Yerkes）与多德森（J.D Dodson）的心理学研究表明，动机强度和工作效率之间的关系不是一种线性关系，而是倒U形曲线关系。</para>
 	<graphic fileref="../images/hrm/Yerkes.jpg" />
 	<para>耶克斯-多德森定律，指动机的最佳水平随任务的性质不同而不同：在比较简单的任务中，工作效率随动机的提高而上升；而随着任务难度的增加，动机的最佳水平有逐渐下降的趋势。这种现象就叫做耶克斯-多德森定律。</para>
+	<para></para>
 </section>
+
