@@ -37,7 +37,7 @@
 
 <book xml:base="http://netkiller.sourceforge.net/management/" xmlns="http://docbook.org/ns/docbook" xml:lang="zh-cn">
 	<info>
-		<title>Netkiller Management 手札</title>
+		<title>Netkiller Management 手札（<?dbtimestamp format="Y"?>版）</title>
 		<subtitle></subtitle>
 
 		&book.info.author.xml;
