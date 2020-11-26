@@ -8,4 +8,10 @@
 	<section>
 		<title>社区问答</title>
 	</section>
+	<section>
+		<title>仓库管理</title>
+		<para>如何提高拣货速度？</para>
+		<para>影响拣货速度的因素是一个订单拣货员需要穿插在多个不同货物区域。</para>
+		<para>通过大数据分析，找出订单商品重合度高商品，重新分类商品，尽量做到拣货区在一个区域内完成拣货，让拣货员走更少的路。</para>
+	</section>
 </chapter>
