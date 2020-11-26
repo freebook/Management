@@ -32,6 +32,7 @@
 	%business.doctype.entity.xml;	
 	
 	<!ENTITY chapter.administration.xml 	SYSTEM "Administration/chapter.administration.xml">
+	<!ENTITY chapter.operation.xml		 	SYSTEM "Operation/chapter.operation.xml">
 	
 ] >
 
