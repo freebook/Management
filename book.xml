@@ -38,8 +38,8 @@
 
 <book xml:base="http://netkiller.sourceforge.net/management/" xmlns="http://docbook.org/ns/docbook" xml:lang="zh-cn">
 	<info>
-		<title>Netkiller Management 手札（<?dbtimestamp format="Y"?>版）</title>
-		<subtitle></subtitle>
+		<title>Netkiller Management 手札</title>
+		<subtitle>（<?dbtimestamp format="Y"?>版）</subtitle>
 
 		&book.info.author.xml;
 
@@ -70,7 +70,14 @@
 
 	&chapter.hrm.xml;
 	&part.project.xml;
-	&chapter.product.xml;
+
+	<part>
+		<title>市场/产品/运营</title>
+		&chapter.product.xml;
+	    &chapter.marketing.xml;
+    	&chapter.operation.xml;
+	</part>
+
 	&part.business.xml;
     &chapter.workplace.xml;
 

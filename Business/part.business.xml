@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <part id="index"><?dbhtml dir="business"?>
-	<title>管理杂谈</title>
+	<title>商业</title>
 	<!-- Business Administration -->
 	&chapter.business.xml;
 	<!-- &chapter.financial.xml; -->
 	<!-- &chapter.administration.xml; -->
-    &chapter.marketing.xml;
-    &chapter.operation.xml;
 </part>
