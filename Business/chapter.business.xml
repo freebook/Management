@@ -13,7 +13,6 @@
 	&section.business.strategic.xml;
 	&section.force.xml;
 	&section.creative.xml;
-	&section.pattern.xml;
 	&chapter.problem.xml;
 	&chapter.manager.xml;
 </chapter>

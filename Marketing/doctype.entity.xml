@@ -3,3 +3,4 @@
 <!ENTITY chapter.marketing.xml			SYSTEM "chapter.marketing.xml">
 <!ENTITY section.market.class.xml		SYSTEM "section.market.class.xml">
 <!ENTITY section.market.brand.xml		SYSTEM "section.market.brand.xml">
+<!ENTITY section.market.mi.xml			SYSTEM "section.market.mi.xml">

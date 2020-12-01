@@ -5,4 +5,5 @@
 	&chapter.business.xml;
 	<!-- &chapter.financial.xml; -->
 	<!-- &chapter.administration.xml; -->
+	&section.business.xml;
 </part>

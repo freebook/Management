@@ -170,7 +170,15 @@
 		</section>
 		<section id="绩效管理存在的问题">
 			<title>绩效管理存在的问题</title>
-			<para>俗话说：老板不干活，永远不知道员工慢在哪里。</para>
+			<para>
+				在工业时代，企业主雇佣的是工人的手；在后工业时代，员工的价值在于他的创新能力；在工业化时代，工人是企业的成本；在后工业时代，员工是企业的资产。
+				<footnote>
+					<para>
+						<citetitle pubwork="book">互联网思维独孤九剑</citetitle>
+					</para>
+				</footnote>
+			</para>
+
 			<orderedlist>
 				<title>绩效管理存在的问题：</title>
 				<listitem>绩效考核是工作量衡量工具，并非利益分配模式</listitem>
@@ -180,6 +188,7 @@
 				<listitem>人力资源主导KPI考核是一个笑话，只能给一线部门添乱。</listitem>
 				<listitem>KPI考核忽略了人力资源部。</listitem>
 			</orderedlist>
+			<para>俗话说：老板不干活，永远不知道员工慢在哪里。</para>
 			<para>下面用几个小故事来说说绩效考核存在的问题。</para>
 			<para>运维是一个最让人不理解的工作，也是最不可思议的工作，下面给出几个场景，看看你是否对号入座，</para>
 			<bridgehead>场景一：小张</bridgehead>

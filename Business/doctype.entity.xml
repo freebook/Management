@@ -9,4 +9,4 @@
 <!ENTITY chapter.problem.xml			SYSTEM "chapter.problem.xml">
 <!ENTITY chapter.manager.xml			SYSTEM "chapter.manager.xml">
 <!ENTITY section.company.xml			SYSTEM "section.company.xml">
-<!ENTITY section.pattern.xml			SYSTEM "section.pattern.xml">
+<!ENTITY section.business.xml			SYSTEM "section.business.xml">

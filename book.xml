@@ -69,8 +69,7 @@
     &book.preface.xml;
 
 	&chapter.hrm.xml;
-	&part.project.xml;
-
+	
 	<part>
 		<title>市场/产品/运营</title>
 		&chapter.product.xml;
@@ -78,6 +77,7 @@
     	&chapter.operation.xml;
 	</part>
 
+	&part.project.xml;
 	&part.business.xml;
     &chapter.workplace.xml;
 
