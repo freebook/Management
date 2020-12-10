@@ -14,13 +14,13 @@
 
 <!ENTITY chapter.training.xml			SYSTEM "chapter.training.xml">
 <!ENTITY section.training.xml			SYSTEM "section.training.xml">
-<!ENTITY section.training.status.xml	SYSTEM "section.training.status.xml">
 
 <!ENTITY chapter.salary.xml				SYSTEM "chapter.salary.xml">
 
 <!ENTITY chapter.performance.xml		SYSTEM "chapter.performance.xml">
 <!ENTITY section.performance.xml		SYSTEM "section.performance.xml">
 <!ENTITY section.performance.okr.xml	SYSTEM "section.performance.okr.xml">
+<!ENTITY section.performance.status.xml	SYSTEM "section.performance.status.xml">
 <!ENTITY section.performance.workload.xml	SYSTEM "section.performance.workload.xml">
 
 <!ENTITY chapter.hr.interview.xml		SYSTEM "chapter.hr.interview.xml">
