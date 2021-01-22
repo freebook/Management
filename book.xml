@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE subject SYSTEM "/usr/share/xml/docbook/schema/dtd/5.0/docbook.dtd"
+<!-- /usr/share/xml/docbook/schema/dtd/5.0/docbook.dtd -->
+<!DOCTYPE subject SYSTEM "/usr/local/Cellar/docbook/5.1_1/docbook/xml//5.0/dtd/docbook.dtd"
 	[
 	<!ENTITY % common.doctype.entity.xml 	SYSTEM "common/doctype.entity.xml">
 	%common.doctype.entity.xml;

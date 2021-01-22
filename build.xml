@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="management" default="usage" basedir="." xmlns:if="ant:if">
+
+	<property environment="env" />
+	<property file="build.properties" />
+	<property name="stylesheet" value="docbook-xsl/docbook.mac.xsl" />
+	<property name="workspace" value="${env.HOME}/workspace" />
+	<property name="docbook" value="${workspace}/${ant.project.name}" />
+	<property name="resources" value="${docbook}/images" />
+	<!--	<property name="public_html" value="${workspace}/netkiller.github.io/${project.name}" /> -->
+	<property name="public_html" value="${env.HOME}/tmp/${ant.project.name}" />
+
+	<property name="project.repository" value="" />
+	<property name="project.src" value="${project.dir}/src" />
+
+	<property name="project.exclude" value="/dev/null" />
+
+	<property name="project.version" value="0.0.1" />
+
+	<property name="backup.dir" value="backup/${git.branch}" />
+	<property name="receive.timepoint" value="2015-12-04.17:46:35" />
+	<property name="ant.log" value="/tmp/ant.log" />
+
+	<property name="build.sysclasspath" value="last" />
+
+
+	<path id="classpath">
+		<fileset dir="${env.JAVA_HOME}/lib">
+			<include name="*.jar" />
+		</fileset>
+		<fileset dir="${project.dir}/lib">
+			<include name="*.jar" />
+		</fileset>
+		<fileset dir="${project.build}" includes="*.jar" />
+	</path>
+
+	<macrodef name="git">
+		<attribute name="command" />
+		<attribute name="dir" default="" />
+		<element name="args" optional="true" />
+		<sequential>
+			<!-- echo message="git @{command}" / -->
+			<exec executable="git" dir="@{dir}">
+				<arg value="@{command}" />
+				<args />
+			</exec>
+		</sequential>
+	</macrodef>
+
+	<macrodef name="rsync">
+		<attribute name="option" default="auzv" />
+		<attribute name="src" default="" />
+		<attribute name="dest" default="" />
+		<element name="args" optional="true" />
+		<sequential>
+			<!-- echo message="rsync @{option} ${src} ${dest}" / -->
+			<exec executable="rsync">
+				<arg value="@{option}" />
+				<args />
+				<arg value="@{src}" />
+				<arg value="@{dest}" />
+			</exec>
+		</sequential>
+	</macrodef>
+
+	<macrodef name="ssh">
+		<attribute name="host" />
+		<attribute name="command" />
+		<attribute name="keyfile" default="~/.ssh/id_rsa" />
+		<attribute name="option" default="-2" />
+		<element name="args" optional="true" />
+		<sequential>
+			<exec executable="ssh">
+				<arg value="@{option}" />
+				<arg value="@{host}" />
+				<!-- arg value="-i @{keyfile}" / -->
+				<args />
+				<arg value="@{command}" />
+			</exec>
+		</sequential>
+	</macrodef>
+
+	<macrodef name="xsltproc">
+		<!-- <attribute name="options" default="" /> -->
+		<attribute name="output" default="${public_html}" />
+		<attribute name="stylesheet" default="" />
+		<attribute name="file" default=" " />
+		<!--		<element name="args" optional="true" /> -->
+		<sequential>
+			<exec executable="xsltproc" dir="">
+				<!-- <arg line="@{options}" /> -->
+				<arg line="-o @{output}/" />
+				<arg value="@{stylesheet}" />
+				<arg value="@{file}" />
+				<!--				<args /> -->
+			</exec>
+		</sequential>
+	</macrodef>
+
+
+	<target name="pull" depends="">
+		<echo>${project.dir} exists</echo>
+		<git command="clean" dir="${project.dir}">
+			<args>
+				<arg value="-df" />
+			</args>
+		</git>
+
+		<git command="reset" dir="${project.dir}">
+			<args>
+				<arg value="HEAD" />
+				<arg value="--hard" />
+			</args>
+		</git>
+
+		<git command="pull" dir="${project.dir}" />
+	</target>
+
+	<target name="submodule" depends="pull">
+		<git command="submodule" dir="${project.dir}">
+			<args>
+				<arg value="init" />
+			</args>
+		</git>
+		<git command="submodule" dir="${project.dir}">
+			<args>
+				<arg value="update" />
+			</args>
+		</git>
+	</target>
+	<!--
+	<target name="merge" depends="fetch" if="dir.exists" if:set="${git.merge}">
+		<git command="merge" dir="${project.dir}">
+			<args>
+				<arg value="remotes/origin/${git.merge}" />
+			</args>
+		</git>
+
+	</target>
+-->
+	<target name="push">
+		<git command="push" dir="${project.dir}">
+			<args>
+				<arg value="--progress" />
+				<arg value="origin" />
+				<arg value="${git.branch}:${git.branch}" />
+			</args>
+		</git>
+
+	</target>
+	<target name="reset" depends="">
+		<delete dir="${public_html}" />
+		<!-- <delete dir="${backup.dir}/${project.name}" includes="${project.name}*.jar" /> -->
+		<mkdir dir="${public_html}" />
+	</target>
+	<target name="clean">
+		<!--
+		<delete dir="${project.build}" />
+		<delete file="${project.dir}/target/${project.package}" />
+		-->
+		<delete includeEmptyDirs="true">
+			<fileset dir="${public_html}" includes="**/*.html" />
+		</delete>
+	</target>
+	<target name="images" depends="clean">
+		<echo>Resource: ${public_html}/images/</echo>
+		<!--		<rsync option="-auzv" src="${backup.dir}/${receive.timepoint}/${project.package}" dest="${remote.host}:${remote.destination}/" /> -->
+		<copy todir="${public_html}/images/" overwrite="true" failonerror="false">
+			<fileset dir="${resources}" includes="**/*.png" />
+			<fileset dir="${resources}" includes="**/*.jpeg" />
+		</copy>
+	</target>
+	<target name="html" depends="images">
+		<echo>Output: ${public_html}</echo>
+		<xsltproc output="${public_html}" stylesheet="${stylesheet}" file="book.xml" />
+
+		<!--
+		<mkdir dir="${backup.dir}" />
+		<delete dir="${project.src}/test" />
+
+		<mkdir dir="${project.build}" />
+		<copy todir="${project.dir}/src" overwrite="true">
+			<fileset dir="${project.resources}">
+				<include name="**/*.xml" />
+				<include name="**/*.properties" />
+				<include name="**/*.jar" />
+			</fileset>
+		</copy>
+		-->
+	</target>
+
+	<target name="deploy" depends="">
+		<echo>deploy ${remote.host}:${remote.destination}</echo>
+		<tstamp>
+			<format property="timepoint" pattern="yyyy-MM-dd.HH:mm:ss" locale="cn,CN" />
+		</tstamp>
+		<rsync option="-azv" src="${project.dir}/target/${project.package}" dest="${remote.host}:${remote.destination}/">
+			<args>
+				<arg value="--delete" />
+				<arg value="--backup" />
+				<arg value="--backup-dir=${backup.dir}/${timepoint}" />
+				<arg value="--log-file=${project.log}/${project.name}.${timepoint}.log" />
+				<arg value="--exclude-from=${project.exclude}" />
+			</args>
+		</rsync>
+	</target>
+	<target name="snapshot" depends="">
+		<tstamp>
+			<format property="TIMEPOINT" pattern="yyyy-MM-dd.HH:mm:ss" locale="cn,CN" />
+		</tstamp>
+		<echo>the backup directory is ${TIMEPOINT}.</echo>
+		<ssh host="${remote.host}" command="btrfs subvolume snapshot /www /www/${project.name}.${TIMEPOINT}" />
+	</target>
+	<target name="backup" depends="">
+		<tstamp>
+			<format property="TIMEPOINT" pattern="yyyy-MM-dd.HH:mm:ss" locale="cn,CN" />
+		</tstamp>
+		<echo>the backup directory is ${TIMEPOINT}.</echo>
+		<mkdir dir="${backup.dir}/${TIMEPOINT}" />
+		<rsync option="-auzv" src="${remote.host}:${remote.destination}/${project.package}" dest="${backup.dir}/${TIMEPOINT}">
+		</rsync>
+	</target>
+	<target name="usage" depends="">
+		<echo>Java deploy tools by netkiller</echo>
+		<echo>Usage: deployment {domain} {stage} {target}</echo>
+		<echo>Email: netkiller@msn.com</echo>
+		<echo>Website: http://netkiller.github.io</echo>
+		<echo>Date: 2020-01-22</echo>
+	</target>
+</project>
+
