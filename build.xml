@@ -3,6 +3,7 @@
 
 	<property environment="env" />
 	<property file="build.properties" />
+	<property name="tmp" value="${env.HOME}/tmp" />
 	<property name="stylesheet" value="docbook-xsl/docbook.mac.xsl" />
 	<property name="workspace" value="${env.HOME}/workspace" />
 	<property name="docbook" value="${workspace}/${ant.project.name}" />
@@ -10,16 +11,12 @@
 	<property name="public_html" value="${env.HOME}/git/netkiller.github.io/${ant.project.name}" />
 	<!--	<property name="public_html" value="${env.HOME}/tmp/${ant.project.name}" /> -->
 	<property name="htmlhelp" value="${env.HOME}/tmp/${ant.project.name}" />
+	<property name="epub" value="${tmp}/${ant.project.name}.tmp" />
+
 	<property name="project.src" value="${project.dir}/src" />
 	<property name="project.exclude" value="/dev/null" />
 	<property name="project.version" value="0.0.1" />
-
-	<property name="backup.dir" value="backup/${git.branch}" />
-	<property name="receive.timepoint" value="2015-12-04.17:46:35" />
 	<property name="ant.log" value="/tmp/ant.log" />
-
-	<property name="build.sysclasspath" value="last" />
-
 
 	<path id="classpath">
 		<fileset dir="${env.JAVA_HOME}/lib">
@@ -85,11 +82,11 @@
 		<element name="args" optional="true" />
 		<sequential>
 			<exec executable="xsltproc" dir="">
-				<args />
 				<!-- <arg line="@{options}" /> -->
 				<arg line="-o @{output}/" />
 				<arg value="@{stylesheet}" />
 				<arg value="@{file}" />
+				<args />
 			</exec>
 		</sequential>
 	</macrodef>
@@ -159,7 +156,7 @@
 			<fileset dir="${public_html}" includes="**/*.html" />
 		</delete>
 	</target>
-	<target name="images" depends="clean">
+	<target name="images" depends="">
 		<echo>Resource: ${public_html}/images/</echo>
 		<!--		<rsync option="-auzv" src="${backup.dir}/${receive.timepoint}/${project.package}" dest="${remote.host}:${remote.destination}/" /> -->
 		<copy todir="${public_html}/images/" overwrite="true" failonerror="false">
@@ -170,25 +167,15 @@
 
 		<copy todir="${public_html}" file="common/docbook.css" />
 	</target>
-	<target name="html" depends="images">
+	<target name="html" depends="images,clean">
 		<echo>Output: ${public_html}</echo>
 		<xsltproc output="${public_html}" stylesheet="${stylesheet}" file="book.xml" />
-
 		<!--
-		<mkdir dir="${backup.dir}" />
 		<delete dir="${project.src}/test" />
-
 		<mkdir dir="${project.build}" />
-		<copy todir="${project.dir}/src" overwrite="true">
-			<fileset dir="${project.resources}">
-				<include name="**/*.xml" />
-				<include name="**/*.properties" />
-				<include name="**/*.jar" />
-			</fileset>
-		</copy>
 		-->
 	</target>
-	<target name="htmlhelp" depends="">
+	<target name="htmlhelp" depends="images">
 		<tstamp>
 			<format property="timepoint" pattern="yyyy-MM-dd.HH:mm:ss" locale="cn,CN" />
 		</tstamp>
@@ -200,33 +187,31 @@
 			</args>
 -->
 		</xsltproc>
-
 		<!--			@test -f $(HTMLHELP_DIR)/htmlhelp.hhp && ../common/chm.sh $(HTMLHELP_DIR) -->
 	</target>
-	<target name="deploy" depends="">
-		<echo>deploy ${remote.host}:${remote.destination}</echo>
+	<target name="epub" depends="clean,images">
+		<mkdir dir="${epub}" />
 		<tstamp>
 			<format property="timepoint" pattern="yyyy-MM-dd.HH:mm:ss" locale="cn,CN" />
 		</tstamp>
-		<rsync option="-azv" src="${project.dir}/target/${project.package}" dest="${remote.host}:${remote.destination}/">
-			<args>
-				<arg value="--delete" />
-				<arg value="--backup" />
-				<arg value="--backup-dir=${backup.dir}/${timepoint}" />
-				<arg value="--log-file=${project.log}/${project.name}.${timepoint}.log" />
-				<arg value="--exclude-from=${project.exclude}" />
-			</args>
-		</rsync>
+		<echo>Epub directory: ${epub}</echo>
+		<xsltproc output="${epub}" stylesheet="docbook-xsl/epub3.mac.xsl" file="book.xml" />
+		<copy todir="${epub}/OEBPS/images" overwrite="true">
+			<fileset dir="images">
+				<include name="**/*" />
+			</fileset>
+		</copy>
+		<echo file="${epub}/mimetype" append="false">application/epub+zip</echo>
+		<zip destfile="${tmp}/${ant.project.name}.epub" basedir="${epub}" update="true" />
 	</target>
 
-	<target name="backup" depends="">
+	<target name="mac" depends="images">
 		<tstamp>
 			<format property="TIMEPOINT" pattern="yyyy-MM-dd.HH:mm:ss" locale="cn,CN" />
 		</tstamp>
 		<echo>the backup directory is ${TIMEPOINT}.</echo>
-		<mkdir dir="${backup.dir}/${TIMEPOINT}" />
-		<rsync option="-auzv" src="${remote.host}:${remote.destination}/${project.package}" dest="${backup.dir}/${TIMEPOINT}">
-		</rsync>
+		<!-- <mkdir dir="${backup.dir}/${TIMEPOINT}" /> -->
+		<xsltproc output="${tmp}/${ant.project.name}" stylesheet="docbook-xsl/docbook.preview.xsl" file="book.xml" />
 	</target>
 	<target name="usage" depends="">
 		<echo>Java deploy tools by netkiller</echo>
