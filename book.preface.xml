@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preface id="序言">
+	<title>序言</title>
+	<graphic format="png" fileref="images/cover.png" srccredit="neo" width="400" />
+
+	<sidebar>
+		<title>下载 Netkiller 手札 (epub,kindle,chm,pdf)</title>
+		<simplelist>
+			<member>
+				EPUB
+				<ulink url="https://github.com/netkiller/netkiller.github.io/tree/master/download/epub" />
+			</member>
+			<member>
+				MOBI
+				<ulink url="https://github.com/netkiller/netkiller.github.io/tree/master/download/mobi" />
+			</member>
+			<member>
+				PDF
+				<ulink url="https://github.com/netkiller/netkiller.github.io/tree/master/download/pdf" />
+			</member>
+			<member>
+				CHM
+				<ulink url="https://github.com/netkiller/netkiller.github.io/tree/master/download/chm" />
+			</member>
+		</simplelist>
+	</sidebar>
+
+	<section id="author">
+		<title>作者简介</title>
+		<para>
+			陈景峯 (
+			<ulink url="http://zh.wikipedia.org/wiki/%E6%B3%A8%E9%9F%B3%E7%AC%A6%E8%99%9F">ㄔㄣ ㄐ丨ㄥ ㄈㄥ</ulink>
+			)
+		</para>
+		<para>Nickname：netkiller | English name: Neo chen | Nippon name: ちんけいほう (音訳) | Korean name: 천징봉 | Thailand name: ภูมิภาพภูเขา | Vietnam: Trần Cảnh Phong</para>
+		<para>
+			Callsign:
+			<ulink url="http://www.qrz.com/db/BG7NYT">BG7NYT</ulink>
+			| QTH: ZONE CQ24 ITU44 ShenZhen, China
+		</para>
+
+		<para>程序猿，攻城狮，挨踢民工, Full Stack Developer, UNIX like Evangelist, 业余无线电爱好者（呼号：BG7NYT）,户外运动，山地骑行以及摄影爱好者。</para>
+		<para>《Netkiller 系列 手札》的作者</para>
+	</section>
+	<section id="contacts">
+		<title>联系方式</title>
+		<para>
+			主站
+			<ulink url="http://www.netkiller.cn/"></ulink>
+		</para>
+		<para>
+			备用
+			<ulink url="http://netkiller.github.io/"></ulink>
+		</para>
+		<para>
+			繁体网站
+			<ulink url="http://netkiller.sourceforge.net/"></ulink>
+		</para>
+		<sidebar id="contact">
+			<title>联系作者</title>
+			<para>Mobile: +86 13113668890</para><!-- 133-2299-3040 -->
+			<!-- <para>Tel: +86 755 2981-2080</para> -->
+			<para>Email: netkiller@msn.com</para>
+			<para>QQ群: 128659835 请注明“读者”</para>
+			<para>QQ: 13721218</para>
+			<para>ICQ: 101888222</para>
+
+			<literallayout>
+			<![CDATA[
+			]]>
+			</literallayout>
+			<para>注：请不要问我安装问题！</para>
+		</sidebar>
+		<sidebar>
+			<title>博客 Blogger</title>
+			<para>
+				知乎专栏
+				<ulink url="https://zhuanlan.zhihu.com/netkiller" />
+			</para>
+			<para>
+				LinkedIn:
+				<ulink url="http://cn.linkedin.com/in/netkiller" />
+			</para>
+			<para>
+				OSChina:
+				<ulink url="http://my.oschina.net/neochen/" />
+			</para>
+			<para>
+				Facebook:
+				<ulink url="https://www.facebook.com/bg7nyt" />
+			</para>
+			<para>
+				Flickr:
+				<ulink url="http://www.flickr.com/photos/bg7nyt/" />
+			</para>
+
+			<para>
+				Disqus:
+				<ulink url="http://disqus.com/netkiller/" />
+			</para>
+			<para>
+				solidot:
+				<ulink url="http://solidot.org/~netkiller/" />
+			</para>
+			<para>
+				SegmentFault:
+				<ulink url="https://segmentfault.com/u/netkiller" />
+			</para>
+
+			<para>
+				Reddit:
+				<ulink url="https://www.reddit.com/user/netkiller/" />
+			</para>
+			<para>
+				Digg:
+				<ulink url="http://www.digg.com/netkiller" />
+			</para>
+			<para>
+				Twitter:
+				<ulink url="http://twitter.com/bg7nyt" />
+			</para>
+			<para>
+				weibo:
+				<ulink url="http://weibo.com/bg7nyt">http://weibo.com/bg7nyt</ulink>
+			</para>
+			<!-- <para>Yahoo/AIM/GTalk: bg7nyt</para> <para>IRC: irc://irc.freenode.net /nickname netkiller or neo</para> <para>ITEYE: <ulink url="http://netkiller-github-com.iteye.com" /></para> <para>51CTO: <ulink url="http://bg7nyt.blog.51cto.com/" />|<ulink url="http://g.51cto.com/netkiller" /></para> -->
+		</sidebar>
+		<para></para>
+
+		<sidebar>
+			<title>Xbox club</title>
+			<para>我的 xbox 上的ID是 netkiller xbox，我创建了一个俱乐部 netkiller 欢迎加入。</para>
+		</sidebar>
+		<sidebar>
+			<title>Radio</title>
+			<para>
+				<markup>CQ CQ CQ DE BG7NYT:</markup>
+			</para>
+			<!-- <para>欢迎无线电爱好者和我QSO,我的QTH在深圳宝安区龙华镇溪山美地,设备YAESU FT-50R,FT-60R,FT-7800 144-430双段机, 拉杆天线/GP天线 Nagoya MAG-79EL-3W/Yagi</para> -->
+			<para>
+				如果这篇文章对你有所帮助,请寄给我一张QSL卡片,
+				<ulink url="http://www.qrz.cn/call/?callsign=bg7nyt">qrz.cn</ulink>
+				or
+				<ulink url="http://www.qrz.com/callsign?callsign=bg7nyt">qrz.com</ulink>
+				or
+				<ulink url="http://hamcall.net/call?callsign=bg7nyt">hamcall.net</ulink>
+			</para>
+			<para>Personal Amateur Radiostations of P.R.China</para>
+			<para>ZONE CQ24 ITU44 ShenZhen, China </para>
+			<para>Best Regards, VY 73! OP. BG7NYT</para>
+			<para>守听频率 DMR 438.460 -8 Color 12 Slot 2 Group 46001</para>
+			<para>守听频率 C4FM 439.360 -5 DN/VW</para>
+		</sidebar>
+		<sidebar>
+			<title>MMDVM Hotspot:</title>
+			<para>Callsign: BG7NYT QTH: Shenzhen, China</para>
+			<para>YSF: YSF80337 - CN China 1 - W24166/TG46001</para>
+			<para>DMR: BM_China_46001 - DMR Radio ID: 4600441</para>
+		</sidebar>
+	</section>
+</preface>
