@@ -195,6 +195,7 @@
 		</tstamp>
 		<echo>Epub directory: ${epub}</echo>
 		<xsltproc output="${epub}" stylesheet="docbook-xsl/epub3.mac.xsl" file="book.xml" />
+		<copy todir="${epub}/OEBPS/" file="common/docbook.css" />
 		<copy todir="${epub}/OEBPS/images" overwrite="true">
 			<fileset dir="images">
 				<include name="**/*" />
