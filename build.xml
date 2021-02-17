@@ -12,9 +12,8 @@
 	<!--	<property name="public_html" value="${env.HOME}/tmp/${ant.project.name}" /> -->
 	<property name="htmlhelp" value="${env.HOME}/tmp/${ant.project.name}" />
 	<property name="epub" value="${tmp}/${ant.project.name}.tmp" />
-
-	<property name="project.src" value="${project.dir}/src" />
-	<property name="project.exclude" value="/dev/null" />
+	<property name="download" value="${env.HOME}/git/netkiller.github.io/download" />
+	<property name="epub.bookname" value="Netkiller-Management" />
 	<property name="project.version" value="0.0.1" />
 	<property name="ant.log" value="/tmp/ant.log" />
 
@@ -171,7 +170,6 @@
 		<echo>Output: ${public_html}</echo>
 		<xsltproc output="${public_html}" stylesheet="${stylesheet}" file="book.xml" />
 		<!--
-		<delete dir="${project.src}/test" />
 		<mkdir dir="${project.build}" />
 		-->
 	</target>
@@ -190,6 +188,7 @@
 		<!--			@test -f $(HTMLHELP_DIR)/htmlhelp.hhp && ../common/chm.sh $(HTMLHELP_DIR) -->
 	</target>
 	<target name="epub" depends="clean,images">
+		<delete dir="${epub}" />
 		<mkdir dir="${epub}" />
 		<tstamp>
 			<format property="timepoint" pattern="yyyy-MM-dd.HH:mm:ss" locale="cn,CN" />
@@ -202,7 +201,7 @@
 			</fileset>
 		</copy>
 		<echo file="${epub}/mimetype" append="false">application/epub+zip</echo>
-		<zip destfile="${tmp}/${ant.project.name}.epub" basedir="${epub}" update="true" />
+		<zip destfile="${download}/epub/${epub.bookname}.epub" basedir="${epub}" update="true" />
 	</target>
 
 	<target name="mac" depends="images">

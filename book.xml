@@ -2,11 +2,13 @@
 <!-- /usr/share/xml/docbook/schema/dtd/5.0/docbook.dtd -->
 <!DOCTYPE subject SYSTEM "/usr/local/Cellar/docbook/5.1_1/docbook/xml//5.0/dtd/docbook.dtd"
 	[
-	<!ENTITY % common.doctype.entity.xml 	SYSTEM "common/doctype.entity.xml">
-	%common.doctype.entity.xml;
-	
+
+ 	<!ENTITY book.preface.xml 				SYSTEM "book.preface.xml"> 
  	<!ENTITY book.info.abstract.xml 		SYSTEM "book.info.abstract.xml"> 
 	<!ENTITY book.appendix.xml		    	SYSTEM "book.appendix.xml">
+	
+	<!ENTITY % common.doctype.entity.xml 	SYSTEM "common/doctype.entity.xml">
+	%common.doctype.entity.xml;
 	
 	<!ENTITY % utilities.doctype.entity.xml SYSTEM "Utilities/doctype.entity.xml">
 	%utilities.doctype.entity.xml;
