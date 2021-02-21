@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!-- $Id: chapter.practice.xml 614 2013-06-10 10:10:09Z netkiller $ -->
-<chapter id="itsm">
-	<title>ITSM 实践</title>
-	<graphic format="png" fileref="../images/incident.png" srccredit="neo" />
-</chapter>
