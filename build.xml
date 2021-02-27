@@ -187,7 +187,7 @@
 		</xsltproc>
 		<!--			@test -f $(HTMLHELP_DIR)/htmlhelp.hhp && ../common/chm.sh $(HTMLHELP_DIR) -->
 	</target>
-	<target name="epub" depends="clean,images">
+	<target name="epub" depends="">
 		<delete dir="${epub}" />
 		<mkdir dir="${epub}" />
 		<tstamp>
@@ -203,6 +203,7 @@
 		</copy>
 		<echo file="${epub}/mimetype" append="false">application/epub+zip</echo>
 		<zip destfile="${download}/epub/${epub.bookname}.epub" basedir="${epub}" update="true" />
+		<delete dir="${epub}" />
 	</target>
 
 	<target name="mac" depends="images">

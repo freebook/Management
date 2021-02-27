@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- /usr/share/xml/docbook/schema/dtd/5.0/docbook.dtd -->
-<!DOCTYPE subject SYSTEM "/usr/local/Cellar/docbook/5.1_1/docbook/xml//5.0/dtd/docbook.dtd"
+<!DOCTYPE subject SYSTEM "/usr/local/Cellar/docbook/5.1_1/docbook/xml/5.0/dtd/docbook.dtd"
 	[
 
  	<!ENTITY book.preface.xml 				SYSTEM "book.preface.xml"> 
