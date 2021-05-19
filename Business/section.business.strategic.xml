@@ -62,8 +62,17 @@
 			<title>"X" 型企业</title>
 			<para>X 型企业就更稳健，多领域发展，抗风险能力最强。</para>
 		</formalpara>
+		<para>哈弗大学管理学院教授克莱顿·克里斯坦森（Clayton Christensen）在他的著作《创新三部曲》中对创新做出了系统性诠释。他所强调的创新，不在于技术进步，更不在于科学发现，而是对市场变迁的主动响应。</para>
+		<para>
+			创新者的窘境在于管理者犯了南辕北辙或者固步自封的错误，市场的变化导致其原有的护城河失去价值。
+			<footnote>
+				<para>
+					<citetitle>《价值》</citetitle>作者：张磊
+				</para>
+			</footnote>
+		</para>
 	</section>
-		&section.system.xml;
+	&section.system.xml;
 
 </section>
 <section id="商业模式">
