@@ -160,13 +160,13 @@
 		<!--		<rsync option="-auzv" src="${backup.dir}/${receive.timepoint}/${project.package}" dest="${remote.host}:${remote.destination}/" /> -->
 		<copy todir="${public_html}/images/" overwrite="true" failonerror="false">
 			<fileset dir="${resources}" includes="**/*.png" />
-			<fileset dir="${resources}" includes="**/*.jpeg" />
+			<fileset dir="${resources}" includes="**/*.jp*g" />
 			<fileset dir="common/images" includes="**/*.*" />
 		</copy>
 
 		<copy todir="${public_html}" file="common/docbook.css" />
 	</target>
-	<target name="html" depends="images,clean">
+	<target name="html" depends="clean,images">
 		<echo>Output: ${public_html}</echo>
 		<xsltproc output="${public_html}" stylesheet="${stylesheet}" file="book.xml" />
 		<!--
