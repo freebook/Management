@@ -48,32 +48,26 @@ o----------------------------------> 紧急
 			<para>另一种模式是分布式模式，它与矩阵模式的区别就在于，分布式的每个节点都能独立运作，而矩阵式看似每个节点独立，但离开中央却完全无法运行。</para>
 			<para>企业要么采用一元化决策，要么采用分布式决策。</para>
 		</section>
+		<section>
+			<title>时间线</title>
+			<para>被管理者痛苦的根源是什么？是无法对时间做主。</para>
+			<para>很多企业会对给员工培训时间管理，但是从未意识到时间线的概念。管理层多把时间管理理解成 Schedule(计划表)或者 ToDo List (待办事项)。</para>
+			<para>我理解的时间管理是 Time Master 我不知道怎么翻译更贴切，这个概念来自美国的一部科幻美剧，有个组织负责宇宙时间线的管理。</para>
+			<para>每个人都有自己的时间线，这个时间线一旦被打乱，就会影响他的节奏，如同多米诺骨牌效应，产生连锁反应。</para>
+			<para>每个人都能安排好自己的时间线，可能执行的时候会出现偏差，但大体上不会有什么问题。员工也是如此，每个人，每天做什么还是心里有数的，可是常常会被临时任务穿插进来，导致后面的多米诺骨牌效应，所以时间管理核心就是不要打乱每个人的时间线。</para>
+			<para>为什么管理层工作一天不觉得累，因为管理层更多是时间管理者，能够掌控时间，安排时间，调整时间。</para>
+			<para>作为员工只能是被安排时间，调整时间，打乱时间，最终导致多米诺骨牌效应，时间雪崩。</para>
+		</section>
 	</section>
 	<section id="工时计算">
 		<title>项目管理中工时计算的问题</title>
 		<section id="背景">
 			<title>背景</title>
 			<orderedlist numeration="arabic" spacing="compact">
-				<listitem>
-					<para>
-						为什么项目总是不能按时结项？
-					</para>
-				</listitem>
-				<listitem>
-					<para>
-						为什么工期一再延误？
-					</para>
-				</listitem>
-				<listitem>
-					<para>
-						员工不够努力吗？
-					</para>
-				</listitem>
-				<listitem>
-					<para>
-						时间去了哪里？
-					</para>
-				</listitem>
+				<listitem>为什么项目总是不能按时结项？</listitem>
+				<listitem>为什么工期一再延误？</listitem>
+				<listitem>员工不够努力吗？</listitem>
+				<listitem>时间去了哪里？</listitem>
 			</orderedlist>
 		</section>
 		<section id="面临的问题">
