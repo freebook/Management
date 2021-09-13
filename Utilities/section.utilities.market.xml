@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section>
 	<title>市场营销工具</title>
+	<section id="SIVA">
+		<title>SIVA</title>
+		<para>方案、信息、价值、路径</para>
+	</section>
 	<section id="4ps">
 		<title>4P's</title>
 		<para>(1)4P营销理论被归结为四个基本策略的组合，即产品（Product）、价格（Price）、渠道（Place）、促销（Promotion），由于这四个词的英文字头都是P，再加上策略（Strategy），所以简称为“4P’s”
