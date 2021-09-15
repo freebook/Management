@@ -26,13 +26,13 @@
 	%workplace.doctype.entity.xml;
 	
  	<!ENTITY % hrm.doctype.entity.xml 		SYSTEM "HRM/doctype.entity.xml">
-	%hrm.doctype.entity.xml;	
+	%hrm.doctype.entity.xml;
 	
 	<!ENTITY % product.doctype.entity.xml 	SYSTEM "Product/doctype.entity.xml">
-	%product.doctype.entity.xml;	
+	%product.doctype.entity.xml;
 	
 	<!ENTITY % business.doctype.entity.xml 	SYSTEM "Business/doctype.entity.xml">
-	%business.doctype.entity.xml;	
+	%business.doctype.entity.xml;
 	
 	<!ENTITY chapter.administration.xml 	SYSTEM "Administration/chapter.administration.xml">
 	<!ENTITY chapter.operation.xml		 	SYSTEM "Operation/chapter.operation.xml">
@@ -42,13 +42,19 @@
 <book xml:base="http://netkiller.sourceforge.net/management/" xmlns="http://docbook.org/ns/docbook" xml:lang="zh-cn">
 	<info>
 		<title>Netkiller Management 手札</title>
-		<subtitle>（<?dbtimestamp format="Y"?>版）</subtitle>
+		<subtitle>
+			（<?dbtimestamp format="Y"?>
+			版）
+		</subtitle>
 
 		&book.info.author.xml;
 
 		<copyright>
-			<year>2010-<?dbtimestamp format="Y"?></year>
-			<holder>&HOLDER;</holder>
+			<year>
+				2010-<?dbtimestamp format="Y"?>
+			</year>
+			<holder>&HOLDER;
+			</holder>
 		</copyright>
 
         &book.info.legalnotice.xml;
@@ -67,11 +73,11 @@
 		</keywordset>
 	</info>
 
-	<!-- &book.dedication.xml; -->
+	&book.dedication.xml;
     &book.preface.xml;
 
 	&chapter.hrm.xml;
-	
+
 	<part>
 		<title>市场/产品/运营</title>
 		&chapter.product.xml;
