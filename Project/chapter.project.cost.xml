@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<chapter id="cost">
+<chapter id="成本管理">
 	<title>成本管理</title>
 	<para>为了保证完成项目的实际成本、费用不超过预算成本、费用的管理过程。它包括资源的配置，成本、费用的预算以及费用的控制等项工作。</para>
 
-	<section id="blackhole">
+	<section id="警惕IT黑洞">
 		<title>警惕IT黑洞</title>
 		<section id="什么是it黑洞">
 			<title>什么是IT黑洞</title>

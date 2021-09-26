@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<chapter id="time">
+<chapter id="时间管理">
 	<title>时间管理</title>
 	<para>为了确保项目最终的按时完成的一系列管理过程。它包括具体活动的界定，如：活动排序、时间估计、进度安排及时间控制等项工作。</para>
 	<para>时间管理站项目管理40%的内容，很多人对项目管理的理解就是时间管理，其次就是质量管理。</para>
 	<para>时间是公司最稀缺资源，但多数时间并没有得到高效合理利用。若想让你的员工达到最高工作效率，必须珍视他们时间，制定规章合理分配时间，并投入精力尽可能为公司创造最大价值。</para>
-	<section>
+	<section id="优先级管理">
 		<title>优先级管理</title>
 		<epigraph>
 			<attribution>德怀特·艾森豪威尔</attribution>
@@ -32,7 +32,7 @@ o----------------------------------> 紧急
 		<para>陷入忙碌的人们通常会选择紧急处理的事情，却常常忽略重要的事情。</para>
 	</section>
 
-	<section id="time-consumption">
+	<section id="时间管理的误区">
 		<title>时间管理的误区</title>
 		<para>时间管理强调怎样高效利用时间，例如，日程管理，任务排序，四象限分析，等等。</para>
 		<para>如果采用这样的管理方法，累死为止也无法完成工作。</para>
@@ -203,7 +203,7 @@ o----------------------------------> 紧急
 			</para>
 		</section>
 	</section>
-	<section id="deadline">
+	<section id="项目延期">
 		<title>项目延期</title>
 		<para>项目延期不一定是团队不够努力，导致拖延的原因有很多种，有些是管理者的责任，还有以下是团队成员的责任:</para>
 		<orderedlist numeration="arabic" spacing="compact">

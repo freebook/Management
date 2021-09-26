@@ -1,12 +1,60 @@
 <!-- <part id="index"><?dbhtml dir="hr"?> <title>人力资源管理</title> </part> -->
-<chapter id="hr">
+<chapter id="project.hr">
 	<title>人力资源管理</title>
 	<subtitle>Human Resources</subtitle>
 	<para>是为了保证所有项目关系人的能力和积极性都得到最有效地发挥和利用所做的一系列管理措施。它包括组织的规划、团队的建设、人员的选聘和项目团队建设等一系列工作。</para>
 	<para>更多请参考“人力资源管理” 相关章节。</para>
+	<section id="面试流程">
+		<title>面试流程</title>
+		<para>简历筛选 -> 电话面试 -> 面试(face to face) -> 确定录用</para>
+		<para>注意：没有笔试这项，没有必要，可以放在面谈中，作为互动的一部分。</para>
+		<orderedlist>
+			<listitem>
+				<para>不要盲目给应聘者打电话通知他过来面试，HR部门首先应对简历做初步筛选，然后把简历email给技术部门负责人。</para>
+			</listitem>
+			<listitem>
+				<para>技术这边对简历进行审核，然后通知HR部门确认电话面试时间，并了解对方基本情况。</para>
+			</listitem>
+			<listitem>
+				<para>配合HR部门做好电话面试，了解应聘者的技术水平，能力，是否可是胜任该职位。如果OK，通知面谈时间，地点，并发一封正式Email邀请函。
+				</para>
+			</listitem>
+			<listitem>
+				<para>面谈</para>
+			</listitem>
+			<listitem>
+				<para>后面工作交给HR部门负责</para>
+			</listitem>
+		</orderedlist>
+	</section>
+	<section id="面试方法">
+		<title>技术面试</title>
+		<sidebar>
+			<title>如何判断技术应聘者的段位？</title>
+			<para>
+				3:3:3 法则（本人发明的）什么是 3:3:3 法则？通常人们掌握一个领域的技能或知识需要最少 10000小时（10000小时定律
+				<footnote>
+					<para>
+						美国两位畅销书作家，丹尼尔·科伊尔的
+						<citetitle>《一万小时天才理论》</citetitle>
+						与马尔科姆·格拉德韦尔的一本类似“成功学”的书
+						<citetitle>《异类》</citetitle>
+						，其核心都是“一万小时定律”，就是不管你做什么事情，只要坚持一万小时，基本上都可以成为该领域的专家。
+					</para>
+				</footnote>
+				）也就是 3年，一般人的职业发展路径和规划也遵循这个原则。毕业进入社会，第一个三年是迷茫期，不清楚自己的发展方向，不清楚自己适合什么领域，经过10000小时过回到自己的方向和领域。
+				有了方向之后，确立自己的目标，第二个三年开始发力，集中提升自己。此时已经工作六年，完全掌握了工作所需的技能，接下来三年就是技术输出了，为企业创造价值。
+			</para>
 
-	<section id="it.interview">
-		<title>面试目的</title>
+
+		</sidebar>
+
+		<blockquote>
+			<para></para>
+			<para></para>
+		</blockquote>
+
+
 		<para>关于面试题目</para>
 		<para>面试题目重点是对问题解决能力，和思路，方法，并没有正确答案。</para>
 		<para>解决问题的能力更重要。</para>
@@ -80,15 +128,9 @@ Phone System
 					<para>NAT</para>
 				</blockquote>
 			</sidebar>
+
 			<sidebar>
-				<title>Firewall</title>
-				<blockquote>
-					<para></para>
-					<para></para>
-				</blockquote>
-			</sidebar>
-			<sidebar>
-				<title>Switch</title>
+				<title>Firewall/Switch</title>
 				<blockquote>
 					<para></para>
 					<para>VLAN</para>
