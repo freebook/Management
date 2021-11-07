@@ -75,16 +75,8 @@
 
 	&book.dedication.xml;
     &book.preface.xml;
-
+	
 	&chapter.hrm.xml;
-
-	<part>
-		<title>市场/产品/运营</title>
-		&chapter.product.xml;
-	    &chapter.marketing.xml;
-    	&chapter.operation.xml;
-	</part>
-
 	&part.project.xml;
 	&part.business.xml;
     &chapter.workplace.xml;

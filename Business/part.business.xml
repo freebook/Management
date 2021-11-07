@@ -3,7 +3,8 @@
 	<title>商业</title>
 	<!-- Business Administration -->
 	&chapter.business.xml;
-	<!-- &chapter.administration.xml; -->
-	&section.business.xml;
+	&chapter.product.xml;
+	&chapter.marketing.xml;
+    &chapter.operation.xml;
 	&chapter.financial.xml;
 </part>
