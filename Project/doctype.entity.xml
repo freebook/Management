@@ -22,5 +22,3 @@
 <!ENTITY chapter.operations.xml				SYSTEM "chapter.operations.xml">
 <!ENTITY chapter.itsm.release.xml			SYSTEM "chapter.itsm.release.xml">
 <!ENTITY chapter.itsm.change.move.xml		SYSTEM "chapter.itsm.change.move.xml">
-
-<!ENTITY section.devops.practice.xml		SYSTEM "section.devops.practice.xml">
