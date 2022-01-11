@@ -12,3 +12,4 @@
 <!ENTITY section.product.ai.xml			SYSTEM "section.product.ai.xml">
 <!ENTITY section.product.rmb.xml		SYSTEM "section.product.rmb.xml">
 <!ENTITY section.product.privacy.xml	SYSTEM "section.product.privacy.xml">
+<!ENTITY section.product.creative.xml	SYSTEM "section.product.creative.xml">
