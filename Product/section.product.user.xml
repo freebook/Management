@@ -1,6 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section id="用户思维">
 	<title>用户思维</title>
+	<section id="客户与用户的区别">
+		<title>「客户」与「用户」的区别</title>
+		<section>
+			<title>C 端的客户与用户</title>
+			<para>「客户」与「用户」的区别是购买者和使用者的区别。</para>
+			<para>客户（customer）是产品的购买者，用户（User）产品的最终使用者。</para>
+			<para>有时客户与用户是同一人，既购买又使用的，即是客户又是用户。</para>
+			<para>只购买不使用的，纯客户；</para>
+			<para>不购买只使用的，纯用户；</para>
+			<para>妈妈为孩子买的小书包，妈妈是客户，小朋友才是用户。	</para>
+		</section>
+		<section>
+			<title>B 端的客户与用户</title>
+			<para>对于 SaaS 系统来说，一般是 B to B to C 结构。</para>
+			<para>平台 - 客户 - 用户</para>
+		</section>
+	</section>
 	<section>
 		<title>从「客户」到「用户」</title>
 		<para>在互联网出现之前，我们使用最多的词是“客户”，即我们更关注谁购买，促成交易的人，产品卖出去就结束了。互联网出现之后，我们更关注使用的人，谁使用，即“用户”，互联网实现了厂商和用户的连接。</para>
@@ -28,21 +45,19 @@
 		<para>现在的消费者购买一件商品，会看其他用户的评价情况和打分情况，由于平台的评价信息可能会被平台做手脚，用户还会去第三方平台浏览该商品的评价信息，网上还有大量的评测文章，视频。用户收集了足够的信息后，用这些信息帮助自己做消费决策。</para>
 		<para>所以在互联网时代，口碑营销异常重要，只有厂商对用户以诚相待，才能建立好的品牌和口碑。</para>
 	</section>
-</section>
-<section id="客户与用户的区别">
-	<title>「客户」与「用户」的区别</title>
-	<section>
-		<title>C 端的客户与用户</title>
-		<para>「客户」与「用户」的区别是购买者和使用者的区别。</para>
-		<para>客户（customer）是产品的购买者，用户（User）产品的最终使用者。</para>
-		<para>有时客户与用户是同一人，既购买又使用的，即是客户又是用户。</para>
-		<para>只购买不使用的，纯客户；</para>
-		<para>不购买只使用的，纯用户；</para>
-		<para>妈妈为孩子买的小书包，妈妈是客户，小朋友才是用户。	</para>
-	</section>
-	<section>
-		<title>B 端的客户与用户</title>
-		<para>对于 SaaS 系统来说，一般是 B to B to C 结构。</para>
-		<para>平台 - 客户 - 用户</para>
+
+	<section id="网民的三个层次">
+		<title>网民的三个层次，你属于哪一层？</title>
+		<para></para>
+		<itemizedlist>
+			<title>网民有三个层次你知道吗？</title>
+			<listitem>上等网民：创造内容，知识变现，自媒体</listitem>
+			<listitem>中等网民：辨别内容，白票内容，表达观点</listitem>
+			<listitem>下等网民：消费内容，表达情绪，快乐韭菜</listitem>
+		</itemizedlist>
+		<para></para>
+		<para>金字塔顶端的网民，负责创造内容 UGC(用户创造内容)，他们构成包啊自媒体，MCN机构，平台等等。</para>
+		<para>金字塔中间的网民，通常是受过较高教育，人比较精明，尤其是计算机专业，他们能辨别内容，白票内容，也有知识付费的，他们喜欢在网上表达自己的观点，博的其他网民的认可。总之他们心中都有一个小算盘。在某一天他们可能意识到知识变现的重要性，升级到上等网民，做自媒体。</para>
+		<para>金字塔最底端网民，消费内容，没有独立思维，被媒体左右，被媒体引导，被算法喂养，形成闭环思维，信息茧房。快乐地被收割韭菜。</para>
 	</section>
 </section>
