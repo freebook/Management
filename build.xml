@@ -212,6 +212,7 @@
 			<fileset dir="images">
 				<include name="**/*" />
 			</fileset>
+			<fileset dir="common/images" includes="**/*" />
 		</copy>
 		<echo file="${epub}/mimetype" append="false">application/epub+zip</echo>
 		<zip destfile="${download}/epub/${epub.bookname}.epub" basedir="${epub}" update="true" />

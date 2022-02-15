@@ -42,7 +42,8 @@
 <book xml:base="http://netkiller.sourceforge.net/management/" xmlns="http://docbook.org/ns/docbook" xml:lang="zh-cn">
 	<info>
 		<title>Netkiller Management 手札</title>
-		<subtitle>
+		<subtitle><ulink url="https://www.ixigua.com/7015605229425000990">《Netkiller Management 手札》视频</ulink>
+		
 			（<?dbtimestamp format="Y"?>
 			版）
 		</subtitle>
