@@ -14,6 +14,7 @@
 	&chapter.problem.xml;
 	&chapter.manager.xml;
 	&section.office.xml;
+	&section.digital.xml;
 </chapter>
 
 
