@@ -8,8 +8,8 @@
 	<title>企业管理</title>
 	<para>管理即对一定范围的人员及事务进行安排和处理。</para>
 	<para>管理模式只能借鉴不能模仿。</para>
-	&section.business.xml;
 	&section.business.strategic.xml;
+	&section.business.xml;
 	&section.company.xml;
 	&chapter.problem.xml;
 	&chapter.manager.xml;
