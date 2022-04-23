@@ -136,6 +136,10 @@
 		<title>DVF 模型</title>
 		<para>DVF 即用户需求性（Desirability）、商业延续性（Viability）、科技可行性（Feasibility）</para>
 	</section>
+	<section>
+		<title>SOP</title>
+		<para>SOP全称为Standard Operating Procedure，翻译成中文就是“标准作业程序”，就是将某一事件的标准操作步骤和要求以统一的格式描述出来，用来指导和规范日常的工作。</para>
+	</section>
 	&section.utilities.market.xml;
 </section>
 
