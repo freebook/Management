@@ -1,50 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <chapter id="index"><?dbhtml dir="marketing"?>
 	<title>市场营销</title>
-	<section>
-		<title>渠道</title>
-		<para>传统模式下的企业营销渠道是：</para>
-		<literallayout>
-		<![CDATA[
-厂商 -> 总经销商 -> 二级批发商 -> 三级批发商 -> 消费者
-		]]>
-		</literallayout>
-		<para>但随着市场环境的日益变化，传统的渠道模式已经不能适应新形势的需要，企业需要根据自身的发展情况，不断调整渠道模式，才能使企业的销量持续增长，促进企业快速发展。</para>
-
-		<orderedlist numeration="arabic" spacing="compact">
-			<title>目前，市场营销渠道模式呈现以下两种发展趋势：</title>
-			<listitem>
-				<para>直接营销（简称直销）渠道日益重要</para>
-			</listitem>
-			<listitem>
-				<para>网络营销渠道成为主流渠道</para>
-			</listitem>
-		</orderedlist>
-		<section>
-			<title>直销渠道</title>
-			<para>所谓直销渠，是指没有中间商环节，厂商直接面对消费者。</para>
-		</section>
-		<section>
-			<title>网络营销渠道</title>
-			<para>与传统渠道方式相比，企业通过电子商务平台缩短了生产者与消费者之间的距离，节省了商品流通中经历的诸多环节，从而降低产品价格，给消费者带来极大的优惠空间，打破了传统营销手段的局限，从而使企业的渠道营销方式进入一个新阶段。</para>
-		</section>
-		<section>
-			<title>营销渠道整合</title>
-			<para>营销渠道整合，即渠道成员之间以渠道系统的利益最大化为目标，联合在一起营销。</para>
-		</section>
-	</section>
-
+	&section.market.channel.xml;
 	<section id="大数据时代营销">
 		<title>大数据时代营销</title>
 		<para>大数据时代营销正在发生变革，要求营销不能再凭借嗅觉和感觉做事，而要依靠科技能力和数据分析洞察能力。</para>
-	</section>
-	<section id="用户体验与个性化消费者">
-		<title>用户体验与个性化消费者</title>
-		<para>大数据时代让消费者成为商业行为的主宰者，消费者自己掌控消费行为，不再受传统广告佐佑，他们知道自己需要什么，通过媒体，社区，网站，论坛等各种渠道表达个人需求时，客户实际上已经成为影响公司产品设计、生产、销售、服务、甚至决策、战略等各个环节。</para>
-		<para>有调查显示，75%的客户已经不再相信商家通过广告推广的产品，消费者会主动搜寻消息,拣选信息，比价，筛选。</para>
-		<para>由企业营销部门主导的话语权正在被消费者的产品消费体验所取代。</para>
+		<section id="用户体验与个性化消费者">
+			<title>用户体验与个性化消费者</title>
+			<para>大数据时代让消费者成为商业行为的主宰者，消费者自己掌控消费行为，不再受传统广告佐佑，他们知道自己需要什么，通过媒体，社区，网站，论坛等各种渠道表达个人需求时，客户实际上已经成为影响公司产品设计、生产、销售、服务、甚至决策、战略等各个环节。</para>
+			<para>有调查显示，75%的客户已经不再相信商家通过广告推广的产品，消费者会主动搜寻消息,拣选信息，比价，筛选。</para>
+			<para>由企业营销部门主导的话语权正在被消费者的产品消费体验所取代。</para>
+		</section>
 	</section>
 	&section.market.brand.xml;
 	&section.market.class.xml;
 	&section.market.mi.xml;
+	&section.market.cognition.xml;
 </chapter>
