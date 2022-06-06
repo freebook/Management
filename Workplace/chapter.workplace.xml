@@ -41,14 +41,5 @@
 
 	</section>
 	&chapter.career.xml;
-	<section>
-		<title>任何人都可以被替代</title>
-		<para>没有时间写</para>
-		<section>
-			<title>PM与TL的区别</title>
-			贴切地形容了PM与TL的区别：
-		</section>
-	</section>
-
-
+	&section.workplace.risk.xml;
 </chapter>

@@ -6,3 +6,4 @@
 <!ENTITY chapter.out.xml			SYSTEM "chapter.out.xml">
 <!ENTITY chapter.career.xml			SYSTEM "chapter.career.xml">
 <!ENTITY chapter.gap.xml			SYSTEM "chapter.gap.xml">
+<!ENTITY section.workplace.risk.xml			SYSTEM "section.workplace.risk.xml">
