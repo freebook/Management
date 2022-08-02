@@ -59,7 +59,7 @@
 		<para>面试题目重点是对问题解决能力，和思路，方法，并没有正确答案。</para>
 		<para>解决问题的能力更重要。</para>
 	</section>
-
+	&section.hr.handover.xml;
 	<section id="network">
 		<title>网络工程师面试题</title>
 		<section>

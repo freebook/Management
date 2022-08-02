@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section id="突发事件管理">
+	<title>Incident Management(突发事件管理)</title>
+	<section>
+		<title>突发事件处理流程</title>
+		<graphic format="png" fileref="../images/incident.png" srccredit="neo" />
+	</section>
+	<section>
+		<title>事件处理方式</title>
+		<para>很多人遇到突出时间，处理的方式是顺着惯性思维，简单而直接地做出反应，典型的 “事件 > 反应 > 结果” 连锁行为。</para>
+		<para>这种不由自主或未经过思考的机械反应有时会导致灾难性的后果。</para>
+		<para>更好的选择是：</para>
+		<screen>
+			<![CDATA[
+事件 -> 结果 -> 反应
+			]]>
+		</screen>
+		<para>说白了就是，遇事想清楚再动手不迟。</para>
+	</section>
+	<section>
+		<title>监控与警告分级</title>
+		<para>什么是有效的监控和警告?</para>
+		<para>如果监控警告信息不加分级，广播方式发送给所有人，当接受者每次看到的警告大部分跟自己无关，久而久之就不会在看这些信息了，当真正的故障出现，这些警告信息起不到任何作用，人们早已经不看它们。</para>
+		<para>三级：预警，例如CPU/内存/硬盘使用率达到 80% 这种警告只是提前通知运维做好准备，发给一线运维处理即可，甚至都无需通知到运维部门管理层。</para>
+		<para>二级：故障，例如硬件损坏，服务不可用，整体业务仍能服务，部分功能受到影响。</para>
+		<para>一级：事故，核心业务收到影响，整体不可用</para>
+	</section>
+	<section>
+		<title>事故分级</title>
+	</section>
+	<section>
+		<title>故障处理手册</title>
+	</section>
+	
+</section>

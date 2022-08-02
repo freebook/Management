@@ -7,6 +7,7 @@
 <!ENTITY chapter.project.cost.xml			SYSTEM "chapter.project.cost.xml">
 <!ENTITY chapter.project.time.xml 			SYSTEM "chapter.project.time.xml">
 <!ENTITY chapter.project.hr.xml 			SYSTEM "chapter.project.hr.xml">
+<!ENTITY section.hr.handover.xml			SYSTEM "section.hr.handover.xml">
 <!ENTITY chapter.project.change.xml 		SYSTEM "chapter.project.change.xml">
 <!ENTITY chapter.project.quality.xml 		SYSTEM "chapter.project.quality.xml">
 <!ENTITY chapter.project.communication.xml 	SYSTEM "chapter.project.communication.xml">
@@ -17,6 +18,7 @@
 
 <!ENTITY section.risk.fishbone.xml			SYSTEM "section.risk.fishbone.xml">
 <!ENTITY section.risk.monitor.xml			SYSTEM "section.risk.monitor.xml">
+<!ENTITY section.risk.incident.xml			SYSTEM "section.risk.incident.xml">
 
 <!ENTITY chapter.itsm.xml	 				SYSTEM "chapter.itsm.xml">
 <!ENTITY chapter.operations.xml				SYSTEM "chapter.operations.xml">

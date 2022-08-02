@@ -379,6 +379,21 @@ LISTEN                   0                        1024                          
 1629762
 			]]>
 			</screen>
+			<para>多IP地址骚猫</para>
+			<programlisting>
+			<![CDATA[
+while read ipaddress
+do
+	echo "----- $ipaddress ----- "
+    nmap -p 1-65535 $ipaddress | tail -n +5 | head -n -1
+    echo
+done << EOF
+172.16.0.1
+172.18.0.1
+192.168.0.1
+EOF			
+			]]>
+			</programlisting>
 		</section>
 		<section>
 			<title>检查进程</title>
