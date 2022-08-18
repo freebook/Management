@@ -19,6 +19,7 @@
 <!ENTITY section.risk.fishbone.xml			SYSTEM "section.risk.fishbone.xml">
 <!ENTITY section.risk.monitor.xml			SYSTEM "section.risk.monitor.xml">
 <!ENTITY section.risk.incident.xml			SYSTEM "section.risk.incident.xml">
+<!ENTITY section.risk.upgrade.xml			SYSTEM "section.risk.upgrade.xml">
 
 <!ENTITY chapter.itsm.xml	 				SYSTEM "chapter.itsm.xml">
 <!ENTITY chapter.operations.xml				SYSTEM "chapter.operations.xml">

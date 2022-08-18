@@ -3,12 +3,13 @@
 	<title>Incident Management(突发事件管理)</title>
 	<section>
 		<title>突发事件处理流程</title>
+		<para>升级处理流程是指随着事态严重性，故障处理等级不断上升，此时运维已经解决不了，需要其他部门参与配合一起解决。运维是一线支持，测试是二线支持，开发是三线支持，最高级是四线支持，例如受到DDOS攻击，需要阿里云方介入，甚至公安机关参与。</para>
 		<graphic format="png" fileref="../images/incident.png" srccredit="neo" />
 	</section>
 	<section>
 		<title>事件处理方式</title>
-		<para>很多人遇到突出时间，处理的方式是顺着惯性思维，简单而直接地做出反应，典型的 “事件 > 反应 > 结果” 连锁行为。</para>
-		<para>这种不由自主或未经过思考的机械反应有时会导致灾难性的后果。</para>
+		<para>很多人遇到突出时间，处理的方式是顺着惯性思维，简单而直接地做出反应，典型的 “事件 > 反应 > 结果” 连锁行为。例如：先重启一下服务，看看能不能解决。</para>
+		<para>这种不由自主或未经过思考的机械反应有时会导致灾难性的后果，还可能掩盖故障的真实原因。</para>
 		<para>更好的选择是：</para>
 		<screen>
 			<![CDATA[
