@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <chapter id="index"><?dbhtml dir="marketing"?>
 	<title>市场营销</title>
+	&section.market.sales.xml;
 	&section.market.channel.xml;
 	<section id="大数据时代营销">
 		<title>大数据时代营销</title>

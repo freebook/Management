@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!ENTITY part.marketing.xml 			SYSTEM "part.marketing.xml">
 <!ENTITY chapter.marketing.xml			SYSTEM "chapter.marketing.xml">
+<!ENTITY section.market.sales.xml		SYSTEM "section.market.sales.xml">
 <!ENTITY section.market.channel.xml		SYSTEM "section.market.channel.xml">
 <!ENTITY section.market.class.xml		SYSTEM "section.market.class.xml">
 <!ENTITY section.market.brand.xml		SYSTEM "section.market.brand.xml">
