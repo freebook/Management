@@ -2,6 +2,7 @@
 <!ENTITY part.business.xml				SYSTEM "part.business.xml">
 <!ENTITY chapter.business.xml			SYSTEM "chapter.business.xml">
 <!ENTITY section.business.strategic.xml	SYSTEM "section.business.strategic.xml">
+<!ENTITY section.business.china.xml		SYSTEM "section.business.china.xml">
 <!ENTITY section.force.xml				SYSTEM "section.force.xml">
 <!ENTITY section.bigdata.xml			SYSTEM "section.bigdata.xml">
 <!ENTITY section.system.xml				SYSTEM "section.system.xml">
@@ -10,3 +11,4 @@
 <!ENTITY section.company.xml			SYSTEM "section.company.xml">
 <!ENTITY section.business.xml			SYSTEM "section.business.xml">
 <!ENTITY section.office.xml				SYSTEM "section.office.xml">
+
