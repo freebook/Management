@@ -119,11 +119,11 @@
 		<section id="运维团队买土豆的故事">
 			<title>运维团队买土豆的故事</title>
 			<para>运维：环境已经配置好了，你们可以验收了。</para>
-			<para>测试：www.example.com 根部进不去。 </para>
+			<para>测试：www.example.com 根本进不去。 </para>
 			<para>运维：telnet www.example.com 80 通不通？ </para>
 			<para>测试：不通</para>
 			<para>运维：找到问题了，稍等，10分钟后再测试</para>
-			<para>测试：能进去了，但是短信发送布料 </para>
+			<para>测试：能进去了，但是短信发送不出去 </para>
 			<para>运维：稍等，短信网关添加白名单</para>
 			<para>测试：可以了，缓存不生效 </para>
 			<para>运维：稍等，已经处理</para>
@@ -135,8 +135,11 @@
 			<title>开发团队买土豆的故事</title>
 			<para>这个故事也同样发生在开发跟测试两个团队间</para>
 			<para>开发：开发完了，可以测试了</para>
+			<para>测试：代码编译不了</para>
+			<para>开发：已经修复，可以编译了</para>
 			<para>测试：XXX还有BUG</para>
-			<para>开发：修复好了，再测试一下 ... ... </para>
+			<para>开发：好的，修复好了，再测试一下 ... ... </para>
+			<para>测试：又出了一个新BUG</para>
 			<para>一下省略五千字...... ... ...</para>
 			<para>这样的故事几乎在IT公司每个都在发生......	</para>
 		</section>
