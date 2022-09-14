@@ -129,7 +129,7 @@
 			<para>运维：稍等，已经处理</para>
 			<para>测试：生效了，数据不能创建</para>
 			<para>运维：找到问题了，是XXX权限配置问题，再测试一下 ... ...</para>
-			<para>一下省略五千字...... ... ...</para>
+			<para>以下省略五千字...... ... ...</para>
 		</section>
 		<section id="开发团队买土豆的故事">
 			<title>开发团队买土豆的故事</title>
@@ -140,7 +140,7 @@
 			<para>测试：XXX还有BUG</para>
 			<para>开发：好的，修复好了，再测试一下 ... ... </para>
 			<para>测试：又出了一个新BUG</para>
-			<para>一下省略五千字...... ... ...</para>
+			<para>以下省略五千字...... ... ...</para>
 			<para>这样的故事几乎在IT公司每个都在发生......	</para>
 		</section>
 	</section>
