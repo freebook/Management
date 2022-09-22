@@ -13,5 +13,5 @@
 <!ENTITY section.product.rmb.xml		SYSTEM "section.product.rmb.xml">
 <!ENTITY section.product.privacy.xml	SYSTEM "section.product.privacy.xml">
 <!ENTITY section.product.creative.xml	SYSTEM "section.product.creative.xml">
-<!ENTITY section.design.Interaction.xml	SYSTEM "section.design.Interaction.xml">
 <!ENTITY section.product.digital.xml	SYSTEM "section.product.digital.xml">
+<!ENTITY section.design.ue.xml			SYSTEM "section.design.ue.xml">
