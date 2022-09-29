@@ -4,6 +4,20 @@
 	<subtitle>Human Resources</subtitle>
 	<para>是为了保证所有项目关系人的能力和积极性都得到最有效地发挥和利用所做的一系列管理措施。它包括组织的规划、团队的建设、人员的选聘和项目团队建设等一系列工作。</para>
 	<para>更多请参考“人力资源管理” 相关章节。</para>
+	<section>
+		<title>怎样提高团队成员的利用率？</title>
+		<para>人们习惯于搞组织架构，设立组织和调整组织架构让管理层产生成就感。多数管理层习惯于将项目分成许多小组，同时为每个小组设立组长。</para>
+		<para>慢慢小组的工作开始不均衡，有些小组工作不饱和，于是需要再次调整组织架构。但是每个项目组为了自己生存的更好，组长都有自私的心，都希望自己的组能做大做强，这就需要足够多的组员，只有才能这样接到更多任务。否则会越做越萎缩，直到被其他组合并。</para>
+		<para>为了打破这种局面，就必须重组，重组是大家都不希望的，所以更多时候会出现临时借调其他组员的情况。这种临时调剂保障了组长的利益，但是组员并不开心。</para>
+		<para>我曾经这样尝试过</para>
+		<orderedlist>
+			<listitem>组长常设不变</listitem>
+			<listitem>设立资源池，所有开发人员都放在池子中。</listitem>
+			<listitem>立项后组长圈资源，从资源池中挑选自己需要的人</listitem>
+			<listitem>结项后组员释放出来，进入资源池</listitem>
+			<listitem>资源池中的人员平时做休整学习、预研新技术、修复长期挂起的BUG</listitem>
+		</orderedlist>
+	</section>
 	<section id="面试流程">
 		<title>面试流程</title>
 		<para>简历筛选 -> 电话面试 -> 面试(face to face) -> 确定录用</para>
@@ -45,16 +59,11 @@
 				）也就是 3年，一般人的职业发展路径和规划也遵循这个原则。毕业进入社会，第一个三年是迷茫期，不清楚自己的发展方向，不清楚自己适合什么领域，经过10000小时过回到自己的方向和领域。
 				有了方向之后，确立自己的目标，第二个三年开始发力，集中提升自己。此时已经工作六年，完全掌握了工作所需的技能，接下来三年就是技术输出了，为企业创造价值。
 			</para>
-
-
 		</sidebar>
-
 		<blockquote>
 			<para></para>
 			<para></para>
 		</blockquote>
-
-
 		<para>关于面试题目</para>
 		<para>面试题目重点是对问题解决能力，和思路，方法，并没有正确答案。</para>
 		<para>解决问题的能力更重要。</para>
@@ -424,6 +433,10 @@ Python or Perl
 					<para>怎样配置SPF，DKIM？</para>
 				</blockquote>
 			</sidebar>
+
+		</section>
+		<section>
+			<title>安全</title>
 			<sidebar>
 				<title>攻击防守</title>
 				<blockquote>
@@ -433,7 +446,9 @@ Python or Perl
 					<para>什么是UDP流量攻击，怎样防止UDP流量攻击？</para>
 				</blockquote>
 			</sidebar>
-
+		</section>
+		<section>
+			<title>监控体系</title>
 			<sidebar>
 				<title>服务器监控</title>
 				<blockquote>
@@ -444,11 +459,76 @@ Python or Perl
 				</blockquote>
 			</sidebar>
 			<sidebar>
-				<title>数据库</title>
-				<blockquote>
-					<para>出现锁表情况怎么处理？</para>
-				</blockquote>
+				<title>基础设施监控</title>
+				<para>CPU/MEM/SSD/IP/PORT</para>
+				<para>服务监控：NGINX/Redis/MySQL/Elasticsearch/RocketMQ......</para>
 			</sidebar>
+			<sidebar>
+				<title>维服务监控</title>
+			</sidebar>
+			<sidebar>
+				<title>日志监控</title>
+			</sidebar>
+			<para>监控数据库结构</para>
+			<para>监控pom.xml</para>
+		</section>
+		<section>
+			<title>云计算</title>
+			<para></para>
+		</section>
+		<section>
+			<title>容器运维</title>
+			<sidebar>
+				<title>容器重启</title>
+				<para>优雅重启的原理？</para>
+				<para>容器如何实现优雅重启？</para>
+				<para>C 程序如何优雅重启？Java程序如何优雅重启？PHP如何优雅重启？Go 如何实现优雅重启？</para>
+			</sidebar>
+			<sidebar>
+				<title>基于容器的压测方案</title>
+				<para>如何制定压测方案？如何优化容器？在容器之上做压测瓶颈会出现在哪里？出现瓶颈如何分析并找出瓶颈？</para>
+				<para>ARMS</para>
+				<para>Redis 单点改集群，监控</para>
+				<para>数据库索引，慢SQL，锁表</para>
+			</sidebar>
+			<sidebar>
+				<title>容器日志方案</title>
+				<para>怎样采集pod日志？日志如何落地？每小时1G</para>
+			</sidebar>
+			<sidebar>
+				<title>安全问题</title>
+				<para>Docker 镜像安全？如何溯源 Docker 镜像来源？如何评估 Docker 镜像的风险？</para>
+				<para>Docker / Kubernetes 安全吗？</para>
+				<para>sysctl 覆盖问题？怎样避免和解决？</para>
+			</sidebar>
+			<sidebar>
+				<title>私有云容器</title>
+				<para>本地搭建私有云容器</para>
+			</sidebar>
+		</section>
+		<section>
+			<title>数据库</title>
+			<sidebar>
+				<title>锁表问题</title>
+				<para>出现锁表情况怎么处理？</para>
+			</sidebar>
+			<sidebar>
+				<title>大数据操作问题</title>
+				<para>大数据库如何删除？</para>
+				<para>大表如何更新？</para>
+			</sidebar>
+			<sidebar>
+				<title>备份恢复</title>
+				<para></para>
+			</sidebar>
+			<sidebar>
+				<title>备份恢复</title>
+				<para>RDS 定时恢复</para>
+			</sidebar>
+		</section>
+		<section>
+			<title>维服务</title>
+
 		</section>
 	</section>
 
@@ -459,32 +539,22 @@ Python or Perl
 			<sidebar>
 				<title>HTML 与 Javascript</title>
 				<blockquote>
-
 					<para>怎样实现表单数据保存？</para>
 					<para>例如：开发一个用户注册程序，当用户进入你的网站注册用户，填写了一部分用户信息，之后因各种原因用户没有进行下去，或离开注册页面，或关闭浏览器。甚至关闭电脑 。</para>
 					<para>需求：无论何时用户再次打开你的网站，再次进入注册页面后，应该将之前用户填写的资料显示在表单内，用户只需要做没有完成的那部分工作即可。</para>
-
-
 				</blockquote>
 			</sidebar>
 			<sidebar>
 				<title>编程语言</title>
 				<blockquote>
 					<para>Ajax 如何跨域请求？</para>
-
-
 					<para>什么是SSO? Cookie 如何跨域请求？</para>
-
-
-
 					<para>HTTP协议面试题,请介绍下面HTTP头作用.</para>
 					<screen>
 						- location
 						- smaxage / max-age
 						- ETAG
 					</screen>
-
-
 				</blockquote>
 			</sidebar>
 			<sidebar>
@@ -493,7 +563,6 @@ Python or Perl
 					<para>
 
 					</para>
-
 				</blockquote>
 			</sidebar>
 		</section>
