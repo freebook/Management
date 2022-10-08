@@ -149,13 +149,11 @@ Phone System
 				<title>链路负载均衡</title>
 				<blockquote>
 					<para>一台 Linux 服务器上4个网卡，3个网口分别链接了四条线路，剩下的一个链接局域网。</para>
-
 					<para>怎样配置这个服务器</para>
 					<para>怎样使内网用户访问外放能够负载均衡3条线路</para>
 					<para>怎样指派某一个IP段或者某一组IP访问互联网通过指定的线路</para>
 					<para>防火墙/路由器怎样实现高可用</para>
 					<para>交换机的高可用</para>
-
 				</blockquote>
 			</sidebar>
 		</section>
@@ -229,7 +227,6 @@ Python or Perl
 			<sidebar>
 				<title>服务器与硬件设备</title>
 				<blockquote>
-
 					<para>raid原理</para>
 					<screen>
 						- 简述 RAID 0，1，5，6，10，50？
@@ -239,8 +236,6 @@ Python or Perl
 						- 怎么更换损坏的硬盘？
 					</screen>
 					<para>重点是 RAID10允许允许损坏几块硬盘？</para>
-
-
 				</blockquote>
 			</sidebar>
 			<sidebar>
@@ -269,7 +264,6 @@ Python or Perl
 							- 什么是chroot?
 						</screen>
 					</para>
-
 					<para>WEB Server 基本知识</para>
 					<screen>
 						- 如何查看占用80端口的进程 lsof -i:80
@@ -277,8 +271,6 @@ Python or Perl
 						- 虚拟主机原理？
 						- HTTP状态码 2xx, 3xx, 4xx, 5xx ,404，301
 					</screen>
-
-
 				</blockquote>
 			</sidebar>
 		</section>
@@ -320,23 +312,18 @@ Python or Perl
 					<para>两个电脑挂载同一个 iSCSI 设备，是否可行？</para>
 				</blockquote>
 			</sidebar>
-
 			<sidebar>
 				<title>磁盘 IO</title>
 				<blockquote>
 					<para>服务器IO瓶颈都在那些地方？</para>
 				</blockquote>
 			</sidebar>
-
-
 			<sidebar>
 				<title>Fibre Channel vs FCoE</title>
 				<blockquote>
 					<para>请比较 Fibre 与 FCoE 有缺点，以及适合场景</para>
 				</blockquote>
 			</sidebar>
-
-
 			<sidebar>
 				<title>网络</title>
 				<blockquote>
