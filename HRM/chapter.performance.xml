@@ -4,6 +4,7 @@
 	<subtitle>Performance management</subtitle>
 	<!-- 属于绩效模块：转正、调岗； -->
 	<para>一切空话都是无用的，必须给人民以看得见的物质利益。—---— 毛泽东</para>
+	&section.performance.workload.xml;
 	<section id="管理好管理层">
 		<title>管理好管理层</title>
 		<para>现在流行“找客户痛点，不如找领导G点”</para>
@@ -717,7 +718,7 @@
 		]]>
 			</literallayout>
 			<para>我认为这是中国传统的主子思维，企业雇主与雇员是契约关系，企业提供报仇，员工付出。狗可以吃屎，但狼必须吃肉，否则狼也会变成哈士奇。</para>
-			<para>正如日本松下幸之助老先生所讲：用人不求全，有 70分的人才就好。</para>
+			<para>正如日本松下幸之助老先生所讲：用人不求全，有70分的人才就好。</para>
 		</section>
 	</section>
 	<section id="出问题的时候才会被想起的员工">
@@ -730,5 +731,4 @@
 	</section>
 	&section.performance.xml;
 	&section.performance.okr.xml;
-	&section.performance.workload.xml;
 </chapter>

@@ -461,7 +461,11 @@ Python or Perl
 		</section>
 		<section>
 			<title>云计算</title>
-			<para></para>
+			<para>CDN 缓存原理，如何实现一个文件在 CDN 上缓存7天，在用户端缓存1天</para>
+。
+SLB
+SLS
+数据库暴增，日志写入数据			
 		</section>
 		<section>
 			<title>容器运维</title>
@@ -515,7 +519,6 @@ Python or Perl
 		</section>
 		<section>
 			<title>维服务</title>
-
 		</section>
 	</section>
 
