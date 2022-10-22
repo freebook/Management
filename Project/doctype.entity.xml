@@ -20,8 +20,8 @@
 <!ENTITY section.risk.monitor.xml			SYSTEM "section.risk.monitor.xml">
 <!ENTITY section.risk.incident.xml			SYSTEM "section.risk.incident.xml">
 <!ENTITY section.risk.upgrade.xml			SYSTEM "section.risk.upgrade.xml">
+<!ENTITY section.risk.code.xml				SYSTEM "section.risk.code.xml">
 
 <!ENTITY chapter.itsm.xml	 				SYSTEM "chapter.itsm.xml">
-<!ENTITY chapter.operations.xml				SYSTEM "chapter.operations.xml">
 <!ENTITY chapter.itsm.release.xml			SYSTEM "chapter.itsm.release.xml">
 <!ENTITY chapter.itsm.change.move.xml		SYSTEM "chapter.itsm.change.move.xml">

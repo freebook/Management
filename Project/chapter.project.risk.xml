@@ -264,4 +264,5 @@ if ()
 	&section.risk.monitor.xml;
 	&section.risk.incident.xml;
 	&section.risk.upgrade.xml;
+	&section.risk.code.xml;
 </chapter>
