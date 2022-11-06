@@ -12,6 +12,7 @@
 <!ENTITY section.recruitment.00.xml		SYSTEM "section.recruitment.00.xml">
 <!ENTITY section.recruitment.ability.xml		SYSTEM "section.recruitment.ability.xml">
 <!ENTITY section.recruitment.fire.xml	SYSTEM "section.recruitment.fire.xml">
+<!ENTITY section.recruitment.seek.xml	SYSTEM "section.recruitment.seek.xml">
 
 <!ENTITY chapter.training.xml			SYSTEM "chapter.training.xml">
 <!ENTITY section.training.xml			SYSTEM "section.training.xml">
