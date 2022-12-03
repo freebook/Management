@@ -71,22 +71,14 @@ Call Center, Help Desk, Service Desk
 		<section>
 			<title>过程记录</title>
 		</section>
-		<section>
-			<title>结果回顾</title>
-		</section>
+		
 		&chapter.itsm.change.move.xml;
 	</section>
 	&chapter.itsm.release.xml;
 	
-	<section id="itsm.training">
-		<title>内部培训</title>
-		<para>团队培训，指定培训计划等</para>
-	</section>
 
-	<section id="itsm.resource">
-		<title>IT资源管理</title>
-		
-	</section>
+
+
 	
 </section>
 
