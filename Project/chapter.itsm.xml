@@ -41,14 +41,7 @@ Call Center, Help Desk, Service Desk
 		</orderedlist>
 		&chapter.itsm.fta.xml;
 		&chapter.fishbone.xml;
-		<section>
-			<title>员工手册</title>
-			<itemizedlist>
-				<listitem><para>邮箱配置，初始密码</para></listitem>
-				<listitem><para>开发环境配置</para></listitem>
-				<listitem><para>版本库地址</para></listitem>
-			</itemizedlist>
-		</section>
+		
 	</section>
 	
 	<section id="itsm.configuration">

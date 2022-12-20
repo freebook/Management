@@ -7,3 +7,4 @@
 <!ENTITY section.market.brand.xml		SYSTEM "section.market.brand.xml">
 <!ENTITY section.market.mi.xml			SYSTEM "section.market.mi.xml">
 <!ENTITY section.market.cognition.xml	SYSTEM "section.market.cognition.xml">
+<!ENTITY section.market.desk.xml    	SYSTEM "section.market.desk.xml">
