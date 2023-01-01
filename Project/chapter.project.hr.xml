@@ -2,12 +2,15 @@
 <chapter id="project.hr">
 	<title>人力资源管理</title>
 	<subtitle>Human Resources</subtitle>
-	<para>是为了保证所有项目关系人的能力和积极性都得到最有效地发挥和利用所做的一系列管理措施。它包括组织的规划、团队的建设、人员的选聘和项目团队建设等一系列工作。</para>
-	<para>更多请参考“人力资源管理” 相关章节。</para>
+	<para>
+	是为了保证所有项目关系人的能力和积极性都得到最有效地发挥和利用所做的一系列管理措施。它包括组织的规划、团队的建设、人员的选聘和项目团队建设等一系列工作。</para>
+	<para>更多请参考“人力资源管理”
+	相关章节。</para>
 	<section>
 		<title>怎样提高团队成员的利用率？</title>
 		<para>人们习惯于搞组织架构，设立组织和调整组织架构让管理层产生成就感。多数管理层习惯于将项目分成许多小组，同时为每个小组设立组长。</para>
-		<para>慢慢小组的工作开始不均衡，有些小组工作不饱和，于是需要再次调整组织架构。但是每个项目组为了自己生存的更好，组长都有自私的心，都希望自己的组能做大做强，这就需要足够多的组员，只有才能这样接到更多任务。否则会越做越萎缩，直到被其他组合并。</para>
+		<para>
+	慢慢小组的工作开始不均衡，有些小组工作不饱和，于是需要再次调整组织架构。但是每个项目组为了自己生存的更好，组长都有自私的心，都希望自己的组能做大做强，这就需要足够多的组员，只有才能这样接到更多任务。否则会越做越萎缩，直到被其他组合并。</para>
 		<para>为了打破这种局面，就必须重组，重组是大家都不希望的，所以更多时候会出现临时借调其他组员的情况。这种临时调剂保障了组长的利益，但是组员并不开心。</para>
 		<orderedlist>
 			<listitem>组长常设不变</listitem>
@@ -18,7 +21,8 @@
 		</orderedlist>
 	</section>
 
-	<section id="面试方法">
+	<section
+		id="面试方法">
 		<title>技术面试</title>
 
 		<blockquote>
@@ -51,20 +55,13 @@
 		</section>
 		<section>
 			<title>如何判断技术应聘者的段位？</title>
-			<para>
-				3:3:3 法则（本人发明的）什么是 3:3:3 法则？通常人们掌握一个领域的技能或知识需要最少 10000小时（10000小时定律
-				<footnote>
-					<para>
-						美国两位畅销书作家，丹尼尔·科伊尔的
-						<citetitle>《一万小时天才理论》</citetitle>
-						与马尔科姆·格拉德韦尔的一本类似“成功学”的书
-						<citetitle>《异类》</citetitle>
-						，其核心都是“一万小时定律”，就是不管你做什么事情，只要坚持一万小时，基本上都可以成为该领域的专家。
-					</para>
-				</footnote>
-				）也就是 3年，一般人的职业发展路径和规划也遵循这个原则。毕业进入社会，第一个三年是迷茫期，不清楚自己的发展方向，不清楚自己适合什么领域，经过10000小时过回到自己的方向和领域。
-				有了方向之后，确立自己的目标，第二个三年开始发力，集中提升自己。此时已经工作六年，完全掌握了工作所需的技能，接下来三年就是技术输出了，为企业创造价值。
-			</para>
+			<para> 3:3:3 法则（本人发明的）什么是 3:3:3 法则？通常人们掌握一个领域的技能或知识需要最少 10000小时（10000小时定律 <footnote>
+					<para> 美国两位畅销书作家，丹尼尔·科伊尔的 <citetitle>《一万小时天才理论》</citetitle>
+	与马尔科姆·格拉德韦尔的一本类似“成功学”的书 <citetitle>《异类》</citetitle>
+	，其核心都是“一万小时定律”，就是不管你做什么事情，只要坚持一万小时，基本上都可以成为该领域的专家。 </para>
+				</footnote> ）也就是
+	3年，一般人的职业发展路径和规划也遵循这个原则。毕业进入社会，第一个三年是迷茫期，不清楚自己的发展方向，不清楚自己适合什么领域，经过10000小时过回到自己的方向和领域。
+	有了方向之后，确立自己的目标，第二个三年开始发力，集中提升自己。此时已经工作六年，完全掌握了工作所需的技能，接下来三年就是技术输出了，为企业创造价值。 </para>
 		</section>
 		<section>
 			<title>初级-中级-高级工程师之间的差距是什么？</title>
@@ -93,176 +90,203 @@
 			</blockquote>
 		</section>
 	</section>
-	&section.hr.handover.xml;
-	<section id="network">
-		<title>网络工程师面试题</title>
+	&section.hr.handover.xml; <section>
+		<title>岗位描述怎么写？</title>
 		<section>
-			<title>Junior</title>
+			<title>产品经理</title>
 			<screen>
 			<![CDATA[
-WAN/LAN：
-- ADSL: PPPoE
-- WiFi Router
-- Cisco Switch 29xx, 35xx, 75xx; Router 28xx; VLAN
-- IP Address A/B/C and netmask; Mac Address
-- Route table
-- Gateway / Proxy
-- DHCP Wins DNS
-- Firewall
+职责描述：
+1. 负责公司环保交易平台网站和手机APP设计，商业模式的可行性分析
+2. 需求调研、整理与分析，提出相关需求的改进意见
+3. 将用户需求转化为产品原型图和需求文档，完成交互设计，界面设计，创意设计。
+4. 与设计，开发，测试团队对接，积极沟通，完成产品测试与交付验收
+5. 负责编写产品使用说明书，产品宣讲与使用培训
 
-Hardware:
-- DDR I,II,III
-- PCI-E
-- USB / 1394
-- IDE 版本，支持多少个设备，带宽
-- STAT 版本，支持多少个设备，带宽
-- Scsi 版本，支持多少个设备，带宽
-- RAID Adapter 版载与实体卡的不同，引导过程，什么是hotswap，故障排除，怎样创建RAID 0,1,5,10,50 它们之间不同
-- BIOS,SCSI,RAID 固件升级
+任职要求：
+1. 具有三年以上产品经理工作经验，有B2B，SaaS 平台相关工作经验；
+3. 熟练使用 Axure RP, Sektch，Visco，Adobe 等软件，能够提供高质量的产品原型、流程图、线框图等清晰的表达设计方案；
+4. 精通电商系统，供求信息，招标/采购，合同签章，在线支付，物流等模块的前后台设计
+5. 对需求分析、数据分析等有独到的见解，善于发掘有价值的业务数据
+6. 具备较强的文案能力及沟通、交流、协调能力，具有良好的团队合作精神，自学能力强。
 
-Operation System:
-- Window
-* 远程桌面链接数限制
-* IIS 服务器
-* Exchange 配置
-- Linux
 
-Network Application：
-- Active Directory
--
-HTTP/HTTPS，FTP，SMTP，POP，IMAP，NNTP
-- SNMP 协议
-- DNS 配置
-- DHCP 配置
-
-Security
-- System Security
-- Network Security
-
-Phone System
-- Call Center
-- 座席
-
-机房管理
-- 规范
-- 流程
-
-模拟题：
-- 校园网的组建
-- IP冲突解决方案
+优先考虑（加分项）：
+1. 供应链金融系统的设计
+2. 工作涉及过相机，地图，定位，二维码，NFC，加速度传感器，蓝牙通信
+3. 物联网，硬件产品，边缘计算
+4. 区块链
+5. 打通三屏的经验（电脑，手机，平板电脑）
 			]]>
 			</screen>
 		</section>
 		<section>
-			<title>Senior Network Engineer 高级网络工程师</title>
-			<sidebar>
-				<title>Route</title>
-				<blockquote>
-					<para>OSPF,RIP</para>
-					<para>NAT</para>
-				</blockquote>
-			</sidebar>
+			<title>高级运维</title>
+			<blockquote>
+				<screen>
+					<![CDATA[
+岗位职责：
+1.全面负责公司运维项目的系统升级、扩容需求与资源落实，配合开发需求，测试、调整运维平台；
+2.负责IT运维相关流程的规划、设计、推行、实施和持续改进；
+3.全面负责网络以及服务器、安全监控、检查并消除安全漏洞、系统性能管理和优化、数据高可用性、容灾和故障恢复；；
+4.大用户量下高性能服务器系统部署方案的制定及实施；规划并制定符合未来业务发展规模的服务架构计划（运维架构）；
+5.负责运维文档的规范与管理工作。
+招聘要求：
+1、统招大专及以上学历，互联网运维工作五年以上；
+2、精通Linux/Unix系统及原理，了解网络技术，熟悉TCP/IP协议工作原理，对路由器，交换机，防火墙的配置有一定的了解；
+3、精通阿里云：云监控、WAF防火墙、SLB负载均衡、堡垒机、阿里云 Kubernetes 、RocketMQ、RDS、ES、Redis、DTS、MSE配置注册中心、容器镜像库
+4、精通  Docker、能够在本地独立搭建 Kubernetes 集群；
+5、精通 Prometheus，Open Falcon等监控工具，熟练使用Shell、Python、能开发 Prometheus exporter 探针
+6、熟悉常见应用的部署及优化，如 Nginx/ Openresty /Tomcat/Gitlab/ELK/Jenkins/MySQL/Redis/MongoDB/MQ 等；
+7、熟悉SpringCloud alibaba Nacos 维服务体系，在没有开发协助下独立部署。
+8、善于思考，有很强的问题分析能力和推进解决的能力
+					  ]]>
+				</screen>
+			</blockquote>
+		</section>
+		<section>
+			<title>服务器与硬件设备</title>
+			<blockquote>
+				<para>raid原理</para>
+				<screen>
+				<![CDATA[ 
+高级运维工程师/运维经理 30K～40K
+岗位职责：
+1.全面负责公司运维项目的系统升级、扩容需求与资源落实，配合开发需求，测试、调整运维平台；
+2.负责IT运维手册及文档撰写，相关流程的规划、设计、制定、推行、实施和持续改进；
+3.负责网络以及服务器、安全监控、检查并消除安全漏洞、系统性能管理和优化、数据库高可用性、容灾和故障恢复；
+4.大用户量下高性能服务器系统部署方案的制定及实施；规划并制定符合未来业务发展规模的服务架构计划（运维架构）；
+招聘要求：
+1、互联网运维工作5年以上；
+2、必须精通阿里云：云监控、WAF防火墙、SLB负载均衡、SLS日志服务，堡垒机、阿里云 Kubernetes 、RocketMQ、RDS、ES、Redis、DTS、MSE配置注册中心、容器镜像库3、精通Linux/Unix系统及原理，了解网络技术，熟悉TCP/IP协议工作原理，对路由器，交换机，防火墙的配置有一定的了解；
+4、精通  Docker、能够在本地独立搭建 Kubernetes 集群；
+5、精通 Prometheus 等监控工具，熟练使用Shell、Python、能开发 Prometheus exporter 探针
+6、熟悉常见应用的部署及优化，如 Nginx/ Openresty /Tomcat/Gitlab/ELK/Jenkins/MySQL/Redis/MongoDB/MQ 等；
+7、熟悉SpringCloud alibaba Nacos 微服务体系，能够在没有开发协助下独立部署。
+8、善于思考，有很强的问题分析能力和解决问题的能力
+				]]>
+				</screen>
+				<para></para>
+			</blockquote>
+		</section>
+		<section>
+			<title>高级 Java 软件工程师</title>
+			<para>岗位职责：</para>
+			<blockquote>
+				<screen>
+				<![CDATA[ 
+1、参与项目的需求讨论，项目功能模块设计；
+2、负责项目核心模块开发及优化改进；
+3、能够及时发现项目存在的问题加以改进，并向项目经理汇报，以确保项目的顺利进行；
+4、对软件系统及模块进行测试工作，修改BUG；
+5、攻克产品技术难点，进行技术研究性工作。				
+				]]>
+				</screen>
+			</blockquote>
+			<para>任职资格：</para>
+			<blockquote>
+				<screen>
+				<![CDATA[ 
+1. 计算机相关专业，至少5年基于Java技术的软件开发经验，基础扎实，开发思路简洁严谨；
+2. 精通SpringBoot，SpringCloud 微服务，Webflux Restful开发；
+3. 熟练掌握H5 Web开发，Vue.js 框架
+4. 精通MySQL数据库，能够写出高性能SQL查询语句，本项目采用 JPA 和 JDBC 方式开发；
+5. 在项目中使用过 Oauth2, JPA, Spring Security, Redis , Kafka
+6. 执行能力强，沟通能力强，协调及组织能力强，有责任心和工作担当；
+7. 对新技术感兴趣，能主动并且敢于攻克技术难关，积极研发的能力。				
+				]]>
+				</screen>
+			</blockquote>
+			<para>有以下任一经验者优先：</para>
+			<blockquote>
+				<screen>
+				<![CDATA[ 
+1. 对缓存、分布式、负载均衡有经验者优先；
+2. 在微服务方面有相关实践经验者优先；
+3. 有搜索引擎相关经验者优先；经纬度范围搜索经验者
+4. 有推荐引擎经验者优先						
+				]]>
+				</screen>
+			</blockquote>
+		</section>
+		<section>
+			<title>Flutter App 开发工程师</title>
+			<screen>
+			<![CDATA[ 
+岗位职责：
+负责开发手机APP，安卓手持终端，iPad 平板应用
 
+任职资格：
+1. 两年 flutter 开发经验
+2. 精通 Dart 语言，熟练 iOS, Android 应用开发
+3. 会使用Flutter布局复杂页面，包括手机，平板，电脑等。
+4. 精通基于 Oauth2 认证的 Restful 接口调用
+5. 能够熟练封装组件以及插件开发
+
+有以下经验者优先：
+1. Java 安卓开发
+2. iOS 开发
+			]]>
+			</screen>
+		</section>
+		<section>
+			<title>测试工程师</title>
+			<blockquote>
+				<para>岗位职责:</para>
+				<screen>
+				<![CDATA[ 
+1.对负责手机和平板APP测试；
+2.参与产品的需求评审工作；
+3.准备测试环境和测试用例，执行测试，提交缺陷，并跟进修复验证；
+4.能够按照上线流程执行上线，做好线上检查，跟进用户反馈情况；
+5.按照部门流程规范完成项目文档更新和保存。				
+				]]>
+				</screen>
+				<para>任职要求:</para>
+				<screen>
+				<![CDATA[ 
+1. 至少3年以上互联网测试工作经验；
+2. 具备基础的移动测试知识，熟练掌握测试用例设计和app测试方法；
+3. 熟练使用主流测试工具；例如jmeter、fiddler、adb、android studio等；
+4. 对测试有浓厚的兴趣，有上进心，善于沟通，逻辑性强，学习能力强，且具有创新进取精神。				
+				]]>
+				</screen>
+			</blockquote>
+		</section>
+		
+	</section>
+
+
+	<!-- 
+	<section id="network">
+		<title>网络工程师面试题</title>
+		Junior/Senior Network Engineer 高级网络工程师
+	
+
+			
 			<sidebar>
-				<title>Firewall/Switch</title>
+	<title>链路负载均衡</title>
 				<blockquote>
-					<para></para>
-					<para>VLAN</para>
-				</blockquote>
-			</sidebar>
-			<sidebar>
-				<title>链路负载均衡</title>
-				<blockquote>
-					<para>一台 Linux 服务器上4个网卡，3个网口分别链接了四条线路，剩下的一个链接局域网。</para>
+					<para>一台 Linux
+	服务器上4个网卡，3个网口分别链接了四条线路，剩下的一个链接局域网。</para>
 					<para>怎样配置这个服务器</para>
-					<para>怎样使内网用户访问外放能够负载均衡3条线路</para>
+	<para>怎样使内网用户访问外放能够负载均衡3条线路</para>
 					<para>怎样指派某一个IP段或者某一组IP访问互联网通过指定的线路</para>
-					<para>防火墙/路由器怎样实现高可用</para>
+	<para>防火墙/路由器怎样实现高可用</para>
 					<para>交换机的高可用</para>
 				</blockquote>
 			</sidebar>
 		</section>
 	</section>
+	-->
 	<section id="system">
 		<title>运维工程师面试题</title>
 		<section>
 			<title>Junior</title>
 			<para>情景模拟题</para>
-			<sidebar>
-
-				<title></title>
-				<blockquote>
-					<para></para>
-				</blockquote>
-			</sidebar>
-			<sidebar>
-				<title>Linux 基础</title>
-				<blockquote>
-					<screen>
-						<![CDATA[
-Directory & File
-- cp,mv,rm,cat
-- vim, emacs
-
-Monitor
-- top, ps, vmstat, free
-
-Permission
-- User and Group Adminstrator
-- Owner and Access permissions
-
-Partition & File System
-- EXT3,EXT4, XFS,ZFS,JFS,Btrfs
-- label,format,repair, fdisk
-- mount, umount
-
-Network
-- interface, ip address, netmask, gateway
-- ifconfig, ip, route, netstat, ping, nslookup, dig, tcpdump
-- iptables, tc
-
-Service
-- inetd, xinetd
-- init level rc.local, rc.d, rcX.d
-
-Application
-- Apache, PHP, MySQL, Resin, Tomcat, Jboss
-- Samba, Vsftpd, proftpd, pureftpd
-- openvpn, openssl, openssh
-
-Shell
-- awk, sed, grep, find,
-- Bash,Tcsh,Ksh,Zsh
-- Lists of Commands
-  * ;, &, &&, ||
-- Pipelines
-  * | , |&
-- Redirections Standard Input/Output and Standard Error
-  * >, >>, <, <<, 2>&1
-- Special Parameters  * @ # ? - $ ! 0 -
-
-Python or Perl
-- argv,argc,
-- threading, fork
-- analyze access.log
-			  			]]>
-					</screen>
-				</blockquote>
-			</sidebar>
-			<sidebar>
-				<title>服务器与硬件设备</title>
-				<blockquote>
-					<para>raid原理</para>
-					<screen>
-						- 简述 RAID 0，1，5，6，10，50？
-						- RAID 0，1，5，6 允许损害几块硬盘？
-						- RAID 10，50 允许损害几块硬盘？
-						- 什么Hotspare盘？
-						- 怎么更换损坏的硬盘？
-					</screen>
-					<para>重点是 RAID10允许允许损坏几块硬盘？</para>
-				</blockquote>
-			</sidebar>
+			
+			
+			
 			<sidebar>
 				<title>操作系统</title>
 				<blockquote>
@@ -412,7 +436,8 @@ Python or Perl
 			<sidebar>
 				<title>Nginx location 基础知识？</title>
 				<blockquote>
-					<para>当前 document root 是 /www/example.com/www.example.com URL 为 http://www.example.com</para>
+					<para>当前 document root 是 /www/example.com/www.example.com URL 为
+	http://www.example.com</para>
 					<para>现在需要实现 http://www.example.com/inc</para>
 					<para>将 inc 定为到 /www/example.com/inc.example.com</para>
 					<para>请问如何实现</para>
@@ -481,12 +506,8 @@ Python or Perl
 		</section>
 		<section>
 			<title>云计算</title>
-			<para>CDN 缓存原理，如何实现一个文件在 CDN 上缓存7天，在用户端缓存1天</para>
-			。
-			SLB
-			SLS
-			数据库暴增，日志写入数据
-		</section>
+			<para>CDN 缓存原理，如何实现一个文件在 CDN 上缓存7天，在用户端缓存1天</para> 。 SLB SLS
+	数据库暴增，日志写入数据 </section>
 		<section>
 			<title>容器运维</title>
 			<sidebar>
@@ -540,7 +561,8 @@ Python or Perl
 
 	</section>
 
-	<section id="software">
+	<section
+		id="software">
 		<title>软件工程师面试题</title>
 		<section>
 			<title>Junior Software Engineer</title>
@@ -548,7 +570,8 @@ Python or Perl
 				<title>HTML 与 Javascript</title>
 				<blockquote>
 					<para>怎样实现表单数据保存？</para>
-					<para>例如：开发一个用户注册程序，当用户进入你的网站注册用户，填写了一部分用户信息，之后因各种原因用户没有进行下去，或离开注册页面，或关闭浏览器。甚至关闭电脑 。</para>
+					<para>例如：开发一个用户注册程序，当用户进入你的网站注册用户，填写了一部分用户信息，之后因各种原因用户没有进行下去，或离开注册页面，或关闭浏览器。甚至关闭电脑
+	。</para>
 					<para>需求：无论何时用户再次打开你的网站，再次进入注册页面后，应该将之前用户填写的资料显示在表单内，用户只需要做没有完成的那部分工作即可。</para>
 				</blockquote>
 			</sidebar>
@@ -829,7 +852,7 @@ obj.a().b().c() ... z()
 					<para>CDN 缓存的原理？CDN 都可能缓存那些内容？</para>
 					<para>网站首页90%的内容是静态的，但是用户登录状态，消息状态是动态的怎么解决？</para>
 					<para>JSON 可能缓存吗？</para>
-					<para>浏览器缓存与CDN缓存的关系，怎样实现用户浏览器与CDN同时缓存？	</para>
+					<para>浏览器缓存与CDN缓存的关系，怎样实现用户浏览器与CDN同时缓存？ </para>
 
 
 					<para>这个问题主要是网站性能优化方面所用到的技术</para>
@@ -858,7 +881,6 @@ obj.a().b().c() ... z()
 				</literallayout>
 
 
-
 				<para>
 					如何设计一个MVC框架
 				</para>
@@ -870,7 +892,6 @@ obj.a().b().c() ... z()
 怎样实现模型
 				]]>
 				</literallayout>
-
 
 
 				<para>
@@ -886,7 +907,6 @@ obj.a().b().c() ... z()
 你怎样与消息队列集成或者通信？
 				]]>
 				</literallayout>
-
 
 
 				<para>
@@ -914,9 +934,7 @@ obj.a().b().c() ... z()
 		<sidebar>
 			<title>瓶颈分析</title>
 			<blockquote>
-				<para>
-					请分析一下，下面图中可能出现的瓶颈并提出优化方案
-					<literallayout>
+				<para> 请分析一下，下面图中可能出现的瓶颈并提出优化方案 <literallayout>
 				<![CDATA[
 User --> Wan -> Firewall -> Switch -> SLB -> Web Server -> Application Server --> Cache -> Database
 				]]>
@@ -1035,7 +1053,8 @@ User --> Wan -> Firewall -> Switch -> SLB -> Web Server -> Application Server --
 		<sidebar>
 			<title>Web 服务器压力测试</title>
 			<blockquote>
-				<para>需求：开发人员已经完成开发工作，现在需要对他的代码做一次压力测试 问题：你将怎样做这次压力测试？请描述出工作中的重点。 你现在有一个空的测试服务器，没有安装操作系统，这是起点。
+				<para>需求：开发人员已经完成开发工作，现在需要对他的代码做一次压力测试 问题：你将怎样做这次压力测试？请描述出工作中的重点。
+	你现在有一个空的测试服务器，没有安装操作系统，这是起点。
 				</para>
 			</blockquote>
 		</sidebar>
