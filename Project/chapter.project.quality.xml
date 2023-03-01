@@ -251,7 +251,7 @@
 			<para>很多时候 BUG 成为了待办事项。最终体现不出真能的质量数据。</para>
 		</section>
 	</section>
-	<section>
+	<section id="敏捷开发为什么会以失败告终">
 		<title>敏捷开发为什么会以失败告终？</title>
 		<para>盘点一下职业生涯几次做软件质量失败的经历，供大家参考，吸取经验和教训。</para>
 		<section>
