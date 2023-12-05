@@ -8,3 +8,4 @@
 <!ENTITY section.market.mi.xml			SYSTEM "section.market.mi.xml">
 <!ENTITY section.market.cognition.xml	SYSTEM "section.market.cognition.xml">
 <!ENTITY section.market.desk.xml    	SYSTEM "section.market.desk.xml">
+<!ENTITY section.market.tradition.xml  	SYSTEM "section.market.tradition.xml">
