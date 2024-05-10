@@ -9,3 +9,4 @@
 <!ENTITY section.market.cognition.xml	SYSTEM "section.market.cognition.xml">
 <!ENTITY section.market.desk.xml    	SYSTEM "section.market.desk.xml">
 <!ENTITY section.market.tradition.xml  	SYSTEM "section.market.tradition.xml">
+<!ENTITY section.market.price.xml  		SYSTEM "section.market.price.xml">
