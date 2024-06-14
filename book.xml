@@ -77,9 +77,9 @@
 	&book.dedication.xml;
     &book.preface.xml;
 	
+	&part.business.xml;
 	&chapter.hrm.xml;
 	&part.project.xml;
-	&part.business.xml;
     &chapter.workplace.xml;
 
 	&book.appendix.xml;
