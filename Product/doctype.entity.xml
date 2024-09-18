@@ -15,3 +15,4 @@
 <!ENTITY section.product.creative.xml	SYSTEM "section.product.creative.xml">
 <!ENTITY section.product.digital.xml	SYSTEM "section.product.digital.xml">
 <!ENTITY section.design.ue.xml			SYSTEM "section.design.ue.xml">
+<!ENTITY section.product.game.xml		SYSTEM "section.product.game.xml">
