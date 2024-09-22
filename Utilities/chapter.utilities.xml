@@ -87,7 +87,6 @@
 		<para>重排（Rearrange）如上所述，改变一下顺序，改变一下工艺就能提高效率。使其能有最佳的顺序、除去重复、办事有序。</para>
 		<para>简化（Simplify）将复杂的功能变得简单一点，以节省人力、时间及费用，也能提高效率。</para>
 	</section>
-	&section.7s.xml;
 	<section>
 		<title>霍兰德职业兴趣测试</title>
 		<para>霍兰德职业兴趣自测（Self-Directed Search）是由美国职业指导专家霍兰德（John Holland）根据他本人大量的职业咨询经验及其职业类型理论编制的测评工具。</para>
@@ -144,3 +143,4 @@
 </section>
 
 	&chapter.theory.xml;
+	&section.psychology.xml;

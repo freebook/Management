@@ -1,7 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section id="law">
 	<title>理论与定律</title>
-
+	<section id="7S">
+		<title>7S 管理</title>
+		<para>美国经济始终处于世界领先地位，直到50年代美国经济一度受到日本挑战，美国企业在与日本企业的竞争中不断失败，日本取代了美国成为汽车世界的头号强国。
+		</para>
+		<para>面对者日本飓风般的猛烈袭击，美国还沉醉于“世界美国第一”，做梦都想不到的挑战。日本经济成功的奥秘在哪里？ 知道
+			80年代美国找到答案：“人性管理”。</para>
+		<para>美国企业管理强调技术、设备、方法、规章、组织结构，把企业与员工看作契约关系; 而日本企业注重目标、信念、价值观、文化等人性管理。
+		</para>
+		<para></para>
+		<section>
+			<title>3S</title>
+			<itemizedlist>
+				<title>美国企业的传统管理模式是一种3S模式</title>
+				<listitem>
+					<para>战略目标 Strategy</para>
+				</listitem>
+				<listitem>
+					<para>组织架构 Structure</para>
+				</listitem>
+				<listitem>
+					<para>制度 System</para>
+				</listitem>
+			</itemizedlist>
+			<para> 3S
+				管理模式体现了美国企业一贯崇尚的个人本位主义，契约注意，能力主义和权威主义，是一种理性主义的模式。通常一个企业具备适宜的战略目标、组织架构、严格的规章制度，它就会长盛不败、经久不衰。
+			</para>
+		</section>
+		<section>
+			<title>7S</title>
+			<para>相对于美国的3S管理模式，日本企业则采取 7S 的管理模式。</para>
+			<itemizedlist>
+				<title>7S 管理模式</title>
+				<listitem>
+					<para>战略目标 Strategy</para>
+				</listitem>
+				<listitem>
+					<para>组织架构 Structure</para>
+				</listitem>
+				<listitem>
+					<para>制度 System</para>
+				</listitem>
+				<listitem>
+					<para>人员 Staff</para>
+				</listitem>
+				<listitem>
+					<para>作风 Style</para>
+				</listitem>
+				<listitem>
+					<para>技能 Skill</para>
+				</listitem>
+				<listitem>
+					<para>标准 Standard</para>
+				</listitem>
+			</itemizedlist>
+			<para>很多企业里，过分强调制度，量化的刚性管理模式，形成了雇主与雇员是纯粹的契约关系，雇佣关系，老板吧员仅仅看作获利工具。因此，这种关系是冷漠，甚至存在严重的敌对情绪。
+			</para>
+			<para>企业用各种手段压榨员工，员工上有政策下有对策，出工不出力，企业与员工相互博弈。</para>
+		</section>
+	</section>
 	<section id="barrel">
 		<title>木桶理论</title>
 		<para>木桶原理（Cannikin
@@ -67,7 +125,9 @@
 	</section>
 	<section>
 		<title>邓巴数</title>
-		<para>邓巴数，即150定律（Rule Of 150），由牛津大学的人类学家邓巴在20世纪90年代提出。该定律推断出：人类智力将允许人类拥有稳定社交网络的人数是148人，四舍五入大约是150人。</para>
+		<para>邓巴数，即150定律（Rule Of
+			150），由牛津大学的人类学家邓巴在20世纪90年代提出。该定律推断出：人类智力将允许人类拥有稳定社交网络的人数是148人，四舍五入大约是150人。
+		</para>
 		<para>有人由此得出：人类的社交人数上限为150人，精确交往深入跟踪交往的人数为20人左右。</para>
 	</section>
 	<section>
@@ -79,7 +139,8 @@
 			</footnote>
 			，他说：“产业分工有十块内容，品牌商做创意、设计、研发、制造、定价，零售商做营销、交易、仓储、配送、售后。”
 		</para>
-		<para>为什么京东越做越重，因为我们坚持认为，在这个产业里面，做的事情越多，吃到的节数越多，有一天行业趋于理性的时候，你才有能力和资格去获取行业的最大利益。什么代理商，什么分销商，对不起，最终你们都是不存在的，死是必然的，只是不知道什么时候死。</para>
+		<para>为什么京东越做越重，因为我们坚持认为，在这个产业里面，做的事情越多，吃到的节数越多，有一天行业趋于理性的时候，你才有能力和资格去获取行业的最大利益。什么代理商，什么分销商，对不起，最终你们都是不存在的，死是必然的，只是不知道什么时候死。
+		</para>
 	</section>
 
 	<section id="watch">
