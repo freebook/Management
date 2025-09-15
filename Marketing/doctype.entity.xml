@@ -11,3 +11,4 @@
 <!ENTITY section.market.tradition.xml  	SYSTEM "section.market.tradition.xml">
 <!ENTITY section.market.price.xml  		SYSTEM "section.market.price.xml">
 <!ENTITY section.market.patriotic.xml	SYSTEM "section.market.patriotic.xml">
+<!ENTITY section.public.relation.department.xml	SYSTEM "section.public.relation.department.xml">
