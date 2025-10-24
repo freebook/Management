@@ -12,8 +12,6 @@
 <!ENTITY chapter.environment.xml			SYSTEM "chapter.environment.xml">
 <!ENTITY chapter.platform.xml			SYSTEM "chapter.platform.xml">
 
-<!ENTITY chapter.theory.xml					SYSTEM "chapter.theory.xml">
-
 <!ENTITY chapter.utilities.xml			SYSTEM "chapter.utilities.xml">
 <!ENTITY chapter.utilities.smart.xml		SYSTEM "chapter.utilities.smart.xml">
 <!ENTITY chapter.utilities.6s.xml 		SYSTEM "chapter.utilities.6s.xml">
