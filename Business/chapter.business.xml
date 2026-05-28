@@ -15,10 +15,5 @@
 	&chapter.manager.xml;
 	&section.office.xml;
 	&section.business.workflow.xml;
+	&section.transformation.xml;
 </chapter>
-
-
-
-
-
-
