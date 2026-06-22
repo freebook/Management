@@ -229,7 +229,7 @@ SPIN 四个字母分别对应情景问题（Situation）、难点问题（Proble
 		<para>7、是否达成了既定目标？对成果的检查、评价。</para>
 		<para>8、如何对待完成情况？与奖惩安排的挂钩、进入下一轮目标管理循环。</para>
 	</section>
-	&chapter.utilities.smart.xml;
+	
 	<section id="PCRDFI">
 		<title>PCRDFI</title>
 		<para>执行理论包了六个要素：PCRDFI </para>
@@ -334,7 +334,7 @@ SPIN 四个字母分别对应情景问题（Situation）、难点问题（Proble
 		<title>SOP</title>
 		<para>SOP全称为Standard Operating Procedure，翻译成中文就是“标准作业程序”，就是将某一事件的标准操作步骤和要求以统一的格式描述出来，用来指导和规范日常的工作。</para>
 	</section>
-	&section.utilities.market.xml;
+	
 </section>
 
 <section id="law">

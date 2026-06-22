@@ -2,3 +2,4 @@
 <!ENTITY chapter.essays.xml					SYSTEM "chapter.essays.xml">
 <!ENTITY section.psychology.xml				SYSTEM "section.psychology.xml">
 <!ENTITY chapter.education.xml		SYSTEM "chapter.education.xml">
+<!ENTITY section.holidays.xml		SYSTEM "section.holidays.xml">
