@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ENTITY chapter.essays.xml					SYSTEM "chapter.essays.xml">
+<!ENTITY section.psychology.xml				SYSTEM "section.psychology.xml">
+<!ENTITY chapter.education.xml		SYSTEM "chapter.education.xml">

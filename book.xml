@@ -37,6 +37,9 @@
 	<!ENTITY chapter.administration.xml 	SYSTEM "Administration/chapter.administration.xml">
 	<!ENTITY chapter.operation.xml		 	SYSTEM "Operation/chapter.operation.xml">
 	
+	<!ENTITY % essays.doctype.entity.xml 	SYSTEM "Essays/doctype.entity.xml">
+	%essays.doctype.entity.xml;
+	
 ] >
 
 <book xml:base="http://netkiller.sourceforge.net/management/" xmlns="http://docbook.org/ns/docbook" xml:lang="zh-cn">
@@ -81,6 +84,7 @@
 	&chapter.hrm.xml;
 	&part.project.xml;
     &chapter.workplace.xml;
+    &chapter.essays.xml;
 
 	&book.appendix.xml;
 </book>

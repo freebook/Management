@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!ENTITY chapter.workplace.xml 		SYSTEM "chapter.workplace.xml">
-<!ENTITY chapter.education.xml		SYSTEM "chapter.education.xml">
+
 <!ENTITY chapter.postgraduate.xml	SYSTEM "chapter.postgraduate.xml">
 <!ENTITY chapter.bottleneck.xml		SYSTEM "chapter.bottleneck.xml">
 <!ENTITY chapter.out.xml			SYSTEM "chapter.out.xml">
